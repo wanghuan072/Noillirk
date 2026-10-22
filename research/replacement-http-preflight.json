@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-21T02:07:52.420Z",
+  "scope": "Header precheck only. Absence of frame denial is not embed verification.",
+  "rows": [
+    {
+      "url": "https://play2048.co/",
+      "finalUrl": "https://play2048.co/",
+      "status": 200,
+      "xFrameOptions": null,
+      "contentSecurityPolicy": "frame-ancestors 'self' https://next.play2048.co https://play2048.co https://play2048-co.translate.goog;",
+      "method": "HTTP GET headers only; body not stored; no iframe or effective-input test"
+    },
+    {
+      "url": "https://hextris.github.io/hextris/",
+      "error": "fetch failed",
+      "result": "unknown"
+    },
+    {
+      "url": "https://0hh1.com/",
+      "finalUrl": "https://0hh1.com/",
+      "status": 200,
+      "xFrameOptions": null,
+      "contentSecurityPolicy": null,
+      "method": "HTTP GET headers only; body not stored; no iframe or effective-input test"
+    }
+  ]
+}

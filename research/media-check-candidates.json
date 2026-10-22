@@ -1,0 +1,144 @@
+{
+  "scope": "Local development candidate evaluation only; no public adoption",
+  "candidates": [
+    {
+      "id": "noillirk-video-review",
+      "title": "Noillirk",
+      "gameSrc": "https://playdaily.org/noillirk",
+      "videoIds": ["oMe1Mz3Maoo"],
+      "sandbox": ["allow-scripts", "allow-same-origin"]
+    },
+    {
+      "id": "hello-wordl",
+      "title": "Hello Wordl",
+      "gameSrc": "https://hellowordl.net/",
+      "videoIds": [
+        "VIavCrvnrDs"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    },
+    {
+      "id": "astray",
+      "title": "Astray",
+      "gameSrc": "https://wwwtyro.github.io/Astray/",
+      "videoIds": [
+        "SSpVdjnz1mw"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    },
+    {
+      "id": "0hh1",
+      "title": "0h h1",
+      "gameSrc": "https://0hh1.com/",
+      "videoIds": [
+        "oy1A73lKWtc"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    },
+    {
+      "id": "0hn0",
+      "title": "0h n0",
+      "gameSrc": "https://0hn0.com/",
+      "videoIds": [
+        "2K_thF0qg8Y"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    },
+    {
+      "id": "hextris",
+      "title": "Hextris",
+      "gameSrc": "https://hextris.github.io/hextris/",
+      "videoIds": [
+        "0KCKXLMhAyw"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    },
+    {
+      "id": "trust",
+      "title": "The Evolution of Trust",
+      "gameSrc": "https://ncase.me/trust/",
+      "videoIds": [
+        "utRF4ueoCdY"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    },
+    {
+      "id": "polygons",
+      "title": "Parable of the Polygons",
+      "gameSrc": "https://ncase.me/polygons/",
+      "videoIds": [
+        "xAaHkZDXtLc"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    },
+    {
+      "id": "crowds",
+      "title": "The Wisdom and/or Madness of Crowds",
+      "gameSrc": "https://ncase.me/crowds/",
+      "videoIds": [
+        "c4_N0k5pi4I"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    },
+    {
+      "id": "a-dark-room",
+      "title": "A Dark Room",
+      "gameSrc": "https://adarkroom.doublespeakgames.com/",
+      "videoIds": [
+        "D8tX4h_-VY8"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    },
+    {
+      "id": "wbwwb",
+      "title": "We Become What We Behold",
+      "gameSrc": "https://itch.io/embed-hotlink/300364",
+      "videoIds": [
+        "krafldtfTio"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    },
+    {
+      "id": "sandspiel",
+      "title": "Sandspiel",
+      "gameSrc": "https://sandspiel.club/",
+      "videoIds": [
+        "klya7VDklag"
+      ],
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "colors": {
+    "ink": "#123c3b",
+    "paper": "#f6f4ec",
+    "surface": "#ffffff",
+    "accent": "#d94e3c",
+    "line": "#cad9ce",
+    "muted": "#49615c"
+  },
+  "type": {
+    "body": "system-ui",
+    "homeH1": 44,
+    "innerH1": 36,
+    "bodySize": 17,
+    "lineHeight": 1.7
+  },
+  "container": 1400,
+  "sidebar": 392,
+  "gap": 28,
+  "breakpoints": [
+    1024,
+    768
+  ],
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "radius": 16,
+  "focus": "#086b70",
+  "motionMs": 150
+}

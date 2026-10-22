@@ -1,0 +1,1238 @@
+{
+  "status": "unadopted",
+  "slots": [
+    {
+      "slot_id": "site-logo",
+      "page_id": "global",
+      "preferred_format": "original-vector-rasterized",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "site-logo"
+      ]
+    },
+    {
+      "slot_id": "site-og",
+      "page_id": "global",
+      "preferred_format": "original-vector-rasterized",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "site-og"
+      ]
+    },
+    {
+      "slot_id": "noillirk-media-0",
+      "page_id": "noillirk",
+      "target_section": "player",
+      "player_question": "Recognize the current game",
+      "fact_to_show": "Recognize the current game",
+      "preferred_format": "approved-image",
+      "adjacent_copy_task": "Recognize the current game",
+      "candidate_evidence_ids": [
+        "official-game"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "noillirk-media-1",
+      "page_id": "noillirk",
+      "target_section": "body",
+      "player_question": "Understand starting state",
+      "fact_to_show": "Understand starting state",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Understand starting state",
+      "candidate_evidence_ids": [
+        "official-game"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "noillirk-media-2",
+      "page_id": "noillirk",
+      "target_section": "body",
+      "player_question": "See actual core input",
+      "fact_to_show": "See actual core input",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "See actual core input",
+      "candidate_evidence_ids": [
+        "official-game"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "noillirk-media-3",
+      "page_id": "noillirk",
+      "target_section": "body",
+      "player_question": "Interpret progress or failure",
+      "fact_to_show": "Interpret progress or failure",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Interpret progress or failure",
+      "candidate_evidence_ids": [
+        "official-game"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "noillirk-media-4",
+      "page_id": "noillirk",
+      "target_section": "after-body",
+      "player_question": "Watch input and feedback sequence",
+      "fact_to_show": "Watch input and feedback sequence",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Watch input and feedback sequence",
+      "candidate_evidence_ids": [
+        "official-game"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "krillion-media-0",
+      "page_id": "krillion",
+      "target_section": "player",
+      "player_question": "Recognize the current game",
+      "fact_to_show": "Recognize the current game",
+      "preferred_format": "approved-image",
+      "adjacent_copy_task": "Recognize the current game",
+      "candidate_evidence_ids": [
+        "official-krillion"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "krillion-media-1",
+      "page_id": "krillion",
+      "target_section": "body",
+      "player_question": "Understand starting state",
+      "fact_to_show": "Understand starting state",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Understand starting state",
+      "candidate_evidence_ids": [
+        "official-krillion"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "krillion-media-2",
+      "page_id": "krillion",
+      "target_section": "body",
+      "player_question": "See actual core input",
+      "fact_to_show": "See actual core input",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "See actual core input",
+      "candidate_evidence_ids": [
+        "official-krillion"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "krillion-media-3",
+      "page_id": "krillion",
+      "target_section": "body",
+      "player_question": "Interpret progress or failure",
+      "fact_to_show": "Interpret progress or failure",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Interpret progress or failure",
+      "candidate_evidence_ids": [
+        "official-krillion"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "krillion-media-4",
+      "page_id": "krillion",
+      "target_section": "after-body",
+      "player_question": "Watch input and feedback sequence",
+      "fact_to_show": "Watch input and feedback sequence",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Watch input and feedback sequence",
+      "candidate_evidence_ids": [
+        "official-krillion"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "fermi-media-0",
+      "page_id": "fermi",
+      "target_section": "player",
+      "player_question": "Recognize the current game",
+      "fact_to_show": "Recognize the current game",
+      "preferred_format": "approved-image",
+      "adjacent_copy_task": "Recognize the current game",
+      "candidate_evidence_ids": [
+        "official-fermi"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "fermi-media-1",
+      "page_id": "fermi",
+      "target_section": "body",
+      "player_question": "Understand starting state",
+      "fact_to_show": "Understand starting state",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Understand starting state",
+      "candidate_evidence_ids": [
+        "official-fermi"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "fermi-media-2",
+      "page_id": "fermi",
+      "target_section": "body",
+      "player_question": "See actual core input",
+      "fact_to_show": "See actual core input",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "See actual core input",
+      "candidate_evidence_ids": [
+        "official-fermi"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "fermi-media-3",
+      "page_id": "fermi",
+      "target_section": "body",
+      "player_question": "Interpret progress or failure",
+      "fact_to_show": "Interpret progress or failure",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Interpret progress or failure",
+      "candidate_evidence_ids": [
+        "official-fermi"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "fermi-media-4",
+      "page_id": "fermi",
+      "target_section": "after-body",
+      "player_question": "Watch input and feedback sequence",
+      "fact_to_show": "Watch input and feedback sequence",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Watch input and feedback sequence",
+      "candidate_evidence_ids": [
+        "official-fermi"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "poople-media-0",
+      "page_id": "poople",
+      "target_section": "player",
+      "player_question": "Recognize the current game",
+      "fact_to_show": "Recognize the current game",
+      "preferred_format": "approved-image",
+      "adjacent_copy_task": "Recognize the current game",
+      "candidate_evidence_ids": [
+        "official-poople"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "poople-media-1",
+      "page_id": "poople",
+      "target_section": "body",
+      "player_question": "Understand starting state",
+      "fact_to_show": "Understand starting state",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Understand starting state",
+      "candidate_evidence_ids": [
+        "official-poople"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "poople-media-2",
+      "page_id": "poople",
+      "target_section": "body",
+      "player_question": "See actual core input",
+      "fact_to_show": "See actual core input",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "See actual core input",
+      "candidate_evidence_ids": [
+        "official-poople"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "poople-media-3",
+      "page_id": "poople",
+      "target_section": "body",
+      "player_question": "Interpret progress or failure",
+      "fact_to_show": "Interpret progress or failure",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Interpret progress or failure",
+      "candidate_evidence_ids": [
+        "official-poople"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "poople-media-4",
+      "page_id": "poople",
+      "target_section": "after-body",
+      "player_question": "Watch input and feedback sequence",
+      "fact_to_show": "Watch input and feedback sequence",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Watch input and feedback sequence",
+      "candidate_evidence_ids": [
+        "official-poople"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "size-it-up-media-0",
+      "page_id": "size-it-up",
+      "target_section": "player",
+      "player_question": "Recognize the current game",
+      "fact_to_show": "Recognize the current game",
+      "preferred_format": "approved-image",
+      "adjacent_copy_task": "Recognize the current game",
+      "candidate_evidence_ids": [
+        "official-size-it-up"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "size-it-up-media-1",
+      "page_id": "size-it-up",
+      "target_section": "body",
+      "player_question": "Understand starting state",
+      "fact_to_show": "Understand starting state",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Understand starting state",
+      "candidate_evidence_ids": [
+        "official-size-it-up"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "size-it-up-media-2",
+      "page_id": "size-it-up",
+      "target_section": "body",
+      "player_question": "See actual core input",
+      "fact_to_show": "See actual core input",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "See actual core input",
+      "candidate_evidence_ids": [
+        "official-size-it-up"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "size-it-up-media-3",
+      "page_id": "size-it-up",
+      "target_section": "body",
+      "player_question": "Interpret progress or failure",
+      "fact_to_show": "Interpret progress or failure",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Interpret progress or failure",
+      "candidate_evidence_ids": [
+        "official-size-it-up"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "size-it-up-media-4",
+      "page_id": "size-it-up",
+      "target_section": "after-body",
+      "player_question": "Watch input and feedback sequence",
+      "fact_to_show": "Watch input and feedback sequence",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Watch input and feedback sequence",
+      "candidate_evidence_ids": [
+        "official-size-it-up"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "color-media-0",
+      "page_id": "color",
+      "target_section": "player",
+      "player_question": "Recognize the current game",
+      "fact_to_show": "Recognize the current game",
+      "preferred_format": "approved-image",
+      "adjacent_copy_task": "Recognize the current game",
+      "candidate_evidence_ids": [
+        "official-color"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "color-media-1",
+      "page_id": "color",
+      "target_section": "body",
+      "player_question": "Understand starting state",
+      "fact_to_show": "Understand starting state",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Understand starting state",
+      "candidate_evidence_ids": [
+        "official-color"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "color-media-2",
+      "page_id": "color",
+      "target_section": "body",
+      "player_question": "See actual core input",
+      "fact_to_show": "See actual core input",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "See actual core input",
+      "candidate_evidence_ids": [
+        "official-color"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "color-media-3",
+      "page_id": "color",
+      "target_section": "body",
+      "player_question": "Interpret progress or failure",
+      "fact_to_show": "Interpret progress or failure",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Interpret progress or failure",
+      "candidate_evidence_ids": [
+        "official-color"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "color-media-4",
+      "page_id": "color",
+      "target_section": "after-body",
+      "player_question": "Watch input and feedback sequence",
+      "fact_to_show": "Watch input and feedback sequence",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Watch input and feedback sequence",
+      "candidate_evidence_ids": [
+        "official-color"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "color-logo-media-0",
+      "page_id": "color-logo",
+      "target_section": "player",
+      "player_question": "Recognize the current game",
+      "fact_to_show": "Recognize the current game",
+      "preferred_format": "approved-image",
+      "adjacent_copy_task": "Recognize the current game",
+      "candidate_evidence_ids": [
+        "official-color-logo"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "color-logo-media-1",
+      "page_id": "color-logo",
+      "target_section": "body",
+      "player_question": "Understand starting state",
+      "fact_to_show": "Understand starting state",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Understand starting state",
+      "candidate_evidence_ids": [
+        "official-color-logo"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "color-logo-media-2",
+      "page_id": "color-logo",
+      "target_section": "body",
+      "player_question": "See actual core input",
+      "fact_to_show": "See actual core input",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "See actual core input",
+      "candidate_evidence_ids": [
+        "official-color-logo"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "color-logo-media-3",
+      "page_id": "color-logo",
+      "target_section": "body",
+      "player_question": "Interpret progress or failure",
+      "fact_to_show": "Interpret progress or failure",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Interpret progress or failure",
+      "candidate_evidence_ids": [
+        "official-color-logo"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "color-logo-media-4",
+      "page_id": "color-logo",
+      "target_section": "after-body",
+      "player_question": "Watch input and feedback sequence",
+      "fact_to_show": "Watch input and feedback sequence",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Watch input and feedback sequence",
+      "candidate_evidence_ids": [
+        "official-color-logo"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "maptap-media-0",
+      "page_id": "maptap",
+      "target_section": "player",
+      "player_question": "Recognize the current game",
+      "fact_to_show": "Recognize the current game",
+      "preferred_format": "approved-image",
+      "adjacent_copy_task": "Recognize the current game",
+      "candidate_evidence_ids": [
+        "official-maptap"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "maptap-media-1",
+      "page_id": "maptap",
+      "target_section": "body",
+      "player_question": "Understand starting state",
+      "fact_to_show": "Understand starting state",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Understand starting state",
+      "candidate_evidence_ids": [
+        "official-maptap"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "maptap-media-2",
+      "page_id": "maptap",
+      "target_section": "body",
+      "player_question": "See actual core input",
+      "fact_to_show": "See actual core input",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "See actual core input",
+      "candidate_evidence_ids": [
+        "official-maptap"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "maptap-media-3",
+      "page_id": "maptap",
+      "target_section": "body",
+      "player_question": "Interpret progress or failure",
+      "fact_to_show": "Interpret progress or failure",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Interpret progress or failure",
+      "candidate_evidence_ids": [
+        "official-maptap"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "maptap-media-4",
+      "page_id": "maptap",
+      "target_section": "after-body",
+      "player_question": "Watch input and feedback sequence",
+      "fact_to_show": "Watch input and feedback sequence",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Watch input and feedback sequence",
+      "candidate_evidence_ids": [
+        "official-maptap"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "word-hunt-media-0",
+      "page_id": "word-hunt",
+      "target_section": "player",
+      "player_question": "Recognize the current game",
+      "fact_to_show": "Recognize the current game",
+      "preferred_format": "approved-image",
+      "adjacent_copy_task": "Recognize the current game",
+      "candidate_evidence_ids": [
+        "official-word-hunt"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "word-hunt-media-1",
+      "page_id": "word-hunt",
+      "target_section": "body",
+      "player_question": "Understand starting state",
+      "fact_to_show": "Understand starting state",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Understand starting state",
+      "candidate_evidence_ids": [
+        "official-word-hunt"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "word-hunt-media-2",
+      "page_id": "word-hunt",
+      "target_section": "body",
+      "player_question": "See actual core input",
+      "fact_to_show": "See actual core input",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "See actual core input",
+      "candidate_evidence_ids": [
+        "official-word-hunt"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "word-hunt-media-3",
+      "page_id": "word-hunt",
+      "target_section": "body",
+      "player_question": "Interpret progress or failure",
+      "fact_to_show": "Interpret progress or failure",
+      "preferred_format": "game-screenshot",
+      "adjacent_copy_task": "Interpret progress or failure",
+      "candidate_evidence_ids": [
+        "official-word-hunt"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "word-hunt-media-4",
+      "page_id": "word-hunt",
+      "target_section": "after-body",
+      "player_question": "Watch input and feedback sequence",
+      "fact_to_show": "Watch input and feedback sequence",
+      "preferred_format": "youtube-video",
+      "adjacent_copy_task": "Watch input and feedback sequence",
+      "candidate_evidence_ids": [
+        "official-word-hunt"
+      ],
+      "rights_check_needed": true,
+      "fallback_if_unavailable": "Leave unadopted; continue diagnostic development only; fail media/release acceptance",
+      "adoption_status": "planned",
+      "media_ledger_ids": []
+    },
+    {
+      "slot_id": "site-icon",
+      "page_id": "global",
+      "preferred_format": "original-explanatory-visual",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "site-icon"
+      ]
+    },
+    {
+      "slot_id": "noillirk-answer-strategy-cover",
+      "page_id": "noillirk-answer-strategy",
+      "preferred_format": "original-explanatory-visual",
+      "rights_check_needed": false,
+      "status": "adopted",
+      "localPath": "/images/guides/noillirk-answer-strategy.webp",
+      "purpose": "Three decisions in order: find the category, choose a familiar fit, submit before the clock"
+    },
+    {
+      "slot_id": "noillirk-scoring-and-endless-cover",
+      "page_id": "noillirk-scoring-and-endless",
+      "preferred_format": "original-explanatory-visual",
+      "rights_check_needed": false,
+      "status": "adopted",
+      "localPath": "/images/guides/noillirk-scoring-and-endless.webp",
+      "purpose": "Accepted results earn points, while Endless misses remove a balloon and Sky High can restore one"
+    },
+    {
+      "slot_id": "hello-wordl-cover",
+      "page_id": "hello-wordl",
+      "target_section": "cover",
+      "player_question": "Is this the adjustable-length word game?",
+      "fact_to_show": "cover",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "hello-wordl-cover"
+      ]
+    },
+    {
+      "slot_id": "hello-wordl-feedback",
+      "page_id": "hello-wordl",
+      "target_section": "feedback",
+      "player_question": "feedback",
+      "fact_to_show": "feedback",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "hello-wordl-feedback"
+      ]
+    },
+    {
+      "slot_id": "hello-wordl-duplicates",
+      "page_id": "hello-wordl",
+      "target_section": "duplicates",
+      "player_question": "duplicates",
+      "fact_to_show": "duplicates",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "hello-wordl-duplicates"
+      ]
+    },
+    {
+      "slot_id": "hello-wordl-long-word",
+      "page_id": "hello-wordl",
+      "target_section": "long-word",
+      "player_question": "long-word",
+      "fact_to_show": "long-word",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "hello-wordl-long-word"
+      ]
+    },
+    {
+      "slot_id": "hello-wordl-video",
+      "page_id": "hello-wordl",
+      "target_section": "video",
+      "player_question": "What changes after a guess and between word lengths?",
+      "fact_to_show": "video",
+      "preferred_format": "youtube-embed",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "hello-wordl-video-VIavCrvnrDs"
+      ]
+    },
+    {
+      "slot_id": "trust-cover",
+      "page_id": "trust",
+      "target_section": "player",
+      "player_question": "Identify the author's illustrated strategy game without revealing an outcome",
+      "fact_to_show": "The Evolution of Trust title surrounded by hand-drawn connected players",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "trust-cover"
+      ]
+    },
+    {
+      "slot_id": "trust-choice",
+      "page_id": "trust",
+      "target_section": "read-the-machine",
+      "player_question": "Locate the player, machine and two actual choices",
+      "fact_to_show": "Two players beside the coin machine with Cheat and Cooperate choices",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "trust-choice"
+      ]
+    },
+    {
+      "slot_id": "trust-cooperate-result",
+      "page_id": "trust",
+      "target_section": "a-costly-cooperation",
+      "player_question": "Explain the losing cooperative choice using the visible payoff pair",
+      "fact_to_show": "The coin machine highlights minus one versus plus three and zero versus zero",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "trust-cooperate-result"
+      ]
+    },
+    {
+      "slot_id": "trust-repeated-score",
+      "page_id": "trust",
+      "target_section": "more-than-one-round",
+      "player_question": "Distinguish one repeated exchange from opponent and cumulative progress",
+      "fact_to_show": "Repeated encounter shows two points each, opponent one of five and a total of two",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "trust-repeated-score"
+      ]
+    },
+    {
+      "slot_id": "polygons-cover",
+      "page_id": "polygons",
+      "target_section": "player",
+      "player_question": "Recognize the actual polygon playable",
+      "fact_to_show": "Parable of the Polygons title between blue squares and yellow triangles",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "polygons-cover"
+      ]
+    },
+    {
+      "slot_id": "polygons-dragging",
+      "page_id": "polygons",
+      "target_section": "make-a-move",
+      "player_question": "Show the held drag operation rather than an accepted result",
+      "fact_to_show": "An unhappy triangle held between two groups with its old position empty",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "polygons-dragging"
+      ]
+    },
+    {
+      "slot_id": "polygons-accepted-move",
+      "page_id": "polygons",
+      "target_section": "happy-shapes",
+      "player_question": "Distinguish a valid drop and satisfaction feedback from a rejected occupied destination",
+      "fact_to_show": "The triangle remains in the open position on the right with a happy face",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "polygons-accepted-move"
+      ]
+    },
+    {
+      "slot_id": "polygons-automatic",
+      "page_id": "polygons",
+      "target_section": "automatic-boards",
+      "player_question": "Connect repeated moves with the board-wide graph without claiming a universal outcome",
+      "fact_to_show": "An automatic polygon board beside a red graph marked forty-five percent",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "polygons-automatic"
+      ]
+    },
+    {
+      "slot_id": "0hn0-cover",
+      "page_id": "0hn0",
+      "target_section": "player",
+      "player_question": "Identify the actual numbered-dot game with its own starting board",
+      "fact_to_show": "0h n0 four-by-four puzzle with blue numbered dots, red blockers and undecided positions",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "0hn0-cover"
+      ]
+    },
+    {
+      "slot_id": "0hn0-line-clue",
+      "page_id": "0hn0",
+      "target_section": "opening-two",
+      "player_question": "Explain a forced line direction from an edge and blocker",
+      "fact_to_show": "A number two in the upper-left corner with a red dot below and an open path right",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "0hn0-line-clue"
+      ]
+    },
+    {
+      "slot_id": "0hn0-red-block",
+      "page_id": "0hn0",
+      "target_section": "close-the-path",
+      "player_question": "Show a blocker satisfying one clue and constraining the next",
+      "fact_to_show": "The top line contains two added blue dots and ends in a red blocker above a number one",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "0hn0-red-block"
+      ]
+    },
+    {
+      "slot_id": "0hn0-one-clue",
+      "page_id": "0hn0",
+      "target_section": "one-clue-case",
+      "player_question": "Demonstrate an independent free-play elimination case",
+      "fact_to_show": "A blue dot above the bottom-left one and a red dot immediately to its right",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "0hn0-one-clue"
+      ]
+    },
+    {
+      "slot_id": "0hh1-cover",
+      "page_id": "0hh1",
+      "target_section": "player",
+      "player_question": "Identify current square-grid playable using its own board",
+      "fact_to_show": "0h h1 four-by-four grid with yellow and blue given tiles",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "0hh1-cover"
+      ]
+    },
+    {
+      "slot_id": "0hh1-adjacent-pair",
+      "page_id": "0hh1",
+      "target_section": "adjacent-pair",
+      "player_question": "Show the adjacent-pair deduction",
+      "fact_to_show": "Two adjacent yellow tiles followed by an outlined empty position in the top row",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "0hh1-adjacent-pair"
+      ]
+    },
+    {
+      "slot_id": "0hh1-split-pair",
+      "page_id": "0hh1",
+      "target_section": "split-pair",
+      "player_question": "Explain a one-gap deduction distinct from an adjacent pair",
+      "fact_to_show": "Two blue tiles with one outlined unknown tile between them in the second row",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "0hh1-split-pair"
+      ]
+    },
+    {
+      "slot_id": "0hh1-balance",
+      "page_id": "0hh1",
+      "target_section": "row-and-column-counts",
+      "player_question": "Explain quota reasoning after the vertical-rule moves",
+      "fact_to_show": "A four-tile row with two blue tiles, one yellow and a final unknown tile",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "0hh1-balance"
+      ]
+    },
+    {
+      "slot_id": "crowds-cover",
+      "page_id": "crowds",
+      "target_section": "player",
+      "player_question": "Identify the exact author playable without later puzzle outcomes",
+      "fact_to_show": "The Wisdom and/or Madness of Crowds title surrounded by hand-drawn network faces",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "crowds-cover"
+      ]
+    },
+    {
+      "slot_id": "crowds-connection",
+      "page_id": "crowds",
+      "target_section": "draw-connections",
+      "player_question": "Show accepted edge creation rather than a moving pencil",
+      "fact_to_show": "A new upper bridge connects two groups of round faces",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "crowds-connection"
+      ]
+    },
+    {
+      "slot_id": "crowds-cut",
+      "page_id": "crowds",
+      "target_section": "cut-connections",
+      "player_question": "Distinguish removing an edge from adding one or removing a person",
+      "fact_to_show": "The lower bridge is absent while the upper connection remains",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "crowds-cut"
+      ]
+    },
+    {
+      "slot_id": "crowds-local-view",
+      "page_id": "crowds",
+      "target_section": "local-view",
+      "player_question": "Explain local denominators and an empty friend set",
+      "fact_to_show": "Four network faces show an empty friend set, fifty percent and one hundred percent local indicators",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "crowds-local-view"
+      ]
+    },
+    {
+      "slot_id": "a-dark-room-cover",
+      "page_id": "a-dark-room",
+      "target_section": "player",
+      "player_question": "Identify the actual text adventure interface without later story outcomes",
+      "fact_to_show": "A Dark Room and A Silent Forest tabs above the stoke fire action",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "a-dark-room-cover"
+      ]
+    },
+    {
+      "slot_id": "a-dark-room-firelit",
+      "page_id": "a-dark-room",
+      "target_section": "read-the-room",
+      "player_question": "Show the accepted initial fire action and log feedback",
+      "fact_to_show": "A Firelit Room heading, stoke fire control and log showing the fire burning",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "a-dark-room-firelit"
+      ]
+    },
+    {
+      "slot_id": "a-dark-room-gather",
+      "page_id": "a-dark-room",
+      "target_section": "wood-and-cooldown",
+      "player_question": "Connect inventory change with action cooldown",
+      "fact_to_show": "A Silent Forest with a shaded gather wood button and fourteen wood in stores",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "a-dark-room-gather"
+      ]
+    },
+    {
+      "slot_id": "a-dark-room-event",
+      "page_id": "a-dark-room",
+      "target_section": "events-and-choices",
+      "player_question": "Explain modal blocking and available responses",
+      "fact_to_show": "A Noises event panel offering investigate and ignore them choices",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "a-dark-room-event"
+      ]
+    },
+    {
+      "slot_id": "sandspiel-cover",
+      "page_id": "sandspiel",
+      "target_section": "player",
+      "player_question": "Identify the material sandbox through an independently drawn real scene",
+      "fact_to_show": "Sandspiel wall container holding sand, blue water and small growing plants",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "sandspiel-cover"
+      ]
+    },
+    {
+      "slot_id": "sandspiel-sand",
+      "page_id": "sandspiel",
+      "target_section": "sand-settles",
+      "player_question": "Explain granular settling against a fixed boundary",
+      "fact_to_show": "An uneven sand mound settled along the base of a U-shaped wall container",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "sandspiel-sand"
+      ]
+    },
+    {
+      "slot_id": "sandspiel-water",
+      "page_id": "sandspiel",
+      "target_section": "water-layer",
+      "player_question": "Compare fluid spreading with the earlier sand pile",
+      "fact_to_show": "A blue water layer fills the low space above and around the sand mound",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "sandspiel-water"
+      ]
+    },
+    {
+      "slot_id": "sandspiel-opening",
+      "page_id": "sandspiel",
+      "target_section": "edit-the-world",
+      "player_question": "Show local geometry editing without claiming every later water change has one cause",
+      "fact_to_show": "The lower right wall has an erased opening beside the planted sand bed",
+      "preferred_format": "game-capture",
+      "rights_check_needed": false,
+      "adoption_status": "adopted",
+      "media_ledger_ids": [
+        "sandspiel-opening"
+      ]
+    },
+    {
+      "slot_id": "noillirk-category-practice",
+      "page_id": "noillirk-answer-strategy",
+      "preferred_format": "original-explanatory-visual",
+      "rights_check_needed": false,
+      "status": "adopted",
+      "localPath": "/images/guides/noillirk-category-practice.webp",
+      "purpose": "Practice category check: a towel is something to take to the beach; sunny describes the weather"
+    },
+    {
+      "slot_id": "noillirk-answer-recovery",
+      "page_id": "noillirk-answer-strategy",
+      "preferred_format": "original-explanatory-visual",
+      "rights_check_needed": false,
+      "status": "adopted",
+      "localPath": "/images/guides/noillirk-answer-recovery.webp",
+      "purpose": "Three feedback paths: refused with time left means try a different fit, accepted means read the result, timeout means advance"
+    },
+    {
+      "slot_id": "noillirk-score-comparison",
+      "page_id": "noillirk-scoring-and-endless",
+      "preferred_format": "original-explanatory-visual",
+      "rights_check_needed": false,
+      "status": "adopted",
+      "localPath": "/images/guides/noillirk-score-comparison.webp",
+      "purpose": "Two invented seven-prompt runs both total 224 points: seven 32-point answers, or 100, 64, 32, 16, 8, 4 and a miss"
+    },
+    {
+      "slot_id": "noillirk-last-balloon",
+      "page_id": "noillirk-scoring-and-endless",
+      "preferred_format": "original-explanatory-visual",
+      "rights_check_needed": false,
+      "status": "adopted",
+      "localPath": "/images/guides/noillirk-last-balloon.webp",
+      "purpose": "With one Endless balloon, an accepted four-point answer preserves one, a miss ends the run, and Sky High restores the count to two"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-22",
+  "primaryEvidence": [
+    {
+      "id": "daily-rules-20261022",
+      "url": "https://playdaily.org/noillirk",
+      "checkedAt": "2026-10-22",
+      "use": "15-second clock, six tiers, refusal, Endless balloons. Images not adopted."
+    },
+    {
+      "id": "daily-howto-20261022",
+      "url": "https://playdaily.org/resources/stories/how-to-play-noillirk",
+      "checkedAt": "2026-10-22",
+      "use": "Mode selection, Begin ascent, Enter/Climb, accepted round ends, retry while time remains, recovery cap. No copied prose or images."
+    },
+    {
+      "id": "daily-tips-20261022",
+      "url": "https://playdaily.org/resources/stories/how-to-get-better-at-noillirk",
+      "checkedAt": "2026-10-22",
+      "use": "Board boundaries and answer form. Omit historical zone counts, altitude conversion and absolute joke claims because texts conflict."
+    },
+    {
+      "id": "daily-mode-20261022",
+      "url": "https://playdaily.org/resources/stories/noillirk-daily-climb",
+      "checkedAt": "2026-10-22",
+      "use": "Daily one attempt versus Classic practice. No live Daily answers reproduced."
+    }
+  ],
+  "originalCases": {
+    "noillirk-answer-strategy": [
+      {
+        "id": "beach-category",
+        "type": "original-practice",
+        "detail": "Compare carried object towel with weather adjective sunny, then change take to wear. Not a real board or guaranteed acceptance."
+      },
+      {
+        "id": "drawer-familiarity",
+        "type": "original-practice",
+        "detail": "Compare broad everyday object, specialist tool and household-specific association without predicting scores."
+      },
+      {
+        "id": "refusal-recovery",
+        "type": "rule-application",
+        "detail": "Refusal with active timer versus accepted low result versus completed miss require different next actions."
+      }
+    ],
+    "noillirk-scoring-and-endless": [
+      {
+        "id": "equal-224",
+        "type": "worked-arithmetic",
+        "detail": "7*32 = 224 and 100+64+32+16+8+4+0 = 224; diagnose different decision patterns. Not a recorded run."
+      },
+      {
+        "id": "last-balloon",
+        "type": "rule-application",
+        "detail": "At one balloon, accepted Grounded leaves one; miss ends; Sky High restores to two."
+      },
+      {
+        "id": "recovery-sequence",
+        "type": "hypothetical-state-sequence",
+        "detail": "3 with Grounded stays 3; miss ->2; Kite stays2; SkyHigh ->3; anotherSkyHigh stays3."
+      }
+    ]
+  },
+  "adoptedGameArtwork": false,
+  "mainIframeUnchanged": "https://playdaily.org/noillirk",
+  "mediaAcceptance": "NOT_PASSED",
+  "overallDelivery": "NOT_PASSED"
+}

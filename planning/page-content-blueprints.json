@@ -1,0 +1,3770 @@
+{
+  "status": "draft-sections-aligned; game-media-and-video-qualification-open",
+  "pages": [
+    {
+      "pageId": "home",
+      "gameId": "noillirk",
+      "version": "Daily",
+      "claims": [
+        "noillirk-identity",
+        "noillirk-scoring"
+      ],
+      "sections": [
+        {
+          "id": "the-climb",
+          "heading": "A category, a short clock and a reason to think simply",
+          "playerTask": "A category, a short clock and a reason to think simply",
+          "claimIds": [
+            "noillirk-scoring"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Noillirk state relevant to A category, a short clock and a reason to think simply"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "start-a-run",
+          "heading": "Open the player, then choose the climb",
+          "playerTask": "Open the player, then choose the climb",
+          "claimIds": [
+            "noillirk-scoring"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Noillirk state relevant to Open the player, then choose the climb"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "read-and-enter",
+          "heading": "Read the whole question before typing",
+          "playerTask": "Read the whole question before typing",
+          "claimIds": [
+            "noillirk-scoring"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Noillirk state relevant to Read the whole question before typing"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "answer-feedback",
+          "heading": "An accepted answer and a high answer are different achievements",
+          "playerTask": "An accepted answer and a high answer are different achievements",
+          "claimIds": [
+            "noillirk-scoring"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Noillirk state relevant to An accepted answer and a high answer are different achievements"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "score-tiers",
+          "heading": "Six tiers turn the answer into lift",
+          "playerTask": "Six tiers turn the answer into lift",
+          "claimIds": [
+            "noillirk-scoring"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Noillirk state relevant to Six tiers turn the answer into lift"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "endless-balloons",
+          "heading": "In Endless, a modest answer can keep the climb alive",
+          "playerTask": "In Endless, a modest answer can keep the climb alive",
+          "claimIds": [
+            "noillirk-scoring"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Noillirk state relevant to In Endless, a modest answer can keep the climb alive"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "a-useful-first-climb",
+          "heading": "Use the first run to learn a repeatable decision",
+          "playerTask": "Use the first run to learn a repeatable decision",
+          "claimIds": [
+            "noillirk-scoring"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Noillirk state relevant to Use the first run to learn a repeatable decision"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "player-and-browser",
+          "heading": "Keep the game and the page controls separate",
+          "playerTask": "Keep the game and the page controls separate",
+          "claimIds": [
+            "noillirk-scoring"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Noillirk state relevant to Keep the game and the page controls separate"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "player-questions",
+          "heading": "Questions for your next round",
+          "playerTask": "Questions for your next round",
+          "claimIds": [
+            "noillirk-scoring"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Noillirk state relevant to Questions for your next round"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "krillion",
+      "gameId": "krillion",
+      "version": "Daily implementation",
+      "claims": [
+        "krillion-loop",
+        "krillion-current-rule-boundaries"
+      ],
+      "sections": [
+        {
+          "id": "opposite-choice",
+          "heading": "Choose the unusual answer that still belongs",
+          "playerTask": "Choose the unusual answer that still belongs",
+          "claimIds": [
+            "krillion-loop"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Krillion Unlimited state relevant to Choose the unusual answer that still belongs"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "depth-and-air",
+          "heading": "Read depth and air as different information",
+          "playerTask": "Read depth and air as different information",
+          "claimIds": [
+            "krillion-loop"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Krillion Unlimited state relevant to Read depth and air as different information"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "begin-a-classic-dive",
+          "heading": "Give yourself a complete first dive",
+          "playerTask": "Give yourself a complete first dive",
+          "claimIds": [
+            "krillion-current-rule-boundaries"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Give yourself a complete first dive",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "two-candidates",
+          "heading": "Keep a second candidate without submitting it first",
+          "playerTask": "Keep a second candidate without submitting it first",
+          "claimIds": [
+            "krillion-current-rule-boundaries"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Keep a second candidate without submitting it first",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "category-boundary",
+          "heading": "A precise answer needs a precise category fit",
+          "playerTask": "A precise answer needs a precise category fit",
+          "claimIds": [
+            "krillion-current-rule-boundaries",
+            "additional-dev-20261021-krillion"
+          ],
+          "caseIds": [
+            "additional-dev-20261021-krillion"
+          ],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain A precise answer needs a precise category fit",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "compare-a-dive",
+          "heading": "Compare choices across the seven prompts",
+          "playerTask": "Compare choices across the seven prompts",
+          "claimIds": [
+            "krillion-current-rule-boundaries"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Compare choices across the seven prompts",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "last-tank-decision",
+          "heading": "Make the last air tank change your decision",
+          "playerTask": "Make the last air tank change your decision",
+          "claimIds": [
+            "krillion-current-rule-boundaries"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Make the last air tank change your decision",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "typing-and-view",
+          "heading": "Keep the prompt, input and timer in the same view",
+          "playerTask": "Keep the prompt, input and timer in the same view",
+          "claimIds": [
+            "krillion-current-rule-boundaries"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Keep the prompt, input and timer in the same view",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "player-questions",
+          "heading": "Questions for your next round",
+          "playerTask": "Questions for your next round",
+          "claimIds": [
+            "krillion-loop"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Krillion Unlimited state relevant to Questions for your next round"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "fermi",
+      "gameId": "fermi",
+      "version": "Daily implementation",
+      "claims": [
+        "fermi-loop"
+      ],
+      "sections": [
+        {
+          "id": "units-first",
+          "heading": "Decide what the number counts",
+          "playerTask": "Decide what the number counts",
+          "claimIds": [
+            "fermi-loop",
+            "fermi-safe-form-submit"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Fermi state relevant to Decide what the number counts"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "ratio-not-gap",
+          "heading": "Think in factors rather than differences",
+          "playerTask": "Think in factors rather than differences",
+          "claimIds": [
+            "fermi-loop",
+            "fermi-safe-form-submit"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Fermi state relevant to Think in factors rather than differences"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "numeric-entry",
+          "heading": "Keep the calculation distinct from the result",
+          "playerTask": "Keep the calculation distinct from the result",
+          "claimIds": [
+            "fermi-loop",
+            "fermi-safe-form-submit"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Fermi state relevant to Keep the calculation distinct from the result"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "define-the-number",
+          "heading": "Define the number before choosing a number",
+          "playerTask": "Define the number before choosing a number",
+          "claimIds": [
+            "fermi-loop",
+            "fermi-safe-form-submit"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Fermi state relevant to Define the number before choosing a number"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "build-an-estimate",
+          "heading": "Build an estimate you can check",
+          "playerTask": "Build an estimate you can check",
+          "claimIds": [
+            "fermi-loop",
+            "fermi-safe-form-submit"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Fermi state relevant to Build an estimate you can check"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "read-ratio",
+          "heading": "Read the ratio and the direction together",
+          "playerTask": "Read the ratio and the direction together",
+          "claimIds": [
+            "fermi-loop",
+            "fermi-safe-form-submit",
+            "additional-dev-20261021-fermi"
+          ],
+          "caseIds": [
+            "fermi-safe-form-submit",
+            "additional-dev-20261021-fermi"
+          ],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Fermi state relevant to Read the ratio and the direction together"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "learn-after-result",
+          "heading": "Use the explanation to repair one assumption",
+          "playerTask": "Use the explanation to repair one assumption",
+          "claimIds": [
+            "fermi-loop",
+            "fermi-safe-form-submit"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Fermi state relevant to Use the explanation to repair one assumption"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "player-questions",
+          "heading": "Questions for your next round",
+          "playerTask": "Questions for your next round",
+          "claimIds": [
+            "fermi-loop",
+            "fermi-safe-form-submit"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Fermi state relevant to Questions for your next round"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "poople",
+      "gameId": "poople",
+      "version": "Daily implementation",
+      "claims": [
+        "poople-loop"
+      ],
+      "sections": [
+        {
+          "id": "legal-rungs",
+          "heading": "Keep every rung a word",
+          "playerTask": "Keep every rung a word",
+          "claimIds": [
+            "poople-loop",
+            "poople-validation-recovery"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Poople Unlimited state relevant to Keep every rung a word"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "par-and-time",
+          "heading": "Use par as a route target",
+          "playerTask": "Use par as a route target",
+          "claimIds": [
+            "poople-loop",
+            "poople-validation-recovery"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Poople Unlimited state relevant to Use par as a route target"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "give-up-and-review",
+          "heading": "Review the step where the route closed",
+          "playerTask": "Review the step where the route closed",
+          "claimIds": [
+            "poople-loop",
+            "poople-validation-recovery"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Poople Unlimited state relevant to Review the step where the route closed"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "one-position",
+          "heading": "Check positions, not just the sound of a word",
+          "playerTask": "Check positions, not just the sound of a word",
+          "claimIds": [
+            "poople-loop",
+            "poople-validation-recovery",
+            "additional-dev-20261021-poople"
+          ],
+          "caseIds": [
+            "poople-validation-recovery",
+            "additional-dev-20261021-poople"
+          ],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Poople Unlimited state relevant to Check positions, not just the sound of a word"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "plan-a-bridge",
+          "heading": "Look for a bridge before committing to a branch",
+          "playerTask": "Look for a bridge before committing to a branch",
+          "claimIds": [
+            "poople-loop",
+            "poople-validation-recovery"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Poople Unlimited state relevant to Look for a bridge before committing to a branch"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "clock-and-par",
+          "heading": "Use par and the clock for different decisions",
+          "playerTask": "Use par and the clock for different decisions",
+          "claimIds": [
+            "poople-loop",
+            "poople-validation-recovery"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Poople Unlimited state relevant to Use par and the clock for different decisions"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "recover-ladder",
+          "heading": "Recover without losing track of the current rung",
+          "playerTask": "Recover without losing track of the current rung",
+          "claimIds": [
+            "poople-loop",
+            "poople-validation-recovery"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Poople Unlimited state relevant to Recover without losing track of the current rung"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "player-questions",
+          "heading": "Questions for your next round",
+          "playerTask": "Questions for your next round",
+          "claimIds": [
+            "poople-loop",
+            "poople-validation-recovery"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Poople Unlimited state relevant to Questions for your next round"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "size-it-up",
+      "gameId": "size-it-up",
+      "version": "Daily implementation",
+      "claims": [
+        "size-it-up-loop"
+      ],
+      "sections": [
+        {
+          "id": "reference-dimension",
+          "heading": "Use the labelled reference as the ruler",
+          "playerTask": "Use the labelled reference as the ruler",
+          "claimIds": [
+            "size-it-up-loop",
+            "size-judgment-and-keyboard"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Size It Up state relevant to Use the labelled reference as the ruler"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "commit-and-compare",
+          "heading": "Read the dashed guess after locking",
+          "playerTask": "Read the dashed guess after locking",
+          "claimIds": [
+            "size-it-up-loop",
+            "size-judgment-and-keyboard"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Size It Up state relevant to Read the dashed guess after locking"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "weighted-run",
+          "heading": "A late round has a different value",
+          "playerTask": "A late round has a different value",
+          "claimIds": [
+            "size-it-up-loop",
+            "size-judgment-and-keyboard"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Size It Up state relevant to A late round has a different value"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "read-the-yardstick",
+          "heading": "Let the labelled reference set the scale",
+          "playerTask": "Let the labelled reference set the scale",
+          "claimIds": [
+            "size-it-up-loop",
+            "size-judgment-and-keyboard"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Size It Up state relevant to Let the labelled reference set the scale"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "adjust-deliberately",
+          "heading": "Make one controlled adjustment at a time",
+          "playerTask": "Make one controlled adjustment at a time",
+          "claimIds": [
+            "size-it-up-loop",
+            "size-judgment-and-keyboard"
+          ],
+          "caseIds": [
+            "size-judgment-and-keyboard"
+          ],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Size It Up state relevant to Make one controlled adjustment at a time"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "interpret-the-reveal",
+          "heading": "Read the dashed guess before pressing Next",
+          "playerTask": "Read the dashed guess before pressing Next",
+          "claimIds": [
+            "size-it-up-loop",
+            "size-judgment-and-keyboard",
+            "additional-dev-20261021-size-it-up"
+          ],
+          "caseIds": [
+            "size-judgment-and-keyboard",
+            "additional-dev-20261021-size-it-up"
+          ],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Size It Up state relevant to Read the dashed guess before pressing Next"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "five-round-decisions",
+          "heading": "Treat the run as five separate scale judgments",
+          "playerTask": "Treat the run as five separate scale judgments",
+          "claimIds": [
+            "size-it-up-loop",
+            "size-judgment-and-keyboard"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Size It Up state relevant to Treat the run as five separate scale judgments"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "player-questions",
+          "heading": "Questions for your next round",
+          "playerTask": "Questions for your next round",
+          "claimIds": [
+            "size-it-up-loop",
+            "size-judgment-and-keyboard"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Size It Up state relevant to Questions for your next round"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "color",
+      "gameId": "color",
+      "version": "Daily implementation",
+      "claims": [
+        "color-loop"
+      ],
+      "sections": [
+        {
+          "id": "remember-three-qualities",
+          "heading": "Remember more than the color name",
+          "playerTask": "Remember more than the color name",
+          "claimIds": [
+            "color-loop",
+            "color-slider-reveal"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Color Game state relevant to Remember more than the color name"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "slider-order",
+          "heading": "Adjust the family before fine differences",
+          "playerTask": "Adjust the family before fine differences",
+          "claimIds": [
+            "color-loop",
+            "color-slider-reveal"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Color Game state relevant to Adjust the family before fine differences"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "compare-the-reveal",
+          "heading": "Look for a consistent direction of error",
+          "playerTask": "Look for a consistent direction of error",
+          "claimIds": [
+            "color-loop",
+            "color-slider-reveal"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Color Game state relevant to Look for a consistent direction of error"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "remember-three-properties",
+          "heading": "Remember a color as three separate properties",
+          "playerTask": "Remember a color as three separate properties",
+          "claimIds": [
+            "color-loop",
+            "color-slider-reveal"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Color Game state relevant to Remember a color as three separate properties"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "difficulty-and-exposure",
+          "heading": "Choose the exposure time you can use well",
+          "playerTask": "Choose the exposure time you can use well",
+          "claimIds": [
+            "color-loop",
+            "color-slider-reveal"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Color Game state relevant to Choose the exposure time you can use well"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "rebuild-with-controls",
+          "heading": "Use the sliders to test your memory",
+          "playerTask": "Use the sliders to test your memory",
+          "claimIds": [
+            "color-loop",
+            "color-slider-reveal"
+          ],
+          "caseIds": [
+            "color-slider-reveal"
+          ],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Color Game state relevant to Use the sliders to test your memory"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "learn-from-comparison",
+          "heading": "Find the property that cost the match",
+          "playerTask": "Find the property that cost the match",
+          "claimIds": [
+            "color-loop",
+            "color-slider-reveal",
+            "additional-dev-20261021-color"
+          ],
+          "caseIds": [
+            "color-slider-reveal",
+            "additional-dev-20261021-color"
+          ],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Color Game state relevant to Find the property that cost the match"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "player-questions",
+          "heading": "Questions for your next round",
+          "playerTask": "Questions for your next round",
+          "claimIds": [
+            "color-loop",
+            "color-slider-reveal"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Color Game state relevant to Questions for your next round"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "color-logo",
+      "gameId": "color-logo",
+      "version": "Daily implementation",
+      "claims": [
+        "color-logo-loop",
+        "logo-current-region-workflow"
+      ],
+      "sections": [
+        {
+          "id": "find-the-region",
+          "heading": "Fix the marked region rather than the whole logo",
+          "playerTask": "Fix the marked region rather than the whole logo",
+          "claimIds": [
+            "color-logo-loop",
+            "logo-slider-reveal"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Logo Game state relevant to Fix the marked region rather than the whole logo"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "wrong-color-clue",
+          "heading": "The displayed wrong color is not a near match",
+          "playerTask": "The displayed wrong color is not a near match",
+          "claimIds": [
+            "color-logo-loop",
+            "logo-slider-reveal"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Logo Game state relevant to The displayed wrong color is not a near match"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "screen-color",
+          "heading": "Compare the revealed screen version",
+          "playerTask": "Compare the revealed screen version",
+          "claimIds": [
+            "color-logo-loop",
+            "logo-slider-reveal"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Logo Game state relevant to Compare the revealed screen version"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "start-a-logo-round",
+          "heading": "Choose a deck before testing your memory",
+          "playerTask": "Choose a deck before testing your memory",
+          "claimIds": [
+            "logo-current-region-workflow"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Choose a deck before testing your memory",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "three-adjustments",
+          "heading": "Use three different questions for the sliders",
+          "playerTask": "Use three different questions for the sliders",
+          "claimIds": [
+            "logo-current-region-workflow"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Use three different questions for the sliders",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "panasonic-color-case",
+          "heading": "A recognizable wordmark can still hide a large miss",
+          "playerTask": "A recognizable wordmark can still hide a large miss",
+          "claimIds": [
+            "logo-current-region-workflow"
+          ],
+          "caseIds": [
+            "logo-slider-reveal"
+          ],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain A recognizable wordmark can still hide a large miss",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "three-logo-review",
+          "heading": "Review each region before judging the round",
+          "playerTask": "Review each region before judging the round",
+          "claimIds": [
+            "logo-current-region-workflow"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Review each region before judging the round",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "memory-before-comparison",
+          "heading": "Decide whether you are recalling or looking up",
+          "playerTask": "Decide whether you are recalling or looking up",
+          "claimIds": [
+            "logo-current-region-workflow",
+            "additional-dev-20261021-color-logo"
+          ],
+          "caseIds": [
+            "additional-dev-20261021-color-logo"
+          ],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Decide whether you are recalling or looking up",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "logo-control-problems",
+          "heading": "Give small color changes a stable view",
+          "playerTask": "Give small color changes a stable view",
+          "claimIds": [
+            "logo-current-region-workflow"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Give small color changes a stable view",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "player-questions",
+          "heading": "Questions for your next round",
+          "playerTask": "Questions for your next round",
+          "claimIds": [
+            "color-logo-loop",
+            "logo-slider-reveal"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Logo Game state relevant to Questions for your next round"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "maptap",
+      "gameId": "maptap",
+      "version": "Daily implementation",
+      "claims": [
+        "maptap-loop",
+        "maptap-distance-boundaries"
+      ],
+      "sections": [
+        {
+          "id": "country-before-city",
+          "heading": "Place the country before the city",
+          "playerTask": "Place the country before the city",
+          "claimIds": [
+            "maptap-loop"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current MapTap Unlimited state relevant to Place the country before the city"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "rotate-then-tap",
+          "heading": "Separate positioning the globe from committing the point",
+          "playerTask": "Separate positioning the globe from committing the point",
+          "claimIds": [
+            "maptap-loop"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current MapTap Unlimited state relevant to Separate positioning the globe from committing the point"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "distance-feedback",
+          "heading": "Read distance before the five-place total",
+          "playerTask": "Read distance before the five-place total",
+          "claimIds": [
+            "maptap-loop"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current MapTap Unlimited state relevant to Read distance before the five-place total"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "start-five-places",
+          "heading": "Start with a country-sized search area",
+          "playerTask": "Start with a country-sized search area",
+          "claimIds": [
+            "maptap-distance-boundaries"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Start with a country-sized search area",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "globe-perspective",
+          "heading": "Bring the country toward the center of the globe",
+          "playerTask": "Bring the country toward the center of the globe",
+          "claimIds": [
+            "maptap-distance-boundaries"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Bring the country toward the center of the globe",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "coast-inland-choice",
+          "heading": "Use a chain of location decisions",
+          "playerTask": "Use a chain of location decisions",
+          "claimIds": [
+            "maptap-distance-boundaries"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Use a chain of location decisions",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "distance-hypothesis",
+          "heading": "Separate a near miss from the wrong region",
+          "playerTask": "Separate a near miss from the wrong region",
+          "claimIds": [
+            "maptap-distance-boundaries",
+            "maptap-external-distance-result",
+            "additional-dev-20261021-maptap"
+          ],
+          "caseIds": [
+            "maptap-external-distance-result",
+            "additional-dev-20261021-maptap"
+          ],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Separate a near miss from the wrong region",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "learn-one-relation",
+          "heading": "Keep one useful correction after each place",
+          "playerTask": "Keep one useful correction after each place",
+          "claimIds": [
+            "maptap-distance-boundaries"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Keep one useful correction after each place",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "globe-input-and-loading",
+          "heading": "Distinguish a camera movement from a submitted guess",
+          "playerTask": "Distinguish a camera movement from a submitted guess",
+          "claimIds": [
+            "maptap-distance-boundaries"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Distinguish a camera movement from a submitted guess",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "player-questions",
+          "heading": "Questions for your next round",
+          "playerTask": "Questions for your next round",
+          "claimIds": [
+            "maptap-loop"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current MapTap Unlimited state relevant to Questions for your next round"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "word-hunt",
+      "gameId": "word-hunt",
+      "version": "Daily implementation",
+      "claims": [
+        "word-hunt-loop",
+        "word-hunt-external-path-and-duplicate"
+      ],
+      "sections": [
+        {
+          "id": "read-the-grid",
+          "heading": "A word must also fit the board",
+          "playerTask": "A word must also fit the board",
+          "claimIds": [
+            "word-hunt-loop"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Word Hunt state relevant to A word must also fit the board"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "shuffle-with-purpose",
+          "heading": "Treat a shuffle as a change of opportunity",
+          "playerTask": "Treat a shuffle as a change of opportunity",
+          "claimIds": [
+            "word-hunt-loop"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Word Hunt state relevant to Treat a shuffle as a change of opportunity"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        },
+        {
+          "id": "start-and-trace",
+          "heading": "Hold a path, then release to submit",
+          "playerTask": "Hold a path, then release to submit",
+          "claimIds": [
+            "word-hunt-external-path-and-duplicate"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Hold a path, then release to submit",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "observed-word-paths",
+          "heading": "Use a small accepted word to learn the gesture",
+          "playerTask": "Use a small accepted word to learn the gesture",
+          "claimIds": [
+            "word-hunt-external-path-and-duplicate",
+            "additional-dev-20261021-word-hunt"
+          ],
+          "caseIds": [
+            "word-hunt-external-path-and-duplicate",
+            "additional-dev-20261021-word-hunt"
+          ],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Use a small accepted word to learn the gesture",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "read-rejection",
+          "heading": "Read a rejection before tracing again",
+          "playerTask": "Read a rejection before tracing again",
+          "claimIds": [
+            "word-hunt-external-path-and-duplicate"
+          ],
+          "caseIds": [
+            "word-hunt-external-path-and-duplicate"
+          ],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Read a rejection before tracing again",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "scan-a-neighborhood",
+          "heading": "Search a small neighborhood before the whole board",
+          "playerTask": "Search a small neighborhood before the whole board",
+          "claimIds": [
+            "word-hunt-external-path-and-duplicate"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Search a small neighborhood before the whole board",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "shuffle-observation",
+          "heading": "Read the new positions after a shuffle",
+          "playerTask": "Read the new positions after a shuffle",
+          "claimIds": [
+            "word-hunt-external-path-and-duplicate"
+          ],
+          "caseIds": [
+            "word-hunt-external-shuffle-and-diagonal"
+          ],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Read the new positions after a shuffle",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "keep-input-visible",
+          "heading": "Avoid losing the path to the surrounding page",
+          "playerTask": "Avoid losing the path to the surrounding page",
+          "claimIds": [
+            "word-hunt-external-path-and-duplicate"
+          ],
+          "caseIds": [],
+          "reasoningScope": "Original player decision analysis grounded in scoped mechanics; not an additional tested outcome",
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Explain Avoid losing the path to the surrounding page",
+            "rightsStatus": "unresolved"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Current-version segmented and embed qualification pending"
+          }
+        },
+        {
+          "id": "player-questions",
+          "heading": "Questions for your next round",
+          "playerTask": "Questions for your next round",
+          "claimIds": [
+            "word-hunt-loop"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not_adopted",
+            "task": "Show current Word Hunt state relevant to Questions for your next round"
+          },
+          "video": {
+            "status": "not_adopted",
+            "reason": "Exact-version segmented playback and embed qualification remain open"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "noillirk-answer-strategy",
+      "guideId": "noillirk-answer-strategy",
+      "task": "Choose a familiar answer within the clock",
+      "version": "Daily balloon-climb edition; published rule pages rechecked 2026-10-22",
+      "claims": [
+        "daily-response-rules-20261022",
+        "daily-scoring-and-balloons-20261022"
+      ],
+      "excluded": "Other same-name implementations, daily answers and unmarked solution spoilers",
+      "sections": [
+        {
+          "id": "start-with-a-routine",
+          "heading": "Give yourself a routine, not an answer hunt",
+          "playerTask": "Give yourself a routine, not an answer hunt",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "beach-category",
+            "drawer-familiarity",
+            "refusal-recovery"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "read-the-restriction",
+          "heading": "Read the category before you chase familiarity",
+          "playerTask": "Read the category before you chase familiarity",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "beach-category",
+            "drawer-familiarity",
+            "refusal-recovery"
+          ],
+          "images": [
+            {
+              "src": "/images/guides/noillirk-category-practice.webp",
+              "role": "Practice the category test before considering popularity: an object you carry and a description of the weather answer different questions.",
+              "provenance": "project-original explanatory diagram"
+            }
+          ],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "compare-familiar-choices",
+          "heading": "Choose for recognition instead of showing expertise",
+          "playerTask": "Choose for recognition instead of showing expertise",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "beach-category",
+            "drawer-familiarity",
+            "refusal-recovery"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "use-the-clock",
+          "heading": "Stop comparing while you can still type",
+          "playerTask": "Stop comparing while you can still type",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "beach-category",
+            "drawer-familiarity",
+            "refusal-recovery"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "submit-one-idea",
+          "heading": "Submit the idea, not a list of alternatives",
+          "playerTask": "Submit the idea, not a list of alternatives",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "beach-category",
+            "drawer-familiarity",
+            "refusal-recovery"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "rejected-entry",
+          "heading": "A refusal, a low tier and a timeout need different fixes",
+          "playerTask": "A refusal, a low tier and a timeout need different fixes",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "beach-category",
+            "drawer-familiarity",
+            "refusal-recovery"
+          ],
+          "images": [
+            {
+              "src": "/images/guides/noillirk-answer-recovery.webp",
+              "role": "Check whether the answer window is still active. A finished low-tier result cannot be improved by continuing to type into the old prompt.",
+              "provenance": "project-original explanatory diagram"
+            }
+          ],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "review-one-decision",
+          "heading": "Review the mistake you actually made",
+          "playerTask": "Review the mistake you actually made",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "beach-category",
+            "drawer-familiarity",
+            "refusal-recovery"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "questions-before-next-climb",
+          "heading": "Questions before your next climb",
+          "playerTask": "Questions before your next climb",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "beach-category",
+            "drawer-familiarity",
+            "refusal-recovery"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": "noillirk-scoring-and-endless",
+      "guideId": "noillirk-scoring-and-endless",
+      "task": "Read tier results and manage Endless balloons",
+      "version": "Daily balloon-climb edition; published rule pages rechecked 2026-10-22",
+      "claims": [
+        "daily-response-rules-20261022",
+        "daily-scoring-and-balloons-20261022"
+      ],
+      "excluded": "Other same-name implementations, daily answers and unmarked solution spoilers",
+      "sections": [
+        {
+          "id": "read-result-in-order",
+          "heading": "Read acceptance, then points, then balloons",
+          "playerTask": "Read acceptance, then points, then balloons",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "equal-224",
+            "last-balloon",
+            "recovery-sequence"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "six-tiers",
+          "heading": "Use the six-tier table to read the result",
+          "playerTask": "Use the six-tier table to read the result",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "equal-224",
+            "last-balloon",
+            "recovery-sequence"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "compare-scorecards",
+          "heading": "Two 224-point climbs can need different practice",
+          "playerTask": "Two 224-point climbs can need different practice",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "equal-224",
+            "last-balloon",
+            "recovery-sequence"
+          ],
+          "images": [
+            {
+              "src": "/images/guides/noillirk-score-comparison.webp",
+              "role": "Run A is consistent but never reaches an upper tier. Run B includes stronger results and a miss. The same total does not imply the same next practice task.",
+              "provenance": "project-original explanatory diagram"
+            }
+          ],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "classic-total",
+          "heading": "Keep Classic totals separate from Endless survival",
+          "playerTask": "Keep Classic totals separate from Endless survival",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "equal-224",
+            "last-balloon",
+            "recovery-sequence"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "protect-last-balloon",
+          "heading": "With one balloon left, an accepted four points matters",
+          "playerTask": "With one balloon left, an accepted four points matters",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "equal-224",
+            "last-balloon",
+            "recovery-sequence"
+          ],
+          "images": [
+            {
+              "src": "/images/guides/noillirk-last-balloon.webp",
+              "role": "Start each branch with one balloon. Grounded preserves the run; a miss ends it; Sky High raises the count to two. These are rule examples, not a sequence of played prompts.",
+              "provenance": "project-original explanatory diagram"
+            }
+          ],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "recovery-example",
+          "heading": "Track recovery as a change in state",
+          "playerTask": "Track recovery as a change in state",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "equal-224",
+            "last-balloon",
+            "recovery-sequence"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "finished-or-stuck",
+          "heading": "Separate a finished miss from a stuck player",
+          "playerTask": "Separate a finished miss from a stuck player",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "equal-224",
+            "last-balloon",
+            "recovery-sequence"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        },
+        {
+          "id": "questions-after-result",
+          "heading": "Questions after an unexpected result",
+          "playerTask": "Questions after an unexpected result",
+          "claimIds": [
+            "daily-response-rules-20261022",
+            "daily-scoring-and-balloons-20261022"
+          ],
+          "caseIds": [
+            "equal-224",
+            "last-balloon",
+            "recovery-sequence"
+          ],
+          "images": [],
+          "video": {
+            "status": "not-adopted",
+            "reason": "No exact-version watched, embedded candidate qualifies; Guide remains complete without a video block, main-game mandatory video remains open."
+          },
+          "exclusions": [
+            "Any illustrative word guaranteed acceptance or rank",
+            "Practice scorecards presented as real sessions",
+            "Constant metres-per-point formula",
+            "Unverified cross-device recovery",
+            "Third-party screenshot reuse rights",
+            "Unwatched video treated as supporting evidence"
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": "hello-wordl",
+      "gameId": "hello-wordl",
+      "version": "Author host, six-row adjustable-length browser game",
+      "claims": [
+        "hello-wordl-current-controls-and-cases"
+      ],
+      "sections": [
+        {
+          "id": "one-word-six-rows",
+          "heading": "One hidden word, six rows of decisions",
+          "playerTask": "One hidden word, six rows of decisions",
+          "claimIds": [
+            "hello-wordl-current-controls-and-cases"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not-required-for-this-section",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "hello-wordl-all-lengths",
+            "videoId": "VIavCrvnrDs",
+            "purpose": "Word-length and letter-feedback comparison; creator overlay distinguished"
+          }
+        },
+        {
+          "id": "submit-a-word",
+          "heading": "Enter a complete word before asking for feedback",
+          "playerTask": "Enter a complete word before asking for feedback",
+          "claimIds": [
+            "hello-wordl-current-controls-and-cases"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not-required-for-this-section",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "hello-wordl-all-lengths",
+            "videoId": "VIavCrvnrDs",
+            "purpose": "Word-length and letter-feedback comparison; creator overlay distinguished"
+          }
+        },
+        {
+          "id": "positions-and-absence",
+          "heading": "Read a clue as a letter and a position",
+          "playerTask": "Read a clue as a letter and a position",
+          "claimIds": [
+            "hello-wordl-current-controls-and-cases"
+          ],
+          "caseIds": [
+            "hello-wordl-feedback"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "hello-wordl-feedback"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "hello-wordl-all-lengths",
+            "videoId": "VIavCrvnrDs",
+            "purpose": "Word-length and letter-feedback comparison; creator overlay distinguished"
+          }
+        },
+        {
+          "id": "repeated-letter-decisions",
+          "heading": "Repeated letters need evidence, not a blanket ban",
+          "playerTask": "Repeated letters need evidence, not a blanket ban",
+          "claimIds": [
+            "hello-wordl-current-controls-and-cases"
+          ],
+          "caseIds": [
+            "hello-wordl-duplicates"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "hello-wordl-duplicates"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "hello-wordl-all-lengths",
+            "videoId": "VIavCrvnrDs",
+            "purpose": "Word-length and letter-feedback comparison; creator overlay distinguished"
+          }
+        },
+        {
+          "id": "longer-word-boards",
+          "heading": "Track long words one position at a time",
+          "playerTask": "Track long words one position at a time",
+          "claimIds": [
+            "hello-wordl-current-controls-and-cases"
+          ],
+          "caseIds": [
+            "hello-wordl-long-word"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "hello-wordl-long-word"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "hello-wordl-all-lengths",
+            "videoId": "VIavCrvnrDs",
+            "purpose": "Word-length and letter-feedback comparison; creator overlay distinguished"
+          }
+        },
+        {
+          "id": "a-useful-next-guess",
+          "heading": "Choose what your next guess needs to resolve",
+          "playerTask": "Choose what your next guess needs to resolve",
+          "claimIds": [
+            "hello-wordl-current-controls-and-cases"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not-required-for-this-section",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "hello-wordl-all-lengths",
+            "videoId": "VIavCrvnrDs",
+            "purpose": "Word-length and letter-feedback comparison; creator overlay distinguished"
+          }
+        },
+        {
+          "id": "readable-controls",
+          "heading": "Make the board readable before continuing",
+          "playerTask": "Make the board readable before continuing",
+          "claimIds": [
+            "hello-wordl-current-controls-and-cases"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not-required-for-this-section",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "hello-wordl-all-lengths",
+            "videoId": "VIavCrvnrDs",
+            "purpose": "Word-length and letter-feedback comparison; creator overlay distinguished"
+          }
+        },
+        {
+          "id": "hello-wordl-questions",
+          "heading": "Questions while you play",
+          "playerTask": "Questions while you play",
+          "claimIds": [
+            "hello-wordl-current-controls-and-cases"
+          ],
+          "caseIds": [],
+          "screenshots": {
+            "status": "not-required-for-this-section",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "hello-wordl-all-lengths",
+            "videoId": "VIavCrvnrDs",
+            "purpose": "Word-length and letter-feedback comparison; creator overlay distinguished"
+          }
+        }
+      ],
+      "spoilerPolicy": "none"
+    },
+    {
+      "pageId": "trust",
+      "gameId": "trust",
+      "version": "Nicky Case author-hosted browser version, title July 2017, observed 2026-10-21",
+      "claims": [
+        "trust-live-payoff-and-mode-scope"
+      ],
+      "spoilerPolicy": "marked",
+      "sections": [
+        {
+          "id": "two-choices",
+          "heading": "Two choices can lead to four different outcomes",
+          "playerTask": "Two choices can lead to four different outcomes",
+          "claimIds": [
+            "trust-live-payoff-and-mode-scope"
+          ],
+          "caseIds": [
+            "Live introductory COOPERATE against stated cheat: -1/+3",
+            "Live first repeated cooperation: 2/2, total 2, opponent 1 of 5"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "trust-yosefat-reviewed",
+            "videoId": "utRF4ueoCdY"
+          }
+        },
+        {
+          "id": "read-the-machine",
+          "heading": "Read both sides of the machine",
+          "playerTask": "Read both sides of the machine",
+          "claimIds": [
+            "trust-live-payoff-and-mode-scope"
+          ],
+          "caseIds": [
+            "Live introductory COOPERATE against stated cheat: -1/+3",
+            "Live first repeated cooperation: 2/2, total 2, opponent 1 of 5"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "trust-choice"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "trust-yosefat-reviewed",
+            "videoId": "utRF4ueoCdY"
+          }
+        },
+        {
+          "id": "a-costly-cooperation",
+          "heading": "Understand why the first cooperative choice loses a coin",
+          "playerTask": "Understand why the first cooperative choice loses a coin",
+          "claimIds": [
+            "trust-live-payoff-and-mode-scope"
+          ],
+          "caseIds": [
+            "Live introductory COOPERATE against stated cheat: -1/+3",
+            "Live first repeated cooperation: 2/2, total 2, opponent 1 of 5"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "trust-cooperate-result"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "trust-yosefat-reviewed",
+            "videoId": "utRF4ueoCdY"
+          }
+        },
+        {
+          "id": "more-than-one-round",
+          "heading": "Repeated encounters add a history",
+          "playerTask": "Repeated encounters add a history",
+          "claimIds": [
+            "trust-live-payoff-and-mode-scope"
+          ],
+          "caseIds": [
+            "Live introductory COOPERATE against stated cheat: -1/+3",
+            "Live first repeated cooperation: 2/2, total 2, opponent 1 of 5"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "trust-repeated-score"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "trust-yosefat-reviewed",
+            "videoId": "utRF4ueoCdY"
+          }
+        },
+        {
+          "id": "compare-modes",
+          "heading": "Keep your rounds separate from the tournament's rounds",
+          "playerTask": "Keep your rounds separate from the tournament's rounds",
+          "claimIds": [
+            "trust-live-payoff-and-mode-scope"
+          ],
+          "caseIds": [
+            "Live introductory COOPERATE against stated cheat: -1/+3",
+            "Live first repeated cooperation: 2/2, total 2, opponent 1 of 5"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "trust-yosefat-reviewed",
+            "videoId": "utRF4ueoCdY"
+          }
+        },
+        {
+          "id": "first-run-plan",
+          "heading": "Make one comparison at a time",
+          "playerTask": "Make one comparison at a time",
+          "claimIds": [
+            "trust-live-payoff-and-mode-scope"
+          ],
+          "caseIds": [
+            "Live introductory COOPERATE against stated cheat: -1/+3",
+            "Live first repeated cooperation: 2/2, total 2, opponent 1 of 5"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "trust-yosefat-reviewed",
+            "videoId": "utRF4ueoCdY"
+          }
+        },
+        {
+          "id": "reading-and-controls",
+          "heading": "Keep the choices and feedback visible",
+          "playerTask": "Keep the choices and feedback visible",
+          "claimIds": [
+            "trust-live-payoff-and-mode-scope"
+          ],
+          "caseIds": [
+            "Live introductory COOPERATE against stated cheat: -1/+3",
+            "Live first repeated cooperation: 2/2, total 2, opponent 1 of 5"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "trust-yosefat-reviewed",
+            "videoId": "utRF4ueoCdY"
+          }
+        },
+        {
+          "id": "trust-questions",
+          "heading": "Questions about choices and scores",
+          "playerTask": "Questions about choices and scores",
+          "claimIds": [
+            "trust-live-payoff-and-mode-scope"
+          ],
+          "caseIds": [
+            "Live introductory COOPERATE against stated cheat: -1/+3",
+            "Live first repeated cooperation: 2/2, total 2, opponent 1 of 5"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "trust-yosefat-reviewed",
+            "videoId": "utRF4ueoCdY"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "polygons",
+      "gameId": "polygons",
+      "version": "English ncase.me/polygons playable, observed 2026-10-21; early drag boards and first automatic simulation",
+      "claims": [
+        "polygons-live-rules"
+      ],
+      "spoilerPolicy": "marked",
+      "sections": [
+        {
+          "id": "shapes-and-spaces",
+          "heading": "A board changes one neighborhood at a time",
+          "playerTask": "A board changes one neighborhood at a time",
+          "claimIds": [
+            "polygons-live-rules"
+          ],
+          "caseIds": [
+            "Occupied destination rejected; open right-left cell accepted and triangle happy",
+            "One of six vs two of six initial threshold examples",
+            "First automatic run 1% to 45%; not a target score"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "polygons-playthrough-observed",
+            "videoId": "xAaHkZDXtLc"
+          }
+        },
+        {
+          "id": "make-a-move",
+          "heading": "Drag an unhappy shape into a real empty space",
+          "playerTask": "Drag an unhappy shape into a real empty space",
+          "claimIds": [
+            "polygons-live-rules"
+          ],
+          "caseIds": [
+            "Occupied destination rejected; open right-left cell accepted and triangle happy",
+            "One of six vs two of six initial threshold examples",
+            "First automatic run 1% to 45%; not a target score"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "polygons-dragging"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "polygons-playthrough-observed",
+            "videoId": "xAaHkZDXtLc"
+          }
+        },
+        {
+          "id": "count-neighbors",
+          "heading": "Count the neighbors that are actually present",
+          "playerTask": "Count the neighbors that are actually present",
+          "claimIds": [
+            "polygons-live-rules"
+          ],
+          "caseIds": [
+            "Occupied destination rejected; open right-left cell accepted and triangle happy",
+            "One of six vs two of six initial threshold examples",
+            "First automatic run 1% to 45%; not a target score"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "polygons-playthrough-observed",
+            "videoId": "xAaHkZDXtLc"
+          }
+        },
+        {
+          "id": "happy-shapes",
+          "heading": "A satisfied shape may stop being movable",
+          "playerTask": "A satisfied shape may stop being movable",
+          "claimIds": [
+            "polygons-live-rules"
+          ],
+          "caseIds": [
+            "Occupied destination rejected; open right-left cell accepted and triangle happy",
+            "One of six vs two of six initial threshold examples",
+            "First automatic run 1% to 45%; not a target score"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "polygons-accepted-move"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "polygons-playthrough-observed",
+            "videoId": "xAaHkZDXtLc"
+          }
+        },
+        {
+          "id": "automatic-boards",
+          "heading": "Use the automatic board to inspect a pattern",
+          "playerTask": "Use the automatic board to inspect a pattern",
+          "claimIds": [
+            "polygons-live-rules"
+          ],
+          "caseIds": [
+            "Occupied destination rejected; open right-left cell accepted and triangle happy",
+            "One of six vs two of six initial threshold examples",
+            "First automatic run 1% to 45%; not a target score"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "polygons-automatic"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "polygons-playthrough-observed",
+            "videoId": "xAaHkZDXtLc"
+          }
+        },
+        {
+          "id": "change-one-condition",
+          "heading": "Read the current preference before comparing experiments",
+          "playerTask": "Read the current preference before comparing experiments",
+          "claimIds": [
+            "polygons-live-rules"
+          ],
+          "caseIds": [
+            "Occupied destination rejected; open right-left cell accepted and triangle happy",
+            "One of six vs two of six initial threshold examples",
+            "First automatic run 1% to 45%; not a target score"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "polygons-playthrough-observed",
+            "videoId": "xAaHkZDXtLc"
+          }
+        },
+        {
+          "id": "control-and-recover",
+          "heading": "Keep the board readable while dragging and scrolling",
+          "playerTask": "Keep the board readable while dragging and scrolling",
+          "claimIds": [
+            "polygons-live-rules"
+          ],
+          "caseIds": [
+            "Occupied destination rejected; open right-left cell accepted and triangle happy",
+            "One of six vs two of six initial threshold examples",
+            "First automatic run 1% to 45%; not a target score"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "polygons-playthrough-observed",
+            "videoId": "xAaHkZDXtLc"
+          }
+        },
+        {
+          "id": "polygons-questions",
+          "heading": "Questions about moving and comparing shapes",
+          "playerTask": "Questions about moving and comparing shapes",
+          "claimIds": [
+            "polygons-live-rules"
+          ],
+          "caseIds": [
+            "Occupied destination rejected; open right-left cell accepted and triangle happy",
+            "One of six vs two of six initial threshold examples",
+            "First automatic run 1% to 45%; not a target score"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "polygons-playthrough-observed",
+            "videoId": "xAaHkZDXtLc"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "0hn0",
+      "gameId": "0hn0",
+      "version": "Current English 0hn0.com browser tutorial and generated 4x4; video 6x6 shares core rules",
+      "claims": [
+        "0hn0-live-rules"
+      ],
+      "spoilerPolicy": "marked",
+      "sections": [
+        {
+          "id": "dots-and-sight",
+          "heading": "Solve the dots by controlling what they can see",
+          "playerTask": "Solve the dots by controlling what they can see",
+          "claimIds": [
+            "0hn0-live-rules"
+          ],
+          "caseIds": [
+            "Tutorial two has only rightward route; two blue then end red",
+            "Free-play bottom-left one forces right red and upper blue; 23% display"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hn0-six-grid-review",
+            "videoId": "2K_thF0qg8Y"
+          }
+        },
+        {
+          "id": "count-four-directions",
+          "heading": "Count other blue dots, stopping at red",
+          "playerTask": "Count other blue dots, stopping at red",
+          "claimIds": [
+            "0hn0-live-rules"
+          ],
+          "caseIds": [
+            "Tutorial two has only rightward route; two blue then end red",
+            "Free-play bottom-left one forces right red and upper blue; 23% display"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hn0-six-grid-review",
+            "videoId": "2K_thF0qg8Y"
+          }
+        },
+        {
+          "id": "opening-two",
+          "heading": "Read the tutorial’s first number two",
+          "playerTask": "Read the tutorial’s first number two",
+          "claimIds": [
+            "0hn0-live-rules"
+          ],
+          "caseIds": [
+            "Tutorial two has only rightward route; two blue then end red",
+            "Free-play bottom-left one forces right red and upper blue; 23% display"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "0hn0-line-clue"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hn0-six-grid-review",
+            "videoId": "2K_thF0qg8Y"
+          }
+        },
+        {
+          "id": "close-the-path",
+          "heading": "A completed count needs a blocker at its open end",
+          "playerTask": "A completed count needs a blocker at its open end",
+          "claimIds": [
+            "0hn0-live-rules"
+          ],
+          "caseIds": [
+            "Tutorial two has only rightward route; two blue then end red",
+            "Free-play bottom-left one forces right red and upper blue; 23% display"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "0hn0-red-block"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hn0-six-grid-review",
+            "videoId": "2K_thF0qg8Y"
+          }
+        },
+        {
+          "id": "one-clue-case",
+          "heading": "Use a number one to rule out a tempting blue",
+          "playerTask": "Use a number one to rule out a tempting blue",
+          "claimIds": [
+            "0hn0-live-rules"
+          ],
+          "caseIds": [
+            "Tutorial two has only rightward route; two blue then end red",
+            "Free-play bottom-left one forces right red and upper blue; 23% display"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "0hn0-one-clue"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hn0-six-grid-review",
+            "videoId": "2K_thF0qg8Y"
+          }
+        },
+        {
+          "id": "crossing-clues",
+          "heading": "Return to crossing clues after each useful move",
+          "playerTask": "Return to crossing clues after each useful move",
+          "claimIds": [
+            "0hn0-live-rules"
+          ],
+          "caseIds": [
+            "Tutorial two has only rightward route; two blue then end red",
+            "Free-play bottom-left one forces right red and upper blue; 23% display"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hn0-six-grid-review",
+            "videoId": "2K_thF0qg8Y"
+          }
+        },
+        {
+          "id": "correct-and-read",
+          "heading": "Check the color you placed before changing your plan",
+          "playerTask": "Check the color you placed before changing your plan",
+          "claimIds": [
+            "0hn0-live-rules"
+          ],
+          "caseIds": [
+            "Tutorial two has only rightward route; two blue then end red",
+            "Free-play bottom-left one forces right red and upper blue; 23% display"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hn0-six-grid-review",
+            "videoId": "2K_thF0qg8Y"
+          }
+        },
+        {
+          "id": "dot-questions",
+          "heading": "Questions about numbers and blockers",
+          "playerTask": "Questions about numbers and blockers",
+          "claimIds": [
+            "0hn0-live-rules"
+          ],
+          "caseIds": [
+            "Tutorial two has only rightward route; two blue then end red",
+            "Free-play bottom-left one forces right red and upper blue; 23% display"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hn0-six-grid-review",
+            "videoId": "2K_thF0qg8Y"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "0hh1",
+      "gameId": "0hh1",
+      "version": "Current 0hh1.com yellow-blue tutorial and 4x4 browser board; author video older red-blue theme",
+      "claims": [
+        "0hh1-current-tile-rules"
+      ],
+      "spoilerPolicy": "marked",
+      "sections": [
+        {
+          "id": "two-color-grid",
+          "heading": "Fill every tile while keeping three constraints in balance",
+          "playerTask": "Fill every tile while keeping three constraints in balance",
+          "claimIds": [
+            "0hh1-current-tile-rules"
+          ],
+          "caseIds": [
+            "Two yellows force adjacent blue",
+            "Blue-gap-blue forces yellow",
+            "Two blue plus one yellow in4x4 row forces final yellow"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hh1-author-demo",
+            "videoId": "oy1A73lKWtc"
+          }
+        },
+        {
+          "id": "adjacent-pair",
+          "heading": "Two touching tiles force the next color",
+          "playerTask": "Two touching tiles force the next color",
+          "claimIds": [
+            "0hh1-current-tile-rules"
+          ],
+          "caseIds": [
+            "Two yellows force adjacent blue",
+            "Blue-gap-blue forces yellow",
+            "Two blue plus one yellow in4x4 row forces final yellow"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "0hh1-adjacent-pair"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hh1-author-demo",
+            "videoId": "oy1A73lKWtc"
+          }
+        },
+        {
+          "id": "split-pair",
+          "heading": "Matching colors with one gap force the gap",
+          "playerTask": "Matching colors with one gap force the gap",
+          "claimIds": [
+            "0hh1-current-tile-rules"
+          ],
+          "caseIds": [
+            "Two yellows force adjacent blue",
+            "Blue-gap-blue forces yellow",
+            "Two blue plus one yellow in4x4 row forces final yellow"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "0hh1-split-pair"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hh1-author-demo",
+            "videoId": "oy1A73lKWtc"
+          }
+        },
+        {
+          "id": "row-and-column-counts",
+          "heading": "A completed line needs half of each color",
+          "playerTask": "A completed line needs half of each color",
+          "claimIds": [
+            "0hh1-current-tile-rules"
+          ],
+          "caseIds": [
+            "Two yellows force adjacent blue",
+            "Blue-gap-blue forces yellow",
+            "Two blue plus one yellow in4x4 row forces final yellow"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "0hh1-balance"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hh1-author-demo",
+            "videoId": "oy1A73lKWtc"
+          }
+        },
+        {
+          "id": "distinct-lines",
+          "heading": "Compare full patterns before finishing a line",
+          "playerTask": "Compare full patterns before finishing a line",
+          "claimIds": [
+            "0hh1-current-tile-rules"
+          ],
+          "caseIds": [
+            "Two yellows force adjacent blue",
+            "Blue-gap-blue forces yellow",
+            "Two blue plus one yellow in4x4 row forces final yellow"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hh1-author-demo",
+            "videoId": "oy1A73lKWtc"
+          }
+        },
+        {
+          "id": "first-board-plan",
+          "heading": "Use a repeatable scan instead of guessing a whole row",
+          "playerTask": "Use a repeatable scan instead of guessing a whole row",
+          "claimIds": [
+            "0hh1-current-tile-rules"
+          ],
+          "caseIds": [
+            "Two yellows force adjacent blue",
+            "Blue-gap-blue forces yellow",
+            "Two blue plus one yellow in4x4 row forces final yellow"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hh1-author-demo",
+            "videoId": "oy1A73lKWtc"
+          }
+        },
+        {
+          "id": "read-and-recover",
+          "heading": "Keep the tile state and the reason for each move clear",
+          "playerTask": "Keep the tile state and the reason for each move clear",
+          "claimIds": [
+            "0hh1-current-tile-rules"
+          ],
+          "caseIds": [
+            "Two yellows force adjacent blue",
+            "Blue-gap-blue forces yellow",
+            "Two blue plus one yellow in4x4 row forces final yellow"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hh1-author-demo",
+            "videoId": "oy1A73lKWtc"
+          }
+        },
+        {
+          "id": "tile-questions",
+          "heading": "Questions about colors, counts and repeated patterns",
+          "playerTask": "Questions about colors, counts and repeated patterns",
+          "claimIds": [
+            "0hh1-current-tile-rules"
+          ],
+          "caseIds": [
+            "Two yellows force adjacent blue",
+            "Blue-gap-blue forces yellow",
+            "Two blue plus one yellow in4x4 row forces final yellow"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "0hh1-author-demo",
+            "videoId": "oy1A73lKWtc"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "crowds",
+      "gameId": "crowds",
+      "version": "English ncase.me/crowds, introductory drawing/local percentages and nine-person threshold; video later50% behavior simulation",
+      "claims": [
+        "crowds-network-rules"
+      ],
+      "spoilerPolicy": "marked",
+      "sections": [
+        {
+          "id": "network-play",
+          "heading": "Change the connections, then inspect what changes",
+          "playerTask": "Change the connections, then inspect what changes",
+          "claimIds": [
+            "crowds-network-rules"
+          ],
+          "caseIds": [
+            "Added upper connection then scratched lower bridge; people preserved",
+            "Four-person local indicators none/50/100/100",
+            "Video nine-person task8of9 then completion screen",
+            "Video50% simulation stopped at33% next node"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "crowds-playthrough-observed",
+            "videoId": "c4_N0k5pi4I"
+          }
+        },
+        {
+          "id": "draw-connections",
+          "heading": "Start on one person and finish on another",
+          "playerTask": "Start on one person and finish on another",
+          "claimIds": [
+            "crowds-network-rules"
+          ],
+          "caseIds": [
+            "Added upper connection then scratched lower bridge; people preserved",
+            "Four-person local indicators none/50/100/100",
+            "Video nine-person task8of9 then completion screen",
+            "Video50% simulation stopped at33% next node"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "crowds-connection"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "crowds-playthrough-observed",
+            "videoId": "c4_N0k5pi4I"
+          }
+        },
+        {
+          "id": "cut-connections",
+          "heading": "Scratch across a line to remove the relationship",
+          "playerTask": "Scratch across a line to remove the relationship",
+          "claimIds": [
+            "crowds-network-rules"
+          ],
+          "caseIds": [
+            "Added upper connection then scratched lower bridge; people preserved",
+            "Four-person local indicators none/50/100/100",
+            "Video nine-person task8of9 then completion screen",
+            "Video50% simulation stopped at33% next node"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "crowds-cut"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "crowds-playthrough-observed",
+            "videoId": "c4_N0k5pi4I"
+          }
+        },
+        {
+          "id": "local-view",
+          "heading": "A percentage belongs to one person’s friends",
+          "playerTask": "A percentage belongs to one person’s friends",
+          "claimIds": [
+            "crowds-network-rules"
+          ],
+          "caseIds": [
+            "Added upper connection then scratched lower bridge; people preserved",
+            "Four-person local indicators none/50/100/100",
+            "Video nine-person task8of9 then completion screen",
+            "Video50% simulation stopped at33% next node"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "crowds-local-view"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "crowds-playthrough-observed",
+            "videoId": "c4_N0k5pi4I"
+          }
+        },
+        {
+          "id": "majority-puzzle",
+          "heading": "Separate a local majority from the whole board",
+          "playerTask": "Separate a local majority from the whole board",
+          "claimIds": [
+            "crowds-network-rules"
+          ],
+          "caseIds": [
+            "Added upper connection then scratched lower bridge; people preserved",
+            "Four-person local indicators none/50/100/100",
+            "Video nine-person task8of9 then completion screen",
+            "Video50% simulation stopped at33% next node"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "crowds-playthrough-observed",
+            "videoId": "c4_N0k5pi4I"
+          }
+        },
+        {
+          "id": "simulation-rules",
+          "heading": "Observation and behavioral change are different experiments",
+          "playerTask": "Observation and behavioral change are different experiments",
+          "claimIds": [
+            "crowds-network-rules"
+          ],
+          "caseIds": [
+            "Added upper connection then scratched lower bridge; people preserved",
+            "Four-person local indicators none/50/100/100",
+            "Video nine-person task8of9 then completion screen",
+            "Video50% simulation stopped at33% next node"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "crowds-playthrough-observed",
+            "videoId": "c4_N0k5pi4I"
+          }
+        },
+        {
+          "id": "clear-view",
+          "heading": "Keep faces, endpoints and indicators readable",
+          "playerTask": "Keep faces, endpoints and indicators readable",
+          "claimIds": [
+            "crowds-network-rules"
+          ],
+          "caseIds": [
+            "Added upper connection then scratched lower bridge; people preserved",
+            "Four-person local indicators none/50/100/100",
+            "Video nine-person task8of9 then completion screen",
+            "Video50% simulation stopped at33% next node"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "crowds-playthrough-observed",
+            "videoId": "c4_N0k5pi4I"
+          }
+        },
+        {
+          "id": "network-questions",
+          "heading": "Questions about lines and local percentages",
+          "playerTask": "Questions about lines and local percentages",
+          "claimIds": [
+            "crowds-network-rules"
+          ],
+          "caseIds": [
+            "Added upper connection then scratched lower bridge; people preserved",
+            "Four-person local indicators none/50/100/100",
+            "Video nine-person task8of9 then completion screen",
+            "Video50% simulation stopped at33% next node"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "crowds-playthrough-observed",
+            "videoId": "c4_N0k5pi4I"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "a-dark-room",
+      "gameId": "a-dark-room",
+      "version": "English browser edition adarkroom.doublespeakgames.com; first fire, forest, early build controls; same-browser reload only",
+      "claims": [
+        "dark-room-opening-rules"
+      ],
+      "spoilerPolicy": "marked",
+      "sections": [
+        {
+          "id": "read-the-room",
+          "heading": "Begin with the fire and let the interface unfold",
+          "playerTask": "Begin with the fire and let the interface unfold",
+          "claimIds": [
+            "dark-room-opening-rules"
+          ],
+          "caseIds": [
+            "Light fire → A Firelit Room/stoke fire",
+            "gather wood4→14 with disabled cooldown",
+            "Event panel prevented background action until dismissed",
+            "Same-context reload retained unlocked forest and wood"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "a-dark-room-firelit"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "dark-room-browser-opening",
+            "videoId": "D8tX4h_-VY8"
+          }
+        },
+        {
+          "id": "current-state-and-log",
+          "heading": "Separate current controls from the event history",
+          "playerTask": "Separate current controls from the event history",
+          "claimIds": [
+            "dark-room-opening-rules"
+          ],
+          "caseIds": [
+            "Light fire → A Firelit Room/stoke fire",
+            "gather wood4→14 with disabled cooldown",
+            "Event panel prevented background action until dismissed",
+            "Same-context reload retained unlocked forest and wood"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "dark-room-browser-opening",
+            "videoId": "D8tX4h_-VY8"
+          }
+        },
+        {
+          "id": "wood-and-cooldown",
+          "heading": "Collect wood and check both inventory and cooldown",
+          "playerTask": "Collect wood and check both inventory and cooldown",
+          "claimIds": [
+            "dark-room-opening-rules"
+          ],
+          "caseIds": [
+            "Light fire → A Firelit Room/stoke fire",
+            "gather wood4→14 with disabled cooldown",
+            "Event panel prevented background action until dismissed",
+            "Same-context reload retained unlocked forest and wood"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "a-dark-room-gather"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "dark-room-browser-opening",
+            "videoId": "D8tX4h_-VY8"
+          }
+        },
+        {
+          "id": "events-and-choices",
+          "heading": "Resolve an event before using the controls behind it",
+          "playerTask": "Resolve an event before using the controls behind it",
+          "claimIds": [
+            "dark-room-opening-rules"
+          ],
+          "caseIds": [
+            "Light fire → A Firelit Room/stoke fire",
+            "gather wood4→14 with disabled cooldown",
+            "Event panel prevented background action until dismissed",
+            "Same-context reload retained unlocked forest and wood"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "a-dark-room-event"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "dark-room-browser-opening",
+            "videoId": "D8tX4h_-VY8"
+          }
+        },
+        {
+          "id": "build-options",
+          "heading": "New build options create competing uses for wood",
+          "playerTask": "New build options create competing uses for wood",
+          "claimIds": [
+            "dark-room-opening-rules"
+          ],
+          "caseIds": [
+            "Light fire → A Firelit Room/stoke fire",
+            "gather wood4→14 with disabled cooldown",
+            "Event panel prevented background action until dismissed",
+            "Same-context reload retained unlocked forest and wood"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "dark-room-browser-opening",
+            "videoId": "D8tX4h_-VY8"
+          }
+        },
+        {
+          "id": "return-and-display",
+          "heading": "Treat browser progress and player reloads carefully",
+          "playerTask": "Treat browser progress and player reloads carefully",
+          "claimIds": [
+            "dark-room-opening-rules"
+          ],
+          "caseIds": [
+            "Light fire → A Firelit Room/stoke fire",
+            "gather wood4→14 with disabled cooldown",
+            "Event panel prevented background action until dismissed",
+            "Same-context reload retained unlocked forest and wood"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "dark-room-browser-opening",
+            "videoId": "D8tX4h_-VY8"
+          }
+        },
+        {
+          "id": "room-questions",
+          "heading": "Questions about fire, wood and early progress",
+          "playerTask": "Questions about fire, wood and early progress",
+          "claimIds": [
+            "dark-room-opening-rules"
+          ],
+          "caseIds": [
+            "Light fire → A Firelit Room/stoke fire",
+            "gather wood4→14 with disabled cooldown",
+            "Event panel prevented background action until dismissed",
+            "Same-context reload retained unlocked forest and wood"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "dark-room-browser-opening",
+            "videoId": "D8tX4h_-VY8"
+          }
+        }
+      ]
+    },
+    {
+      "pageId": "sandspiel",
+      "gameId": "sandspiel",
+      "version": "sandspiel.club current creator-credited browser canvas and Info; video older UI shares named material palette",
+      "claims": [
+        "sandspiel-live-materials"
+      ],
+      "spoilerPolicy": "none",
+      "sections": [
+        {
+          "id": "paint-and-observe",
+          "heading": "Make a small experiment and watch the materials respond",
+          "playerTask": "Make a small experiment and watch the materials respond",
+          "claimIds": [
+            "sandspiel-live-materials"
+          ],
+          "caseIds": [
+            "Wall base and sides remain after release",
+            "Sand pile then water layer in same basin",
+            "Seeds grew stems/flowers",
+            "Empty opened lower right wall while rest remained"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "sandspiel-material-experiments",
+            "videoId": "klya7VDklag"
+          }
+        },
+        {
+          "id": "make-a-container",
+          "heading": "Use Wall for a stable boundary",
+          "playerTask": "Use Wall for a stable boundary",
+          "claimIds": [
+            "sandspiel-live-materials"
+          ],
+          "caseIds": [
+            "Wall base and sides remain after release",
+            "Sand pile then water layer in same basin",
+            "Seeds grew stems/flowers",
+            "Empty opened lower right wall while rest remained"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "sandspiel-material-experiments",
+            "videoId": "klya7VDklag"
+          }
+        },
+        {
+          "id": "sand-settles",
+          "heading": "Sand falls into a pile instead of keeping your stroke shape",
+          "playerTask": "Sand falls into a pile instead of keeping your stroke shape",
+          "claimIds": [
+            "sandspiel-live-materials"
+          ],
+          "caseIds": [
+            "Wall base and sides remain after release",
+            "Sand pile then water layer in same basin",
+            "Seeds grew stems/flowers",
+            "Empty opened lower right wall while rest remained"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "sandspiel-sand"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "sandspiel-material-experiments",
+            "videoId": "klya7VDklag"
+          }
+        },
+        {
+          "id": "water-layer",
+          "heading": "Water finds the available low space",
+          "playerTask": "Water finds the available low space",
+          "claimIds": [
+            "sandspiel-live-materials"
+          ],
+          "caseIds": [
+            "Wall base and sides remain after release",
+            "Sand pile then water layer in same basin",
+            "Seeds grew stems/flowers",
+            "Empty opened lower right wall while rest remained"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "sandspiel-water"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "sandspiel-material-experiments",
+            "videoId": "klya7VDklag"
+          }
+        },
+        {
+          "id": "seed-and-growth",
+          "heading": "Add seeds after establishing a readable ground layer",
+          "playerTask": "Add seeds after establishing a readable ground layer",
+          "claimIds": [
+            "sandspiel-live-materials"
+          ],
+          "caseIds": [
+            "Wall base and sides remain after release",
+            "Sand pile then water layer in same basin",
+            "Seeds grew stems/flowers",
+            "Empty opened lower right wall while rest remained"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "sandspiel-material-experiments",
+            "videoId": "klya7VDklag"
+          }
+        },
+        {
+          "id": "edit-the-world",
+          "heading": "Empty changes geometry without restarting the whole experiment",
+          "playerTask": "Empty changes geometry without restarting the whole experiment",
+          "claimIds": [
+            "sandspiel-live-materials"
+          ],
+          "caseIds": [
+            "Wall base and sides remain after release",
+            "Sand pile then water layer in same basin",
+            "Seeds grew stems/flowers",
+            "Empty opened lower right wall while rest remained"
+          ],
+          "screenshots": {
+            "status": "adopted",
+            "mediaIds": [
+              "sandspiel-opening"
+            ]
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "sandspiel-material-experiments",
+            "videoId": "klya7VDklag"
+          }
+        },
+        {
+          "id": "other-materials",
+          "heading": "Introduce reactive materials in small amounts",
+          "playerTask": "Introduce reactive materials in small amounts",
+          "claimIds": [
+            "sandspiel-live-materials"
+          ],
+          "caseIds": [
+            "Wall base and sides remain after release",
+            "Sand pile then water layer in same basin",
+            "Seeds grew stems/flowers",
+            "Empty opened lower right wall while rest remained"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "sandspiel-material-experiments",
+            "videoId": "klya7VDklag"
+          }
+        },
+        {
+          "id": "canvas-controls",
+          "heading": "Keep the palette and the canvas separate while drawing",
+          "playerTask": "Keep the palette and the canvas separate while drawing",
+          "claimIds": [
+            "sandspiel-live-materials"
+          ],
+          "caseIds": [
+            "Wall base and sides remain after release",
+            "Sand pile then water layer in same basin",
+            "Seeds grew stems/flowers",
+            "Empty opened lower right wall while rest remained"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "sandspiel-material-experiments",
+            "videoId": "klya7VDklag"
+          }
+        },
+        {
+          "id": "sandbox-questions",
+          "heading": "Questions about painting and material changes",
+          "playerTask": "Questions about painting and material changes",
+          "claimIds": [
+            "sandspiel-live-materials"
+          ],
+          "caseIds": [
+            "Wall base and sides remain after release",
+            "Sand pile then water layer in same basin",
+            "Seeds grew stems/flowers",
+            "Empty opened lower right wall while rest remained"
+          ],
+          "screenshots": {
+            "status": "not-required",
+            "mediaIds": []
+          },
+          "video": {
+            "status": "adopted",
+            "analysisId": "sandspiel-material-experiments",
+            "videoId": "klya7VDklag"
+          }
+        }
+      ]
+    }
+  ],
+  "mediaRule": "No unconfirmed image adopted; mandatory captures and video remain acceptance gaps.",
+  "updatedAt": "2026-10-21T07:54:52.717Z",
+  "replacementCandidatePages": [
+    {
+      "contentId": "hello-wordl",
+      "publishStatus": "not-selected-not-published",
+      "playerTask": "Use fixed-position color clues and repeated-letter limits to solve an adjustable-length word in six guesses.",
+      "requiredQuestions": [
+        "When can length change?",
+        "How are repeated letters limited by feedback?",
+        "What changes between daily and random play?",
+        "Which keyboard and high-contrast options are visible?"
+      ],
+      "plannedScreenshotTasks": [
+        "Four-letter identity cover with complete title/board",
+        "Five-letter feedback state",
+        "Repeated-letter comparison",
+        "Eleven-letter responsive board"
+      ],
+      "videoIds": [
+        "VIavCrvnrDs"
+      ],
+      "videoStatus": "Local nocookie playback reached end; interface match observed; review details in video-analysis.json",
+      "spoilerPolicy": "No revealed target, end-of-puzzle secret or daily answer in cover/cards/TDK; random guess examples only",
+      "requiredBeforeContent": "needs-recapture-and-final-qualification"
+    },
+    {
+      "contentId": "0hh1",
+      "publishStatus": "not-selected-not-published",
+      "playerTask": "Fill a binary tile board using row/column balance, adjacency and uniqueness constraints.",
+      "requiredQuestions": [
+        "Which rules are shown by current tutorial?",
+        "Can fixed tiles be changed?",
+        "How does cycling an editable tile work?",
+        "Which sizes and hint states exist?"
+      ],
+      "plannedScreenshotTasks": [
+        "Actual populated puzzle cover",
+        "No-three-in-a-row example",
+        "Equal-count row example",
+        "Duplicate-row constraint"
+      ],
+      "videoIds": [
+        "oy1A73lKWtc"
+      ],
+      "videoStatus": "Author Martin Kool identified in local embed preview; not watched/qualified",
+      "spoilerPolicy": "Use demonstrative partial boards, not an active daily solution",
+      "requiredBeforeContent": "startup-and-current-version-review-pending"
+    },
+    {
+      "contentId": "0hn0",
+      "publishStatus": "not-selected-not-published",
+      "playerTask": "Complete blue/red sightline logic cells while respecting numbered visible-dot constraints.",
+      "requiredQuestions": [
+        "Does a clue count itself?",
+        "How do red dots stop sightlines?",
+        "What proves a forced blue or red cell?",
+        "What feedback reports a contradiction?"
+      ],
+      "plannedScreenshotTasks": [
+        "Partial numbered board cover",
+        "Sightline blocked by red",
+        "Two-direction clue count",
+        "Contradiction and correction"
+      ],
+      "videoIds": [
+        "2K_thF0qg8Y"
+      ],
+      "videoStatus": "Independent 6×6 strategy search lead only; not watched/qualified",
+      "spoilerPolicy": "Small rule cases; avoid complete live puzzle solution",
+      "requiredBeforeContent": "browser-media-video-review-pending"
+    },
+    {
+      "contentId": "hextris",
+      "publishStatus": "not-selected-not-published",
+      "playerTask": "Rotate the central hexagon to place falling colored blocks and clear matching runs.",
+      "requiredQuestions": [
+        "Which input rotates each direction?",
+        "How are runs connected across edges?",
+        "What reaches the loss boundary?",
+        "What does restart preserve?"
+      ],
+      "plannedScreenshotTasks": [
+        "Actual active hexagon cover",
+        "Rotation and landing",
+        "Connected-color clear",
+        "Near-boundary failure state"
+      ],
+      "videoIds": [
+        "0KCKXLMhAyw"
+      ],
+      "videoStatus": "Search lead only; older same-name PC games excluded",
+      "spoilerPolicy": "No narrative spoilers; mechanics and failure states may be shown",
+      "requiredBeforeContent": "host-and-media-review-pending"
+    },
+    {
+      "contentId": "trust",
+      "publishStatus": "not-selected-not-published",
+      "playerTask": "Choose cooperate/cheat, inspect repeated-match payoffs and compare strategy populations under changed rules.",
+      "requiredQuestions": [
+        "What payoff is shown for each choice pair?",
+        "Which strategy reacts to previous turns?",
+        "What changes with mistakes or repeated encounters?",
+        "Where do model assumptions limit conclusions?"
+      ],
+      "plannedScreenshotTasks": [
+        "Early decision screen cover",
+        "Choice and payoff feedback",
+        "Strategy tournament state",
+        "Controlled-rule comparison"
+      ],
+      "videoIds": [
+        "utRF4ueoCdY"
+      ],
+      "videoStatus": "Playthrough lead only; not watched/qualified",
+      "spoilerPolicy": "Warn before later strategy reveals; cards/intro explain task only; no universal social prediction claims",
+      "requiredBeforeContent": "browser-media-video-review-pending"
+    },
+    {
+      "contentId": "polygons",
+      "publishStatus": "not-selected-not-published",
+      "playerTask": "Move unhappy shapes into empty spaces and compare the resulting board under different neighbor thresholds.",
+      "requiredQuestions": [
+        "Which shapes may move?",
+        "How is neighbor satisfaction calculated?",
+        "How do vacancy and threshold change available moves?",
+        "How do manual and automated simulations differ?"
+      ],
+      "plannedScreenshotTasks": [
+        "Partial live board cover",
+        "Unhappy shape before/after move",
+        "Threshold comparison",
+        "Final sandbox controls"
+      ],
+      "videoIds": [
+        "xAaHkZDXtLc"
+      ],
+      "videoStatus": "Games for Change playthrough lead only; not watched/qualified",
+      "spoilerPolicy": "Teach board mechanics; signal later model outcomes; do not equate simulation outcomes with universal real-world claims",
+      "requiredBeforeContent": "browser-media-video-review-pending"
+    },
+    {
+      "contentId": "crowds",
+      "publishStatus": "not-selected-not-published",
+      "playerTask": "Draw and remove graph links, run threshold simulations and compare local-majority perception with whole-network counts.",
+      "requiredQuestions": [
+        "Which links are editable or fixed?",
+        "When is drawing disabled?",
+        "How does the displayed threshold trigger spread?",
+        "How can a local majority misrepresent the full graph?"
+      ],
+      "plannedScreenshotTasks": [
+        "Initial graph cover",
+        "Editable versus fixed link",
+        "Nine-person majority puzzle",
+        "Threshold spread before/after"
+      ],
+      "videoIds": [
+        "c4_N0k5pi4I"
+      ],
+      "videoStatus": "Independent gameplay query lead only; not watched/qualified",
+      "spoilerPolicy": "Warn before solved graph arrangements or later simulation outcomes",
+      "requiredBeforeContent": "content-risk-and-browser-review-pending"
+    },
+    {
+      "contentId": "astray",
+      "publishStatus": "not-selected-not-published",
+      "playerTask": "Steer the rolling ball through maze turns while controlling momentum and locating the exit.",
+      "requiredQuestions": [
+        "Which directions control movement?",
+        "How does collision alter progress?",
+        "What counts as a completed level?",
+        "How does restart recover from a bad turn?"
+      ],
+      "plannedScreenshotTasks": [
+        "Active maze identity cover",
+        "Junction before turning",
+        "Wall collision case",
+        "Verified level transition"
+      ],
+      "videoIds": [],
+      "videoStatus": "7v095uwDgeg watched and rejected as unrelated first-person maze; qualified matching video missing",
+      "spoilerPolicy": "Partial route examples; do not reveal complete later maze paths in cards",
+      "requiredBeforeContent": "replace-unless-qualified-video-found"
+    }
+  ]
+}

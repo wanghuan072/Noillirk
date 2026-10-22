@@ -1,0 +1,36 @@
+{
+  "scope": "Draft editorial selection; no popularity or publication approval",
+  "home": {
+    "isFeaturedHome": [
+      "krillion",
+      "fermi",
+      "poople",
+      "size-it-up",
+      "color",
+      "color-logo"
+    ],
+    "isNewHome": [
+      "poople",
+      "size-it-up",
+      "color",
+      "color-logo",
+      "maptap",
+      "word-hunt"
+    ],
+    "isRecommendedHome": [
+      "krillion",
+      "fermi",
+      "poople",
+      "size-it-up",
+      "maptap",
+      "word-hunt"
+    ]
+  },
+  "reasoning": {
+    "featured": "Six core category, estimation, word-ladder and color-memory tasks",
+    "new": "Six manually selected planned additions; real site dates remain null until publication",
+    "recommended": "Prioritize category retrieval, word choices, estimation and location decisions after Noillirk"
+  },
+  "overlap": "Eight games cannot fill three six-card groups without overlap. Selected home pairs overlap four games, the minimum for two six-card subsets of eight. Detail selector prefers unseen IDs before reuse.",
+  "noAutomatedRecencyWindow": true
+}

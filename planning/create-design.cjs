@@ -1,0 +1,8 @@
+const fs=require('fs');const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2));
+write('planning/design-tokens.json',{colors:{ink:'#123c3b',paper:'#f6f4ec',surface:'#ffffff',accent:'#d94e3c',line:'#cad9ce',muted:'#49615c'},type:{body:'system-ui',homeH1:44,innerH1:36,bodySize:17,lineHeight:1.7},container:1400,sidebar:392,gap:28,breakpoints:[1024,768],spacing:[4,8,12,16,24,32,48,64],radius:16,focus:'#086b70',motionMs:150});
+const coverage=JSON.parse(fs.readFileSync('planning/game-coverage.json'));
+const slots=[{slot_id:'site-logo',page_id:'global',preferred_format:'original-vector-rasterized',rights_check_needed:false,adoption_status:'planned'},{slot_id:'site-og',page_id:'global',preferred_format:'original-vector-rasterized',rights_check_needed:false,adoption_status:'planned'}];
+for(const id of ['noillirk',...coverage.items.filter(x=>x.draftImplementation).map(x=>x.game_id)]){
+ for(const [i,question] of ['Recognize the current game','Understand starting state','See actual core input','Interpret progress or failure','Watch input and feedback sequence'].entries())slots.push({slot_id:id+'-media-'+i,page_id:id,target_section:i===4?'after-body':i===0?'player':'body',player_question:question,fact_to_show:question,preferred_format:i===4?'youtube-video':i===0?'approved-image':'game-screenshot',adjacent_copy_task:question,candidate_evidence_ids:[id==='noillirk'?'official-game':'official-'+id],rights_check_needed:true,fallback_if_unavailable:'Leave unadopted; continue diagnostic development only; fail media/release acceptance',adoption_status:'planned',media_ledger_ids:[]});
+}
+write('planning/media-slots.json',{status:'unadopted',slots});

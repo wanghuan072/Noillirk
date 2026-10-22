@@ -1,0 +1,40 @@
+{
+  "observedAt": "2026-10-22T01:30:47.456Z",
+  "issues": [
+    {
+      "id": "crowds-preinit-resize",
+      "gameId": "crowds",
+      "iframeSrc": "https://ncase.me/crowds/",
+      "status": "open",
+      "description": "Author resize handler dereferences slideshow.simulations.sims before confirming initialization; a previous real browser exception is retained.",
+      "evidence": [
+        "reports/acceptance-evidence/media-repair-20261021/browser-console-errors.json",
+        "research/provider-errors-20261022/crowds.txt"
+      ],
+      "resolution": "Parent fullscreen buttons are disabled while iframe loading. Normal post-initialization chapter input, both fullscreens and1440/1024/390 resizing were retested without a Crowds error on2026-10-22. The historical pre-init resize issue remains open: onLoad does not establish provider readiness and arbitrary early viewport resize is not controlled by the parent."
+    },
+    {
+      "id": "sandspiel-zero-width-ad-slot",
+      "gameId": "sandspiel",
+      "iframeSrc": "https://sandspiel.club/",
+      "status": "open",
+      "description": "Author layout.js sets adStyle=display:none for compressed landscape and portrait layouts, while index.js unconditionally calls adsbygoogle.push. A live normal-route retest again reported availableWidth=0; the inspected slots had zero geometry. The game render loop and native Wall drawing still worked.",
+      "evidence": [
+        "reports/acceptance-evidence/media-repair-20261021/browser-console-errors.json",
+        "research/provider-errors-20261022/sandhtml.txt",
+        "research/provider-errors-20261022/sandspiel.txt",
+        "reports/acceptance-evidence/card-provider-fix-20261022/provider-console.json",
+        "reports/acceptance-evidence/card-provider-fix-20261022/sandspiel-dom.json"
+      ],
+      "resolution": "Cross-origin author document cannot be patched by parent CSS or CSP. No log suppression, ad clicks, protection bypass or unverified replacement URL used. Release remains blocked."
+    }
+  ],
+  "primarySources": [
+    "https://ncase.me/crowds/js/sim/Simulations.js",
+    "https://raw.githubusercontent.com/ncase/crowds/gh-pages/js/main.js",
+    "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/js/layout.js",
+    "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/js/index.js"
+  ],
+  "boundary": "Parent cannot patch cross-origin author JavaScript or CSS. No console suppression, sandbox relaxation, advertiser interaction, unsupported embed parameter or undocumented replacement.",
+  "result": "mitigation-and-release-guard-implemented; provider-issues-open"
+}

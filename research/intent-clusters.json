@@ -1,0 +1,16 @@
+{
+ "observedAt":"2026-10-20",
+ "precision":"Qualitative task inference; no measured volume or trend",
+ "clusters":[
+  {"id":"play","task":"Start the current Daily version","queries":["Noillirk game","play Noillirk"],"strength":"clear navigational task","overlap":"Home only","destination":"/","depth":"Game identity, start controls, rules, troubleshooting","evidence":["official-game","youtube-native-search"]},
+  {"id":"answer-selection","task":"Choose a fitting familiar answer before the deadline","queries":["Noillirk how to play","Noillirk most common answer tips"],"strength":"qualitative from rule and help tasks","overlap":"Home covers orientation; Guide gives decision procedure","destination":"Guide candidate","depth":"Read restrictions, select one response, distinguish rejection from low tier, recover within remaining time","evidence":["official-game"]},
+  {"id":"scoring","task":"Understand tier results and decide how to approach Endless","queries":["Noillirk scoring","Noillirk balloons endless"],"strength":"qualitative from explicit help questions","overlap":"Home introduces tiers; Guide compares outcomes","destination":"Guide candidate","depth":"Validity, tier value, balloon loss/recovery and version limits","evidence":["official-game"]},
+  {"id":"version","task":"Avoid following rules for another same-name implementation","queries":["Noillirk original game"],"strength":"visible result conflict","overlap":"Home compatibility note and relevant Guide caveats","destination":"Home section","depth":"Insufficient separate task/media evidence for a topic page","evidence":["official-game","daily-copyright"]}
+ ],
+ "topicPages":[],
+ "topicDecision":"No independent topic justified beyond Home and task-focused Guides.",
+ "guideCandidates":[
+  {"id":"noillirk-answer-strategy","slug":"noillirk-answer-strategy","task":"Choose a familiar answer within the clock","scoresOutOf5":{"relevance":5,"demand":3,"independence":4,"depth":4,"evidence":3,"media":1,"maintainability":4,"guideFit":5},"decision":"Plan draft, verify examples and prepare original explanatory cover; no game captures adopted"},
+  {"id":"noillirk-scoring-and-endless","slug":"noillirk-scoring-and-endless","task":"Read tier results and manage Endless balloons","scoresOutOf5":{"relevance":5,"demand":3,"independence":4,"depth":4,"evidence":3,"media":1,"maintainability":3,"guideFit":5},"decision":"Plan draft; verify scoring and balloon transitions before publication"}
+ ]
+}

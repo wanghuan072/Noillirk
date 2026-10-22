@@ -1,0 +1,52 @@
+{
+  "publicPaths": [
+    "/",
+    "/games",
+    "/guides",
+    "/privacy",
+    "/terms",
+    "/copyright",
+    "/about",
+    "/contact"
+  ],
+  "draftPaths": [
+    "/",
+    "/games",
+    "/guides",
+    "/privacy",
+    "/terms",
+    "/copyright",
+    "/about",
+    "/contact",
+    "/games/hello-wordl",
+    "/games/the-evolution-of-trust",
+    "/games/parable-of-the-polygons",
+    "/games/0h-n0",
+    "/games/0h-h1",
+    "/games/the-wisdom-and-or-madness-of-crowds",
+    "/games/a-dark-room",
+    "/games/sandspiel",
+    "/guides/noillirk-answer-strategy",
+    "/guides/noillirk-scoring-and-endless"
+  ],
+  "previewPaths": [
+    "/preview",
+    "/preview/games",
+    "/preview/guides",
+    "/preview/privacy",
+    "/preview/terms",
+    "/preview/copyright",
+    "/preview/about",
+    "/preview/contact",
+    "/preview/games/hello-wordl",
+    "/preview/games/the-evolution-of-trust",
+    "/preview/games/parable-of-the-polygons",
+    "/preview/games/0h-n0",
+    "/preview/games/0h-h1",
+    "/preview/games/the-wisdom-and-or-madness-of-crowds",
+    "/preview/games/a-dark-room",
+    "/preview/games/sandspiel",
+    "/preview/guides/noillirk-answer-strategy",
+    "/preview/guides/noillirk-scoring-and-endless"
+  ]
+}

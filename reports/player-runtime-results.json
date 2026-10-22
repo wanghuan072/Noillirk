@@ -1,0 +1,621 @@
+{
+  "generatedAt": "2026-10-22T01:30:47.456Z",
+  "status": "eight-current-additional-games-effective-input-observed-in-development",
+  "buildId": null,
+  "compiledArtifact": {
+    "buildId": "ld4di9EecFeVIgSqyW7di",
+    "scope": "draft",
+    "sourceFingerprint": "7602696b1d34288d1e741de62741c32a27859111242c0a75bd43c13d7c8ecfd6",
+    "compiledAt": "2026-10-22T03:48:56.213Z",
+    "output": ".next-preview/standalone",
+    "runtimeAcceptance": "not_established_by_compilation",
+    "mediaAcceptance": "NOT_PASSED"
+  },
+  "origin": "http://localhost:3001",
+  "servicePid": 21372,
+  "cleanBrowserContext": false,
+  "production": {
+    "runtime": "NOT_RUN",
+    "lighthouse": {
+      "mobile": "NOT_RUN",
+      "desktop": "NOT_RUN",
+      "performanceTarget": 90,
+      "LCP": null,
+      "CLS": null,
+      "TBT": null,
+      "INP": null,
+      "firstFoldTransfer": null,
+      "compression": null,
+      "cache": null,
+      "reason": "User prohibits project service startup; existing service is development only. Optimized compilation is not production runtime acceptance."
+    },
+    "formalOrigin": "https://noillirk.cc",
+    "formalOriginOnlineAcceptance": "NOT_RUN"
+  },
+  "mainIframeStatus": "provisional",
+  "mediaAcceptance": "NOT_PASSED",
+  "overallDelivery": "NOT_PASSED",
+  "games": [
+    {
+      "gameId": "noillirk",
+      "route": "/",
+      "configuredIframeSrc": "https://playdaily.org/noillirk",
+      "actualFrameUrl": "not-comprehensively-inspected",
+      "finalOrigin": "not-claimed",
+      "launchSteps": [
+        "Normal home route starts without a game iframe",
+        "Click Play Now creates exactly one iframe with unchanged configured src",
+        "Retry recreates exactly one iframe with unchanged src"
+      ],
+      "realGameIdentity": "not-verified",
+      "effectiveInput": "NOT_RUN",
+      "popupAndTopNavigation": "No observed departure; not comprehensively instrumented",
+      "sandbox": null,
+      "networkErrors": "No complete frame network audit",
+      "status": "provisional",
+      "evidence": "reports/acceptance-evidence/media-repair-20261021/main-provisional-player.json"
+    },
+    {
+      "gameId": "0hn0",
+      "route": "/games/0h-n0",
+      "configuredIframeSrc": "https://0hn0.com/",
+      "actualFrameUrl": "https://0hn0.com/",
+      "finalOrigin": "https://0hn0.com",
+      "launchSteps": [
+        "Open normal route",
+        "Play Now creates exactly one current configured game iframe",
+        "Perform the recorded real input and observe a visible result"
+      ],
+      "realGameIdentity": "0h n0",
+      "effectiveInput": {
+        "target": "tile-0-0",
+        "before": "tile tile-",
+        "after": "tile tile-2",
+        "meaning": "Unknown became blue in a current generated4x4"
+      },
+      "popupAndTopNavigation": "No observed navigation away from current detail; sandbox excludes popup and top-navigation permissions",
+      "sandbox": "allow-scripts allow-same-origin",
+      "networkErrors": "Not comprehensively audited",
+      "consoleErrors": [],
+      "networkScope": "No comprehensive production/clean-context network pass; this is a local development interaction observation",
+      "finalStatus": "effective-input-observed",
+      "observedAt": "2026-10-21T10:59:45.730Z",
+      "evidence": "D:/wh/202610/noillirk/noillirk/noillirk/reports/acceptance-evidence/media-repair-20261021/0hn0-normal-input.jpg",
+      "productionRuntime": "NOT_RUN"
+    },
+    {
+      "gameId": "0hh1",
+      "route": "/games/0h-h1",
+      "configuredIframeSrc": "https://0hh1.com/",
+      "actualFrameUrl": "https://0hh1.com/",
+      "finalOrigin": "https://0hh1.com",
+      "launchSteps": [
+        "Open normal route",
+        "Play Now creates exactly one current configured game iframe",
+        "Perform the recorded real input and observe a visible result"
+      ],
+      "realGameIdentity": "0h h1",
+      "effectiveInput": {
+        "target": "tile-0-0",
+        "before": "tile tile-",
+        "after": "tile tile-1",
+        "meaning": "Unknown became yellow in current generated4x4"
+      },
+      "popupAndTopNavigation": "No observed navigation away from current detail; sandbox excludes popup and top-navigation permissions",
+      "sandbox": "allow-scripts allow-same-origin",
+      "networkErrors": "Not comprehensively audited",
+      "consoleErrors": [],
+      "networkScope": "No comprehensive production/clean-context network pass; this is a local development interaction observation",
+      "finalStatus": "effective-input-observed",
+      "observedAt": "2026-10-21T11:01:55.063Z",
+      "evidence": "D:/wh/202610/noillirk/noillirk/noillirk/reports/acceptance-evidence/media-repair-20261021/0hh1-normal-input.jpg",
+      "productionRuntime": "NOT_RUN"
+    },
+    {
+      "gameId": "polygons",
+      "route": "/games/parable-of-the-polygons",
+      "configuredIframeSrc": "https://ncase.me/polygons/",
+      "actualFrameUrl": "https://ncase.me/polygons/",
+      "finalOrigin": "https://ncase.me",
+      "launchSteps": [
+        "Open normal route",
+        "Play Now creates exactly one current configured game iframe",
+        "Perform the recorded real input and observe a visible result"
+      ],
+      "realGameIdentity": "Parable of the Polygons - a playable post on the shape of society",
+      "effectiveInput": {
+        "before": "Unhappy triangle in left group; right row3-left open",
+        "input": "Held drag from left row3-col3 to right row3-left empty cell",
+        "after": "Left gap remains; triangle stays on right and smiles",
+        "verification": "Observed actual canvas pixels"
+      },
+      "popupAndTopNavigation": "No observed navigation away from current detail; sandbox excludes popup and top-navigation permissions",
+      "sandbox": "allow-scripts allow-same-origin",
+      "networkErrors": "Not comprehensively audited",
+      "consoleErrors": [],
+      "networkScope": "No comprehensive production/clean-context network pass; this is a local development interaction observation",
+      "finalStatus": "effective-input-observed",
+      "observedAt": "2026-10-21T11:03:08.831Z",
+      "evidence": "D:/wh/202610/noillirk/noillirk/noillirk/reports/acceptance-evidence/media-repair-20261021/polygons-normal-input.jpg",
+      "productionRuntime": "NOT_RUN"
+    },
+    {
+      "gameId": "crowds",
+      "route": "/games/the-wisdom-and-or-madness-of-crowds",
+      "configuredIframeSrc": "https://ncase.me/crowds/",
+      "actualFrameUrl": "https://ncase.me/crowds/",
+      "finalOrigin": "https://ncase.me",
+      "launchSteps": [
+        "Open normal route",
+        "Play Now creates exactly one current configured game iframe",
+        "Perform the recorded real input and observe a visible result"
+      ],
+      "realGameIdentity": "The Wisdom and/or Madness of Crowds",
+      "effectiveInput": {
+        "before": "Upper groups separate, lower bridge present",
+        "input": "Draw upper edge; scratch across lower bridge",
+        "after": "Upper edge retained, lower edge removed; continue prompt appears",
+        "verification": "Actual canvas and visible continue text"
+      },
+      "popupAndTopNavigation": "No observed navigation away from current detail; sandbox excludes popup and top-navigation permissions",
+      "sandbox": "allow-scripts allow-same-origin",
+      "networkErrors": "Not comprehensively audited",
+      "consoleErrors": [
+        {
+          "level": "error",
+          "message": "TypeError: Cannot read properties of undefined (reading 'sims')\n    at https://ncase.me/crowds/js/sim/Simulations.js:114:27",
+          "timestamp": "2026-10-21T11:03:14.145Z",
+          "url": "https://ncase.me/crowds/js/sim/Simulations.js"
+        },
+        {
+          "level": "error",
+          "message": "TypeError: Cannot read properties of undefined (reading 'sims')\n    at https://ncase.me/crowds/js/sim/Simulations.js:114:27",
+          "timestamp": "2026-10-21T11:03:14.145Z",
+          "url": "https://ncase.me/crowds/js/sim/Simulations.js"
+        }
+      ],
+      "networkScope": "No comprehensive production/clean-context network pass; this is a local development interaction observation",
+      "finalStatus": "effective-input-observed",
+      "observedAt": "2026-10-21T11:05:01.516Z",
+      "evidence": "D:/wh/202610/noillirk/noillirk/noillirk/reports/acceptance-evidence/media-repair-20261021/crowds-normal-input.jpg",
+      "productionRuntime": "NOT_RUN"
+    },
+    {
+      "gameId": "a-dark-room",
+      "route": "/games/a-dark-room",
+      "configuredIframeSrc": "https://adarkroom.doublespeakgames.com/",
+      "actualFrameUrl": "https://adarkroom.doublespeakgames.com/",
+      "finalOrigin": "https://adarkroom.doublespeakgames.com",
+      "launchSteps": [
+        "Open normal route",
+        "Play Now creates exactly one current configured game iframe",
+        "Perform the recorded real input and observe a visible result"
+      ],
+      "realGameIdentity": "A Firelit Room",
+      "effectiveInput": {
+        "before": "saved.\nA Dark Room\nA Silent Forest\nwood\n370\nlight fire\ntrap\ncart\nhut\ngather wood\nthe fire is dead.\nt",
+        "input": "Visible light fire action",
+        "after": "saved.\nA Firelit Room\nA Silent Forest\nwood\n365\nstoke fire\ntrap\ncart\nhut\ngather wood\nthe fire is burning.\nthe fire is dead.\nthe room is freezing.\nbuilder says there are more wanderers. says they'll work, too.\nbuilder says she can make a cart for carrying wood.\n",
+        "verification": "Current action/log/wood changed in real provider document"
+      },
+      "popupAndTopNavigation": "No observed navigation away from current detail; sandbox excludes popup and top-navigation permissions",
+      "sandbox": "allow-scripts allow-same-origin",
+      "networkErrors": "Not comprehensively audited",
+      "consoleErrors": [],
+      "networkScope": "No comprehensive production/clean-context network pass; this is a local development interaction observation",
+      "finalStatus": "effective-input-observed",
+      "observedAt": "2026-10-21T11:05:53.757Z",
+      "evidence": "D:/wh/202610/noillirk/noillirk/noillirk/reports/acceptance-evidence/media-repair-20261021/a-dark-room-normal-input.jpg",
+      "productionRuntime": "NOT_RUN"
+    },
+    {
+      "gameId": "sandspiel",
+      "route": "/games/sandspiel",
+      "configuredIframeSrc": "https://sandspiel.club/",
+      "actualFrameUrl": "https://sandspiel.club/",
+      "finalOrigin": "https://sandspiel.club",
+      "launchSteps": [
+        "Open normal route",
+        "Play Now creates exactly one current configured game iframe",
+        "Perform the recorded real input and observe a visible result"
+      ],
+      "realGameIdentity": "sandspiel",
+      "effectiveInput": {
+        "before": "No wall marks in central canvas",
+        "input": "Selected Wall and used held pointer gesture across central canvas",
+        "after": "Two persistent gray wall marks at sampled pointer positions",
+        "verification": "Actual before/after pixels and selected Wall button; no continuous-line claim"
+      },
+      "popupAndTopNavigation": "No observed navigation away from current detail; sandbox excludes popup and top-navigation permissions",
+      "sandbox": "allow-scripts allow-same-origin",
+      "networkErrors": "Not comprehensively audited",
+      "consoleErrors": [
+        {
+          "level": "error",
+          "message": "Error importing `index.js`: TagError: adsbygoogle.push() error: No slot size for availableWidth=0\n    at Mo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:156:252)\n    at Lo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:155:133)\n    at Bp (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:167:172)\n    at Mp (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:183:46)\n    at Cq (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:192:784)\n    at Bs (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:234:141)\n    at h.client (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:224:47)\n    at Fk.h (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:86:682)\n    at Mk (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:87:683)\n    at ws (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:224:35)\n    at Object.push (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:246:344)\n    at https://sandspiel.club/86.f9e2667f2667a099e149.js:1:70012",
+          "timestamp": "2026-10-21T11:05:58.740Z",
+          "url": "https://sandspiel.club/728.9f96bdc52b5e36a5d122.js"
+        }
+      ],
+      "networkScope": "No comprehensive production/clean-context network pass; this is a local development interaction observation",
+      "finalStatus": "effective-input-observed",
+      "observedAt": "2026-10-21T11:07:12.814Z",
+      "evidence": "D:/wh/202610/noillirk/noillirk/noillirk/reports/acceptance-evidence/media-repair-20261021/sandspiel-normal-input.jpg",
+      "productionRuntime": "NOT_RUN"
+    },
+    {
+      "gameId": "trust",
+      "route": "/games/the-evolution-of-trust",
+      "configuredIframeSrc": "https://ncase.me/trust/",
+      "actualFrameUrl": "https://ncase.me/trust/",
+      "finalOrigin": "https://ncase.me",
+      "launchSteps": [
+        "Open normal route",
+        "Play Now creates exactly one current configured game iframe",
+        "Perform the recorded real input and observe a visible result"
+      ],
+      "realGameIdentity": "The Evolution of Trust",
+      "effectiveInput": {
+        "before": "Intro states other player cheats",
+        "input": "COOPERATE",
+        "after": "Feedback explicitly -1 vs+3 and 0vs0 alternative",
+        "verification": "Actual game feedback and canvas"
+      },
+      "popupAndTopNavigation": "No observed navigation away from current detail; sandbox excludes popup and top-navigation permissions",
+      "sandbox": "allow-scripts allow-same-origin",
+      "networkErrors": "Not comprehensively audited",
+      "consoleErrors": [],
+      "networkScope": "No comprehensive production/clean-context network pass; this is a local development interaction observation",
+      "finalStatus": "effective-input-observed",
+      "observedAt": "2026-10-21T11:09:08.376Z",
+      "evidence": "D:/wh/202610/noillirk/noillirk/noillirk/reports/acceptance-evidence/media-repair-20261021/trust-normal-input-current.jpg",
+      "productionRuntime": "NOT_RUN"
+    },
+    {
+      "gameId": "hello-wordl",
+      "route": "/games/hello-wordl",
+      "configuredIframeSrc": "https://hellowordl.net/",
+      "actualFrameUrl": "https://hellowordl.net/",
+      "finalOrigin": "https://hellowordl.net",
+      "launchSteps": [
+        "Open normal route",
+        "Play Now creates exactly one current configured game iframe",
+        "Perform the recorded real input and observe a visible result"
+      ],
+      "realGameIdentity": "hello wordl",
+      "effectiveInput": {
+        "before": "Empty5-letter random board",
+        "input": "On-screen STARE then Enter",
+        "after": "Submitted row: A elsewhere; S/T/R/E absent",
+        "verification": "Row-letter feedback classes and actual screen"
+      },
+      "popupAndTopNavigation": "No observed navigation away from current detail; sandbox excludes popup and top-navigation permissions",
+      "sandbox": "allow-scripts allow-same-origin",
+      "networkErrors": "Not comprehensively audited",
+      "consoleErrors": [],
+      "networkScope": "No comprehensive production/clean-context network pass; this is a local development interaction observation",
+      "finalStatus": "effective-input-observed",
+      "observedAt": "2026-10-21T11:12:26.952Z",
+      "evidence": "D:/wh/202610/noillirk/noillirk/noillirk/reports/acceptance-evidence/media-repair-20261021/hello-wordl-normal-input-current.jpg",
+      "productionRuntime": "NOT_RUN"
+    }
+  ],
+  "lifecycleEvidence": "reports/acceptance-evidence/media-repair-20261021/card-navigation-lifecycle.json",
+  "fullscreenEvidence": "reports/acceptance-evidence/media-repair-20261021/fullscreen-runtime.json",
+  "thirdPartyErrors": [
+    {
+      "level": "error",
+      "message": "TypeError: Cannot read properties of undefined (reading 'sims')\n    at https://ncase.me/crowds/js/sim/Simulations.js:114:27",
+      "timestamp": "2026-10-21T11:03:14.145Z",
+      "url": "https://ncase.me/crowds/js/sim/Simulations.js"
+    },
+    {
+      "level": "error",
+      "message": "TypeError: Cannot read properties of undefined (reading 'sims')\n    at https://ncase.me/crowds/js/sim/Simulations.js:114:27",
+      "timestamp": "2026-10-21T11:03:14.145Z",
+      "url": "https://ncase.me/crowds/js/sim/Simulations.js"
+    },
+    {
+      "level": "error",
+      "message": "Error importing `index.js`: TagError: adsbygoogle.push() error: No slot size for availableWidth=0\n    at Mo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:156:252)\n    at Lo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:155:133)\n    at Bp (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:167:172)\n    at Mp (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:183:46)\n    at Cq (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:192:784)\n    at Bs (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:234:141)\n    at h.client (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:224:47)\n    at Fk.h (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:86:682)\n    at Mk (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:87:683)\n    at ws (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:224:35)\n    at Object.push (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:246:344)\n    at https://sandspiel.club/86.f9e2667f2667a099e149.js:1:70012",
+      "timestamp": "2026-10-21T11:05:58.740Z",
+      "url": "https://sandspiel.club/728.9f96bdc52b5e36a5d122.js"
+    }
+  ],
+  "criticalNetworkAudit": "NOT_COMPLETE",
+  "scope": "Development observations are not the runtime of the compiled production artifact.",
+  "currentRevision": {
+    "generatedAt": "2026-10-22T01:30:47.456Z",
+    "compiledArtifact": {
+      "buildId": "V35hmGdlYjNHWyKJcoGqk",
+      "scope": "draft",
+      "sourceFingerprint": "776d721340698cf67bdc369dc1d15b71a5ffbfd6726c22bd7fc35ec8780cf04b",
+      "compiledAt": "2026-10-22T01:26:18.377Z",
+      "output": ".next-preview/standalone",
+      "runtimeAcceptance": "not_established_by_compilation",
+      "mediaAcceptance": "NOT_PASSED"
+    },
+    "productionRuntime": "NOT_RUN",
+    "currentObservations": [
+      {
+        "gameId": "crowds",
+        "configuredIframeSrc": "https://ncase.me/crowds/",
+        "actualFrameUrl": "https://ncase.me/crowds/",
+        "finalOrigin": "https://ncase.me",
+        "launchSteps": [
+          "Normal route Play Now",
+          "let us play",
+          "Chapter1",
+          "Two fullscreen cycles and1440/1024/390 resize",
+          "Native upper bridge drag"
+        ],
+        "realIdentity": "The Wisdom and/or Madness of Crowds, Connections tutorial",
+        "effectiveInput": "Upper connection accepted; draw-to-connect instruction disappeared",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin"
+        ],
+        "consoleErrorsThisRetest": [],
+        "priorErrorStatus": "open; pre-init source guard missing, not declared fixed",
+        "networkErrors": "Not comprehensively audited",
+        "popupAndTopNavigation": "No observed departure; sandbox permissions unchanged",
+        "evidence": [
+          "reports/acceptance-evidence/card-provider-fix-20261022/crowds-runtime-observation.json",
+          "reports/acceptance-evidence/card-provider-fix-20261022/crowds-accepted-input.png",
+          "reports/acceptance-evidence/card-provider-fix-20261022/crowds-console.json"
+        ]
+      },
+      {
+        "gameId": "sandspiel",
+        "configuredIframeSrc": "https://sandspiel.club/",
+        "actualFrameUrl": "https://sandspiel.club/",
+        "finalOrigin": "https://sandspiel.club",
+        "launchSteps": [
+          "Normal route Play Now",
+          "Select Wall",
+          "Native held pointer gesture180,180 to300,180"
+        ],
+        "realIdentity": "Sandspiel material palette and live canvas",
+        "effectiveInput": "Persistent gray Wall line visible after release",
+        "sandbox": [
+          "allow-scripts",
+          "allow-same-origin"
+        ],
+        "consoleErrorsThisRetest": [
+          {
+            "level": "error",
+            "message": "Error importing `index.js`: TagError: adsbygoogle.push() error: No slot size for availableWidth=0\n    at No (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:156:252)\n    at Mo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:155:133)\n    at Cp (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:167:172)\n    at Np (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:183:46)\n    at Dq (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:192:784)\n    at Cs (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:234:141)\n    at h.client (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:224:47)\n    at Gk.h (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:86:682)\n    at Nk (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:87:683)\n    at xs (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:224:35)\n    at Object.push (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:246:344)\n    at https://sandspiel.club/86.f9e2667f2667a099e149.js:1:70012",
+            "timestamp": "2026-10-22T01:18:57.577Z",
+            "url": "https://sandspiel.club/728.9f96bdc52b5e36a5d122.js"
+          }
+        ],
+        "priorErrorStatus": "reproduced, unresolved",
+        "networkErrors": "Not comprehensively audited",
+        "popupAndTopNavigation": "No observed departure; sandbox permissions unchanged",
+        "evidence": [
+          "reports/acceptance-evidence/card-provider-fix-20261022/sandspiel-dom.json",
+          "reports/acceptance-evidence/card-provider-fix-20261022/sandspiel-after-player.png",
+          "reports/acceptance-evidence/card-provider-fix-20261022/provider-console.json"
+        ]
+      }
+    ],
+    "firstPartyRuntimeClaim": "Only scoped normal development checks; no production or full clean-context pass"
+  },
+  "identitySeoRevision": {
+    "checkedAt": "2026-10-22T02:26:08.370Z",
+    "buildId": "evjfKoqDa305LH1tTqCF7",
+    "formalOrigin": "https://noillirk.cc",
+    "developmentRuntime": "NOT_RUN: no listening project service",
+    "productionRuntime": "NOT_RUN",
+    "historicalRuntimeEvidence": "Retained with original observation dates; not rerun for this build",
+    "mainIframeStatus": "provisional",
+    "mainIframeUnchanged": "https://playdaily.org/noillirk"
+  },
+  "prelaunch20261022": {
+    "checkedAt": "2026-10-22T03:16:29.894Z",
+    "service": {
+      "origin": "http://localhost:3001",
+      "port": 3001,
+      "pid": 41068,
+      "parentPid": 30008,
+      "mode": "development",
+      "readiness": true,
+      "observedCurrentIdentity": "noillirk.cc canonical, new brand and support mailbox rendered",
+      "ownership": "user-started",
+      "startedByAgent": false,
+      "restartedByAgent": false,
+      "stoppedByAgent": false
+    },
+    "sourceFingerprint": "f1b1f3260b8dec7e7562c4371bc20858befbde2d2190f0020706dbe6bfa5886e",
+    "main": {
+      "url": "https://playdaily.org/noillirk",
+      "status": "provisional",
+      "unchanged": true,
+      "checked": "Click creates exactly one configured HTTPS iframe; retry retains one; card navigation and Back reset state. No main-game playable assertion."
+    },
+    "additionalGames": [
+      {
+        "id": "hello-wordl",
+        "configuredIframe": "https://hellowordl.net/",
+        "observedAt": "2026-10-22T03:12:54.251Z",
+        "frameCount": 1,
+        "frames": [
+          {
+            "sandbox": "allow-scripts allow-same-origin",
+            "src": "https://hellowordl.net/"
+          }
+        ],
+        "status": "Hello Wordl\nGame frame opened. If it stays blank, retry the game.",
+        "url": "http://localhost:3001/games/hello-wordl",
+        "errors": [],
+        "effectiveInputThisPass": "NOT_RUN; prior per-game development evidence retained, not production acceptance"
+      },
+      {
+        "id": "trust",
+        "configuredIframe": "https://ncase.me/trust/",
+        "observedAt": "2026-10-22T03:12:59.241Z",
+        "frameCount": 1,
+        "frames": [
+          {
+            "sandbox": "allow-scripts allow-same-origin",
+            "src": "https://ncase.me/trust/"
+          }
+        ],
+        "status": "The Evolution of Trust\nGame frame opened. If it stays blank, retry the game.",
+        "url": "http://localhost:3001/games/the-evolution-of-trust",
+        "errors": [],
+        "effectiveInputThisPass": "NOT_RUN; prior per-game development evidence retained, not production acceptance"
+      },
+      {
+        "id": "polygons",
+        "configuredIframe": "https://ncase.me/polygons/",
+        "observedAt": "2026-10-22T03:13:03.278Z",
+        "frameCount": 1,
+        "frames": [
+          {
+            "sandbox": "allow-scripts allow-same-origin",
+            "src": "https://ncase.me/polygons/"
+          }
+        ],
+        "status": "Parable of the Polygons\nGame frame opened. If it stays blank, retry the game.",
+        "url": "http://localhost:3001/games/parable-of-the-polygons",
+        "errors": [],
+        "effectiveInputThisPass": "NOT_RUN; prior per-game development evidence retained, not production acceptance"
+      },
+      {
+        "id": "0hn0",
+        "configuredIframe": "https://0hn0.com/",
+        "observedAt": "2026-10-22T03:13:08.500Z",
+        "frameCount": 1,
+        "frames": [
+          {
+            "sandbox": "allow-scripts allow-same-origin",
+            "src": "https://0hn0.com/"
+          }
+        ],
+        "status": "0h n0\nGame frame opened. If it stays blank, retry the game.",
+        "url": "http://localhost:3001/games/0h-n0",
+        "errors": [],
+        "effectiveInputThisPass": "NOT_RUN; prior per-game development evidence retained, not production acceptance"
+      },
+      {
+        "id": "0hh1",
+        "configuredIframe": "https://0hh1.com/",
+        "observedAt": "2026-10-22T03:13:13.495Z",
+        "frameCount": 1,
+        "frames": [
+          {
+            "sandbox": "allow-scripts allow-same-origin",
+            "src": "https://0hh1.com/"
+          }
+        ],
+        "status": "0h h1\nGame frame opened. If it stays blank, retry the game.",
+        "url": "http://localhost:3001/games/0h-h1",
+        "errors": [],
+        "effectiveInputThisPass": "NOT_RUN; prior per-game development evidence retained, not production acceptance"
+      },
+      {
+        "id": "crowds",
+        "configuredIframe": "https://ncase.me/crowds/",
+        "observedAt": "2026-10-22T03:13:18.444Z",
+        "frameCount": 1,
+        "frames": [
+          {
+            "sandbox": "allow-scripts allow-same-origin",
+            "src": "https://ncase.me/crowds/"
+          }
+        ],
+        "status": "The Wisdom and/or Madness of Crowds\nGame frame opened. If it stays blank, retry the game.",
+        "url": "http://localhost:3001/games/the-wisdom-and-or-madness-of-crowds",
+        "errors": [],
+        "effectiveInputThisPass": "NOT_RUN; prior per-game development evidence retained, not production acceptance"
+      },
+      {
+        "id": "a-dark-room",
+        "configuredIframe": "https://adarkroom.doublespeakgames.com/",
+        "observedAt": "2026-10-22T03:13:22.546Z",
+        "frameCount": 1,
+        "frames": [
+          {
+            "sandbox": "allow-scripts allow-same-origin",
+            "src": "https://adarkroom.doublespeakgames.com/"
+          }
+        ],
+        "status": "A Dark Room\nGame frame opened. If it stays blank, retry the game.",
+        "url": "http://localhost:3001/games/a-dark-room",
+        "errors": [],
+        "effectiveInputThisPass": "NOT_RUN; prior per-game development evidence retained, not production acceptance"
+      },
+      {
+        "id": "sandspiel",
+        "configuredIframe": "https://sandspiel.club/",
+        "observedAt": "2026-10-22T03:13:27.913Z",
+        "frameCount": 1,
+        "frames": [
+          {
+            "sandbox": "allow-scripts allow-same-origin",
+            "src": "https://sandspiel.club/"
+          }
+        ],
+        "status": "Sandspiel\nGame frame opened. If it stays blank, retry the game.",
+        "url": "http://localhost:3001/games/sandspiel",
+        "errors": [
+          {
+            "level": "error",
+            "message": "Error importing `index.js`: TagError: adsbygoogle.push() error: No slot size for availableWidth=0\n    at No (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:156:252)\n    at Mo (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:155:133)\n    at Cp (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:167:172)\n    at Np (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:183:46)\n    at Dq (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:192:784)\n    at Cs (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:234:141)\n    at h.client (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:224:47)\n    at Gk.h (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:86:682)\n    at Nk (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:87:683)\n    at xs (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:224:35)\n    at Object.push (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:246:344)\n    at https://sandspiel.club/86.f9e2667f2667a099e149.js:1:70012",
+            "timestamp": "2026-10-22T03:13:32.886Z",
+            "url": "https://sandspiel.club/728.9f96bdc52b5e36a5d122.js"
+          }
+        ],
+        "effectiveInputThisPass": "NOT_RUN; prior per-game development evidence retained, not production acceptance"
+      }
+    ],
+    "productionRuntime": "NOT_RUN",
+    "effectiveInputThisPass": "NOT_RUN; historical per-game evidence preserved with original timestamps",
+    "finalStatus": "NOT_PASSED",
+    "evidence": "reports/acceptance-evidence/prelaunch-20261022/player-lifecycle.json"
+  },
+  "guideRewrite": {
+    "checkedAt": "2026-10-22T03:52:43.907Z",
+    "report": "reports/guide-rewrite-20261022.json",
+    "mainIframeUnchanged": true,
+    "mainVideoEmbedRetest": {
+      "observedAt": "2026-10-22T03:46:19.431Z",
+      "videoId": "oMe1Mz3Maoo",
+      "origin": "http://localhost:3001",
+      "route": "/media-check?id=noillirk-video-review",
+      "duration": 122.721,
+      "ended": true,
+      "error": null,
+      "readyState": 4,
+      "time": 122.721,
+      "adoption": "not_adopted; current numeric/version compatibility not established",
+      "observationMethod": "Playing samples at approximately13,40,57,87seconds and ended state; not a frame-by-frame full coverage claim",
+      "samples": [
+        {
+          "seconds": 13,
+          "state": "First forest prompt asks for something children can do to celebrate New Year; answer field active",
+          "limitation": "Submission action not observed in this sample"
+        },
+        {
+          "seconds": 40,
+          "state": "Jet Stream result with Fruit label and Next button; altitude29m",
+          "limitation": "No inferred constant altitude conversion or guaranteed Fruit rank"
+        },
+        {
+          "seconds": 57,
+          "state": "Reason for low sleep prompt above valley; next prompt preview",
+          "limitation": "Acceptance not observed"
+        },
+        {
+          "seconds": 87,
+          "state": "Lifeguard carrying prompt preview above valley",
+          "limitation": "No result inferred"
+        }
+      ]
+    },
+    "gameInputRetest": "NOT_RUN this Guide revision; historical evidence retained with original timestamps",
+    "production": "NOT_RUN",
+    "release": "NOT_PASSED"
+  }
+}

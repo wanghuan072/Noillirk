@@ -1,0 +1,22 @@
+{
+  "name": "Noillirk",
+  "origin": "https://noillirk.cc",
+  "navigation": [
+    {
+      "page_id": "home",
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "page_id": "guides",
+      "label": "Guides",
+      "path": "/guides"
+    },
+    {
+      "page_id": "games",
+      "label": "More Games",
+      "path": "/games"
+    }
+  ],
+  "email": "support@noillirk.cc"
+}

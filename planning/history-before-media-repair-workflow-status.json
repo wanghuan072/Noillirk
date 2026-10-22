@@ -1,0 +1,75 @@
+{
+  "updatedAt": "2026-10-21T07:14:38.136Z",
+  "userOverride": "Continue research, content, code and one-shot builds. Do not start/restart project services, deploy or commit. Main media unresolved; original iframe retained; media/delivery NOT_PASSED.",
+  "stages": [
+    {
+      "id": 1,
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "status": "in_progress",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 3,
+      "status": "in_progress",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 4,
+      "status": "in_progress",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 5,
+      "status": "in_progress",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 6,
+      "status": "in_progress",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 7,
+      "status": "in_progress",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 8,
+      "status": "media_pending",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 9,
+      "status": "in_progress",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 10,
+      "status": "in_progress",
+      "localDraftWorkPermitted": true
+    }
+  ],
+  "mainIframe": "provisional",
+  "media": "NOT_PASSED",
+  "delivery": "NOT_PASSED",
+  "latestCompiledDraftBuildId": "z3Lzt8Oo2uUBxOlvLQG7d",
+  "runtimeThisRevision": {
+    "status": "development-only-observed",
+    "origin": "http://localhost:3001",
+    "serviceOwnership": "user",
+    "agentStartedServices": false,
+    "initialRouteMatrixSource": "f06ece75c123fe3a4eb8fefe8c029800c9096024bfb976b9d93d114ea2cbb40b",
+    "focusedControlsSource": "7f2a9c84ba0f7da576879927b6515f7decb1ee62adf7d60fea7f6e4bac026429",
+    "productionRuntime": "NOT_RUN for current compiled artifact; no production service started",
+    "lighthouse": "NOT_RUN",
+    "additionalInputs": {
+      "count": 8,
+      "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "scope": "shared-context development, not final qualification"
+    },
+    "browserResearch": "blocked-tool-channel after three timeouts"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-22",
+  "previousOrigin": "https://noillirk.me",
+  "currentOrigin": "https://noillirk.cc",
+  "email": "support@noillirk.cc",
+  "userOverrides": [
+    "Replace automatic wyong address with supplied support mailbox",
+    "Sitemap includes every normal Game/Guide detail in data regardless of draft status; no status/date publication approval inferred"
+  ],
+  "mainIframe": "https://playdaily.org/noillirk",
+  "mainIframeStatus": "provisional",
+  "mainMedia": "unresolved",
+  "serviceStartup": false,
+  "deployed": false,
+  "gitCommit": false
+}

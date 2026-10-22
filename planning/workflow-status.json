@@ -1,0 +1,148 @@
+{
+  "updatedAt": "2026-10-22T02:26:08.370Z",
+  "userOverride": "Continue research, content, code and one-shot builds. Do not start/restart project services, deploy or commit. Main media unresolved; original iframe retained; media/delivery NOT_PASSED.",
+  "stages": [
+    {
+      "id": 1,
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "status": "draft_work_implemented_acceptance_open",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 3,
+      "status": "draft_work_implemented_acceptance_open",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 4,
+      "status": "draft_work_implemented_acceptance_open",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 5,
+      "status": "draft_work_implemented_acceptance_open",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 6,
+      "status": "draft_work_implemented_acceptance_open",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 7,
+      "status": "draft_work_implemented_acceptance_open",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 8,
+      "status": "main_media_pending",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 9,
+      "status": "draft_work_implemented_acceptance_open",
+      "localDraftWorkPermitted": true
+    },
+    {
+      "id": 10,
+      "status": "acceptance_pending",
+      "localDraftWorkPermitted": true
+    }
+  ],
+  "mainIframe": "provisional",
+  "media": "NOT_PASSED",
+  "delivery": "NOT_PASSED",
+  "latestCompiledDraftBuildId": "evjfKoqDa305LH1tTqCF7",
+  "runtimeThisRevision": {
+    "status": "development-only-observed",
+    "origin": "http://localhost:3001",
+    "serviceOwnership": "user",
+    "agentStartedServices": false,
+    "initialRouteMatrixSource": "f06ece75c123fe3a4eb8fefe8c029800c9096024bfb976b9d93d114ea2cbb40b",
+    "focusedControlsSource": "7f2a9c84ba0f7da576879927b6515f7decb1ee62adf7d60fea7f6e4bac026429",
+    "productionRuntime": "NOT_RUN for current compiled artifact; no production service started",
+    "lighthouse": "NOT_RUN",
+    "additionalInputs": {
+      "count": 8,
+      "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "scope": "shared-context development, not final qualification"
+    },
+    "browserResearch": "blocked-tool-channel after three timeouts"
+  },
+  "currentEvidence": "reports/acceptance-evidence/media-repair-20261021",
+  "additional": {
+    "integratedDrafts": 8,
+    "licensedMediaSets": 8,
+    "normalRouteInputsObserved": 8,
+    "videosActuallyPlayed": 8,
+    "published": 0
+  },
+  "remaining": [
+    "Main game media authorization and qualified version-matched video",
+    "Production preview runtime/network/console acceptance",
+    "Mobile/Desktop production Lighthouse",
+    "Resolve or requalify observed third-party errors before publication"
+  ],
+  "production": {
+    "runtime": "NOT_RUN",
+    "lighthouse": {
+      "mobile": "NOT_RUN",
+      "desktop": "NOT_RUN",
+      "performanceTarget": 90,
+      "LCP": null,
+      "CLS": null,
+      "TBT": null,
+      "INP": null,
+      "firstFoldTransfer": null,
+      "compression": null,
+      "cache": null,
+      "reason": "User prohibits project service startup; existing service is development only. Optimized compilation is not production runtime acceptance."
+    },
+    "formalOrigin": "https://noillirk.cc",
+    "formalOriginOnlineAcceptance": "NOT_RUN"
+  },
+  "currentRevision": {
+    "scope": "Domain, support contact, Legal, SEO, standard sitemap, local brand assets and README",
+    "domain": "noillirk.cc",
+    "email": "support@noillirk.cc",
+    "evidence": "reports/site-identity-seo-report.md",
+    "compiledChecks": "18 HTML pages /18 sitemap URLs",
+    "tests": 30,
+    "runtime": "NOT_RUN",
+    "mediaAcceptance": "NOT_PASSED",
+    "delivery": "NOT_PASSED"
+  },
+  "prelaunchCheck": {
+    "checkedAt": "2026-10-22T03:16:29.894Z",
+    "result": "NOT_READY_FOR_RELEASE",
+    "report": "reports/prelaunch-check-20261022.md",
+    "openIssues": [
+      "PRE-01",
+      "PRE-02",
+      "PRE-03",
+      "PRE-04",
+      "PRE-05",
+      "PRE-06"
+    ],
+    "mediaAcceptance": "NOT_PASSED",
+    "overallDelivery": "NOT_PASSED"
+  },
+  "guideRewrite": {
+    "checkedAt": "2026-10-22T03:52:43.907Z",
+    "status": "content-and-original-guide-media-checked; release-pending",
+    "report": "reports/guide-rewrite-20261022.md",
+    "buildId": "ld4di9EecFeVIgSqyW7di",
+    "mainIframe": "unchanged, user accepted configuration, provisional",
+    "remaining": [
+      "MAIN_MEDIA",
+      "PROVIDER_ERRORS",
+      "DEPENDENCY_ADVISORY",
+      "PUBLICATION_AND_PRODUCTION"
+    ],
+    "mediaAcceptance": "NOT_PASSED",
+    "overallDelivery": "NOT_PASSED"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "noillirk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/prepare-routes.mjs",
+    "dev": "next dev",
+    "build": "node scripts/build-release.cjs",
+    "start": "next start",
+    "prestart": "node scripts/check-release-artifact.cjs",
+    "lint": "node scripts/run-command.cjs lint",
+    "build:preview": "node scripts/build-preview.cjs",
+    "typecheck": "node scripts/run-command.cjs typecheck",
+    "test": "node scripts/run-command.cjs test",
+    "check:data": "node scripts/run-command.cjs data",
+    "check:content": "node scripts/run-command.cjs content",
+    "check:assets": "node scripts/run-command.cjs assets",
+    "check:media": "node scripts/run-command.cjs media",
+    "check:release": "node scripts/run-command.cjs release",
+    "format": "node scripts/run-command.cjs format",
+    "preview": "node scripts/start-preview.cjs",
+    "check:dates": "node scripts/run-command.cjs fingerprints",
+    "dates:update": "node scripts/run-command.cjs dates",
+    "check:seo": "node scripts/run-command.cjs seo",
+    "check:site-seo": "node scripts/run-command.cjs siteseo"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "prettier": "^3.9.10",
+    "sharp": "0.35.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "type": "module"
+}

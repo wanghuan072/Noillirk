@@ -1,0 +1,46 @@
+{
+  "gameName": "Noillirk",
+  "primaryKeyword": "Noillirk",
+  "observedAt": "2026-10-20",
+  "gameUrlStatus": "configured",
+  "runtimeStatus": "provisional",
+  "embed": {
+    "conclusion": "unknown",
+    "finalUrlStatus": "unknown",
+    "httpsCompatible": "yes",
+    "xFrameOptions": "unknown",
+    "frameAncestors": "unknown",
+    "iframeVisualTest": "passed",
+    "testedFromSiteOrigin": "yes",
+    "cleanBrowserContext": "no",
+    "effectiveReferrerPolicy": null,
+    "finalFrameUrlStatus": "expected",
+    "criticalNetworkErrors": [],
+    "interactiveInputTest": "not_run",
+    "crossSiteStorage": "unknown",
+    "notes": [
+      "Controlled Origin http://127.0.0.1:4317; sandbox allow-scripts allow-same-origin; strict-origin-when-cross-origin.",
+      "Noillirk start screen rendered. Begin Ascent responded; a prompt timeout and Next were observed. No answer submitted.",
+      "Browser profile not proven clean; result remains unknown/provisional, not verified playable.",
+      "PID 50820 stopped by Ctrl-C (exit 1: termination). Temporary harness removed; port no longer listening."
+    ]
+  },
+  "orientation": "unknown",
+  "aspectRatio": null,
+  "inputs": {
+    "mouse": "unknown",
+    "keyboard": "unknown",
+    "touch": "unknown",
+    "gamepad": "unknown"
+  },
+  "audio": "unknown",
+  "storage": "unknown",
+  "fullscreen": "unknown",
+  "iframeCapabilities": [],
+  "mobilePlayability": "unknown",
+  "knownLimits": [],
+  "needsSecondaryCheck": [
+    "Controlled clean-context iframe attempt; main address must remain unchanged.",
+    "Observe permissions, actual frame chain and one input if research resumes."
+  ]
+}

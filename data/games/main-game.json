@@ -1,0 +1,217 @@
+{
+  "id": "noillirk",
+  "slug": "noillirk",
+  "title": "Noillirk",
+  "shortDescription": "Read a category, choose a familiar answer, and see how far your guess carries a balloon climb.",
+  "status": "draft",
+  "publishedAt": null,
+  "updatedAt": null,
+  "tags": [
+    "Familiar answers",
+    "Timed trivia",
+    "Balloon climb"
+  ],
+  "categories": [
+    "guessing",
+    "word"
+  ],
+  "spoilerPolicy": "marked",
+  "flags": {
+    "isNewHome": false,
+    "isFeaturedHome": false,
+    "isRecommendedHome": false
+  },
+  "image": {
+    "src": "",
+    "alt": "",
+    "width": null,
+    "height": null
+  },
+  "player": {
+    "iframeSrc": "https://playdaily.org/noillirk",
+    "aspectRatio": null,
+    "orientation": "adaptive",
+    "permissionsPolicy": [],
+    "referrerPolicy": null,
+    "sandbox": null,
+    "loadTimeoutMs": 30000
+  },
+  "seo": {
+    "title": "Noillirk Online — Familiar Answers and Balloon Runs",
+    "description": "Play Noillirk online and choose a familiar answer before time runs out. Learn the climb, recognize scoring feedback and find practical help for your next run.",
+    "keywords": [
+      "Noillirk",
+      "familiar answers"
+    ]
+  },
+  "content": [
+    {
+      "id": "the-climb",
+      "heading": "A category, a short clock and a reason to think simply",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Noillirk asks you to name an answer that fits a category and feels familiar to other people. The challenge is different from finding the only correct fact in a quiz. Several responses may belong to the category, yet they do not have the same value. You are choosing among plausible answers while a short clock limits how long you can compare them."
+        },
+        {
+          "type": "paragraph",
+          "text": "The balloon climb gives that decision a visible result. Familiar accepted responses lift the character farther, while less familiar accepted responses contribute less. It is possible to know a great deal about a topic and still select something less immediate than the ordinary example another person would name. That tension makes a simple prompt worth thinking about without requiring a complicated set of controls."
+        },
+        {
+          "type": "paragraph",
+          "text": "Start by recognizing which game you opened. This player loads the Noillirk version hosted by Daily. Other websites can use the same name while presenting different clocks, boards or modes. Follow the controls on the active game screen and keep the explanations for a separate implementation separate from this climb."
+        }
+      ]
+    },
+    {
+      "id": "start-a-run",
+      "heading": "Open the player, then choose the climb",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Select Play Now to open the game. The page keeps the game inside its player, with the game name and viewing controls below it. Opening the frame is only the first step: the game’s own start screen then offers the choices that begin a run. In the Daily interface, the mode choices include Daily, Classic and Endless, followed by Begin Ascent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Choose a mode before starting rather than trying to change the rules halfway through a prompt. Classic is the straightforward place to understand the seven-prompt format. Endless changes what an unanswered prompt means because balloons become a survival limit. If you are learning the answer field for the first time, concentrate on recognizing the prompt and submit controls before worrying about the longest possible run."
+        },
+        {
+          "type": "paragraph",
+          "text": "The initial forest and balloon scene is the beginning of the climb, not a separate movement challenge. Your main action is selecting and entering a response to the displayed category. Do not spend the answer window looking for character movement keys when the game is asking for a word or name."
+        }
+      ]
+    },
+    {
+      "id": "read-and-enter",
+      "heading": "Read the whole question before typing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A prompt can specify more than a broad category. It might narrow the kind of person, occasion, place or object that qualifies. The useful order is to read the condition first, think of a fitting response and then decide which fitting idea feels most familiar. A recognizable word that answers a neighboring question does not become useful merely because it is common."
+        },
+        {
+          "type": "paragraph",
+          "text": "Type one response in the answer field. A short, clear name gives the game a definite idea to judge and leaves more of the answer window available. A sentence explaining several possible answers is a different task from naming one. Before submitting, check that the text still refers to the requested kind of thing rather than a reason, description or example that only partly matches."
+        },
+        {
+          "type": "paragraph",
+          "text": "The standard prompt deadline is fifteen seconds. Keep some of that time for entering the response and using the visible submit control. Comparing two ideas can help; continuing the comparison until neither can be entered in time cannot. When the result or next-prompt state has appeared, read that feedback instead of continuing to type into the previous round."
+        }
+      ]
+    },
+    {
+      "id": "answer-feedback",
+      "heading": "An accepted answer and a high answer are different achievements",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "First look for acceptance, then look at the result tier. A response can qualify for the category while falling below the most familiar answer. That means you completed the prompt with a lower value; it does not mean that you should keep editing a finished result. A refused entry, by contrast, has not completed the category task."
+        },
+        {
+          "type": "paragraph",
+          "text": "When an entry is turned away and time remains, reconsider its fit and wording. Repeating the same phrase without changing anything uses seconds without resolving the possible problem. A simpler fitting alternative can be more useful than a lengthy defense of your first choice. The visible clock and answer field tell you whether the opportunity is still open."
+        },
+        {
+          "type": "paragraph",
+          "text": "A timeout is a completed missed prompt, not a hidden opportunity to submit late. An out-of-time result can lead to a Next control. That is the point to read the feedback and advance. If instead the entire frame appears stuck or never opens, treat that as a player-loading issue rather than assuming the game has recorded a normal result."
+        }
+      ]
+    },
+    {
+      "id": "score-tiers",
+      "heading": "Six tiers turn the answer into lift",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The six tier values run from 4 points for Grounded through 8 for Treetop, 16 for Kite, 32 for Cloud Nine and 64 for Jet Stream to 100 for Sky High. The strongest result is the top answer rather than simply any answer near the top. Across a seven-prompt Classic climb, seven 100-point results produce the maximum total of 700."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the result to understand the choice you made, not to assign a fixed score to every word you know. Category wording matters, and a response’s rank is part of the game’s judgment. A familiar idea in your household or profession may be a less immediate example for a broader audience. That is a useful distinction to carry into the next prompt without trying to reconstruct an unseen answer board."
+        },
+        {
+          "type": "paragraph",
+          "text": "Speed makes it possible to finish inside the deadline, but it does not independently improve a response’s familiarity. A hurried phrase that misses a qualifier can be worse than a plain fitting response entered a few seconds later. The practical aim is a clear answer in time, followed by an honest reading of the tier that appears."
+        }
+      ]
+    },
+    {
+      "id": "endless-balloons",
+      "heading": "In Endless, a modest answer can keep the climb alive",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Endless begins with three balloons and continues dealing prompts until that protection is gone. Passing or reaching the deadline without an accepted answer removes a balloon. Any accepted response preserves the balloons, even if it receives a modest tier. A Sky High result can restore a missing balloon."
+        },
+        {
+          "type": "paragraph",
+          "text": "That creates a decision you do not see just by comparing point values. With little time left, a fitting response can preserve the run even when you are unsure it is the strongest answer. Continuing to search for a perfect candidate risks turning a modest accepted result into a missed prompt. The right choice depends on the time and balloon state you can actually see."
+        },
+        {
+          "type": "paragraph",
+          "text": "After a loss, return to the current category rather than letting the previous mistake dictate the next answer. Recovery is possible, but you cannot guarantee it by wishing an unusual phrase were more familiar. An accepted answer is still the necessary starting point. Keep the result tier, the balloon count and the next prompt as separate pieces of information."
+        }
+      ]
+    },
+    {
+      "id": "a-useful-first-climb",
+      "heading": "Use the first run to learn a repeatable decision",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For your first climb, focus on a process you can repeat. Read the condition, consider a small set of fitting examples and commit while there is time to type. After the result, identify one thing the feedback actually tells you. A rejection calls for a fit or wording check; a lower accepted tier calls for a familiarity comparison; a timeout calls for an earlier commitment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Do not turn every reveal into an answer to memorize for all future questions. A similar category with a new restriction can require a different response. The transferable habit is noticing that restriction and choosing within it. Keep specialized knowledge available, but do not assume detail itself makes a response stronger in a game that rewards familiarity."
+        },
+        {
+          "type": "paragraph",
+          "text": "A seven-prompt result can contain several kinds of mistake. Looking only at the final total hides that difference. Review the point where your decision broke down: did you misread the prompt, hesitate, enter an unclear phrase or choose a valid but less immediate example? The next climb becomes more useful when you change one identifiable behavior rather than simply trying to think harder."
+        }
+      ]
+    },
+    {
+      "id": "player-and-browser",
+      "heading": "Keep the game and the page controls separate",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Webpage Fullscreen expands the player within the page and keeps an exit control on its status bar. Browser Fullscreen asks the browser to expand the player using its native fullscreen mode. A browser can reject that request, and some devices expose fullscreen differently. Use the visible feedback and the exit control rather than assuming a second click must have worked."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the game opens but does not respond to typing, select its answer field before entering a response. Page navigation and game input are separate focus targets. On a small screen, make sure the active field and the submit control remain visible when the keyboard opens. A page that fits your screen does not by itself establish that every feature inside a third-party game supports that device."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the frame never opens, use Try again after the failure or timeout feedback. A retry starts a fresh load; it is not a promise that an interrupted run can be restored. When you leave for another game, finish any result you want to review first. Third-party progress and account features are handled inside the game and are not an account system operated by this page."
+        }
+      ]
+    },
+    {
+      "id": "player-questions",
+      "heading": "Questions for your next round",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "question": "Does a fitting answer always earn Sky High?",
+              "answer": "No. Category acceptance and familiarity are different checks. A fitting response can receive a lower tier; the strongest familiar answer earns the highest lift."
+            },
+            {
+              "question": "How long is a Classic climb in this version?",
+              "answer": "Daily’s Classic climb has seven prompts with fifteen seconds for each. These rules describe the configured Daily version rather than every game using the same name."
+            },
+            {
+              "question": "What protects an Endless run?",
+              "answer": "Endless starts with three balloons. An accepted answer preserves them, a missed or passed prompt removes one, and a Sky High result can restore a missing balloon."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relatedGameIds": []
+}

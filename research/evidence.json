@@ -1,0 +1,459 @@
+[
+  {
+    "id": "official-game",
+    "kind": "official-web",
+    "location": "https://playdaily.org/noillirk",
+    "title": "Noillirk",
+    "accessedAt": "2026-10-20",
+    "language": "en",
+    "market": "international",
+    "claims": [
+      "Daily identifies this as its original game.",
+      "Visible start screen has Classic, Daily, Endless and multiplayer controls.",
+      "Official help describes seven prompts, a fifteen-second deadline and six scoring bands."
+    ],
+    "confidence": "high",
+    "versionScope": "Daily current web version observed on research date",
+    "conflictStatus": "resolved",
+    "notes": "Opened with web tool and real browser. Direct top-level view only; not an iframe or input verification. No artwork downloaded."
+  },
+  {
+    "id": "daily-terms",
+    "kind": "official-web",
+    "location": "https://playdaily.org/legal/terms-of-service",
+    "title": "Terms of Service",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Section 6 prohibits game-image recording, extraction and redistribution.",
+      "Section 8 limits reuse and requires permission for copying Daily content."
+    ],
+    "confidence": "high",
+    "versionScope": "Page updated 2026-10-17",
+    "conflictStatus": "open",
+    "notes": "No project-specific permission located. This is a media-adoption evidence gap, not a legal determination. No contact submitted."
+  },
+  {
+    "id": "daily-copyright",
+    "kind": "official-web",
+    "location": "https://playdaily.org/legal/copyright",
+    "title": "Copyright and Takedown Policy",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Daily identifies Noillirk as its own design and trademark."
+    ],
+    "confidence": "high",
+    "versionScope": "Page updated 2026-09-29",
+    "conflictStatus": "none",
+    "notes": "Does not establish a reusable screenshot license for this project."
+  },
+  {
+    "id": "ugc-campaign",
+    "kind": "public-web",
+    "location": "https://contentrewards.com/c/campaigns/136b4b15-fe11-40d2-89b2-19065101256d",
+    "title": "Noillirk UGC Content by Daily Games",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "A campaign invites creator gameplay clips for social platforms."
+    ],
+    "confidence": "medium",
+    "versionScope": "Public campaign listing",
+    "conflictStatus": "open",
+    "notes": "Campaign listing alone does not establish that this project may reproduce artwork and screenshots on noillirk.me; no participation or permission inferred."
+  },
+  {
+    "id": "youtube-native-search",
+    "kind": "video-search",
+    "location": "https://www.youtube.com/results?search_query=Noillirk",
+    "title": "Noillirk YouTube search",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Native YouTube results expose five Noillirk-titled Shorts plus unrelated or adjacent-game results."
+    ],
+    "confidence": "high",
+    "versionScope": "Search listing only",
+    "conflictStatus": "none",
+    "notes": "Video playback, identity, version, duration, segment observations and embed acceptance NOT checked. Search was browser UI; existing browser profile is not proof of clean context."
+  },
+  {
+    "id": "official-directory",
+    "kind": "official-web",
+    "location": "https://playdaily.org/",
+    "title": "Daily Games",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Directory exposes music, trivia, visual and classic-game discovery leads."
+    ],
+    "confidence": "high",
+    "versionScope": "Current directory",
+    "conflictStatus": "none",
+    "notes": "Discovery only; candidates are not approved or adopted."
+  },
+  {
+    "id": "official-krillion",
+    "kind": "official-web",
+    "location": "https://playdaily.org/krillion",
+    "title": "Krillion Unlimited",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Find a valid uncommon example",
+      "Rarity tier and depth"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-fermi",
+    "kind": "official-web",
+    "location": "https://playdaily.org/fermi",
+    "title": "Fermi",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Estimate a quantity through smaller assumptions",
+      "Multiplicative error and explanation"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-poople",
+    "kind": "official-web",
+    "location": "https://playdaily.org/poople",
+    "title": "Poople",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Build a word ladder to POOP",
+      "Accepted rungs, moves and clock"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-size-it-up",
+    "kind": "official-web",
+    "location": "https://playdaily.org/size-it-up",
+    "title": "Size It Up",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Estimate relative dimensions against a measured reference",
+      "True size, guessed outline and ratio score"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-color",
+    "kind": "official-web",
+    "location": "https://playdaily.org/color",
+    "title": "Color Game",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Rebuild a remembered color",
+      "Side-by-side comparison and perceptual score"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-color-logo",
+    "kind": "official-web",
+    "location": "https://playdaily.org/color-logo",
+    "title": "Logo Game",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Recall a familiar brand color",
+      "Submitted and correct region; score"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-maptap",
+    "kind": "official-web",
+    "location": "https://playdaily.org/maptap",
+    "title": "MapTap",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Locate named city in a stated country",
+      "Distance-based score"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-songless",
+    "kind": "official-web",
+    "location": "https://playdaily.org/songless",
+    "title": "Songless Unlimited",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Recognize song with minimal audio",
+      "Identity and remaining points"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-bandle",
+    "kind": "official-web",
+    "location": "https://playdaily.org/bandle",
+    "title": "Bandle Unlimited",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Recognize song arrangement",
+      "Score decreases with layers and wrong guesses"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-songspot",
+    "kind": "official-web",
+    "location": "https://playdaily.org/songspot",
+    "title": "Songspot",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Identify song from shortest useful clip",
+      "Clip-size points and wrong-guess penalty"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-village",
+    "kind": "official-web",
+    "location": "https://playdaily.org/village",
+    "title": "Silverbrook",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Rake leaves in a first-person village",
+      "Yard clearance and upgrades"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-word-hunt",
+    "kind": "official-web",
+    "location": "https://playdaily.org/play/word-hunt",
+    "title": "Word Hunt",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Retrieve words under time pressure",
+      "Acceptance and scoring unverified"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-traffic-jam",
+    "kind": "official-web",
+    "location": "https://playdaily.org/play/traffic-jam",
+    "title": "Traffic Jam",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Free the target car",
+      "Puzzle progress and timer"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-tile-fit",
+    "kind": "official-web",
+    "location": "https://playdaily.org/play/tile-fit",
+    "title": "Tile Fit",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Manage board space and clear cells",
+      "Lines and boxes clear"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-coin-maze",
+    "kind": "official-web",
+    "location": "https://playdaily.org/play/coin-maze",
+    "title": "Coin Maze",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Collect coins while escaping a chaser",
+      "Collection and pursuit"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-air-hockey",
+    "kind": "official-web",
+    "location": "https://playdaily.org/play/air-hockey",
+    "title": "Air Hockey",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Collect keys in order and reach exit",
+      "Key sequence and unlock"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "open"
+  },
+  {
+    "id": "official-money-tycoon",
+    "kind": "official-web",
+    "location": "https://playdaily.org/play/money-tycoon",
+    "title": "Money Tycoon",
+    "accessedAt": "2026-10-20",
+    "claims": [
+      "Balance passive income and upgrades",
+      "Income and days"
+    ],
+    "confidence": "medium",
+    "versionScope": "Daily landing-page description; no runtime verification",
+    "conflictStatus": "none"
+  },
+  {
+    "id": "official-krillion-20261021",
+    "kind": "official-web",
+    "location": "https://playdaily.org/krillion",
+    "title": "Krillion Unlimited",
+    "claims": [
+      "Classic prompt count/time and rare-valid-answer loop reconfirmed.",
+      "Current help contains conflicting Endless zone counts (108 and 138)."
+    ],
+    "versionScope": "Daily public help on 2026-10-21",
+    "notes": "Primary publisher help; no copied descriptions or images. Zone totals excluded from public draft.",
+    "accessedAt": "2026-10-21",
+    "confidence": "high-for-stated-scope",
+    "conflictStatus": "scoped"
+  },
+  {
+    "id": "official-logo-20261021",
+    "kind": "official-web",
+    "location": "https://playdaily.org/color-logo",
+    "title": "Logo Game",
+    "claims": [
+      "Outline indicates target region; three HSB controls; three logos make a round.",
+      "Deck choice and screen-art target reconfirmed."
+    ],
+    "versionScope": "Daily current help",
+    "notes": "No fixed logo catalog count or legal/trademark explanation adopted.",
+    "accessedAt": "2026-10-21",
+    "confidence": "high-for-stated-scope",
+    "conflictStatus": "scoped"
+  },
+  {
+    "id": "official-maptap-20261021",
+    "kind": "official-web",
+    "location": "https://playdaily.org/maptap",
+    "title": "MapTap Unlimited",
+    "claims": [
+      "Country accompanies city; five places; full-score radius 25 km and hit radius 150 km stated."
+    ],
+    "versionScope": "Daily help; scoring not independently input-verified",
+    "notes": "No exact decay formula, saved state or mobile equivalence inferred.",
+    "accessedAt": "2026-10-21",
+    "confidence": "high-for-stated-scope",
+    "conflictStatus": "scoped"
+  },
+  {
+    "id": "word-hunt-external-20261021",
+    "kind": "runtime-observation",
+    "location": "https://playdaily.org/play/word-hunt",
+    "title": "Word Hunt external pointer and shuffle cases",
+    "claims": [
+      "SET and diagonal TEE each added 100.",
+      "Repeated SET displayed Already found with unchanged score.",
+      "Shuffle preserved letter pool, score and found list; count decremented.",
+      "Third-party display ads and synchronization frames appeared on publisher page."
+    ],
+    "versionScope": "External current page; shared context, not site iframe",
+    "notes": "Structured transcription only. No game picture adopted or saved. Ad IDs, personal/browser tokens and full ad URLs not retained.",
+    "accessedAt": "2026-10-21",
+    "confidence": "high-for-stated-scope",
+    "conflictStatus": "scoped"
+  },
+  {
+    "id": "2048-upstream-license",
+    "kind": "official-repository",
+    "location": "https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt",
+    "title": "2048 upstream MIT license",
+    "claims": [
+      "Repository license is MIT with Gabriele Cirulli copyright notice."
+    ],
+    "versionScope": "Upstream source, not automatically the current play2048.co artwork",
+    "notes": "No asset adoption; hosted site denies this origin through frame-ancestors.",
+    "accessedAt": "2026-10-21",
+    "confidence": "high-for-stated-scope",
+    "conflictStatus": "open"
+  },
+  {
+    "id": "hextris-upstream-license",
+    "kind": "official-repository",
+    "location": "https://github.com/Hextris/hextris/blob/gh-pages/LICENSE.md",
+    "title": "Hextris GPL license",
+    "claims": [
+      "Current repository license is GPLv3; do not classify it as MIT."
+    ],
+    "versionScope": "Upstream gh-pages",
+    "notes": "No game software or picture imported; asset-specific and press-kit review still pending.",
+    "accessedAt": "2026-10-21",
+    "confidence": "high-for-stated-scope",
+    "conflictStatus": "open"
+  },
+  {
+    "id": "0hh1-upstream-license",
+    "kind": "official-repository",
+    "location": "https://github.com/florisluiten/0hh1/blob/master/LICENSE",
+    "title": "0h h1 Q42 MIT license",
+    "claims": [
+      "License identifies Q42 copyright and MIT terms."
+    ],
+    "versionScope": "2014 repository snapshot; current 0hh1.com implementation not yet mapped",
+    "notes": "No artwork adopted merely because an older repository is MIT.",
+    "accessedAt": "2026-10-21",
+    "confidence": "high-for-stated-scope",
+    "conflictStatus": "open"
+  },
+  {
+    "id": "0hh1-current-rules",
+    "kind": "official-web",
+    "location": "https://0hh1.com/",
+    "title": "0h h1",
+    "claims": [
+      "Three constraints: no runs of three same color, equal color counts, distinct rows and columns."
+    ],
+    "versionScope": "Current official page",
+    "notes": "External runtime and video qualification pending.",
+    "accessedAt": "2026-10-21",
+    "confidence": "high-for-stated-scope",
+    "conflictStatus": "scoped"
+  },
+  {
+    "id": "maptap-external-20261021",
+    "kind": "runtime-observation",
+    "location": "https://playdaily.org/maptap",
+    "title": "MapTap external submitted location result",
+    "accessedAt": "2026-10-21",
+    "versionScope": "Publisher page, shared context",
+    "claims": [
+      "One city selection produced Wide, 2204km and +32 points.",
+      "Round labels expose multipliers but their full scoring effect was not tested."
+    ],
+    "notes": "Transcribed result only, no saved/adopted game image. Next progression not established."
+  }
+]

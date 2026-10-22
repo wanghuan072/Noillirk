@@ -1,0 +1,77 @@
+{
+  "scope": "all normal pages from Game and Guide data; inclusion does not grant publication approval",
+  "pages": {
+    "/games": {
+      "fingerprint": "cb85de3d19d249a4ae3f61231d4ff5db11cf44861dfb625ba9a5077351f6bf3c",
+      "lastModified": "2026-10-22"
+    },
+    "/guides": {
+      "fingerprint": "0ac908ed3d5b3ccf4a7b223377e82e7d7c7bfabde30ad7037df506c756a0cfef",
+      "lastModified": "2026-10-22"
+    },
+    "/about": {
+      "fingerprint": "7d6d34b3018e1772dbdcf7686e39d8fa00ad360fa78929b46d2e4fd570c8d327",
+      "lastModified": "2026-10-22"
+    },
+    "/privacy": {
+      "fingerprint": "9ac5103bce0cbc4077fa73ee47b2328353f4177cf15aed8f3ae555ed2950d82b",
+      "lastModified": "2026-10-22"
+    },
+    "/terms": {
+      "fingerprint": "2fb59d18de4874ac72a4d6ffd836250576d3f4bd986128ea53a981ae43abefae",
+      "lastModified": "2026-10-22"
+    },
+    "/copyright": {
+      "fingerprint": "016dcb695e3270843e6f4249ec3745bbd1b5ae64080e69e28949df9c9701d1f6",
+      "lastModified": "2026-10-22"
+    },
+    "/contact": {
+      "fingerprint": "43620c9311b7cad108c207517ff7368b638af3fd01ef1583195458027e9e9cd7",
+      "lastModified": "2026-10-22"
+    },
+    "/": {
+      "fingerprint": "ca19dd176120f1e441040cdef53271ebfce2c1f9586edd795d2a47f68c28e1ad",
+      "lastModified": "2026-10-22"
+    },
+    "/games/hello-wordl": {
+      "fingerprint": "c33856fe90f5335926029b68639dae6b72e93e5474277c66763c4991515134ea",
+      "lastModified": "2026-10-22"
+    },
+    "/games/the-evolution-of-trust": {
+      "fingerprint": "b70c51a5389a09efecd6466ed391921703599e8af9dad58b6ce349880ffd8289",
+      "lastModified": "2026-10-22"
+    },
+    "/games/parable-of-the-polygons": {
+      "fingerprint": "bf357670591aa5868795d425c75067b8f76d60ef617f6e05b44395412e8e1182",
+      "lastModified": "2026-10-22"
+    },
+    "/games/0h-n0": {
+      "fingerprint": "53c0de7b564212a232ede8c0899dda5275fbcce3f4f2681d71a9330196c0004e",
+      "lastModified": "2026-10-22"
+    },
+    "/games/0h-h1": {
+      "fingerprint": "0c86b05896ace3c0bb31c0fc79e1af7dd5525add8faf06f3b3668f52b69462c0",
+      "lastModified": "2026-10-22"
+    },
+    "/games/the-wisdom-and-or-madness-of-crowds": {
+      "fingerprint": "c3832196576f7eb8fb2ca3399a66677cb875ae2ef6a5ba7be707d0ef288da06a",
+      "lastModified": "2026-10-22"
+    },
+    "/games/a-dark-room": {
+      "fingerprint": "c5033c93b1d99bce92e844a94d375f89e3e9e67b1e1ef74f48f607082f383edd",
+      "lastModified": "2026-10-22"
+    },
+    "/games/sandspiel": {
+      "fingerprint": "04edca9145a7238b14509a2fe670c90beceefcfb0ec60e9cb825e85016ad128e",
+      "lastModified": "2026-10-22"
+    },
+    "/guides/noillirk-answer-strategy": {
+      "fingerprint": "29f68f1c9c698c1bec9e495da663223d72a57b2cbc342e05888ebd3faf9ea4fc",
+      "lastModified": "2026-10-22"
+    },
+    "/guides/noillirk-scoring-and-endless": {
+      "fingerprint": "3fbe6d38586c9188a6a87005143ae2a34d6aaa84aa274f202e507a2b84d6f399",
+      "lastModified": "2026-10-22"
+    }
+  }
+}

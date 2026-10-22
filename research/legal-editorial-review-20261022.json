@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-22T02:26:08.370Z",
+  "pages": [
+    {
+      "route": "/about",
+      "sections": 7,
+      "characters": 3090
+    },
+    {
+      "route": "/privacy",
+      "sections": 13,
+      "characters": 7098
+    },
+    {
+      "route": "/terms",
+      "sections": 11,
+      "characters": 5367
+    },
+    {
+      "route": "/copyright",
+      "sections": 14,
+      "characters": 8024
+    },
+    {
+      "route": "/contact",
+      "sections": 7,
+      "characters": 3100
+    }
+  ],
+  "references": [
+    "https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/how-to-write-a-privacy-notice-and-what-goes-in-it/",
+    "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/the-right-to-be-informed/what-privacy-information-should-we-provide/"
+  ],
+  "method": "Original factual drafting from actual capabilities and observed provider behavior; full existing license notices preserved",
+  "identity": "Independent website only; no invented company/person/location/jurisdiction/retention duration",
+  "email": "User supplied; no message sent and delivery not tested",
+  "reactReview": "Kept server schema generation server-side; deterministic metadata/date values; no extra client dependencies/effects; Footer uses shared identity; original player boundary unchanged"
+}

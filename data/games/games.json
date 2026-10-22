@@ -1,0 +1,1978 @@
+[
+  {
+    "id": "hello-wordl",
+    "slug": "hello-wordl",
+    "title": "Hello Wordl",
+    "shortDescription": "Choose a word length, submit real words and turn position clues into your next guess.",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": null,
+    "tags": [
+      "word guessing",
+      "letter clues"
+    ],
+    "categories": [
+      "word",
+      "logic"
+    ],
+    "spoilerPolicy": "none",
+    "flags": {
+      "isFeaturedHome": true,
+      "isNewHome": true,
+      "isRecommendedHome": true
+    },
+    "image": {
+      "src": "/images/games/hello-wordl/cover.webp",
+      "alt": "Hello Wordl title and five-letter board after a submitted guess",
+      "width": 560,
+      "height": 390
+    },
+    "player": {
+      "iframeSrc": "https://hellowordl.net/",
+      "aspectRatio": null,
+      "orientation": "adaptive",
+      "permissionsPolicy": [],
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ],
+      "loadTimeoutMs": 30000,
+      "minimumHeight": 680
+    },
+    "seo": {
+      "title": "Play Hello Wordl Online — Follow Every Letter Clue",
+      "description": "Play Hello Wordl with four to eleven letters. Learn position clues, repeated letters and next guesses, then choose another word length for a fresh puzzle."
+    },
+    "relatedGameIds": [
+      "polygons",
+      "sandspiel",
+      "trust",
+      "0hn0",
+      "0hh1",
+      "crowds"
+    ],
+    "content": [
+      {
+        "id": "one-word-six-rows",
+        "heading": "One hidden word, six rows of decisions",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Hello Wordl asks you to identify one hidden word by submitting words of the same length. The board gives you six rows. Each completed guess leaves a set of letter clues, so the next decision should respond to the board rather than simply replace the previous word with another favorite. The target stays fixed during that puzzle; a promising letter does not become less useful because your first guess was wrong."
+          },
+          {
+            "type": "paragraph",
+            "text": "The length control is a useful difference to notice before you begin. The visible game offers four through eleven letters, with five selected when opened in the observed version. A longer board is a different search problem, not a promise of additional guesses: look at the six rows before committing. Short words have fewer positions to track, while a long word can contain several copies of a letter and several possible word endings."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use the random game when you want another puzzle without waiting. Today's is a separate visible choice. Check the mode written below the keyboard before comparing a board with someone else. A random example on this page does not reveal today's target, and a recording of a past board should not be treated as the answer to the puzzle currently in your player."
+          }
+        ]
+      },
+      {
+        "id": "submit-a-word",
+        "heading": "Enter a complete word before asking for feedback",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Select Play Now to open the game, then choose the word length before the first guess. Use the letter keys shown beneath the board to fill the active row, the backspace key to correct an entry, and Enter to submit it. Read the response before entering the next word. Filling tiles and submitting a word are separate actions; visible letters in an unfinished row are not yet evidence about the target."
+          },
+          {
+            "type": "paragraph",
+            "text": "The length slider becomes unavailable during an active puzzle. That prevents a half-played five-letter board from silently becoming an eleven-letter board. Finish the current puzzle or use Give up before selecting another length. Giving up ends that puzzle and reveals its answer, so use it as a deliberate end-of-round choice rather than as an undo button. The length control becomes available again afterwards."
+          },
+          {
+            "type": "paragraph",
+            "text": "Before submitting, check the whole spelling and the number of occupied cells. In the observed Normal difficulty, guesses must be valid dictionary words. A word that is familiar to you can still be outside a game's accepted list, so read the alert if an entry does not advance. Do not interpret a refused entry as a completed clue row. Keep the distinction between an editable word, a refusal message and a row with locked feedback."
+          }
+        ]
+      },
+      {
+        "id": "positions-and-absence",
+        "heading": "Read a clue as a letter and a position",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A correct-position tile fixes that letter in that cell. An elsewhere tile says the letter belongs in the target but the tested position is wrong. An absent tile rules out that tested copy, with repeated-letter counts taken into account. The keyboard is a convenient reminder of letters you have tried, but the rows preserve the position information. Return to those rows when the keyboard alone no longer explains where a letter can go."
+          },
+          {
+            "type": "paragraph",
+            "text": "In one five-letter puzzle, STARE produced five absent tiles. CHOIR then marked O and I as elsewhere while C, H and R were absent. The useful next step was not to keep the third-position O and fourth-position I. Those two positions had just been tested and refused for those letters. Keep O and I in the candidate set, move them to other positions, and avoid spending another guess on letters already excluded by these rows."
+          },
+          {
+            "type": "paragraph",
+            "text": "This is also why a guess can be useful without containing a correct-position tile. Two elsewhere clues can reduce the choices for the next row substantially. Compare what the guess taught you with what you knew before it, rather than judging every nonwinning row as wasted. A word that repeats the same rejected positions contributes less than a word that tests a genuinely different arrangement."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/hello-wordl/feedback.webp",
+            "alt": "STARE is absent while O and I in CHOIR are marked elsewhere",
+            "width": 560,
+            "height": 650,
+            "caption": "O and I remain useful letters, but their positions in CHOIR have been ruled out."
+          }
+        ]
+      },
+      {
+        "id": "repeated-letter-decisions",
+        "heading": "Repeated letters need evidence, not a blanket ban",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Do not assume that a target contains each letter only once. A repeated letter can be exactly what a board needs. In a separate random puzzle, BLOOM placed M in the wrong position. MUMMY then produced correct-position M tiles in the first, third and fourth cells. The important observation is the three locked positions, not a general preference for unique-letter guesses. Removing repeated M letters from consideration would have contradicted that board."
+          },
+          {
+            "type": "paragraph",
+            "text": "The opposite mistake is assuming that every extra copy is useful because one copy was found. Evaluate each tile. A guess containing two copies can receive different feedback for those copies, because the target may not have room for both. When one copy is correct and another is absent, preserve the confirmed copy and reconsider the extra one. An absent duplicate is not permission to erase the correct tile beside it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Separate two questions when choosing a repeated-letter guess: does the evidence allow another copy, and does the proposed position add information? Testing repetition can be worthwhile when the remaining word shapes need it. Repeating a known letter in a position already ruled out does little to resolve the uncertainty. Let the board determine which of those situations you are in."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/hello-wordl/duplicates.webp",
+            "alt": "MUMMY shows three correct-position M tiles after BLOOM placed M elsewhere",
+            "width": 560,
+            "height": 650,
+            "caption": "Three M tiles are correct in this random board; repeated letters cannot be discarded automatically."
+          }
+        ]
+      },
+      {
+        "id": "longer-word-boards",
+        "heading": "Track long words one position at a time",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "On an eleven-letter board, use the same rules at a slower reading pace. Count the cells before carrying a clue into the next guess. It is easy to remember that a letter was near the middle while accidentally shifting it one position. A confirmed fourth cell must remain the fourth cell, even when the next candidate word looks very different from the last one."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the illustrated eleven-letter puzzle, CATERPILLAR confirmed E in cell four and R in cell five. P and the first L were elsewhere. The second L and the final R were absent. That combination matters more than a rough impression that the word contains many matching letters: the locked R should stay in place, while the absent extra R does not justify adding another R later in the word."
+          },
+          {
+            "type": "paragraph",
+            "text": "Read repeated letters across the whole row before deciding on a word family or ending. In this example, carrying both L copies into every later guess would ignore the absent second copy. Likewise, replacing the confirmed middle letters just to try a familiar ending throws away hard evidence. Write the next candidate against the actual numbered cells, check the repeated copies, and only then submit it."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/hello-wordl/long-word.webp",
+            "alt": "Eleven-letter CATERPILLAR row with correct middle letters and different feedback for repeated letters",
+            "width": 560,
+            "height": 650,
+            "caption": "The longer row still uses six guesses; compare each repeated copy and keep the confirmed positions."
+          }
+        ]
+      },
+      {
+        "id": "a-useful-next-guess",
+        "heading": "Choose what your next guess needs to resolve",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "After each accepted guess, identify the largest remaining uncertainty. With no present letters, a word using different letters can test more of the alphabet. With several present letters, rearranging them into legal positions becomes more valuable. With a nearly completed pattern, testing a plausible solution may be more useful than collecting broad information about letters that can no longer change the result."
+          },
+          {
+            "type": "paragraph",
+            "text": "These aims can conflict. A guess full of new letters might reveal information while being an impossible solution under the clues you already have. A plausible solution might reuse many letters and tell you little if it is wrong. Decide which job the row is doing. With only one row left, information that cannot be used in a later guess is not a substitute for a candidate that fits the board."
+          },
+          {
+            "type": "paragraph",
+            "text": "Before pressing Enter, compare the candidate with every completed row, not just the most recent one. Check each fixed position, each elsewhere restriction and each repeated-letter limit. A late guess often fails because it revives a letter excluded several turns earlier. The visible keyboard helps with quick recall, while the older rows help you catch that positional contradiction."
+          },
+          {
+            "type": "paragraph",
+            "text": "There is no need to copy the speed of a video. The visible game board uses a guess limit, and the stopwatch in the all-lengths recording is the creator's overlay. Treat that recording as a way to watch the board change between word lengths and submissions. Your own useful pace is the one that leaves time to read the returned clues and avoid spending a row on a spelling or position you meant to change."
+          }
+        ]
+      },
+      {
+        "id": "readable-controls",
+        "heading": "Make the board readable before continuing",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The settings panel offers a dark theme, high-contrast colors and a keyboard-layout selector, with QWERTY, AZERTY, QWERTZ, Dvorak and Colemak visible in the observed version. An Enter-on-the-left option is also present. Choose a layout you can recognize before a difficult board; an unfamiliar key arrangement adds a control problem to a word problem. Color appearance may change with settings, so use the position meaning of the feedback rather than a remembered shade alone."
+          },
+          {
+            "type": "paragraph",
+            "text": "On a narrow screen, inspect all cells of a long row before submitting. Use the game page's Webpage Fullscreen control to expand the available area, or Browser Fullscreen where supported. If a physical keyboard is affecting the surrounding page instead of the game, focus the game or use its visible keys. The on-screen keyboard provides a direct way to test whether the entry control itself is responding."
+          },
+          {
+            "type": "paragraph",
+            "text": "If the embedded game remains blank, use the nearby retry control rather than entering guesses into an empty area. Retrying creates a new frame and can discard the current in-frame state. Before refreshing a partly completed puzzle, understand that this website does not store or recover the provider's board. Browser storage restrictions can also affect third-party game preferences, and a previous layout choice is not proof that progress is backed up across devices."
+          }
+        ]
+      },
+      {
+        "id": "hello-wordl-questions",
+        "heading": "Questions while you play",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "question": "Can I change the length halfway through a puzzle?",
+                "answer": "The slider is disabled during an active puzzle. End that puzzle before choosing a new length. Give up reveals the current answer, so it is an end-of-round action."
+              },
+              {
+                "question": "Does an elsewhere clue tell me the final position?",
+                "answer": "It confirms that the letter belongs in the target while rejecting the position just tested. Use other rows to narrow down where it can fit."
+              },
+              {
+                "question": "Should I avoid every repeated letter?",
+                "answer": "No. The illustrated MUMMY guess has three correctly placed M tiles. Other boards can reject an extra copy, so compare each tile instead of applying a single rule to all duplicates."
+              },
+              {
+                "question": "Is the timer in the all-lengths video part of this game?",
+                "answer": "The recording's stopwatch is a creator overlay. Do not treat its speedrun time as a countdown or failure condition imposed by the visible Hello Wordl board."
+              }
+            ]
+          },
+          {
+            "type": "video",
+            "provider": "youtube",
+            "videoId": "VIavCrvnrDs",
+            "title": "Watch clues change across short and long boards",
+            "description": "Watch submitted guesses mark the keyboard and board as the player changes word lengths. Recorded puzzles show their guesses; the stopwatch is a creator overlay."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "trust",
+    "slug": "the-evolution-of-trust",
+    "title": "The Evolution of Trust",
+    "shortDescription": "Choose cooperation or cheating, compare coin payoffs and see what repeated encounters change.",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": null,
+    "tags": [
+      "strategy",
+      "interactive simulation"
+    ],
+    "categories": [
+      "logic",
+      "strategy"
+    ],
+    "spoilerPolicy": "marked",
+    "flags": {
+      "isFeaturedHome": true,
+      "isNewHome": false,
+      "isRecommendedHome": true
+    },
+    "image": {
+      "src": "/images/games/trust/cover.webp",
+      "alt": "The Evolution of Trust title surrounded by hand-drawn connected players",
+      "width": 1100,
+      "height": 404
+    },
+    "player": {
+      "iframeSrc": "https://ncase.me/trust/",
+      "aspectRatio": null,
+      "orientation": "adaptive",
+      "permissionsPolicy": [],
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ],
+      "loadTimeoutMs": 30000,
+      "minimumHeight": 680
+    },
+    "seo": {
+      "title": "Play The Evolution of Trust Online — Choices and Payoffs",
+      "description": "Play The Evolution of Trust and compare cooperation, cheating and repeated encounters. Follow coin payoffs, read feedback, and explore changing strategies."
+    },
+    "relatedGameIds": [
+      "hello-wordl",
+      "polygons",
+      "sandspiel",
+      "0hn0",
+      "0hh1",
+      "crowds"
+    ],
+    "content": [
+      {
+        "id": "two-choices",
+        "heading": "Two choices can lead to four different outcomes",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Evolution of Trust is an interactive strategy lesson built around a simple exchange. Two players stand beside a machine. Cooperating puts one coin into it and gives the other player three; cheating keeps your coin out. Both players choose, so your result depends on the pair of decisions. This is a model with visible rules and score counters, not a transaction involving real money."
+          },
+          {
+            "type": "paragraph",
+            "text": "The opening lesson asks you to compare those decisions before introducing repeated encounters and automated strategy contests. It is worth following that order. A move that looks attractive in one isolated exchange can lead to a different pattern when an opponent remembers earlier behavior. The interesting task is to notice which rule or condition has changed, rather than memorize a single button to press everywhere."
+          },
+          {
+            "type": "paragraph",
+            "text": "Begin with Play Now on this page and PLAY inside the game. Advance with the outlined arrow controls when you have read a screen. The opening estimates a longer lesson of about thirty minutes; that is a reading estimate rather than a countdown demanding a fast decision. Take time to distinguish your payoff from the other player's payoff before moving on."
+          }
+        ]
+      },
+      {
+        "id": "read-the-machine",
+        "heading": "Read both sides of the machine",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "You control the player marked as you. CHEAT and COOPERATE are decisions for that player, while the other player's decision determines the matching row of the payoff comparison. In the introductory question, the game tells you that the other player will cheat. Use that information: this first question does not require you to guess a hidden personality."
+          },
+          {
+            "type": "paragraph",
+            "text": "If both players cooperate, each spends one coin and receives three, for a net gain of two each. If you cheat while the other player cooperates, your gain is three and their result is minus one. If you cooperate while the other player cheats, those two numbers reverse. If neither puts in a coin, neither gains nor loses anything. Keep these four pairs separate; your three-coin gain is not the combined result for the pair."
+          },
+          {
+            "type": "paragraph",
+            "text": "A useful check is to read the labels on the machine before the numbers. You can easily recognize a large positive number while assigning it to the wrong player. Follow the you and other-player arrows, then compare the two outcomes available under the stated opponent move. The first lesson is a controlled comparison, so use the move it specifies rather than inventing another assumption."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/trust/choice.webp",
+            "alt": "Two players beside the coin machine with Cheat and Cooperate choices",
+            "width": 1100,
+            "height": 584,
+            "caption": "The opening specifies the other player's move before asking you to choose."
+          }
+        ]
+      },
+      {
+        "id": "a-costly-cooperation",
+        "heading": "Understand why the first cooperative choice loses a coin",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "When the introductory opponent cheats, choosing COOPERATE produces a minus-one result for you and a plus-three result for them. The loss is the coin you put in; their gain is the benefit generated by that coin. The feedback is explaining the consequence of the selected pair of moves. It does not mean that your button failed or that another hidden fee was charged."
+          },
+          {
+            "type": "paragraph",
+            "text": "Choosing CHEAT against that same cheating opponent would instead leave both scores at zero. When the lesson changes its assumption and says the opponent cooperates, the comparison changes: cooperation now gives you two, while cheating gives you three. Read the new assumption before reusing the previous explanation. These are distinct cases even though the same two controls remain on the screen."
+          },
+          {
+            "type": "paragraph",
+            "text": "This is the tension the later game explores. Each player can have an immediate reason to keep their coin, yet mutual cooperation creates a better combined result than mutual cheating. The four numbers establish that tension under this particular machine's rules. They are not a statement that every real relationship has identical costs, benefits or information."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/trust/cooperate-result.webp",
+            "alt": "The coin machine highlights minus one versus plus three and zero versus zero",
+            "width": 1100,
+            "height": 359,
+            "caption": "Cooperating against a cheat costs one; mutual cheating leaves both at zero."
+          }
+        ]
+      },
+      {
+        "id": "more-than-one-round",
+        "heading": "Repeated encounters add a history",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use the more-than-once control to enter the human-played sequence. The displayed setup introduces five opponents with different strategies. Each encounter lasts between three and seven rounds, and you are not told the final round in advance. That makes the next response and the history of the encounter relevant. Do not assume the first opponent's behavior describes all five."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the illustrated opening exchange, cooperation was met with cooperation. Both round counters showed two, the opponent counter still read one of five, and the running total became two. These counters answer different questions: the payoff pair explains the exchange, the opponent counter locates the encounter, and the total accumulates your results. Advancing one round is not the same as finishing the opponent sequence."
+          },
+          {
+            "type": "paragraph",
+            "text": "Watch how a responsive opponent behaves after your moves. A strategy that copies earlier behavior can respond differently after cooperation and after cheating, whereas a fixed strategy may keep doing the same thing. Test a clear hypothesis and read the next result. One friendly response does not establish that an opponent always cooperates, and one unhelpful response does not prove that every later round is hopeless."
+          },
+          {
+            "type": "paragraph",
+            "text": "A tempting immediate gain can therefore have a later cost. If you change a move to exploit cooperation, inspect what happens in the next exchange instead of judging only the first gain. Equally, do not discard a cooperative pattern merely because the single-round comparison looked different. The purpose of the repeated sequence is to make those consequences visible."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/trust/repeated-score.webp",
+            "alt": "Repeated encounter shows two points each, opponent one of five and a total of two",
+            "width": 1100,
+            "height": 512,
+            "caption": "Round results and the running total are separate counters."
+          }
+        ]
+      },
+      {
+        "id": "compare-modes",
+        "heading": "Keep your rounds separate from the tournament's rounds",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The later automated tournament compares strategies against one another. The recording shows a pairing between Always Cheat and Always Cooperate with ten round markers and totals of thirty versus minus ten. Those totals follow repeated plus-three and minus-one exchanges. They belong to that tournament pairing; they do not replace the three-to-seven-round setup stated for your earlier human-played encounters."
+          },
+          {
+            "type": "paragraph",
+            "text": "Before comparing two scores, check that they describe the same unit. A single exchange, one opponent encounter, a full tournament and a sequence of population changes are different units of progress. A large accumulated total can result from many rounds. Reading it as a one-turn reward would make the machine's simple payoff rule seem inconsistent when it has not changed."
+          },
+          {
+            "type": "paragraph",
+            "text": "The repeated-tournament section introduces a further cycle: play a tournament, remove low-scoring participants and reproduce high-scoring participants. Now the composition of the group can change as well as individual scores. Observe the group before and after a cycle. A strategy's performance depends in part on whom it meets, so a result in one population is not automatically a result in every possible population."
+          },
+          {
+            "type": "paragraph",
+            "text": "Later outcomes can reveal the behavior of named strategies. If you want to explore those discoveries yourself, play the relevant sections before watching the full video. The video below includes strategy and tournament outcomes. Its use here is to help compare the machine, pairing displays and population controls, not to turn one recorded outcome into a universal winning rule."
+          }
+        ]
+      },
+      {
+        "id": "first-run-plan",
+        "heading": "Make one comparison at a time",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "For a useful first run, start by explaining each of the four payoff pairs in your own words. Then make a move in the repeated sequence and identify which counter changed. Only after those two tasks are clear should you judge a strategy over several rounds. This order makes it easier to tell an immediate payoff from a reaction to earlier behavior."
+          },
+          {
+            "type": "paragraph",
+            "text": "When a result surprises you, pause at the current screen and ask what assumption you carried forward. Was the opponent's move stated or unknown? Was this the same opponent? Were you reading a round score or a total? Had the game moved from your choices to an automated contest? These checks are more useful than restarting because a negative number appeared."
+          },
+          {
+            "type": "paragraph",
+            "text": "Do not treat the tutorial's encouraging or critical language as a hidden scoring system. The visible payoff matrix and counters explain the actual model. You can deliberately try an unfavorable move to understand its consequence, then continue reading. A learning run does not need to maximize every early exchange to reveal how the system works."
+          }
+        ]
+      },
+      {
+        "id": "reading-and-controls",
+        "heading": "Keep the choices and feedback visible",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The handwritten diagrams combine labels, arrows and numbers, so give the game enough space to read them together. Webpage Fullscreen expands the player within this page; Browser Fullscreen uses the browser's own viewing mode when supported. Before choosing, check that you can see both decision buttons and the payoff area. An enlarged view is useful when the diagram becomes crowded during strategy comparisons."
+          },
+          {
+            "type": "paragraph",
+            "text": "Some transitions animate the characters, machine or counters before the next screen is settled. Wait for the new prompt and choices instead of sending several rapid clicks into a changing layout. A temporary zero during an animation is not necessarily the final payoff; read the completed counter and accompanying feedback before interpreting the move."
+          },
+          {
+            "type": "paragraph",
+            "text": "The game's visible sound toggle is separate from the website's viewing controls. Use that in-game control if you want to read quietly. If the frame remains blank, retry it from the surrounding player controls. Reloading replaces the frame, so avoid doing that in the middle of a comparison you still want to inspect. This website does not restore the embedded provider's lesson state for you."
+          }
+        ]
+      },
+      {
+        "id": "trust-questions",
+        "heading": "Questions about choices and scores",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "question": "Why does cooperating sometimes produce a negative score?",
+                "answer": "Against a cheating opponent you put in one coin but receive none. That pair of moves gives you minus one and gives the other player three."
+              },
+              {
+                "question": "Is mutual cooperation worth three each?",
+                "answer": "The machine transfers three to the other player, but each cooperator also spends one. With both cooperating, the net payoff is two each."
+              },
+              {
+                "question": "Why does the video show ten rounds when my encounter says three to seven?",
+                "answer": "The observed ten-round display is an automated tournament pairing. The earlier human-played opponent sequence states three to seven rounds per encounter. Keep those modes separate."
+              },
+              {
+                "question": "Does a tournament result prove how real people must behave?",
+                "answer": "No. The result follows the model's payoffs, available strategies and pairing conditions. Use it to examine those assumptions rather than as a prediction for every relationship."
+              }
+            ]
+          },
+          {
+            "type": "video",
+            "provider": "youtube",
+            "videoId": "utRF4ueoCdY",
+            "title": "Compare the coin machine with repeated strategy contests",
+            "description": "Spoilers: this playthrough reveals strategy and tournament outcomes. Compare the payoff pairs, repeated pairings and population controls; round counts differ by mode."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "polygons",
+    "slug": "parable-of-the-polygons",
+    "title": "Parable of the Polygons",
+    "shortDescription": "Move unhappy shapes into empty spaces and explore how local rules change a whole board.",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": null,
+    "tags": [
+      "drag and drop",
+      "simulation"
+    ],
+    "categories": [
+      "logic",
+      "strategy"
+    ],
+    "spoilerPolicy": "marked",
+    "flags": {
+      "isFeaturedHome": true,
+      "isNewHome": true,
+      "isRecommendedHome": true
+    },
+    "image": {
+      "src": "/images/games/polygons/cover.webp",
+      "alt": "Parable of the Polygons title between blue squares and yellow triangles",
+      "width": 1100,
+      "height": 494
+    },
+    "player": {
+      "iframeSrc": "https://ncase.me/polygons/",
+      "aspectRatio": null,
+      "orientation": "adaptive",
+      "permissionsPolicy": [],
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ],
+      "loadTimeoutMs": 30000,
+      "minimumHeight": 720
+    },
+    "seo": {
+      "title": "Play Parable of the Polygons Online — Move and Explore",
+      "description": "Play Parable of the Polygons: move unhappy shapes, count their neighbors, compare changing boards and explore how simple preferences affect a simulation."
+    },
+    "relatedGameIds": [
+      "hello-wordl",
+      "trust",
+      "0hn0",
+      "0hh1",
+      "crowds",
+      "sandspiel"
+    ],
+    "content": [
+      {
+        "id": "shapes-and-spaces",
+        "heading": "A board changes one neighborhood at a time",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Parable of the Polygons combines small dragging puzzles with larger automatic simulations. Blue squares and yellow triangles occupy a grid with empty spaces. Your first task is to notice which shapes are unhappy, move one into an empty position and inspect the new neighborhood. The faces and nearby shapes explain whether a move changed anything useful. There is no falling-block timer demanding a quick decision."
+          },
+          {
+            "type": "paragraph",
+            "text": "The page develops its rules as you scroll. Begin with the small introductory arrangement before trying the crowded automatic boards. The early board is deliberately readable: a misplaced triangle, a group of squares and a nearby mixed group make it possible to see the consequence of a single move. Later experiments contain many more shapes, so the same consequence becomes harder to trace by eye."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use Play Now here to load the game, then scroll inside its player. This is a playable article rather than a separate menu followed by one fixed level. Read the rule beside the current board; later sections change the conditions. A technique that moves an unhappy shape on the first board does not make every shape movable throughout the page."
+          }
+        ]
+      },
+      {
+        "id": "make-a-move",
+        "heading": "Drag an unhappy shape into a real empty space",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Press an unhappy shape, keep the pointer held down, move to an unoccupied grid position and release. The shape follows the pointer while held. An empty position is a destination; another occupied shape is not. Aim for the center of the gap rather than the edge of a neighbor. If the shape returns to where it began, inspect the destination and its eligibility before assuming that dragging is broken."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the introductory arrangement shown below, the isolated triangle in the left group can be moved to the open position in the left column of the right group. During the drag, its old position becomes visibly empty. After release into that open position, the triangle remains on the right and its face becomes happy. That sequence distinguishes picking a shape up from completing a valid move."
+          },
+          {
+            "type": "paragraph",
+            "text": "A nearby occupied position gives a different result: dropping there does not place the triangle on top of the square. Use the visible gap as the target. This matters on dense boards where neighboring cells look very close together. A rejected destination is an operation problem, while an accepted move followed by another unhappy face is a neighborhood problem; solve the one you actually have."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/polygons/dragging.webp",
+            "alt": "An unhappy triangle held between two groups with its old position empty",
+            "width": 790,
+            "height": 385,
+            "caption": "A held triangle has left a gap, but the move is not complete until release into an empty cell."
+          }
+        ]
+      },
+      {
+        "id": "count-neighbors",
+        "heading": "Count the neighbors that are actually present",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The opening rule compares the share of nearby shapes that match the selected shape. A shape wants to move when fewer than one third of its neighbors are like it. Count the occupied immediate neighborhood, then count the matching shapes within it. Do not include the selected shape itself as another neighbor, and do not count an empty square as a different kind of polygon."
+          },
+          {
+            "type": "paragraph",
+            "text": "The small comparison panels make the boundary clear. A triangle with one matching neighbor out of six is unhappy. Two matching neighbors out of six reach exactly one third and the triangle is happy. The word fewer matters: equality does not fall below the opening threshold. Counting only the four horizontal and vertical positions can also misread the illustrated neighborhood; look at the diagonal positions included in the example."
+          },
+          {
+            "type": "paragraph",
+            "text": "The page also distinguishes a neutral expression when every neighbor is the same kind or when there are no neighbors. That expression is not an instruction to drag every neutral shape anywhere. Check the local explanation and the current board. Faces provide quick feedback, but the ratio and the conditions printed alongside the experiment explain why that feedback appears."
+          }
+        ]
+      },
+      {
+        "id": "happy-shapes",
+        "heading": "A satisfied shape may stop being movable",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "You can move shapes only while they are unhappy under the current rule. Once a shape is satisfied, it stays put until changes around it make it unhappy again. This makes the puzzle different from rearranging freely movable tiles. A square that ignores a drag can be following the rule correctly even though another square moved a moment earlier."
+          },
+          {
+            "type": "paragraph",
+            "text": "Moving one shape changes two neighborhoods: the area it leaves and the area it enters. A new matching neighbor can help one polygon, while a departing neighbor can upset another. After a valid drop, scan both locations. Do not evaluate a move only by the expression of the polygon under your pointer; its neighbors may now have a different ratio."
+          },
+          {
+            "type": "paragraph",
+            "text": "For a first attempt, pick one unhappy shape and predict its matching-neighbor fraction at the destination. Make the move, compare the new face with that prediction and only then choose the next shape. Several rapid drags make it difficult to tell which move changed an expression. The small board is a place to learn that causal chain before the automatic experiments move many shapes for you."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/polygons/accepted-move.webp",
+            "alt": "The triangle remains in the open position on the right with a happy face",
+            "width": 790,
+            "height": 385,
+            "caption": "After a valid drop, the triangle stays in the right group and its face changes."
+          }
+        ]
+      },
+      {
+        "id": "automatic-boards",
+        "heading": "Use the automatic board to inspect a pattern",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The first large automatic board has a START MOVIN’ control and a NEW BOARD control beside a graph. Starting the movement lets unhappy polygons relocate automatically. The graph tracks the simulation as the arrangement changes. You are now observing repeated local moves rather than choosing each destination yourself, so do not read every movement as a move you deliberately planned."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the run illustrated here, the display began at one percent and later showed forty-five percent with a rising red curve. The board also developed more visible groups of matching shapes. Those are observations of this run. A new randomly arranged board may follow a different path, so forty-five is not a required target, a guaranteed finishing score or a universal constant for every experiment."
+          },
+          {
+            "type": "paragraph",
+            "text": "NEW BOARD creates another arrangement. Use it when you want another trial, not when you want to preserve the exact same starting layout for comparison. Before changing anything, note the printed preference, the initial arrangement and whether the simulation is moving. Comparing two final pictures without those conditions can make a random starting difference look like an effect of the setting."
+          },
+          {
+            "type": "paragraph",
+            "text": "A rising graph is not a victory animation. The larger purpose is to inspect what repeated individual rules produce across the board. Watch the positions and the graph together. A percentage can condense the arrangement into one measure, but it does not tell you which particular polygon moved last or whether every individual is now satisfied."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/polygons/automatic.webp",
+            "alt": "An automatic polygon board beside a red graph marked forty-five percent",
+            "width": 1050,
+            "height": 600,
+            "caption": "One automatic run changed the arrangement and raised the displayed measure to 45%."
+          }
+        ]
+      },
+      {
+        "id": "change-one-condition",
+        "heading": "Read the current preference before comparing experiments",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Later sections let you adjust a preference and contrast different thresholds. The opening one-third condition is not permanently attached to every later board. Read the text immediately above the controls after moving a slider. For example, the recording below includes a running experiment with a fifty-three-percent preference, whereas the first small explanation uses one third."
+          },
+          {
+            "type": "paragraph",
+            "text": "Changing a threshold can change which shapes are unhappy even before any movement happens. A neighborhood that satisfies a lower requirement may fail a higher one. Use the same counting method, but apply the value on the current experiment. Repeating a memorized opening answer after changing the preference misses the point of the control."
+          },
+          {
+            "type": "paragraph",
+            "text": "The playable also explores starting arrangements, preferences for variety and other configurations. Later examples can reveal outcomes you may prefer to discover yourself; the video includes these later experiments. Treat each result as a result of the displayed model and conditions. A grid of two polygon types is a deliberately simplified system, not a measurement of every real community or a prediction about an individual person."
+          }
+        ]
+      },
+      {
+        "id": "control-and-recover",
+        "heading": "Keep the board readable while dragging and scrolling",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A wide view makes the small gaps and facial expressions easier to distinguish. Webpage Fullscreen expands the player within this website; Browser Fullscreen uses the browser viewing mode when available. The playable itself is taller than the frame, so scrolling inside it is part of reaching later sections. If the surrounding page moves instead, put the pointer over the game before scrolling again."
+          },
+          {
+            "type": "paragraph",
+            "text": "On a touch device, a drag and a scroll compete for the same gesture. Begin directly on an eligible shape and move deliberately toward the visible gap. If the browser scrolls instead, stop and bring the board fully into view before trying again. A desktop pointer is useful for close comparisons, especially where the automatic board contains many small polygons."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use the local reset control when you want to repeat a small experiment. Reloading the entire player starts a broader navigation again and can lose the arrangement you were studying. If the frame fails to load, use Retry in this website’s player and wait for the title and shapes. Do not interpret a blank or partially loaded frame as an empty puzzle that has already been solved."
+          }
+        ]
+      },
+      {
+        "id": "polygons-questions",
+        "heading": "Questions about moving and comparing shapes",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "question": "Why will a shape not move?",
+                "answer": "Only unhappy shapes can be dragged under the current rule. A satisfied shape stays put until its neighborhood changes. Also check that your destination is an empty position."
+              },
+              {
+                "question": "Is exactly one third enough in the opening example?",
+                "answer": "Yes. The opening condition is fewer than one third. Two matching neighbors out of six are exactly one third and the illustrated triangle is happy."
+              },
+              {
+                "question": "Do I need to reach forty-five percent?",
+                "answer": "No. That was the observed graph value in one automatic run. It is not a required winning score or a guaranteed result for a new board."
+              },
+              {
+                "question": "Does a larger graph value prove a claim about real people?",
+                "answer": "No. It describes the playable model under its current rules and arrangement. The model leaves out many conditions present in real communities."
+              }
+            ]
+          },
+          {
+            "type": "video",
+            "provider": "youtube",
+            "videoId": "xAaHkZDXtLc",
+            "title": "Watch moving shapes and changing preferences",
+            "description": "Spoilers: this playthrough continues into later experiments. Compare the neighbor examples, automatic movement and changing preference controls."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0hn0",
+    "slug": "0h-n0",
+    "title": "0h n0",
+    "shortDescription": "Use numbered blue dots and red blockers to solve a line-of-sight logic grid.",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": null,
+    "tags": [
+      "number clues",
+      "line of sight"
+    ],
+    "categories": [
+      "logic",
+      "puzzle"
+    ],
+    "spoilerPolicy": "marked",
+    "flags": {
+      "isFeaturedHome": true,
+      "isNewHome": true,
+      "isRecommendedHome": true
+    },
+    "image": {
+      "src": "/images/games/0hn0/cover.webp",
+      "alt": "0h n0 four-by-four puzzle with blue numbered dots, red blockers and undecided positions",
+      "width": 480,
+      "height": 620
+    },
+    "player": {
+      "iframeSrc": "https://0hn0.com/",
+      "aspectRatio": null,
+      "orientation": "adaptive",
+      "permissionsPolicy": [],
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ],
+      "loadTimeoutMs": 30000,
+      "minimumHeight": 720
+    },
+    "seo": {
+      "title": "Play 0h n0 Online — Blue Dots and Red Blockers",
+      "description": "Play 0h n0 and solve blue-dot sight lines with numbered clues and red blockers. Learn when to extend a line, close a path and check intersecting deductions."
+    },
+    "relatedGameIds": [
+      "hello-wordl",
+      "trust",
+      "polygons",
+      "0hh1",
+      "crowds",
+      "sandspiel"
+    ],
+    "content": [
+      {
+        "id": "dots-and-sight",
+        "heading": "Solve the dots by controlling what they can see",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "0h n0 is a logic puzzle about sight lines on a grid. Numbered blue dots tell you how many other blue dots they must see horizontally and vertically. Red dots block those lines. Your job is to decide which unknown positions become blue and which become red while keeping all the numbered clues consistent. A number counts visible dots, not steps to a destination or the number of clicks you should make."
+          },
+          {
+            "type": "paragraph",
+            "text": "Start with Play Now, enter the game and choose How to play for its guided four-by-four example. Free play opens a size selection; the current browser menu offers sizes from four through nine. A small board makes it easier to count all four directions without losing your place. Larger grids add more intersecting lines, but the basic counting rule stays the same."
+          },
+          {
+            "type": "paragraph",
+            "text": "The gray positions are undecided. They are not red walls and they are not confirmed blue dots. Keep that distinction clear while reasoning: a gray position may allow a possible continuation, but it does not yet establish a completed blue line. Work from clues whose direction is already constrained by the board edge, a red blocker or another settled line."
+          }
+        ]
+      },
+      {
+        "id": "count-four-directions",
+        "heading": "Count other blue dots, stopping at red",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "For each numbered dot, look left, right, up and down. Add the blue dots visible in those directions until a red dot stops the view or the board ends. Do not add diagonal dots. Do not count the numbered dot itself: the clue describes other dots it sees. Another numbered blue dot still contributes as a blue dot when it lies on an open line."
+          },
+          {
+            "type": "paragraph",
+            "text": "A red dot blocks everything beyond it on that line. Two blue dots separated by red do not see through the blocker. Conversely, a line of blue dots continues through a numbered blue dot; the printed number is a constraint for that position, not a wall. Confusing the symbol with a blocker can make a completed line appear too short."
+          },
+          {
+            "type": "paragraph",
+            "text": "Count one direction at a time and keep a running total for the selected clue. Then check whether an undecided neighboring position could add more dots than the clue allows. The same position can affect a horizontal clue and a vertical clue, so a choice justified in one line must still work in the crossing line. A locally attractive blue dot can therefore be impossible globally."
+          }
+        ]
+      },
+      {
+        "id": "opening-two",
+        "heading": "Read the tutorial’s first number two",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The opening tutorial puts a numbered two in the upper-left corner. The board edges remove the upward and leftward directions, and a red dot below blocks the downward line. Its two visible blue dots must therefore be to the right. This is a forced direction, not a guess between several equally plausible routes."
+          },
+          {
+            "type": "paragraph",
+            "text": "The tutorial first explains that deduction and then asks you to fill the two marked positions. Tap an unknown position once to make it blue. After both positions are blue, the prompt changes to closing the path. The two now has the required other dots, so extending the same line into another blue position would exceed its clue."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use the transition as a check on the operation. Advancing an explanatory screen can take a click before the tutorial accepts a board move. Look for the actual color change and the new prompt rather than counting every click as a filled cell. Once the two dots are visibly blue, the next task is different: stop the view instead of extending it."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/0hn0/line-clue.webp",
+            "alt": "A number two in the upper-left corner with a red dot below and an open path right",
+            "width": 480,
+            "height": 620,
+            "caption": "The board edge and red dot leave only the rightward path for this two."
+          }
+        ]
+      },
+      {
+        "id": "close-the-path",
+        "heading": "A completed count needs a blocker at its open end",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The last position in the tutorial’s top row must become red after the two blue dots have been placed. Starting from gray, the first tap makes it blue and the second makes it red. Wait for the final color before moving to another cell. A single tap at this step would do the opposite of the intended deduction and leave the number two seeing too much."
+          },
+          {
+            "type": "paragraph",
+            "text": "After that red blocker is placed, the tutorial turns to a number one on the right. It already sees a blue dot below, and the new red dot above closes the upward direction. Its remaining open direction must not add another blue dot. Notice how one justified blocker becomes useful information for another clue; you are building a network of constraints rather than solving isolated numbers."
+          },
+          {
+            "type": "paragraph",
+            "text": "This closing rule is useful beyond the tutorial: when a clue already sees exactly enough confirmed blue dots, any directly open end that would add another must be stopped. Check the whole visible run before placing red. Blocking too early can remove a dot the clue still needs, and blocking in only one direction may leave another direction able to overfill the total."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/0hn0/red-block.webp",
+            "alt": "The top line contains two added blue dots and ends in a red blocker above a number one",
+            "width": 480,
+            "height": 620,
+            "caption": "A red dot closes the completed top line and also blocks the number one below it."
+          }
+        ]
+      },
+      {
+        "id": "one-clue-case",
+        "heading": "Use a number one to rule out a tempting blue",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The four-by-four board shown here has a one at the bottom-left, a two farther along the bottom row and a red dot two rows above the one. Suppose the gray position immediately right of the one were blue. The one would then see that new dot and the existing numbered two beyond it, already totaling two other blue dots. That exceeds one, so the adjacent gray position must be red."
+          },
+          {
+            "type": "paragraph",
+            "text": "With the rightward path blocked and the left and lower sides ended by the board boundary, the one needs its single visible dot above. The position immediately above becomes blue, while the red dot beyond stops that vertical line. The resulting image shows that blue-red pair. The progress display changed to twenty-three percent, but the proof comes from the sight-line counts, not from treating a percentage as a correctness guarantee."
+          },
+          {
+            "type": "paragraph",
+            "text": "This example is a way to eliminate a color without filling the whole board. Ask what a blue choice would force the clue to see. If that immediately exceeds the printed number, red is justified. If both colors still appear possible, leave the cell undecided and work on a more constrained clue. A gray cell is a useful place to postpone a decision; it is not an error that needs an immediate guess."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/0hn0/one-clue.webp",
+            "alt": "A blue dot above the bottom-left one and a red dot immediately to its right",
+            "width": 480,
+            "height": 620,
+            "caption": "The one gets its single visible dot above; the rightward path is blocked."
+          }
+        ]
+      },
+      {
+        "id": "crossing-clues",
+        "heading": "Return to crossing clues after each useful move",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "After extending or closing a line, inspect the numbered dots that share its row or column. A newly placed red dot can shorten their possible reach; a new blue dot can complete their count. This gives a practical solving rhythm: identify one forced move, make it, then revisit the clues affected by it. Recounting the entire grid after every tap is slower and makes it easier to forget the reason for the move."
+          },
+          {
+            "type": "paragraph",
+            "text": "Large clues often need several directions, while a small clue near an edge may have very few possibilities. Neither type is automatically the best first move. Compare how many directions remain open and where red dots already stop them. A large number with one possible long corridor can be more constrained than a small number surrounded by unknown positions."
+          },
+          {
+            "type": "paragraph",
+            "text": "The video below uses a six-by-six board, so its coordinates and starting clues differ from the four-by-four illustrations. It shows the same blue-red sight-line mechanism: after a clue’s visible count is complete, additional routes are blocked; later deductions extend the remaining available routes. Follow the reason for the move rather than copying the recorded cell positions into a different generated puzzle."
+          }
+        ]
+      },
+      {
+        "id": "correct-and-read",
+        "heading": "Check the color you placed before changing your plan",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Several taps on one position cycle its state, so an extra tap can undo the color you intended. Use a measured click or tap, inspect the resulting blue or red dot, and then continue. The puzzle does not require fast reflexes. When a count seems wrong, first verify that the cell actually has the color you meant to place and that no red blocker was overlooked."
+          },
+          {
+            "type": "paragraph",
+            "text": "The game’s lower toolbar includes a curved-arrow control and an eye control alongside other options. Use the visible control labels or its resulting feedback before relying on it; do not assume that a percentage alone validates every earlier decision. If you want to preserve a line of reasoning, compare the affected clues before replacing several cells in succession."
+          },
+          {
+            "type": "paragraph",
+            "text": "Give the board enough room to distinguish pale unknown dots from the white background and to read small numbers. Webpage Fullscreen and Browser Fullscreen enlarge the viewing area in different ways. On a narrow display, begin with the four-by-four size. If the embedded game remains blank, Retry recreates its frame; doing so can interrupt the current puzzle, so use it for a loading problem rather than as a normal solving move."
+          }
+        ]
+      },
+      {
+        "id": "dot-questions",
+        "heading": "Questions about numbers and blockers",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "question": "Does a number include its own dot?",
+                "answer": "No. It counts other blue dots visible horizontally and vertically. The numbered dot itself is not added to that total."
+              },
+              {
+                "question": "Do diagonal blue dots count?",
+                "answer": "No. Sight lines follow the current row and column, and red dots stop the view."
+              },
+              {
+                "question": "Why did two taps make a red dot?",
+                "answer": "From an unknown position, the first tap makes blue and the second makes red. Check the final visible color before applying the next deduction."
+              },
+              {
+                "question": "Can I copy the video’s moves into my board?",
+                "answer": "Only if the entire starting puzzle matches. The video uses a six-by-six example; use its counting method rather than its coordinates on a different board."
+              }
+            ]
+          },
+          {
+            "type": "video",
+            "provider": "youtube",
+            "videoId": "2K_thF0qg8Y",
+            "title": "Watch a six-by-six sight-line puzzle",
+            "description": "Puzzle spoilers: this guided six-by-six solve shows specific placements. Compare counting and blocking methods rather than copying cells to a different board."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0hh1",
+    "slug": "0h-h1",
+    "title": "0h h1",
+    "shortDescription": "Fill a two-color grid without triples, unequal counts or duplicate completed lines.",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": null,
+    "tags": [
+      "binary logic",
+      "two colors"
+    ],
+    "categories": [
+      "logic",
+      "puzzle"
+    ],
+    "spoilerPolicy": "marked",
+    "flags": {
+      "isFeaturedHome": true,
+      "isNewHome": true,
+      "isRecommendedHome": false
+    },
+    "image": {
+      "src": "/images/games/0hh1/cover.webp",
+      "alt": "0h h1 four-by-four grid with yellow and blue given tiles",
+      "width": 520,
+      "height": 595
+    },
+    "player": {
+      "iframeSrc": "https://0hh1.com/",
+      "aspectRatio": null,
+      "orientation": "adaptive",
+      "permissionsPolicy": [],
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ],
+      "loadTimeoutMs": 30000,
+      "minimumHeight": 720
+    },
+    "seo": {
+      "title": "Play 0h h1 Online — Solve the Two-Color Logic Grid",
+      "description": "Play 0h h1 with a clear plan for pairs, split pairs and balanced rows. Learn the current yellow-blue controls and compare lines before committing a move."
+    },
+    "relatedGameIds": [
+      "0hn0",
+      "hello-wordl",
+      "polygons",
+      "trust",
+      "a-dark-room",
+      "sandspiel"
+    ],
+    "content": [
+      {
+        "id": "two-color-grid",
+        "heading": "Fill every tile while keeping three constraints in balance",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "0h h1 turns a small grid into a chain of two-color deductions. In the current browser theme, unknown tiles are dark, one color is yellow and the other is blue. You fill the unknowns while preventing three equal colors in a straight run, balancing the two colors in each completed row and column, and avoiding duplicate completed rows or duplicate completed columns. A board can satisfy one of those conditions and still fail another."
+          },
+          {
+            "type": "paragraph",
+            "text": "Begin with Play Now and enter the game. How to play walks through a four-by-four arrangement; Free play lets you choose a board size. The current selection includes four, six, eight, ten and twelve. Start small enough to compare an entire row with its crossing columns. A larger grid gives more places to inspect, not a different permission to break the basic rules."
+          },
+          {
+            "type": "paragraph",
+            "text": "The first tap on an unknown tile makes it yellow, and another changes it to blue. The tutorial demonstrates both actions before introducing the constraints. Check the resulting color rather than relying on how many clicks you intended to send. A rapid extra tap can change a justified yellow into an unjustified blue and make the next deduction seem inconsistent."
+          }
+        ]
+      },
+      {
+        "id": "adjacent-pair",
+        "heading": "Two touching tiles force the next color",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Three tiles of one color may not sit consecutively in a row or column. In the tutorial’s top row, the first two tiles are yellow, so the next tile must be blue. Yellow there would immediately create a run of three. The same argument applies when the pair is blue: the third position must use the other color."
+          },
+          {
+            "type": "paragraph",
+            "text": "Look on both sides of an adjacent pair when space exists. A pair in the middle of a row can constrain an unknown immediately before it as well as one immediately after it. The board edge simply removes a position; it does not relax the limit on the positions that remain. Repeat the check vertically because a new horizontal deduction can complete a vertical pair."
+          },
+          {
+            "type": "paragraph",
+            "text": "Only a consecutive run triggers this rule. Three yellow tiles spread across a long row are not automatically illegal merely because there are three of them. Count their positions and the row’s size before choosing a rule. The no-triples condition and the equal-total condition solve different problems, even when both happen to point to the same tile."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/0hh1/adjacent-pair.webp",
+            "alt": "Two adjacent yellow tiles followed by an outlined empty position in the top row",
+            "width": 520,
+            "height": 610,
+            "caption": "A third yellow would make an illegal consecutive run."
+          }
+        ]
+      },
+      {
+        "id": "split-pair",
+        "heading": "Matching colors with one gap force the gap",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Two blue tiles with exactly one unknown tile between them cannot have blue in the gap, because that would form three consecutive blues. Fill the gap yellow. The tutorial shows this in its second row: a blue tile, an outlined unknown and another blue tile. One tap supplies the yellow that separates them, and the tutorial advances to the vertical version of the restriction."
+          },
+          {
+            "type": "paragraph",
+            "text": "The deduction is just as valid with yellow on both sides and blue in the middle. It also works vertically. Think of the three positions as a short window moving across the line: whenever its two ends already match, its middle must differ. This is often easier to spot than counting the whole row, especially at the start of a sparse board."
+          },
+          {
+            "type": "paragraph",
+            "text": "Do not extend the split-pair shortcut across two or more unknown positions. Blue, unknown, unknown, blue does not force each unknown to yellow by the same three-position argument. You need another constraint before filling those cells. Keeping the exact size of the gap in mind prevents a useful shortcut from becoming an unsupported guess."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/0hh1/split-pair.webp",
+            "alt": "Two blue tiles with one outlined unknown tile between them in the second row",
+            "width": 520,
+            "height": 610,
+            "caption": "The middle tile must differ from the matching ends."
+          }
+        ]
+      },
+      {
+        "id": "row-and-column-counts",
+        "heading": "A completed line needs half of each color",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Every completed row and every completed column must contain equal numbers of the two colors. A four-tile line therefore needs two yellow and two blue. A six-tile line needs three of each; an eight-tile line needs four of each. Count the actual line length before using a quota from another board size."
+          },
+          {
+            "type": "paragraph",
+            "text": "When one color has reached its quota, all remaining unknowns in that line must take the other color. In the tutorial’s illustrated second row, two blue tiles and one yellow tile are already present. The fourth tile must be yellow to produce two of each. This deduction uses the total count, even if the proposed wrong color would not create a triple at that exact position."
+          },
+          {
+            "type": "paragraph",
+            "text": "Balance is a condition for the completed line, so an unfinished row can temporarily contain unequal numbers of yellow and blue. Do not change a justified tile merely to make the partial row look balanced. Instead, ask whether enough unknown positions remain to reach the required total and whether the proposed placements would violate the consecutive-run rule."
+          },
+          {
+            "type": "paragraph",
+            "text": "After filling the remaining positions from a quota, revisit their columns. A row-based move can give a column its last needed blue or create an adjacent yellow pair there. This alternating scan turns one forced placement into the next. It is more reliable than finishing an entire row while ignoring what its new colors do vertically."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/0hh1/balance.webp",
+            "alt": "A four-tile row with two blue tiles, one yellow and a final unknown tile",
+            "width": 520,
+            "height": 610,
+            "caption": "Two blue tiles have filled their quota; the remaining tile needs yellow."
+          }
+        ]
+      },
+      {
+        "id": "distinct-lines",
+        "heading": "Compare full patterns before finishing a line",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "No two completed rows may be identical, and no two completed columns may be identical. Compare the order of colors, not just their totals. Two four-tile rows can each contain two yellow and two blue while still differing in arrangement. Equal counts are required; equal full patterns are forbidden within the rows or within the columns."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use a known completed line as a comparison when another line is nearly finished. If one possible completion would make the second line identical to it, that completion is not allowed. Then check that the alternative also satisfies the color quota and the no-triples rule. Uniqueness does not excuse a different violation."
+          },
+          {
+            "type": "paragraph",
+            "text": "A pair of incomplete rows that currently look similar is not automatically a contradiction. Their unknown positions may later distinguish them. Avoid changing a settled cell just because two partial lines share the same visible prefix. The useful comparison is between possible full patterns under the other constraints, not between incomplete silhouettes."
+          }
+        ]
+      },
+      {
+        "id": "first-board-plan",
+        "heading": "Use a repeatable scan instead of guessing a whole row",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "For a first board, scan for adjacent pairs and split pairs, then count lines close to their color quota, then compare nearly completed patterns. After each change, inspect its crossing line. This order keeps the simplest local deductions visible while leaving more involved comparisons for positions with enough information."
+          },
+          {
+            "type": "paragraph",
+            "text": "When no move looks certain, select a single unknown and explain what would make each color impossible. Would yellow create a triple? Would blue exceed a quota? Would one completed pattern duplicate another? If neither is ruled out yet, leave that position alone and scan elsewhere. A dark unknown is an honest record of a decision you have not justified."
+          },
+          {
+            "type": "paragraph",
+            "text": "The short video below shows the same square-grid game in an older red-and-blue theme. In its four-by-four section, the first row is red, blue, blue, red: a balanced arrangement without a triple. The current yellow color occupies the role of the older red in these comparisons. The recording is useful for recognizing the board and pattern checks, but its daily menu and colors do not describe every detail of the current browser menu."
+          },
+          {
+            "type": "paragraph",
+            "text": "Generated puzzles can start with different tiles, so the cover and recording are not move lists for your next board. Copying their coordinates can create a mistake immediately. Carry over the constraint that justified a move, then apply it to the arrangement actually visible in your game."
+          }
+        ]
+      },
+      {
+        "id": "read-and-recover",
+        "heading": "Keep the tile state and the reason for each move clear",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "If a line becomes impossible, retrace the last few choices and the reasons behind them. A mistaken extra click, a quota copied from another grid size or a split-pair rule applied across too large a gap are different errors. Correct the specific assumption instead of changing several colors until the board looks more varied."
+          },
+          {
+            "type": "paragraph",
+            "text": "The lower toolbar offers viewing and puzzle controls separate from this website’s player controls. Inspect the game’s prompt after using one; do not mistake an eye icon or a progress percentage for an explanation of your entire solution. The website’s Retry recreates the embedded frame and is intended for loading trouble, so it is a poor substitute for examining an uncertain deduction."
+          },
+          {
+            "type": "paragraph",
+            "text": "Webpage Fullscreen expands the player within this page, while Browser Fullscreen changes the browser’s viewing area when supported. A readable four-by-four board is better for learning than a cramped twelve-by-twelve one. On touch screens, tap the center of a tile and wait for the new color. The visual shading belongs to the tile design; judge the main fill color, not the darker strip along its bottom edge."
+          }
+        ]
+      },
+      {
+        "id": "tile-questions",
+        "heading": "Questions about colors, counts and repeated patterns",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "question": "Why is the video red and blue while my game is yellow and blue?",
+                "answer": "The recording shows an older visual theme. The current browser tutorial uses yellow and blue. Compare the two-color constraints rather than copying color names from the recording."
+              },
+              {
+                "question": "Must an unfinished row already have equal colors?",
+                "answer": "No. The completed row needs equal totals. An incomplete row can have unequal visible counts while its remaining cells are still undecided."
+              },
+              {
+                "question": "Are three blue tiles anywhere in a row forbidden?",
+                "answer": "The consecutive-run rule forbids three adjacent blues. A longer row can contain more blue tiles when they are separated and the final quotas are respected."
+              },
+              {
+                "question": "Can two rows have the same number of yellow tiles?",
+                "answer": "They must have the same quota on a fixed-size board. What they cannot share is an identical complete color sequence."
+              }
+            ]
+          },
+          {
+            "type": "video",
+            "provider": "youtube",
+            "videoId": "oy1A73lKWtc",
+            "title": "Watch the two-color grid in action",
+            "description": "Puzzle spoilers: the author’s short demonstration shows an older red-and-blue theme. The current browser tutorial uses yellow and blue for the same core constraints."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crowds",
+    "slug": "the-wisdom-and-or-madness-of-crowds",
+    "title": "The Wisdom and/or Madness of Crowds",
+    "shortDescription": "Draw and cut connections, compare local views and test how behavior spreads through a network.",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": null,
+    "tags": [
+      "networks",
+      "interactive simulation"
+    ],
+    "categories": [
+      "logic",
+      "strategy"
+    ],
+    "spoilerPolicy": "marked",
+    "flags": {
+      "isFeaturedHome": true,
+      "isNewHome": true,
+      "isRecommendedHome": false
+    },
+    "image": {
+      "src": "/images/games/crowds/cover.webp",
+      "alt": "The Wisdom and/or Madness of Crowds title surrounded by hand-drawn network faces",
+      "width": 1100,
+      "height": 372
+    },
+    "player": {
+      "iframeSrc": "https://ncase.me/crowds/",
+      "aspectRatio": null,
+      "orientation": "adaptive",
+      "permissionsPolicy": [],
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ],
+      "loadTimeoutMs": 30000,
+      "minimumHeight": 720
+    },
+    "seo": {
+      "title": "Play The Wisdom and/or Madness of Crowds Online",
+      "description": "Play The Wisdom and/or Madness of Crowds. Draw and cut connections, compare local friend counts and explore thresholds that change how a network behaves."
+    },
+    "relatedGameIds": [
+      "polygons",
+      "trust",
+      "0hn0",
+      "0hh1",
+      "hello-wordl",
+      "sandspiel"
+    ],
+    "content": [
+      {
+        "id": "network-play",
+        "heading": "Change the connections, then inspect what changes",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Wisdom and/or Madness of Crowds is an interactive lesson with drawing puzzles and network experiments. People appear as round faces, and lines connect pairs of them. You change those connections, inspect the view available to each person and later run simulations. The central task is to understand the current network rule rather than collect points by drawing as many lines as possible."
+          },
+          {
+            "type": "paragraph",
+            "text": "Begin with Play Now, then the game’s own start control. Its opening leads into a small drawing exercise before the more constrained puzzles. Follow that exercise first: making a line and removing a line are both used later. The bottom chapter controls can move around the lesson, but skipping the initial operation can make a later puzzle look unresponsive when it is waiting for a particular kind of gesture."
+          },
+          {
+            "type": "paragraph",
+            "text": "The lesson uses examples involving alcohol use and later discusses harmful collective behavior. It is intended for reading and thinking about simplified networks, with some mature subjects in its examples. Take the displayed experiments as models with chosen rules, not as instructions for personal behavior or a way to diagnose another person. Later puzzle outcomes appear in the video, so play them first if you want to discover the arrangements yourself."
+          }
+        ]
+      },
+      {
+        "id": "draw-connections",
+        "heading": "Start on one person and finish on another",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In the drawing exercise, press on a person, drag toward another person and release on that second person. A connecting line remains after a valid stroke. The pencil following the pointer is only the drawing tool; its movement alone does not show that a connection was accepted. Look for the line between the two endpoints after releasing."
+          },
+          {
+            "type": "paragraph",
+            "text": "The pictured exercise has several small groups and a few isolated people. Drawing across the upper gap joins a person from the left group to one on the right. That new edge changes the network without changing the number of people. It is useful to name those two effects separately: adding a connection is not the same as adding another person or changing their displayed type."
+          },
+          {
+            "type": "paragraph",
+            "text": "Aim for the center of each face and keep the pointer held while crossing the gap. A stroke that begins in empty space can become a loose mark rather than a friendship edge. If a stroke disappears, inspect the endpoints before repeating it. On a crowded network, choose a short, clear connection first so you can recognize the new line among the existing ones."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/crowds/connection.webp",
+            "alt": "A new upper bridge connects two groups of round faces",
+            "width": 1100,
+            "height": 550,
+            "caption": "The upper connection remains after the drawing stroke is released."
+          }
+        ]
+      },
+      {
+        "id": "cut-connections",
+        "heading": "Scratch across a line to remove the relationship",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "To disconnect two people, scratch across their connecting line. The introductory exercise labels this gesture separately from drawing. A short back-and-forth stroke across the line works differently from tracing along it. After releasing, verify that the edge is gone while its two people remain on the board."
+          },
+          {
+            "type": "paragraph",
+            "text": "The second image shows the lower bridge removed while the upper connection remains. The two changes are independently visible: one adds a route between groups, and the other removes a different route. The exercise then offers its continue control. That feedback confirms an operation has been understood; it does not mean every later network puzzle is already solved."
+          },
+          {
+            "type": "paragraph",
+            "text": "When a line is close to another line or a face, scratch across its middle where the target is easiest to isolate. Deleting an unintended neighboring edge can change several people’s local views. After a cut, inspect the endpoints and any nearby crossing lines before drawing a replacement. A crossing on the screen is not itself a new person joining the network."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/crowds/cut.webp",
+            "alt": "The lower bridge is absent while the upper connection remains",
+            "width": 1100,
+            "height": 550,
+            "caption": "Scratching removed the lower connection without removing either person."
+          }
+        ]
+      },
+      {
+        "id": "local-view",
+        "heading": "A percentage belongs to one person’s friends",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The next example places percentages above a small set of people. Those percentages describe the marked people among that person’s connected friends, excluding the person themselves. Read the lines attached to the selected face to find the denominator. People elsewhere on the board do not enter its local fraction simply because they are visible to you."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the four-person illustration, a yellow person connected to one yellow friend and one gray friend shows fifty percent. A gray person connected only to that yellow person shows one hundred percent. The gray person has not changed color: the indicator describes their friends, not their own state. Another person with no connections has an empty-set symbol instead of an ordinary numerical percentage."
+          },
+          {
+            "type": "paragraph",
+            "text": "Do not translate that empty-set symbol into zero marked friends out of a positive total. With no friends in the current drawing, there is no local sample to count. Connecting such a person creates a denominator as well as a possible numerator. This is why adding one edge can change more than one indicator even though no person was added to the board."
+          },
+          {
+            "type": "paragraph",
+            "text": "Count each endpoint’s friends separately after an edit. The two ends of a line need not show the same percentage because they may have other connections. A highly connected yellow person can appear in many gray people’s local samples at once. That repeated visibility is a structural feature of the network, not evidence that there are suddenly more yellow people overall."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/crowds/local-view.webp",
+            "alt": "Four network faces show an empty friend set, fifty percent and one hundred percent local indicators",
+            "width": 440,
+            "height": 450,
+            "caption": "The indicators describe each person’s connected friends, excluding themselves."
+          }
+        ]
+      },
+      {
+        "id": "majority-puzzle",
+        "heading": "Separate a local majority from the whole board",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A later nine-person puzzle asks you to make each person’s local friend group meet a fifty-percent threshold even though the marked group is outnumbered two to one overall. The task changes the network, not the population counts. Three marked people among nine remain three among nine while their connections can affect what many other people see locally."
+          },
+          {
+            "type": "paragraph",
+            "text": "Work on a person who has not yet met the threshold and count their actual neighbors. Adding a marked friend can help; adding an unmarked friend can lower the share. A new edge also changes the other endpoint’s fraction, so check that endpoint before moving on. Connecting every possible pair is not a general solution because it exposes everyone to the overall proportion rather than a carefully chosen local sample."
+          },
+          {
+            "type": "paragraph",
+            "text": "In the recording, an intermediate arrangement reaches eight of nine people. One remaining person has no connected friends, while other people show indicators such as fifty, sixty-seven and one hundred percent. The later screen advances with completion feedback. That contrast is useful: a nearly full progress bar still leaves a specific person to inspect. It does not justify claiming that an arbitrary dense network solves the task."
+          },
+          {
+            "type": "paragraph",
+            "text": "These percentages and the threshold are part of a puzzle model. They help you compare local samples with a whole-board count. They do not establish that a named real community has the same structure or that one person’s friends accurately represent an entire population. Keep the scope of the conclusion as small and explicit as the rule on the current screen."
+          }
+        ]
+      },
+      {
+        "id": "simulation-rules",
+        "heading": "Observation and behavioral change are different experiments",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The early percentage display describes what a person sees without automatically changing their behavior. A later experiment adds a response rule and a simulation control. Now an active or marked state can spread when the displayed condition is met. Read that condition before starting; the same drawing can produce different behavior under a different threshold."
+          },
+          {
+            "type": "paragraph",
+            "text": "One recorded example uses a fifty-percent friend threshold. After the simulation runs, three connected people at the top are marked while the next person shows only thirty-three percent and remains unmarked. The lower branch stays unmarked too. The visible chain is connected, but the current fraction at its next step is insufficient. A path existing through the network is therefore not enough to guarantee that the modeled behavior travels all the way along it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use reset and redraw when you want to test another arrangement, then compare the starting marked people, connections and threshold. Changing several of those at once makes the result difficult to explain. Predict one consequence before pressing the simulation control, watch where the change stops and count the local fraction at that boundary."
+          },
+          {
+            "type": "paragraph",
+            "text": "Some later tasks restrict editing while a simulation is running or retain fixed connections. Read the control state and the local instructions rather than assuming every edge is always editable. A failed scratch can be a task constraint instead of a pointer failure. Stop or reset through the available game controls before making an edit that the current experiment does not permit."
+          }
+        ]
+      },
+      {
+        "id": "clear-view",
+        "heading": "Keep faces, endpoints and indicators readable",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Give the player enough space to see the whole experiment. Webpage Fullscreen expands it within this page; Browser Fullscreen uses the browser viewing mode when available. On a small display, a face can be much easier to tap than a thin edge is to scratch. Enlarge the experiment and choose a clear section of the line instead of repeatedly scratching through an overlapping cluster."
+          },
+          {
+            "type": "paragraph",
+            "text": "The sound toggle belongs to the game and can be used while reading. A short transition may redraw the people or reveal a new prompt, so wait for the new diagram before placing a stroke. If the frame fails to load, Retry recreates it. That replaces the current lesson view, so use it for loading recovery rather than to preserve a network you still want to compare."
+          },
+          {
+            "type": "paragraph",
+            "text": "For a useful first session, finish the draw-and-cut exercise, explain the four-person local percentages and then try the nine-person threshold puzzle. Only after those steps are clear should you compare behavioral simulations. This order separates the input method, the fraction being measured and the rule that changes a state; confusing those three layers is a common reason a network result seems surprising."
+          }
+        ]
+      },
+      {
+        "id": "network-questions",
+        "heading": "Questions about lines and local percentages",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "question": "Does adding a line add another person?",
+                "answer": "No. It adds a connection between two existing people. The population stays the same, but both endpoints can have a different local friend group."
+              },
+              {
+                "question": "Why can a gray person show one hundred percent?",
+                "answer": "The indicator describes their connected friends. If their only friend is marked yellow, all of that local sample is yellow even though the person is gray."
+              },
+              {
+                "question": "Is the no-friends symbol the same as an ordinary zero-percent sample?",
+                "answer": "No. It marks an empty local friend set. There is no positive denominator for a normal percentage until a connection is present."
+              },
+              {
+                "question": "Will a behavior spread along every connected path?",
+                "answer": "Not necessarily. In the shown fifty-percent experiment, a person seeing only thirty-three percent marked friends remains unmarked and the lower branch does not activate."
+              }
+            ]
+          },
+          {
+            "type": "video",
+            "provider": "youtube",
+            "videoId": "c4_N0k5pi4I",
+            "title": "Watch connections, local views and threshold experiments",
+            "description": "Spoilers and mature examples: this playthrough includes later puzzle outcomes and alcohol-related network illustrations. Compare local counts and simulation conditions."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-dark-room",
+    "slug": "a-dark-room",
+    "title": "A Dark Room",
+    "shortDescription": "Light a fire, read changing events and build an early resource routine in a text adventure.",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": null,
+    "tags": [
+      "text adventure",
+      "resource management"
+    ],
+    "categories": [
+      "adventure",
+      "strategy"
+    ],
+    "spoilerPolicy": "marked",
+    "flags": {
+      "isFeaturedHome": false,
+      "isNewHome": true,
+      "isRecommendedHome": true
+    },
+    "image": {
+      "src": "/images/games/a-dark-room/cover.webp",
+      "alt": "A Dark Room and A Silent Forest tabs above the stoke fire action",
+      "width": 270,
+      "height": 88
+    },
+    "player": {
+      "iframeSrc": "https://adarkroom.doublespeakgames.com/",
+      "aspectRatio": null,
+      "orientation": "adaptive",
+      "permissionsPolicy": [],
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ],
+      "loadTimeoutMs": 30000,
+      "minimumHeight": 720
+    },
+    "seo": {
+      "title": "Play A Dark Room Online — Fire, Wood and Early Choices",
+      "description": "Play A Dark Room in your browser. Light the fire, gather wood, read event choices and understand early action cooldowns while discovering the story yourself."
+    },
+    "relatedGameIds": [
+      "trust",
+      "polygons",
+      "crowds",
+      "hello-wordl",
+      "0hn0",
+      "0hh1"
+    ],
+    "content": [
+      {
+        "id": "read-the-room",
+        "heading": "Begin with the fire and let the interface unfold",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A Dark Room is a text adventure that starts with a cold room, a dead fire and a single action. Its interface becomes more involved as events and available actions change. The early task is to read what has changed, keep useful actions moving and decide how to use the resources you can see. The plain text is the game itself; a room without an illustration is not an image that failed to load."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use Play Now to load the browser edition. At a new opening, light fire is the relevant action. After lighting it, the room heading changes to A Firelit Room and stoke fire becomes available. The event log reports the fire burning and light reaching the windows. Those visible changes are your confirmation that the action worked; there is no separate character animation to wait for."
+          },
+          {
+            "type": "paragraph",
+            "text": "This page discusses the opening fire, the first wood-gathering routine and the way event choices affect the interface. Later story discoveries are left for your own run. The video continues beyond those first actions and is marked for spoilers. Do not treat a recording of a later room as a checklist of everything that must already appear when you have only just lit the fire."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/a-dark-room/firelit.webp",
+            "alt": "A Firelit Room heading, stoke fire control and log showing the fire burning",
+            "width": 450,
+            "height": 260,
+            "caption": "Lighting changes the room heading and exposes the stoke action."
+          }
+        ]
+      },
+      {
+        "id": "current-state-and-log",
+        "heading": "Separate current controls from the event history",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The left side carries a stream of text while the main area contains the currently available actions. New messages appear above older ones, and older lines fade farther down the log. A line saying that the room was freezing can remain visible after the fire has been lit. Read the newest messages and the current button label before deciding that a previous condition is still current."
+          },
+          {
+            "type": "paragraph",
+            "text": "Stoke fire is an action on the existing fire, while light fire appears when it needs lighting again. Read the label you actually have. As the opening develops, room temperature and fire descriptions change over time. A single click does not freeze the scene at one permanent temperature, and a quiet interval does not necessarily mean that the game has stopped."
+          },
+          {
+            "type": "paragraph",
+            "text": "The room and forest headings later act as tabs. Their names locate different action panels, while the log continues to describe events across the session. If you are looking for gather wood in the room panel, switch to the forest tab rather than repeatedly pressing the room’s fire control. Give the panel transition a moment to finish before aiming at a button that is still moving across the screen."
+          }
+        ]
+      },
+      {
+        "id": "wood-and-cooldown",
+        "heading": "Collect wood and check both inventory and cooldown",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Once A Silent Forest is available, it offers gather wood. The stores area shows your current wood quantity separately from the action button. In the illustrated early collection, the quantity changed from four to fourteen and a fresh line described dry brush and branches. That combination makes the result clear: the action affected inventory as well as producing text."
+          },
+          {
+            "type": "paragraph",
+            "text": "After collecting, the gather control enters a shaded cooldown state. Repeated clicks during that state are not additional completed collections. Wait until the action becomes available again, then inspect the inventory after the next collection. The moving shade belongs to the action timing; it is not a download bar for the whole game."
+          },
+          {
+            "type": "paragraph",
+            "text": "Do not assume every visible wood change is the result of the last click alone. Time passes, the fire and later systems can use resources, and events may also affect the session. Compare the current stores with the newest relevant log entry. The four-to-fourteen example establishes that particular early collection, not a promise that every later gathering action always adds exactly ten under every upgrade."
+          },
+          {
+            "type": "paragraph",
+            "text": "The recording’s early forest also shows a shaded gather button and a separate wood total. Later it shows a cart-related message, demonstrating why an opening quantity should not be turned into a permanent rule for the whole adventure. Check the current action and any newly available improvement before estimating how many collections a plan requires."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/a-dark-room/gather.webp",
+            "alt": "A Silent Forest with a shaded gather wood button and fourteen wood in stores",
+            "width": 950,
+            "height": 300,
+            "caption": "This early collection increased wood from 4 to 14 and started an action cooldown."
+          }
+        ]
+      },
+      {
+        "id": "events-and-choices",
+        "heading": "Resolve an event before using the controls behind it",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Events can open a bordered choice panel above the normal interface. The room and action buttons remain visible behind it, but the event needs your attention first. A click aimed at a dimmed gather button can therefore appear to do nothing even when the game is running normally. Read the panel and choose an available response before returning to the routine."
+          },
+          {
+            "type": "paragraph",
+            "text": "The illustrated noises event offers investigation or ignoring the sounds. Another early visitor asks for wood and offers different quantities. These are choices with their own context, not extra collection buttons. Read a requested amount against your current stores before choosing it. An option being displayed does not mean that every resource commitment is sensible for the stock you have."
+          },
+          {
+            "type": "paragraph",
+            "text": "If you want to avoid committing resources while learning the controls, use an available dismissal response and return to gathering. That is a decision for that event, not a guarantee about all possible later consequences. The important habit is to distinguish the modal choice from the ordinary room panel. Trying to click through an unresolved event is a control problem, not evidence that the underlying action has failed."
+          },
+          {
+            "type": "paragraph",
+            "text": "Event order can vary during a reading session. A screen in the video may show a visitor or a build option at a different moment from your game. Follow your own visible prompt rather than waiting for an identical sequence of lines. The opening is more understandable when you track the current decision and stores than when you try to match a recording second for second."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/a-dark-room/event.webp",
+            "alt": "A Noises event panel offering investigate and ignore them choices",
+            "width": 384,
+            "height": 205,
+            "caption": "Resolve the bordered event panel before returning to the controls behind it."
+          }
+        ]
+      },
+      {
+        "id": "build-options",
+        "heading": "New build options create competing uses for wood",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "As the early visitor recovers and offers to build, the room gains additional controls. The observed opening later exposed trap, cart and hut options. Their appearance signals another kind of decision: wood can support progression as well as immediate maintenance. Read the current requirements and feedback before selecting several builds in succession."
+          },
+          {
+            "type": "paragraph",
+            "text": "The video’s cart message says that the cart carries more wood from the forest. At the sampled moment, cart is shaded while trap remains present and the stores show a small wood total. That screen should not be read as a universal price table or proof that every shaded button has the same cause. A control can be unavailable because of its current state, timing or requirements; inspect its own feedback."
+          },
+          {
+            "type": "paragraph",
+            "text": "For a first session, choose one improvement you understand and compare the resulting action or inventory afterward. Keep enough attention on the existing fire and event prompts to avoid losing track while exploring new buttons. Buying every newly visible option without reading its role makes it harder to see what helped the routine and what spent the stock."
+          },
+          {
+            "type": "paragraph",
+            "text": "The later parts of the adventure introduce other goals and resources. The opening images here intentionally stop before major story revelations. A new player does not need a full ending walkthrough to understand the first loop: read the room, collect when the action is ready, handle events and inspect the next available improvement."
+          }
+        ]
+      },
+      {
+        "id": "return-and-display",
+        "heading": "Treat browser progress and player reloads carefully",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The embedded browser edition saved during the session. Reloading the candidate frame retained the unlocked forest and wood inventory in the same browser context. That is useful for returning to a run, but it is not a website account or a cross-device cloud save. Another browser, a storage restriction or clearing site data can give a different result."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use the game’s own visible save-related controls before relying on a long session, and read what they offer. This website’s Retry replaces the frame; it cannot promise to restore the provider’s current event dialog or unsaved state. Do not use restart casually when you mean to return to a room tab. Restart and navigation answer very different intentions."
+          },
+          {
+            "type": "paragraph",
+            "text": "Text size and available width matter more here than decorative graphics. Webpage Fullscreen expands the player within this page; Browser Fullscreen changes the browser viewing area when supported. Make sure that the event log, current action and stores can all be read before making a resource decision. The game’s sound and light controls are separate from these website viewing controls."
+          },
+          {
+            "type": "paragraph",
+            "text": "If nothing seems to happen, check for an event panel, a shaded action cooldown and the active room or forest tab in that order. Then inspect the newest log line and stores. Those checks explain several ordinary pauses without discarding progress. If the entire frame is blank rather than merely quiet, Retry is the relevant loading-recovery control."
+          }
+        ]
+      },
+      {
+        "id": "room-questions",
+        "heading": "Questions about fire, wood and early progress",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "question": "Is a mostly white text screen a missing game image?",
+                "answer": "No. The browser edition uses a minimal text interface. Current actions, the event log and stores are the playable information."
+              },
+              {
+                "question": "Why does gather wood stop responding for a while?",
+                "answer": "After a collection it enters a shaded cooldown. Also check whether an event panel is blocking the controls behind it."
+              },
+              {
+                "question": "Does the old freezing-room line mean lighting failed?",
+                "answer": "Not by itself. Older log entries remain below newer ones. Read the current action label and newest fire and room messages."
+              },
+              {
+                "question": "Will my progress follow me to another device?",
+                "answer": "The same-browser reload retained progress in the observed session. That does not establish cross-device saving or a website account."
+              }
+            ]
+          },
+          {
+            "type": "video",
+            "provider": "youtube",
+            "videoId": "D8tX4h_-VY8",
+            "title": "Watch the opening resource routine",
+            "description": "Progression spoilers: this browser playthrough continues beyond lighting the fire into gathering and early building. Watch after exploring the opening yourself."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sandspiel",
+    "slug": "sandspiel",
+    "title": "Sandspiel",
+    "shortDescription": "Paint materials into a live particle world, build containers and compare how sand, water and plants behave.",
+    "status": "draft",
+    "publishedAt": null,
+    "updatedAt": null,
+    "tags": [
+      "falling sand",
+      "creative sandbox"
+    ],
+    "categories": [
+      "sandbox",
+      "simulation"
+    ],
+    "spoilerPolicy": "none",
+    "flags": {
+      "isFeaturedHome": false,
+      "isNewHome": false,
+      "isRecommendedHome": true
+    },
+    "image": {
+      "src": "/images/games/sandspiel/cover.webp",
+      "alt": "Sandspiel wall container holding sand, blue water and small growing plants",
+      "width": 450,
+      "height": 250
+    },
+    "player": {
+      "iframeSrc": "https://sandspiel.club/",
+      "aspectRatio": null,
+      "orientation": "adaptive",
+      "permissionsPolicy": [],
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "sandbox": [
+        "allow-scripts",
+        "allow-same-origin"
+      ],
+      "loadTimeoutMs": 30000,
+      "minimumHeight": 720
+    },
+    "seo": {
+      "title": "Play Sandspiel Online — Paint Sand, Water and Living Worlds",
+      "description": "Play Sandspiel and paint a particle world with sand, water, walls and seeds. Build a container, compare materials and reshape your experiment as it runs."
+    },
+    "relatedGameIds": [
+      "0hn0",
+      "0hh1",
+      "polygons",
+      "trust",
+      "crowds",
+      "a-dark-room"
+    ],
+    "content": [
+      {
+        "id": "paint-and-observe",
+        "heading": "Make a small experiment and watch the materials respond",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Sandspiel is a falling-sand sandbox where a pointer stroke adds material to a live particle world. Sand falls, water spreads, walls hold their shape and seeds can grow into plants. You choose what to draw and what result you want to inspect. There is no numbered level solution or score threshold that makes a scene complete; a useful goal can be as simple as keeping water inside a container."
+          },
+          {
+            "type": "paragraph",
+            "text": "Start with Play Now and wait for the canvas and material palette. Select a named material, then press and drag inside the canvas to paint it. The selected palette button changes appearance, so check that label before the next stroke. A stroke with Wall creates a very different experiment from the same stroke with Water or Empty."
+          },
+          {
+            "type": "paragraph",
+            "text": "Begin with two or three materials rather than filling the world with everything at once. A wall container, a little sand and a little water give you visible boundaries and a clear comparison. Add a new material only after you can explain what the existing ones are doing. A crowded mixture can look dramatic while making the cause of a change much harder to identify."
+          }
+        ]
+      },
+      {
+        "id": "make-a-container",
+        "heading": "Use Wall for a stable boundary",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Wall is the stable material for the simple container illustrated here. Draw a horizontal base, then extend a side upward at each end. Look for joins without visible gaps. A container that appears closed at a distance can still have an opening only a few simulation pixels wide, especially when the display enlarges the particle grid."
+          },
+          {
+            "type": "paragraph",
+            "text": "Release the pointer after each deliberate stroke and inspect the shape that remains. The canvas is a live simulation, so a material that moves after you paint it is not necessarily a failed stroke. Wall is useful for learning the input because its line stays where it was drawn. Once you can recognize that accepted line, you can compare it with a falling material."
+          },
+          {
+            "type": "paragraph",
+            "text": "Keep the first container modest in size and leave room above it for falling particles. A deep solid block consumes space without making the experiment clearer. If one side is too low, later water may escape over the top even when the lower joints are sound. Check the whole boundary before explaining a leak as an unusual water rule."
+          }
+        ]
+      },
+      {
+        "id": "sand-settles",
+        "heading": "Sand falls into a pile instead of keeping your stroke shape",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Choose Sand and draw a short stroke above the container. The particles descend and settle against its base, creating an uneven mound rather than a suspended horizontal line. The first illustration shows that settled sand with empty space above it. The pointer path says where particles were added; the final pile says where the simulation moved them."
+          },
+          {
+            "type": "paragraph",
+            "text": "Add a small amount, release and wait for it to settle before drawing more. Continuous painting combines a stream of new particles with particles already moving below. That can be useful for building a large pile, but it makes a first comparison harder because the scene has no clear before-and-after boundary."
+          },
+          {
+            "type": "paragraph",
+            "text": "The in-game material information says sand sinks in water. Keep that distinction in mind when you add water to an existing pile: the two materials do not behave like interchangeable paint colors. A sand layer resting below a water layer is a material interaction to inspect, not a requirement to repaint the sand because its original stroke is no longer visible."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/sandspiel/sand.webp",
+            "alt": "An uneven sand mound settled along the base of a U-shaped wall container",
+            "width": 450,
+            "height": 250,
+            "caption": "The sand settles below the original pointer stroke."
+          }
+        ]
+      },
+      {
+        "id": "water-layer",
+        "heading": "Water finds the available low space",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Select Water and paint a small amount above the same container. You can see the particles falling before they spread into the available space. After settling in the illustrated experiment, a blue water layer sits above and around the sand. The mound and the flatter water surface make the difference between a granular pile and a flowing material easier to see."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use a little water first so you can check the walls. If the level rises beyond a side, overflow is different from a hole through that side. If water disappears from the intended area, inspect the boundary and any other materials in the scene before adding a much larger quantity. More water can hide the small opening you were trying to locate."
+          },
+          {
+            "type": "paragraph",
+            "text": "The material information also identifies Water as a way to put out Fire. That is a different experiment from the sand-and-water container, so give it its own small area if you try it. Changing the container, adding a plant and lighting a fire at the same time leaves several possible reasons for the next visual change. A clear comparison changes one relevant condition at a time."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/sandspiel/water.webp",
+            "alt": "A blue water layer fills the low space above and around the sand mound",
+            "width": 450,
+            "height": 250,
+            "caption": "Water spreads through the remaining low space while sand stays beneath it."
+          }
+        ]
+      },
+      {
+        "id": "seed-and-growth",
+        "heading": "Add seeds after establishing a readable ground layer",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Seed entry says it grows on sand, plant and fungus. In the pictured container, seeds added near the sand-and-water bed developed into green stems and small flowers. The cover shows that later scene, while the sand and water illustrations show earlier states of the same independently drawn container. They serve different observations instead of presenting one recolored picture as several experiments."
+          },
+          {
+            "type": "paragraph",
+            "text": "Give growth some time after placing the seeds. Repeatedly painting more seeds into an already changing patch can obscure which additions reached a useful surface. Leave some of the sand visible so you can recognize where the stems emerged and whether the container still has the boundary you intended."
+          },
+          {
+            "type": "paragraph",
+            "text": "Plant and Seed are distinct palette entries. Plant is described as thriving in wet environments, while Seed has its own growth-surface description. Read the selected label rather than treating both as an immediate flower brush. A scene that grows gradually can be behaving correctly even if it does not instantly match a finished garden you have seen in a recording."
+          }
+        ]
+      },
+      {
+        "id": "edit-the-world",
+        "heading": "Empty changes geometry without restarting the whole experiment",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Empty is the erasing tool. Select it before dragging across a wall or an unwanted patch. In the last illustration, a short stroke across the lower right wall removed part of that boundary. The opening is visible while the rest of the container and the growing plants remain. That makes the edit easier to distinguish from resetting the entire world."
+          },
+          {
+            "type": "paragraph",
+            "text": "Start with a short erasing stroke. A large brush can remove neighboring material as well as the target wall, so inspect the resulting gap before continuing. If you want to compare closed and open containers, preserve the rest of the shape and note which other materials are still changing. In a planted scene, a later difference in the water is not evidence that one edit alone explains every change."
+          },
+          {
+            "type": "paragraph",
+            "text": "Use the pause control when you need a steadier view for examining a boundary, and resume when you want the materials to evolve. A paused world and an empty world are different states: particles can remain visible while not moving. Reset is a broader starting-world action; use the local Empty edit when you want to keep most of the arrangement you have made."
+          },
+          {
+            "type": "paragraph",
+            "text": "A failed experiment does not produce a game-over screen here. If the water escapes or an interaction consumes the structure you wanted to preserve, decide whether to repair a local section, remove a material or begin a different trial. That choice is part of the sandbox. The useful result is understanding the behavior you changed, not protecting a high score."
+          },
+          {
+            "type": "image",
+            "src": "/images/games/sandspiel/opening.webp",
+            "alt": "The lower right wall has an erased opening beside the planted sand bed",
+            "width": 550,
+            "height": 400,
+            "caption": "Empty removes a local section while the rest of the container remains."
+          }
+        ]
+      },
+      {
+        "id": "other-materials",
+        "heading": "Introduce reactive materials in small amounts",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Info opens the material descriptions. Gas is identified as highly flammable, Dust as explosive, Oil as producing smoke when ignited, and Acid as corrosive. These entries describe interactions within the simulation. Try a small, separate patch when learning one of them so an expanding reaction does not immediately overwrite the sand-and-water comparison you still want to inspect."
+          },
+          {
+            "type": "paragraph",
+            "text": "Cloner is described as copying the first element it touches, so contact order matters. Placing it beside several materials at once makes that first contact difficult to follow. Start away from the mixed garden, choose one intended contact and inspect the result before expanding the setup. The palette also has Rocket, which has a different copying-and-exploding description; a similar color or dramatic effect does not make the two tools interchangeable."
+          },
+          {
+            "type": "paragraph",
+            "text": "The video below shows the same core palette in an older layout that also displays sharing controls. One sampled section has Dust selected during a smoky reaction, and another shows purple Cloner patches before a later mixture. Those states help identify the tools and the scale of the changing scene. They do not establish every earlier click or make the recording’s exact reaction a guaranteed result of any mixed pile."
+          }
+        ]
+      },
+      {
+        "id": "canvas-controls",
+        "heading": "Keep the palette and the canvas separate while drawing",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The canvas and the material buttons are separate targets. Select a material in the palette, then begin the drawing stroke inside the canvas. Dragging over the surrounding frame or page does not add particles to the world. On a touch device, bring the drawing area into view first so that a gesture intended to paint is less likely to become a surrounding-page scroll."
+          },
+          {
+            "type": "paragraph",
+            "text": "Brush-size choices alter how much of the world a stroke affects. A small size is useful near a thin wall; a larger one quickly adds material or erases a broad section. Compare the visible cursor and resulting stroke before using a large size on a detailed arrangement. The same pointer movement can affect very different amounts of the scene at different brush sizes."
+          },
+          {
+            "type": "paragraph",
+            "text": "Webpage Fullscreen expands the player within this page; Browser Fullscreen uses the browser viewing mode when available. Give the canvas enough space to see its edge and the selected tool together. If particles are stationary, check the pause state before assuming the player has frozen. If the entire frame is blank, Retry is the website loading-recovery action, and it replaces the current frame rather than guaranteeing preservation of the drawing."
+          }
+        ]
+      },
+      {
+        "id": "sandbox-questions",
+        "heading": "Questions about painting and material changes",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "question": "What is the winning score?",
+                "answer": "This sandbox has no required score or numbered solution. Choose a visible experiment, such as holding water in a wall container, and compare its behavior."
+              },
+              {
+                "question": "Why did my sand stroke turn into a pile?",
+                "answer": "The particles continue moving after you draw. Sand falls and settles; the final pile does not need to preserve the shape of the pointer stroke."
+              },
+              {
+                "question": "How do I remove a small section without replacing the world?",
+                "answer": "Select Empty and use a short stroke over the unwanted material. Check the local edit before erasing more."
+              },
+              {
+                "question": "Are the video’s sharing buttons part of the current palette?",
+                "answer": "The recording uses an older layout. Use the controls actually visible in the current embedded version; the video is used for the shared material tools and changing particle scene."
+              }
+            ]
+          },
+          {
+            "type": "video",
+            "provider": "youtube",
+            "videoId": "klya7VDklag",
+            "title": "Watch materials change in a live particle world",
+            "description": "Compare the material palette and changing particle scenes in this sandbox experiment. The recording has an older layout with sharing controls."
+          }
+        ]
+      }
+    ]
+  }
+]

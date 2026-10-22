@@ -1,0 +1,1101 @@
+{
+  "status": "partial-native-searches-recorded-no-adopted-video",
+  "observedAt": "2026-10-21",
+  "games": [
+    {
+      "gameId": "noillirk",
+      "title": "Noillirk",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "Noillirk game",
+          "task": "Identify original game and distinguish independent variants",
+          "entry": "web",
+          "resultScope": "official page and independent sites"
+        },
+        {
+          "query": "Noillirk gameplay youtube",
+          "task": "Find visible play to validate controls and scoring",
+          "entry": "web",
+          "resultScope": "No reliable exact-game video identified through web search"
+        },
+        {
+          "query": "Noillirk",
+          "task": "Find sessions demonstrating balloon ascent and answer feedback",
+          "entry": "youtube-native",
+          "resultScope": "five titled Shorts and adjacent/unrelated results"
+        },
+        {
+          "query": "site:youtube.com/watch Noillirk Daily Classic climb balloons playdaily",
+          "task": "Recheck exact-version visual evidence for the two Guide tasks and mandatory main-game video",
+          "entry": "web-search",
+          "checkedAt": "2026-10-22",
+          "resultScope": "No qualifying exact-version playable candidate surfaced in this query; unrelated YouTube help/artist pages rejected. No new video adopted or claimed watched."
+        }
+      ],
+      "candidates": [
+        {
+          "videoId": "oMe1Mz3Maoo",
+          "title": "Noillirk #1 | Reverse Krillion - what do you guys think?",
+          "url": "https://www.youtube.com/shorts/oMe1Mz3Maoo",
+          "identity": "exact-game",
+          "form": "short-clip",
+          "publisher": "Max Daily Games",
+          "duration": "PT2M2S",
+          "publishedAt": null,
+          "versionScope": "Visible Daily forest/balloon interface",
+          "enterSegmentAnalysis": true,
+          "reason": "Additional paused samples recorded; current scoring/version unresolved, continuous review and embedding still unqualified",
+          "questions": [
+            "Does the current Daily interface match?",
+            "Which prompt, player action and feedback are visible?"
+          ],
+          "segmentsToWatch": "Entire clip if research resumes"
+        },
+        {
+          "videoId": "TZHNxUrjel0",
+          "title": "Noillirk #2 | We need to get more basic",
+          "url": "https://www.youtube.com/shorts/TZHNxUrjel0",
+          "identity": "unknown",
+          "form": "short-clip",
+          "publisher": null,
+          "duration": null,
+          "publishedAt": null,
+          "versionScope": "unverified",
+          "enterSegmentAnalysis": false,
+          "reason": "Research resumed; this lead has not yet been opened or segmented. No adoption.",
+          "questions": [
+            "Does the current Daily interface match?",
+            "Which prompt, player action and feedback are visible?"
+          ],
+          "segmentsToWatch": "Entire clip if research resumes"
+        },
+        {
+          "videoId": "Ae27ewhJ3Bc",
+          "title": "Play Noillirk, the trivia game where the most common answer wins.#gameshorts #Noillirk",
+          "url": "https://www.youtube.com/shorts/Ae27ewhJ3Bc",
+          "identity": "unknown",
+          "form": "short-clip",
+          "publisher": null,
+          "duration": null,
+          "publishedAt": null,
+          "versionScope": "unverified",
+          "enterSegmentAnalysis": false,
+          "reason": "Research resumed; this lead has not yet been opened or segmented. No adoption.",
+          "questions": [
+            "Does the current Daily interface match?",
+            "Which prompt, player action and feedback are visible?"
+          ],
+          "segmentsToWatch": "Entire clip if research resumes"
+        },
+        {
+          "videoId": "BwHNsAQSKoA",
+          "title": "World Guessing in Noillirk game",
+          "url": "https://www.youtube.com/shorts/BwHNsAQSKoA",
+          "identity": "unknown",
+          "form": "short-clip",
+          "publisher": null,
+          "duration": null,
+          "publishedAt": null,
+          "versionScope": "unverified",
+          "enterSegmentAnalysis": false,
+          "reason": "Research resumed; this lead has not yet been opened or segmented. No adoption.",
+          "questions": [
+            "Does the current Daily interface match?",
+            "Which prompt, player action and feedback are visible?"
+          ],
+          "segmentsToWatch": "Entire clip if research resumes"
+        },
+        {
+          "videoId": "4ji3YmmIVh8",
+          "title": "How is this not the most common answer?? #Noillirk #PlayDaily #Krillion",
+          "url": "https://www.youtube.com/shorts/4ji3YmmIVh8",
+          "identity": "unknown",
+          "form": "short-clip",
+          "publisher": null,
+          "duration": null,
+          "publishedAt": null,
+          "versionScope": "unverified",
+          "enterSegmentAnalysis": false,
+          "reason": "Research resumed; this lead has not yet been opened or segmented. No adoption.",
+          "questions": [
+            "Does the current Daily interface match?",
+            "Which prompt, player action and feedback are visible?"
+          ],
+          "segmentsToWatch": "Entire clip if research resumes"
+        }
+      ],
+      "guideTasks": [
+        {
+          "id": "noillirk-answer-strategy",
+          "task": "Choose a fitting familiar response within the deadline",
+          "questions": [
+            "Which qualifier controls validity?",
+            "When should I stop comparing?",
+            "Is this rejection or a low tier?"
+          ],
+          "evidence": [
+            "daily-rules-20261022",
+            "daily-howto-20261022",
+            "daily-tips-20261022",
+            "daily-mode-20261022"
+          ]
+        },
+        {
+          "id": "noillirk-scoring-and-endless",
+          "task": "Interpret an accepted tier and Endless balloon state",
+          "questions": [
+            "What does a low accepted tier mean?",
+            "When is a balloon lost?",
+            "What can restore one?"
+          ],
+          "evidence": [
+            "daily-rules-20261022",
+            "daily-howto-20261022",
+            "daily-tips-20261022",
+            "daily-mode-20261022"
+          ]
+        }
+      ]
+    },
+    {
+      "gameId": "krillion",
+      "title": "Krillion Unlimited",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Krillion Unlimited\" youtube gameplay Daily rare answer",
+          "task": "Find a valid uncommon example",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        },
+        {
+          "query": "Krillion Unlimited Daily rare answers gameplay",
+          "task": "Check current game identity and task-specific play before any adoption",
+          "entry": "youtube-native",
+          "resultScope": "Observed result list only; no candidate adopted",
+          "evidencePath": "research/youtube-native-results.json"
+        },
+        {
+          "query": "\"playdaily\" \"Krillion Unlimited\" rare answers",
+          "task": "Find the configured Daily implementation and task-specific input/result footage",
+          "entry": "youtube-native",
+          "checkedAt": "2026-10-21T04:08:59.740Z",
+          "resultScope": "7 returned leads; none approved by title",
+          "evidencePath": "reports/acceptance-evidence/additional-review-20261021/youtube-searches.json"
+        }
+      ],
+      "candidates": [
+        {
+          "videoId": "UHWWW-7f0ag",
+          "title": "Daily Games | Fermi & Krillion | 20.10.2026",
+          "url": "https://www.youtube.com/watch?v=UHWWW-7f0ag",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": true,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "fL2CiLiBTt8",
+          "title": "Daily Games | Fermi & Krillion | 17.10.2026",
+          "url": "https://www.youtube.com/watch?v=fL2CiLiBTt8",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "sI6Y5pUSmHg",
+          "title": "Daily Games | Fermi & Krillion | 19.10.2026",
+          "url": "https://www.youtube.com/watch?v=sI6Y5pUSmHg",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "XlLZ1vlUXKM",
+          "title": "The Best New DLE? | Northernlion Krillion September 2026",
+          "url": "https://www.youtube.com/watch?v=XlLZ1vlUXKM",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        }
+      ],
+      "status": "video-verification-pending",
+      "currentMediaDecision": "No exact-version video adopted; Daily image-reuse permission absent. Candidate re-selection required before publication."
+    },
+    {
+      "gameId": "fermi",
+      "title": "Fermi",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Fermi\" \"playdaily\" youtube estimation",
+          "task": "Estimate a quantity through smaller assumptions",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        },
+        {
+          "query": "Fermi Daily estimation guess ratio gameplay",
+          "task": "Check current game identity and task-specific play before any adoption",
+          "entry": "youtube-native",
+          "resultScope": "Observed result list only; no candidate adopted",
+          "evidencePath": "research/youtube-native-results.json"
+        },
+        {
+          "query": "\"playdaily\" \"Fermi\" unlimited estimate streak",
+          "task": "Find the configured Daily implementation and task-specific input/result footage",
+          "entry": "youtube-native",
+          "checkedAt": "2026-10-21T04:08:50.428Z",
+          "resultScope": "0 returned leads; none approved by title",
+          "evidencePath": "reports/acceptance-evidence/additional-review-20261021/youtube-searches.json"
+        }
+      ],
+      "candidates": [
+        {
+          "videoId": "UHWWW-7f0ag",
+          "title": "Daily Games | Fermi & Krillion | 20.10.2026",
+          "url": "https://www.youtube.com/watch?v=UHWWW-7f0ag",
+          "identity": "different-version",
+          "adoption": "rejected-version-mismatch",
+          "enterSegmentAnalysis": true,
+          "reason": "Observed Fermi.gg daily interface; Daily unlimited explicitly says it is a different implementation."
+        },
+        {
+          "videoId": "wyGpGVzcybE",
+          "title": "Daily Games | Fermi & Krillion | 18.10.2026",
+          "url": "https://www.youtube.com/watch?v=wyGpGVzcybE",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "sI6Y5pUSmHg",
+          "title": "Daily Games | Fermi & Krillion | 19.10.2026",
+          "url": "https://www.youtube.com/watch?v=sI6Y5pUSmHg",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "fL2CiLiBTt8",
+          "title": "Daily Games | Fermi & Krillion | 17.10.2026",
+          "url": "https://www.youtube.com/watch?v=fL2CiLiBTt8",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        }
+      ],
+      "status": "video-verification-pending",
+      "currentMediaDecision": "No exact-version video adopted; Daily image-reuse permission absent. Candidate re-selection required before publication."
+    },
+    {
+      "gameId": "poople",
+      "title": "Poople",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Poople\" \"playdaily\" youtube word ladder",
+          "task": "Build a word ladder to POOP",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        },
+        {
+          "query": "Poople Daily word ladder four letter gameplay",
+          "task": "Check current game identity and task-specific play before any adoption",
+          "entry": "youtube-native",
+          "resultScope": "Observed result list only; no candidate adopted",
+          "evidencePath": "research/youtube-native-results.json"
+        },
+        {
+          "query": "\"playdaily\" \"Poople Unlimited\" word ladder",
+          "task": "Find the configured Daily implementation and task-specific input/result footage",
+          "entry": "youtube-native",
+          "checkedAt": "2026-10-21T04:09:01.442Z",
+          "resultScope": "2 returned leads; none approved by title",
+          "evidencePath": "reports/acceptance-evidence/additional-review-20261021/youtube-searches.json"
+        }
+      ],
+      "candidates": [
+        {
+          "videoId": "AZWEpN16Hg4",
+          "title": "How to Play Poople, the Daily Word Ladder Game",
+          "url": "https://www.youtube.com/watch?v=AZWEpN16Hg4",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "SwUlrrfzVm0",
+          "title": "Poople today answer #427:RIPE",
+          "url": "https://www.youtube.com/watch?v=SwUlrrfzVm0",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "QbdneQqnbrk",
+          "title": "Word Ladder Challenge #0505 | 10 Word Ladder Practice Puzzles",
+          "url": "https://www.youtube.com/watch?v=QbdneQqnbrk",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "1MKhI_-y_ps",
+          "title": "Poople today answer #425:RIPE",
+          "url": "https://www.youtube.com/watch?v=1MKhI_-y_ps",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        }
+      ],
+      "status": "video-verification-pending",
+      "currentMediaDecision": "No exact-version video adopted; Daily image-reuse permission absent. Candidate re-selection required before publication."
+    },
+    {
+      "gameId": "size-it-up",
+      "title": "Size It Up",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Size It Up\" \"playdaily\" youtube",
+          "task": "Estimate relative dimensions against a measured reference",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        },
+        {
+          "query": "Size It Up Daily game estimate shapes size gameplay",
+          "task": "Check current game identity and task-specific play before any adoption",
+          "entry": "youtube-native",
+          "resultScope": "Observed result list only; no candidate adopted",
+          "evidencePath": "research/youtube-native-results.json"
+        },
+        {
+          "query": "\"playdaily\" \"Size It Up\" scale reference",
+          "task": "Find the configured Daily implementation and task-specific input/result footage",
+          "entry": "youtube-native",
+          "checkedAt": "2026-10-21T04:09:16.576Z",
+          "resultScope": "2 returned leads; none approved by title",
+          "evidencePath": "reports/acceptance-evidence/additional-review-20261021/youtube-searches.json"
+        }
+      ],
+      "candidates": [
+        {
+          "videoId": "okfKMjy_ByY",
+          "title": "Im the master of spacial reasoning - Size it up",
+          "url": "https://www.youtube.com/watch?v=okfKMjy_ByY",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "BiPlyQf18MA",
+          "title": "Size It Up Sep 25: I knew the last round could wreck my day",
+          "url": "https://www.youtube.com/watch?v=BiPlyQf18MA",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "uwZsnBy7kn8",
+          "title": "Guessing The Size Of These Objects Is Actually Really Difficult! | Playing (Size It Up)",
+          "url": "https://www.youtube.com/watch?v=uwZsnBy7kn8",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "DXYLkef3Xeg",
+          "title": "Magnitudle: Size ItUp Puzzle | First gameplay | mobile game | IOS |",
+          "url": "https://www.youtube.com/watch?v=DXYLkef3Xeg",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        }
+      ],
+      "status": "video-verification-pending",
+      "currentMediaDecision": "No exact-version video adopted; Daily image-reuse permission absent. Candidate re-selection required before publication."
+    },
+    {
+      "gameId": "color",
+      "title": "Color Game",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Color Game\" \"playdaily\" youtube sliders",
+          "task": "Rebuild a remembered color",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        },
+        {
+          "query": "Color Game Daily color sliders memory gameplay",
+          "task": "Check current game identity and task-specific play before any adoption",
+          "entry": "youtube-native",
+          "resultScope": "Observed result list only; no candidate adopted",
+          "evidencePath": "research/youtube-native-results.json"
+        },
+        {
+          "query": "\"playdaily\" Color Game hue saturation brightness",
+          "task": "Find the configured Daily implementation and task-specific input/result footage",
+          "entry": "youtube-native",
+          "checkedAt": "2026-10-21T04:09:28.686Z",
+          "resultScope": "0 returned leads; none approved by title",
+          "evidencePath": "reports/acceptance-evidence/additional-review-20261021/youtube-searches.json"
+        }
+      ],
+      "candidates": [
+        {
+          "videoId": "z3_4fba-9Rk",
+          "title": "Colorivo Daily Drop | A Daily Color Sorting Puzzle",
+          "url": "https://www.youtube.com/watch?v=z3_4fba-9Rk",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Results do not establish the current Daily implementation; cannot use as page media."
+        },
+        {
+          "videoId": "Mh5cA3rLgcY",
+          "title": "Color memory game",
+          "url": "https://www.youtube.com/watch?v=Mh5cA3rLgcY",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Results do not establish the current Daily implementation; cannot use as page media."
+        },
+        {
+          "videoId": "oS7esqyphRQ",
+          "title": "Color Memory Game",
+          "url": "https://www.youtube.com/watch?v=oS7esqyphRQ",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Results do not establish the current Daily implementation; cannot use as page media."
+        },
+        {
+          "videoId": "87aHDyEn2Js",
+          "title": "Sudoku Color (Mobilityware) (Daily Challenge Gameplay) (18-10-2026) #shorts",
+          "url": "https://www.youtube.com/watch?v=87aHDyEn2Js",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Results do not establish the current Daily implementation; cannot use as page media."
+        }
+      ],
+      "status": "video-verification-pending",
+      "currentMediaDecision": "No exact-version video adopted; Daily image-reuse permission absent. Candidate re-selection required before publication."
+    },
+    {
+      "gameId": "color-logo",
+      "title": "Logo Game",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Logo Game\" \"playdaily\" youtube color",
+          "task": "Recall a familiar brand color",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        },
+        {
+          "query": "Logo Game Daily restore brand colors gameplay",
+          "task": "Check current game identity and task-specific play before any adoption",
+          "entry": "youtube-native",
+          "resultScope": "Observed result list only; no candidate adopted",
+          "evidencePath": "research/youtube-native-results.json"
+        },
+        {
+          "query": "\"playdaily.org\" \"Logo Game\" youtube",
+          "task": "Find current Daily implementation rather than same-name games",
+          "entry": "web",
+          "checkedAt": "2026-10-21",
+          "resultScope": "No qualified exact-game YouTube candidate established; directory and press results not adopted."
+        },
+        {
+          "query": "\"playdaily\" Logo Game restore brand color sliders",
+          "task": "Find the configured Daily implementation and task-specific input/result footage",
+          "entry": "youtube-native",
+          "checkedAt": "2026-10-21T04:09:30.072Z",
+          "resultScope": "0 returned leads; none approved by title",
+          "evidencePath": "reports/acceptance-evidence/additional-review-20261021/youtube-searches.json"
+        }
+      ],
+      "candidates": [
+        {
+          "videoId": "1lgo5q6h3bk",
+          "title": "Brand Color Quiz - Android Logo Game",
+          "url": "https://www.youtube.com/watch?v=1lgo5q6h3bk",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Results do not establish the current Daily implementation; cannot use as page media."
+        },
+        {
+          "videoId": "_tuE2MnJ7rw",
+          "title": "Brand Color Quiz Walkthrough Android gameplay #1",
+          "url": "https://www.youtube.com/watch?v=_tuE2MnJ7rw",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Results do not establish the current Daily implementation; cannot use as page media."
+        },
+        {
+          "videoId": "pBPQxHu-O94",
+          "title": "Logo Quiz-guess the brand! || Episode 12 Gameplay",
+          "url": "https://www.youtube.com/watch?v=pBPQxHu-O94",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Results do not establish the current Daily implementation; cannot use as page media."
+        },
+        {
+          "videoId": "e17yDCn8S3M",
+          "title": "Logo Quiz-guess the brand! || Episode 1 Gameplay",
+          "url": "https://www.youtube.com/watch?v=e17yDCn8S3M",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Results do not establish the current Daily implementation; cannot use as page media."
+        }
+      ],
+      "status": "video-verification-pending",
+      "currentMediaDecision": "No exact-version video adopted; Daily image-reuse permission absent. Candidate re-selection required before publication."
+    },
+    {
+      "gameId": "maptap",
+      "title": "MapTap",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"MapTap\" \"playdaily\" youtube globe",
+          "task": "Locate named city in a stated country",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        },
+        {
+          "query": "MapTap Daily globe city distance gameplay",
+          "task": "Check current game identity and task-specific play before any adoption",
+          "entry": "youtube-native",
+          "resultScope": "Observed result list only; no candidate adopted",
+          "evidencePath": "research/youtube-native-results.json"
+        },
+        {
+          "query": "\"playdaily.org\" \"MapTap\" youtube",
+          "task": "Find current Daily implementation rather than same-name games",
+          "entry": "web",
+          "checkedAt": "2026-10-21",
+          "resultScope": "No qualified exact-game YouTube candidate established; directory and press results not adopted."
+        },
+        {
+          "query": "\"playdaily\" \"MapTap Unlimited\" globe city",
+          "task": "Find the configured Daily implementation and task-specific input/result footage",
+          "entry": "youtube-native",
+          "checkedAt": "2026-10-21T04:09:18.262Z",
+          "resultScope": "5 returned leads; none approved by title",
+          "evidencePath": "reports/acceptance-evidence/additional-review-20261021/youtube-searches.json"
+        }
+      ],
+      "candidates": [
+        {
+          "videoId": "f4HK8BQr060",
+          "title": "Do you actually know where these Cities are?",
+          "url": "https://www.youtube.com/watch?v=f4HK8BQr060",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "bbHETf72LpU",
+          "title": "Map Tap - Daily Geography Game | Challenge Your Knowledge Everyday!",
+          "url": "https://www.youtube.com/watch?v=bbHETf72LpU",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        },
+        {
+          "videoId": "WyhPAsZNLxY",
+          "title": "How Close Can I Tap? Daily MapTap Geography Challenge",
+          "url": "https://www.youtube.com/watch?v=WyhPAsZNLxY",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Title suggests a lead; exact identity, version, full segments, age restrictions and embed playback remain unverified."
+        }
+      ],
+      "status": "video-verification-pending",
+      "currentMediaDecision": "No exact-version video adopted; Daily image-reuse permission absent. Candidate re-selection required before publication."
+    },
+    {
+      "gameId": "songless",
+      "title": "Songless Unlimited",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Songless Unlimited\" youtube",
+          "task": "Recognize song with minimal audio",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        }
+      ],
+      "candidates": [],
+      "status": "video-verification-pending"
+    },
+    {
+      "gameId": "bandle",
+      "title": "Bandle Unlimited",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Bandle Unlimited\" \"Daily\" youtube instruments",
+          "task": "Recognize song arrangement",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        }
+      ],
+      "candidates": [],
+      "status": "video-verification-pending"
+    },
+    {
+      "gameId": "songspot",
+      "title": "Songspot",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Songspot\" \"playdaily\" youtube",
+          "task": "Identify song from shortest useful clip",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        }
+      ],
+      "candidates": [],
+      "status": "video-verification-pending"
+    },
+    {
+      "gameId": "village",
+      "title": "Silverbrook",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Silverbrook\" \"playdaily\" youtube leaf",
+          "task": "Rake leaves in a first-person village",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        }
+      ],
+      "candidates": [],
+      "status": "video-verification-pending"
+    },
+    {
+      "gameId": "word-hunt",
+      "title": "Word Hunt",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Word Hunt\" \"playdaily\" game",
+          "task": "Retrieve words under time pressure",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        },
+        {
+          "query": "Word Hunt playdaily letter grid drag words gameplay",
+          "task": "Check current game identity and task-specific play before any adoption",
+          "entry": "youtube-native",
+          "resultScope": "Observed result list only; no candidate adopted",
+          "evidencePath": "research/youtube-native-results.json"
+        },
+        {
+          "query": "\"playdaily.org\" \"Word Hunt\" youtube",
+          "task": "Find current Daily implementation rather than same-name games",
+          "entry": "web",
+          "checkedAt": "2026-10-21",
+          "resultScope": "No qualified exact-game YouTube candidate established; directory and press results not adopted."
+        },
+        {
+          "query": "\"playdaily\" \"Word Hunt\" drag words",
+          "task": "Find the configured Daily implementation and task-specific input/result footage",
+          "entry": "youtube-native",
+          "checkedAt": "2026-10-21T04:09:31.832Z",
+          "resultScope": "7 returned leads; none approved by title",
+          "evidencePath": "reports/acceptance-evidence/additional-review-20261021/youtube-searches.json"
+        }
+      ],
+      "candidates": [
+        {
+          "videoId": "ve19OagWuB4",
+          "title": "Ultimate Word Hunt Game Challenge | Can You Find All the Hidden Words?",
+          "url": "https://www.youtube.com/watch?v=ve19OagWuB4",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Results do not establish the current Daily implementation; cannot use as page media."
+        },
+        {
+          "videoId": "gqDAAN14pik",
+          "title": "Wordtide: Word Search - English word search: themed grids, a daily puzzle, no timers.",
+          "url": "https://www.youtube.com/watch?v=gqDAAN14pik",
+          "identity": "unverified",
+          "adoption": "not_adopted",
+          "enterSegmentAnalysis": false,
+          "reason": "Results do not establish the current Daily implementation; cannot use as page media."
+        }
+      ],
+      "status": "video-verification-pending",
+      "currentMediaDecision": "No exact-version video adopted; Daily image-reuse permission absent. Candidate re-selection required before publication."
+    },
+    {
+      "gameId": "traffic-jam",
+      "title": "Traffic Jam",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Traffic Jam\" \"playdaily\" game",
+          "task": "Free the target car",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        }
+      ],
+      "candidates": [],
+      "status": "video-verification-pending"
+    },
+    {
+      "gameId": "tile-fit",
+      "title": "Tile Fit",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Tile Fit\" \"playdaily\" game",
+          "task": "Manage board space and clear cells",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        }
+      ],
+      "candidates": [],
+      "status": "video-verification-pending"
+    },
+    {
+      "gameId": "coin-maze",
+      "title": "Coin Maze",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Coin Maze\" \"playdaily\" game",
+          "task": "Collect coins while escaping a chaser",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        }
+      ],
+      "candidates": [],
+      "status": "video-verification-pending"
+    },
+    {
+      "gameId": "air-hockey",
+      "title": "Air Hockey",
+      "language": "en",
+      "market": "international",
+      "queries": [
+        {
+          "query": "\"Air Hockey\" \"playdaily\" game",
+          "task": "Collect keys in order and reach exit",
+          "entry": "web",
+          "resultScope": "Search performed for this task; no exact-version video opened or approved"
+        }
+      ],
+      "candidates": [],
+      "status": "video-verification-pending"
+    },
+    {
+      "gameId": "money-tycoon",
+      "title": "Money Tycoon",
+      "language": "en",
+      "market": "international",
+      "queries": [],
+      "candidates": [],
+      "status": "video-verification-pending"
+    },
+    {
+      "gameId": "2048",
+      "title": "2048",
+      "language": "en",
+      "market": "international",
+      "scope": "replacement candidate only; not a planned or published Game",
+      "queries": [
+        {
+          "query": "2048 Gabriele Cirulli gameplay corner strategy youtube",
+          "task": "Find version-matching input and failure demonstrations",
+          "entry": "web",
+          "resultScope": "No video adopted; native YouTube search and segment review pending"
+        }
+      ],
+      "candidates": [],
+      "adopted": []
+    },
+    {
+      "gameId": "hextris",
+      "title": "Hextris",
+      "language": "en",
+      "market": "international",
+      "scope": "replacement candidate only; not a planned or published Game",
+      "queries": [
+        {
+          "query": "Hextris original gameplay rotate matching colors youtube",
+          "task": "Find version-matching input and failure demonstrations",
+          "entry": "web",
+          "resultScope": "No video adopted; native YouTube search and segment review pending"
+        }
+      ],
+      "candidates": [],
+      "adopted": []
+    },
+    {
+      "gameId": "0hh1",
+      "title": "0h h1",
+      "language": "en",
+      "market": "international",
+      "scope": "replacement candidate only; not a planned or published Game",
+      "queries": [
+        {
+          "query": "0h h1 Q42 gameplay three rules tutorial youtube",
+          "task": "Find version-matching input and failure demonstrations",
+          "entry": "web",
+          "resultScope": "No video adopted; native YouTube search and segment review pending"
+        }
+      ],
+      "candidates": [],
+      "adopted": []
+    },
+    {
+      "gameId": "hello-wordl",
+      "playerTasks": [
+        "Read positional clues",
+        "Track repeated copies",
+        "Choose word length before a run"
+      ],
+      "queries": [
+        {
+          "query": "hello wordl hellowordl.net gameplay",
+          "evidence": "reports/acceptance-evidence/additional-review-20261021/youtube-searches.json",
+          "selectedVideoId": "VIavCrvnrDs"
+        }
+      ],
+      "identity": "author-hosted Hello Wordl, not Daily Word Hunt or Poople",
+      "decision": "one video adopted for scoped clue/length demonstration"
+    },
+    {
+      "gameId": "trust",
+      "playerTask": "Choose cooperation or cheating, compare coin payoffs and see what repeated encounters change.",
+      "queries": [
+        "The Evolution of Trust ncase game gameplay"
+      ],
+      "selectedVideoId": "utRF4ueoCdY",
+      "identity": "exact-game"
+    },
+    {
+      "gameId": "polygons",
+      "playerTask": "Move unhappy shapes into empty spaces and explore how local rules change a whole board.",
+      "queries": [
+        "Parable of the Polygons gameplay unhappy shapes neighbors",
+        "Parable of the Polygons automatic simulation preference threshold"
+      ],
+      "selectedVideoId": "xAaHkZDXtLc",
+      "identity": "exact-game"
+    },
+    {
+      "gameId": "0hn0",
+      "playerTask": "Use numbered blue dots and red blockers to solve a line-of-sight logic grid.",
+      "queries": [
+        "0h n0 guided 6x6 beginner strategies",
+        "0h n0 numbered dots line of sight block completed clue"
+      ],
+      "selectedVideoId": "2K_thF0qg8Y",
+      "identity": "exact-game"
+    },
+    {
+      "gameId": "0hh1",
+      "playerTask": "Fill a two-color grid without triples, unequal counts or duplicate completed lines.",
+      "queries": [
+        "0h h1 Martin Kool author gameplay",
+        "0h h1 two color puzzle triples balance rows"
+      ],
+      "selectedVideoId": "oy1A73lKWtc",
+      "identity": "exact-game"
+    },
+    {
+      "gameId": "crowds",
+      "playerTask": "Draw and cut connections, compare local views and test how behavior spreads through a network.",
+      "queries": [
+        "The Wisdom and/or Madness of Crowds gameplay Nicky Case",
+        "Crowds game draw connections local majority threshold simulation"
+      ],
+      "selectedVideoId": "c4_N0k5pi4I",
+      "identity": "exact-game"
+    },
+    {
+      "gameId": "a-dark-room",
+      "playerTask": "Light a fire, read changing events and build an early resource routine in a text adventure.",
+      "queries": [
+        "A Dark Room browser game part1",
+        "A Dark Room light fire gather wood cooldown early builds"
+      ],
+      "selectedVideoId": "D8tX4h_-VY8",
+      "identity": "exact-game"
+    },
+    {
+      "gameId": "sandspiel",
+      "playerTask": "Paint materials into a live particle world, build containers and compare how sand, water and plants behave.",
+      "queries": [
+        "Sandspiel gameplay sand water",
+        "Sandspiel sandbox game materials experiments"
+      ],
+      "selectedVideoId": "klya7VDklag",
+      "identity": "exact-game"
+    }
+  ],
+  "additionalGameCoverage": "16 task-specific web searches; native playback verification pending",
+  "replacementReview": {
+    "checkedAt": "2026-10-21T06:57:51.419Z",
+    "evidence": "reports/acceptance-evidence/additional-review-20261021/youtube-searches.json",
+    "candidates": [
+      {
+        "gameId": "hello-wordl",
+        "playerTask": "Use fixed-position color clues and repeated-letter limits to solve an adjustable-length word in six guesses.",
+        "questions": [
+          "When can length change?",
+          "How are repeated letters limited by feedback?",
+          "What changes between daily and random play?",
+          "Which keyboard and high-contrast options are visible?"
+        ],
+        "videoIds": [
+          "VIavCrvnrDs"
+        ],
+        "status": "Local nocookie playback reached end; interface match observed; review details in video-analysis.json"
+      },
+      {
+        "gameId": "0hh1",
+        "playerTask": "Fill a binary tile board using row/column balance, adjacency and uniqueness constraints.",
+        "questions": [
+          "Which rules are shown by current tutorial?",
+          "Can fixed tiles be changed?",
+          "How does cycling an editable tile work?",
+          "Which sizes and hint states exist?"
+        ],
+        "videoIds": [
+          "oy1A73lKWtc"
+        ],
+        "status": "Author Martin Kool identified in local embed preview; not watched/qualified"
+      },
+      {
+        "gameId": "0hn0",
+        "playerTask": "Complete blue/red sightline logic cells while respecting numbered visible-dot constraints.",
+        "questions": [
+          "Does a clue count itself?",
+          "How do red dots stop sightlines?",
+          "What proves a forced blue or red cell?",
+          "What feedback reports a contradiction?"
+        ],
+        "videoIds": [
+          "2K_thF0qg8Y"
+        ],
+        "status": "Independent 6×6 strategy search lead only; not watched/qualified"
+      },
+      {
+        "gameId": "hextris",
+        "playerTask": "Rotate the central hexagon to place falling colored blocks and clear matching runs.",
+        "questions": [
+          "Which input rotates each direction?",
+          "How are runs connected across edges?",
+          "What reaches the loss boundary?",
+          "What does restart preserve?"
+        ],
+        "videoIds": [
+          "0KCKXLMhAyw"
+        ],
+        "status": "Search lead only; older same-name PC games excluded"
+      },
+      {
+        "gameId": "trust",
+        "playerTask": "Choose cooperate/cheat, inspect repeated-match payoffs and compare strategy populations under changed rules.",
+        "questions": [
+          "What payoff is shown for each choice pair?",
+          "Which strategy reacts to previous turns?",
+          "What changes with mistakes or repeated encounters?",
+          "Where do model assumptions limit conclusions?"
+        ],
+        "videoIds": [
+          "utRF4ueoCdY"
+        ],
+        "status": "Playthrough lead only; not watched/qualified"
+      },
+      {
+        "gameId": "polygons",
+        "playerTask": "Move unhappy shapes into empty spaces and compare the resulting board under different neighbor thresholds.",
+        "questions": [
+          "Which shapes may move?",
+          "How is neighbor satisfaction calculated?",
+          "How do vacancy and threshold change available moves?",
+          "How do manual and automated simulations differ?"
+        ],
+        "videoIds": [
+          "xAaHkZDXtLc"
+        ],
+        "status": "Games for Change playthrough lead only; not watched/qualified"
+      },
+      {
+        "gameId": "crowds",
+        "playerTask": "Draw and remove graph links, run threshold simulations and compare local-majority perception with whole-network counts.",
+        "questions": [
+          "Which links are editable or fixed?",
+          "When is drawing disabled?",
+          "How does the displayed threshold trigger spread?",
+          "How can a local majority misrepresent the full graph?"
+        ],
+        "videoIds": [
+          "c4_N0k5pi4I"
+        ],
+        "status": "Independent gameplay query lead only; not watched/qualified"
+      },
+      {
+        "gameId": "astray",
+        "playerTask": "Steer the rolling ball through maze turns while controlling momentum and locating the exit.",
+        "questions": [
+          "Which directions control movement?",
+          "How does collision alter progress?",
+          "What counts as a completed level?",
+          "How does restart recover from a bad turn?"
+        ],
+        "videoIds": [],
+        "status": "7v095uwDgeg watched and rejected as unrelated first-person maze; qualified matching video missing"
+      }
+    ],
+    "noUnobservedVideoClaims": true
+  }
+}

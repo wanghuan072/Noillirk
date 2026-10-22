@@ -1,0 +1,51 @@
+project:
+  keyword: Noillirk
+  language: en
+  language_basis: Official Noillirk game and help use English; English player tasks observed in YouTube search.
+  target_market: English-speaking international browser-game players
+  target_market_basis: English official interface and English-language search results; no geographic traffic data available.
+paths:
+  workflow_dir: D:/wh/Agent/Game-Agent
+  project_dir: D:/wh/202610/noillirk/noillirk/noillirk
+  research_dir: research
+  planning_dir: planning
+  reports_dir: reports
+  handoff_dir: handoff
+runtime:
+  frontend_framework: Next.js 16.4.2 App Router / React 19.3.0 / TypeScript
+  package_manager: npm
+  has_existing_code: true
+  node_version: v24.19.0
+  rendering: Prerendered App Router; explicit isolated local draft preview
+game:
+  config_path: data/games/main-game.json
+domain:
+  value: noillirk.cc
+  origin: https://noillirk.cc
+  status: configured
+deployment:
+  target: Portable Node.js standalone server
+  production_output: .next/standalone
+  status: not_generated_release_gates_open
+execution:
+  network_research: true
+  code_changes: true
+  install_needed_dependencies: true
+  run_checks_and_build: true
+  deploy: false
+  git_commit: false
+  media_rights_pending_does_not_block_development: true
+  allow_unverified_media: false
+boundaries:
+  forbidden_operations:
+    - Read other game projects
+    - Write outside project directory
+    - Deploy website
+    - Commit or mutate remote Git/GitHub state
+notes:
+  - Existing create-next-app starter; preserve App Router and existing configuration until stage 05.
+  - Not a Git repository; git status exited 128.
+  - Main game runtime remains provisional; no playability claim.
+  - >-
+    2026-10-20 user override: unresolved main-game media rights must not stop research, planning, development
+    or local builds. Media acceptance and overall delivery remain unpassed.

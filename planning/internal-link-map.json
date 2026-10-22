@@ -1,0 +1,153 @@
+{
+  "navigation": [
+    {
+      "page_id": "home",
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "page_id": "guides",
+      "label": "Guides",
+      "path": "/guides"
+    },
+    {
+      "page_id": "games",
+      "label": "More Games",
+      "path": "/games"
+    }
+  ],
+  "legal": [
+    "/privacy",
+    "/terms",
+    "/copyright",
+    "/about",
+    "/contact"
+  ],
+  "gameRelationships": [
+    {
+      "gameId": "krillion",
+      "candidates": [
+        "fermi",
+        "poople",
+        "size-it-up",
+        "color",
+        "color-logo",
+        "maptap",
+        "word-hunt"
+      ],
+      "status": "provisional-editorial-fit-needs-verification",
+      "reason": "Short knowledge, estimation, memory or vocabulary tasks; specific pairwise fit must be confirmed before publication."
+    },
+    {
+      "gameId": "fermi",
+      "candidates": [
+        "krillion",
+        "poople",
+        "size-it-up",
+        "color",
+        "color-logo",
+        "maptap",
+        "word-hunt"
+      ],
+      "status": "provisional-editorial-fit-needs-verification",
+      "reason": "Short knowledge, estimation, memory or vocabulary tasks; specific pairwise fit must be confirmed before publication."
+    },
+    {
+      "gameId": "poople",
+      "candidates": [
+        "krillion",
+        "fermi",
+        "size-it-up",
+        "color",
+        "color-logo",
+        "maptap",
+        "word-hunt"
+      ],
+      "status": "provisional-editorial-fit-needs-verification",
+      "reason": "Short knowledge, estimation, memory or vocabulary tasks; specific pairwise fit must be confirmed before publication."
+    },
+    {
+      "gameId": "size-it-up",
+      "candidates": [
+        "krillion",
+        "fermi",
+        "poople",
+        "color",
+        "color-logo",
+        "maptap",
+        "word-hunt"
+      ],
+      "status": "provisional-editorial-fit-needs-verification",
+      "reason": "Short knowledge, estimation, memory or vocabulary tasks; specific pairwise fit must be confirmed before publication."
+    },
+    {
+      "gameId": "color",
+      "candidates": [
+        "krillion",
+        "fermi",
+        "poople",
+        "size-it-up",
+        "color-logo",
+        "maptap",
+        "word-hunt"
+      ],
+      "status": "provisional-editorial-fit-needs-verification",
+      "reason": "Short knowledge, estimation, memory or vocabulary tasks; specific pairwise fit must be confirmed before publication."
+    },
+    {
+      "gameId": "color-logo",
+      "candidates": [
+        "krillion",
+        "fermi",
+        "poople",
+        "size-it-up",
+        "color",
+        "maptap",
+        "word-hunt"
+      ],
+      "status": "provisional-editorial-fit-needs-verification",
+      "reason": "Short knowledge, estimation, memory or vocabulary tasks; specific pairwise fit must be confirmed before publication."
+    },
+    {
+      "gameId": "maptap",
+      "candidates": [
+        "krillion",
+        "fermi",
+        "poople",
+        "size-it-up",
+        "color",
+        "color-logo",
+        "word-hunt"
+      ],
+      "status": "provisional-editorial-fit-needs-verification",
+      "reason": "Short knowledge, estimation, memory or vocabulary tasks; specific pairwise fit must be confirmed before publication."
+    },
+    {
+      "gameId": "word-hunt",
+      "candidates": [
+        "krillion",
+        "fermi",
+        "poople",
+        "size-it-up",
+        "color",
+        "color-logo",
+        "maptap"
+      ],
+      "status": "provisional-editorial-fit-needs-verification",
+      "reason": "Short knowledge, estimation, memory or vocabulary tasks; specific pairwise fit must be confirmed before publication."
+    }
+  ],
+  "guideLinks": [
+    {
+      "from": "/",
+      "to": "/guides/noillirk-answer-strategy",
+      "purpose": "Choose a familiar answer within the clock"
+    },
+    {
+      "from": "/",
+      "to": "/guides/noillirk-scoring-and-endless",
+      "purpose": "Read tier results and manage Endless balloons"
+    }
+  ],
+  "navigationLifecycle": "Use complete document navigation per global web-navigation rule; unload old frame/timers/fullscreen."
+}

@@ -1,0 +1,27 @@
+{
+  "observedAt": "2026-10-20",
+  "language": "en",
+  "market": "international",
+  "searchVolume": "unavailable",
+  "trend": "unavailable",
+  "precision": "qualitative",
+  "observations": [
+    {
+      "query": "Noillirk game",
+      "method": "web search plus official page open",
+      "evidenceIds": [
+        "official-game"
+      ],
+      "signal": "Several independent implementations appear; identity disambiguation is essential."
+    },
+    {
+      "query": "Noillirk gameplay youtube",
+      "method": "web search and YouTube native search",
+      "evidenceIds": [
+        "youtube-native-search"
+      ],
+      "signal": "General web results miss videos that native YouTube search surfaces."
+    }
+  ],
+  "regionalComparison": "not_run"
+}

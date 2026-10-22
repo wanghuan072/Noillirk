@@ -1,0 +1,231 @@
+{
+  "checkedAt": "2026-10-21T04:41:45.148Z",
+  "rows": [
+    {
+      "query": "0hh1",
+      "status": 200,
+      "items": [
+        {
+          "name": "florisluiten/0hh1",
+          "url": "https://github.com/florisluiten/0hh1",
+          "homepage": null,
+          "defaultBranch": "master",
+          "license": "MIT",
+          "fork": false,
+          "description": "A lovely little logic game by Q42."
+        },
+        {
+          "name": "segdv/0hh1Solver",
+          "url": "https://github.com/segdv/0hh1Solver",
+          "homepage": null,
+          "defaultBranch": "main",
+          "fork": false,
+          "description": "This is a puzzle solver for the game 0h h1 created by Martin Kool, can be played on Android or Pc from https://0hh1.com/ "
+        },
+        {
+          "name": "Adeema-Amir/0hh1-master",
+          "url": "https://github.com/Adeema-Amir/0hh1-master",
+          "homepage": null,
+          "defaultBranch": "main",
+          "license": "MIT",
+          "fork": false,
+          "description": "0hh1-master"
+        },
+        {
+          "name": "srrmlwn/0hh1-solver",
+          "url": "https://github.com/srrmlwn/0hh1-solver",
+          "homepage": null,
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "Solver for 0hh1 logic puzzles [http://0hh1.com]"
+        },
+        {
+          "name": "AndrewHartAR/0hh1-Solver",
+          "url": "https://github.com/AndrewHartAR/0hh1-Solver",
+          "homepage": "",
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "0hh1 solver, written entirely in Swift"
+        },
+        {
+          "name": "Adwaith-Rajesh/0hh1-solver",
+          "url": "https://github.com/Adwaith-Rajesh/0hh1-solver",
+          "homepage": "",
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "0hh1 solver for the web (selenium)"
+        }
+      ]
+    },
+    {
+      "query": "0hn0",
+      "status": 200,
+      "items": [
+        {
+          "name": "Techdojo/0hn0",
+          "url": "https://github.com/Techdojo/0hn0",
+          "homepage": null,
+          "defaultBranch": "master",
+          "license": "MIT",
+          "fork": false,
+          "description": "It's 0h h1's companion! By Q42."
+        },
+        {
+          "name": "iSC-Labs/0hn0",
+          "url": "https://github.com/iSC-Labs/0hn0",
+          "homepage": "",
+          "defaultBranch": "master",
+          "license": "MIT",
+          "fork": false,
+          "description": "It's 0h h1's companion! By Q42. "
+        },
+        {
+          "name": "zaddmc/0hn0",
+          "url": "https://github.com/zaddmc/0hn0",
+          "homepage": null,
+          "defaultBranch": "master",
+          "fork": false,
+          "description": null
+        },
+        {
+          "name": "Augustin82/0h-n0",
+          "url": "https://github.com/Augustin82/0h-n0",
+          "homepage": null,
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "Trying to reimplement https://0hn0.com/ in Elm"
+        },
+        {
+          "name": "cthibault/zerohnzero.solver",
+          "url": "https://github.com/cthibault/zerohnzero.solver",
+          "homepage": null,
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "Algorithm Challenge: write a solver for the game 0hn0"
+        },
+        {
+          "name": "mdiazv/0hy3s",
+          "url": "https://github.com/mdiazv/0hy3s",
+          "homepage": null,
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "This is an implementation of a solver for 0hn0.com"
+        }
+      ]
+    },
+    {
+      "query": "javascript-tetris fork:true",
+      "status": 200,
+      "items": [
+        {
+          "name": "jakesgordon/javascript-tetris",
+          "url": "https://github.com/jakesgordon/javascript-tetris",
+          "homepage": "https://jakesgordon.com/writing/javascript-tetris/",
+          "defaultBranch": "master",
+          "license": "MIT",
+          "fork": false,
+          "description": "A simple javascript tetris game"
+        },
+        {
+          "name": "LeeYiyuan/tetrisai",
+          "url": "https://github.com/LeeYiyuan/tetrisai",
+          "homepage": "leeyiyuan.github.io/tetrisai",
+          "defaultBranch": "gh-pages",
+          "license": "MIT",
+          "fork": false,
+          "description": "A Tetris AI written in Javascript"
+        },
+        {
+          "name": "melcor76/js-tetris",
+          "url": "https://github.com/melcor76/js-tetris",
+          "homepage": "https://michael-karen.medium.com/learning-modern-javascript-with-tetris-92d532bcd057?sk=a7c22e45395da8322fc55bf3b23a309d",
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "Read the article of how to make JavaScript Tetris:"
+        },
+        {
+          "name": "Code-Bullet/Tetris-AI-Javascript",
+          "url": "https://github.com/Code-Bullet/Tetris-AI-Javascript",
+          "homepage": null,
+          "defaultBranch": "master",
+          "fork": false,
+          "description": null
+        },
+        {
+          "name": "imtumbleweed/Tetris",
+          "url": "https://github.com/imtumbleweed/Tetris",
+          "homepage": null,
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "On June 6, 2019 Tetris turned 35 years old. To celebrate, I wrote my own version and published it in my GitHub repo. No libraries. No frameworks. Just JavaScript. And no, this is not the best way, nor is it most-optimized version. It's just a simple break down."
+        },
+        {
+          "name": "ttencate/tis",
+          "url": "https://github.com/ttencate/tis",
+          "homepage": "http://ttencate.github.io/tis",
+          "defaultBranch": "master",
+          "license": "BSD-3-Clause",
+          "fork": false,
+          "description": "An embeddable Tetris clone without dependencies in 4 kB of JavaScript"
+        }
+      ]
+    },
+    {
+      "query": "javascript-pong fork:true",
+      "status": 200,
+      "items": [
+        {
+          "name": "jakesgordon/javascript-pong",
+          "url": "https://github.com/jakesgordon/javascript-pong",
+          "homepage": "https://jakesgordon.com/writing/javascript-pong/",
+          "defaultBranch": "master",
+          "license": "MIT",
+          "fork": false,
+          "description": "A javascript version of the classic 1972 arcade game Pong!"
+        },
+        {
+          "name": "CodeExplainedRepo/Ping-Pong-Game-JavaScript",
+          "url": "https://github.com/CodeExplainedRepo/Ping-Pong-Game-JavaScript",
+          "homepage": null,
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "The Snake game, created using JavaScript, and The HTML5 canvas.  Download the starter template, and follow the tutorial on youtube step by step.  Tutorial link : Coming Soon"
+        },
+        {
+          "name": "meth-meth-method/pong",
+          "url": "https://github.com/meth-meth-method/pong",
+          "homepage": null,
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "A basic Pong game in JavaScript."
+        },
+        {
+          "name": "enricolucia/pong",
+          "url": "https://github.com/enricolucia/pong",
+          "homepage": "http://pongjs.herokuapp.com/",
+          "defaultBranch": "master",
+          "license": "MIT",
+          "fork": false,
+          "description": "A pure javascript pong game clone based on socket.io and canvas."
+        },
+        {
+          "name": "Akki-jaiswal/pong-game",
+          "url": "https://github.com/Akki-jaiswal/pong-game",
+          "homepage": null,
+          "defaultBranch": "main",
+          "license": "MIT",
+          "fork": false,
+          "description": "An simple Pong game built with HTML, CSS, and JavaScript, featuring AI, difficulty levels, and sound effects."
+        },
+        {
+          "name": "trillioneyes/idris-pong",
+          "url": "https://github.com/trillioneyes/idris-pong",
+          "homepage": null,
+          "defaultBranch": "master",
+          "fork": false,
+          "description": "A browser Pong game, taking advantage of Idris's ability to compile to javascript."
+        }
+      ]
+    }
+  ]
+}

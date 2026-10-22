@@ -1,0 +1,310 @@
+{
+  "checkedAt": "2026-10-21T04:45:56.754Z",
+  "repositories": [
+    {
+      "repo": "jakesgordon/javascript-pong",
+      "files": [
+        {
+          "name": "LICENSE",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-pong/blob/master/LICENSE"
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-pong/blob/master/README.md"
+        },
+        {
+          "name": "game.js",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-pong/blob/master/game.js"
+        },
+        {
+          "name": "images",
+          "type": "dir",
+          "url": "https://github.com/jakesgordon/javascript-pong/tree/master/images"
+        },
+        {
+          "name": "index.html",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-pong/blob/master/index.html"
+        },
+        {
+          "name": "part1",
+          "type": "dir",
+          "url": "https://github.com/jakesgordon/javascript-pong/tree/master/part1"
+        },
+        {
+          "name": "part2",
+          "type": "dir",
+          "url": "https://github.com/jakesgordon/javascript-pong/tree/master/part2"
+        },
+        {
+          "name": "part3",
+          "type": "dir",
+          "url": "https://github.com/jakesgordon/javascript-pong/tree/master/part3"
+        },
+        {
+          "name": "part4",
+          "type": "dir",
+          "url": "https://github.com/jakesgordon/javascript-pong/tree/master/part4"
+        },
+        {
+          "name": "part5",
+          "type": "dir",
+          "url": "https://github.com/jakesgordon/javascript-pong/tree/master/part5"
+        },
+        {
+          "name": "pong.css",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-pong/blob/master/pong.css"
+        },
+        {
+          "name": "pong.js",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-pong/blob/master/pong.js"
+        },
+        {
+          "name": "sounds",
+          "type": "dir",
+          "url": "https://github.com/jakesgordon/javascript-pong/tree/master/sounds"
+        }
+      ],
+      "documents": [
+        {
+          "name": "LICENSE",
+          "url": "https://github.com/jakesgordon/javascript-pong/blob/master/LICENSE",
+          "text": "Copyright (c) 2011, 2012, 2013, 2014, 2015, 2016 Jake Gordon and contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+        },
+        {
+          "name": "README.md",
+          "url": "https://github.com/jakesgordon/javascript-pong/blob/master/README.md",
+          "text": "Canvas Pong\n===========\n\nThis is a small experiment to implement a version of the classic Pong game in an HTML <canvas>.\n\n * You can find the [game here](https://jakesgordon.com/games/pong/)\n * You can find out [how it works](https://jakesgordon.com/writing/javascript-pong/)\n\nYou can also play this game in the [Chrome Web Store](https://chrome.google.com/webstore/detail/omimkinlomnncbmnceacpkmlbfaapojj?hl=en-US)\n\n\nNOTES\n=====\n\n * No support for mobile devices (need to handle touch events instead of key input)\n"
+        }
+      ]
+    },
+    {
+      "repo": "jakesgordon/javascript-breakout",
+      "files": [
+        {
+          "name": "LICENSE",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-breakout/blob/master/LICENSE"
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-breakout/blob/master/README.md"
+        },
+        {
+          "name": "breakout.css",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-breakout/blob/master/breakout.css"
+        },
+        {
+          "name": "breakout.js",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-breakout/blob/master/breakout.js"
+        },
+        {
+          "name": "game.js",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-breakout/blob/master/game.js"
+        },
+        {
+          "name": "images",
+          "type": "dir",
+          "url": "https://github.com/jakesgordon/javascript-breakout/tree/master/images"
+        },
+        {
+          "name": "index.html",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-breakout/blob/master/index.html"
+        },
+        {
+          "name": "levels.js",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-breakout/blob/master/levels.js"
+        },
+        {
+          "name": "packaged",
+          "type": "dir",
+          "url": "https://github.com/jakesgordon/javascript-breakout/tree/master/packaged"
+        },
+        {
+          "name": "sound",
+          "type": "dir",
+          "url": "https://github.com/jakesgordon/javascript-breakout/tree/master/sound"
+        }
+      ],
+      "documents": [
+        {
+          "name": "LICENSE",
+          "url": "https://github.com/jakesgordon/javascript-breakout/blob/master/LICENSE",
+          "text": "Copyright (c) 2011, 2012, 2013, 2014, 2015, 2016 Jake Gordon and contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n===============================================================================\n\nAll sounds come from The Freesound Project (www.freesound.org) and are licensed\nunder the creative commons license (http://creativecommons.org/licenses/by-nd/2.0/)\n\nA list of sounds and authors attribution can be found here:\n\n  http://www.freesound.org/usersAttribution.php?id=2227288\n\n\n"
+        },
+        {
+          "name": "README.md",
+          "url": "https://github.com/jakesgordon/javascript-breakout/blob/master/README.md",
+          "text": "Breakout\n========\n\nAnother HTML5 experiment to implement BREAKOUT in a `<canvas>`\n\n * You can find the [game here](https://jakesgordon.com/games/breakout/)\n * You can find out [how it works](https://jakesgordon.com/writing/javascript-breakout/)\n   * [Managing Game State](https://jakesgordon.com/writing/game-state-in-breakout/)\n   * [Rendering Performance](https://jakesgordon.com/writing/rendering-breakout/)\n   * [Collision Detection](https://jakesgordon.com/writing/collision-detection-in-breakout/)\n   * [Gameplay Balance](https://jakesgordon.com/writing/gameplay-in-breakout/)\n   * [Adding Sound](https://jakesgordon.com/writing/adding-sound-to-breakout/)\n   * [Touch Events](https://jakesgordon.com/writing/adding-touch-to-breakout/)\n"
+        }
+      ]
+    },
+    {
+      "repo": "jakesgordon/javascript-tetris",
+      "files": [
+        {
+          "name": "LICENSE",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-tetris/blob/master/LICENSE"
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-tetris/blob/master/README.md"
+        },
+        {
+          "name": "index.html",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-tetris/blob/master/index.html"
+        },
+        {
+          "name": "stats.js",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-tetris/blob/master/stats.js"
+        },
+        {
+          "name": "texture.jpg",
+          "type": "file",
+          "url": "https://github.com/jakesgordon/javascript-tetris/blob/master/texture.jpg"
+        }
+      ],
+      "documents": [
+        {
+          "name": "LICENSE",
+          "url": "https://github.com/jakesgordon/javascript-tetris/blob/master/LICENSE",
+          "text": "Copyright (c) 2011, 2012, 2013, 2014, 2015, 2016 Jake Gordon and contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n"
+        },
+        {
+          "name": "README.md",
+          "url": "https://github.com/jakesgordon/javascript-tetris/blob/master/README.md",
+          "text": "Javascript Tetris\n=================\n\nAn HTML5 Tetris Game\n\n * [play the game](https://jakesgordon.com/games/tetris/)\n * read a [blog article](https://jakesgordon.com/writing/javascript-tetris/)\n * view the [source](https://github.com/jakesgordon/javascript-tetris)\n\n>> _*SUPPORTED BROWSERS*: Chrome, Firefox, Safari, Opera and IE9+_\n\nFUTURE\n======\n\n * menu\n * animation and fx\n * levels\n * high scores\n * touch support\n * music and sound fx\n\n\nLicense\n=======\n\n[MIT](http://en.wikipedia.org/wiki/MIT_License) license.\n\n\n"
+        }
+      ]
+    },
+    {
+      "repo": "florisluiten/0hh1",
+      "files": [
+        {
+          "name": "LICENSE",
+          "type": "file",
+          "url": "https://github.com/florisluiten/0hh1/blob/master/LICENSE"
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "url": "https://github.com/florisluiten/0hh1/blob/master/README.md"
+        },
+        {
+          "name": "config.js",
+          "type": "file",
+          "url": "https://github.com/florisluiten/0hh1/blob/master/config.js"
+        },
+        {
+          "name": "css",
+          "type": "dir",
+          "url": "https://github.com/florisluiten/0hh1/tree/master/css"
+        },
+        {
+          "name": "fonts",
+          "type": "dir",
+          "url": "https://github.com/florisluiten/0hh1/tree/master/fonts"
+        },
+        {
+          "name": "img",
+          "type": "dir",
+          "url": "https://github.com/florisluiten/0hh1/tree/master/img"
+        },
+        {
+          "name": "index.html",
+          "type": "file",
+          "url": "https://github.com/florisluiten/0hh1/blob/master/index.html"
+        },
+        {
+          "name": "js",
+          "type": "dir",
+          "url": "https://github.com/florisluiten/0hh1/tree/master/js"
+        }
+      ],
+      "documents": [
+        {
+          "name": "LICENSE",
+          "url": "https://github.com/florisluiten/0hh1/blob/master/LICENSE",
+          "text": "The MIT License (MIT)\n\nCopyright (c) 2014 Q42\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n"
+        },
+        {
+          "name": "README.md",
+          "url": "https://github.com/florisluiten/0hh1/blob/master/README.md",
+          "text": "0hh1\n====\n\nA lovely little logic game by Q42.\n"
+        }
+      ]
+    },
+    {
+      "repo": "Techdojo/0hn0",
+      "files": [
+        {
+          "name": "LICENSE",
+          "type": "file",
+          "url": "https://github.com/Techdojo/0hn0/blob/master/LICENSE"
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "url": "https://github.com/Techdojo/0hn0/blob/master/README.md"
+        },
+        {
+          "name": "cordova.js",
+          "type": "file",
+          "url": "https://github.com/Techdojo/0hn0/blob/master/cordova.js"
+        },
+        {
+          "name": "css",
+          "type": "dir",
+          "url": "https://github.com/Techdojo/0hn0/tree/master/css"
+        },
+        {
+          "name": "fonts",
+          "type": "dir",
+          "url": "https://github.com/Techdojo/0hn0/tree/master/fonts"
+        },
+        {
+          "name": "img",
+          "type": "dir",
+          "url": "https://github.com/Techdojo/0hn0/tree/master/img"
+        },
+        {
+          "name": "index.html",
+          "type": "file",
+          "url": "https://github.com/Techdojo/0hn0/blob/master/index.html"
+        },
+        {
+          "name": "js",
+          "type": "dir",
+          "url": "https://github.com/Techdojo/0hn0/tree/master/js"
+        }
+      ],
+      "documents": [
+        {
+          "name": "LICENSE",
+          "url": "https://github.com/Techdojo/0hn0/blob/master/LICENSE",
+          "text": "The MIT License (MIT)\n\nCopyright (c) 2015 Q42\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n"
+        },
+        {
+          "name": "README.md",
+          "url": "https://github.com/Techdojo/0hn0/blob/master/README.md",
+          "text": "0h n0\n=====\n\nIt's [0h h1](http://0hh1.com)'s companion! By [Q42](http://q42.com).\nIt was written by [Martin Kool](http://twitter.com/mrtnkl).\n\nPlay it here:\n\nOnline at [0hn0.com](http://0hn0.com)\n\n[iOS](https://itunes.apple.com/us/app/0h-n0/id957191082?mt=8)\n\n[Android](https://play.google.com/store/apps/details?id=com.q42.ohno)"
+        }
+      ]
+    }
+  ]
+}

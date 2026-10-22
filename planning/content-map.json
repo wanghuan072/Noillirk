@@ -1,0 +1,293 @@
+{
+  "status": "draft-planning-not-publication-approval",
+  "urlPolicy": {
+    "trailingSlash": false
+  },
+  "siteIdentity": {
+    "site_name": "Noillirk",
+    "short_name": "Noillirk",
+    "site_name_basis": "User keyword; independent player website, no official affiliation asserted"
+  },
+  "primaryNavigation": [
+    {
+      "page_id": "home",
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "page_id": "guides",
+      "label": "Guides",
+      "path": "/guides"
+    },
+    {
+      "page_id": "games",
+      "label": "More Games",
+      "path": "/games"
+    }
+  ],
+  "utilityPages": [
+    {
+      "page_id": "privacy",
+      "path": "/privacy",
+      "footerGroup": "Legal"
+    },
+    {
+      "page_id": "terms",
+      "path": "/terms",
+      "footerGroup": "Legal"
+    },
+    {
+      "page_id": "copyright",
+      "path": "/copyright",
+      "footerGroup": "Legal"
+    },
+    {
+      "page_id": "about",
+      "path": "/about",
+      "footerGroup": "Legal"
+    },
+    {
+      "page_id": "contact",
+      "path": "/contact",
+      "footerGroup": "Legal"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "home",
+      "path": "/",
+      "page_role": "Main game only",
+      "primary_intent": "Play Noillirk and understand familiar-answer decisions",
+      "h1_direction": "Play Noillirk Online",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "guides",
+      "path": "/guides",
+      "page_role": "Guide index",
+      "primary_intent": "Choose a task-specific guide",
+      "spoiler_policy": "none",
+      "status": "draft"
+    },
+    {
+      "page_id": "games",
+      "path": "/games",
+      "page_role": "Additional game index",
+      "primary_intent": "Choose another short guessing or word game",
+      "spoiler_policy": "none",
+      "status": "draft"
+    },
+    {
+      "page_id": "krillion",
+      "path": "/games/krillion",
+      "page_role": "Additional game draft",
+      "primary_intent": "Find a valid uncommon example",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "fermi",
+      "path": "/games/fermi",
+      "page_role": "Additional game draft",
+      "primary_intent": "Estimate a quantity through smaller assumptions",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "poople",
+      "path": "/games/poople",
+      "page_role": "Additional game draft",
+      "primary_intent": "Build a word ladder to POOP",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "size-it-up",
+      "path": "/games/size-it-up",
+      "page_role": "Additional game draft",
+      "primary_intent": "Estimate relative dimensions against a measured reference",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "color",
+      "path": "/games/color",
+      "page_role": "Additional game draft",
+      "primary_intent": "Rebuild a remembered color",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "color-logo",
+      "path": "/games/color-logo",
+      "page_role": "Additional game draft",
+      "primary_intent": "Recall a familiar brand color",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "maptap",
+      "path": "/games/maptap",
+      "page_role": "Additional game draft",
+      "primary_intent": "Locate named city in a stated country",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "word-hunt",
+      "path": "/games/word-hunt",
+      "page_role": "Additional game draft",
+      "primary_intent": "Retrieve words under time pressure",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "noillirk-answer-strategy",
+      "path": "/guides/noillirk-answer-strategy",
+      "page_role": "Task guide",
+      "primary_intent": "Choose a familiar answer within the clock",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "noillirk-scoring-and-endless",
+      "path": "/guides/noillirk-scoring-and-endless",
+      "page_role": "Task guide",
+      "primary_intent": "Read tier results and manage Endless balloons",
+      "spoiler_policy": "marked",
+      "status": "draft"
+    },
+    {
+      "page_id": "privacy",
+      "path": "/privacy",
+      "page_role": "Legal utility",
+      "primary_intent": "privacy",
+      "spoiler_policy": "none",
+      "status": "draft"
+    },
+    {
+      "page_id": "terms",
+      "path": "/terms",
+      "page_role": "Legal utility",
+      "primary_intent": "terms",
+      "spoiler_policy": "none",
+      "status": "draft"
+    },
+    {
+      "page_id": "copyright",
+      "path": "/copyright",
+      "page_role": "Legal utility",
+      "primary_intent": "copyright",
+      "spoiler_policy": "none",
+      "status": "draft"
+    },
+    {
+      "page_id": "about",
+      "path": "/about",
+      "page_role": "Legal utility",
+      "primary_intent": "about",
+      "spoiler_policy": "none",
+      "status": "draft"
+    },
+    {
+      "page_id": "contact",
+      "path": "/contact",
+      "page_role": "Legal utility",
+      "primary_intent": "contact",
+      "spoiler_policy": "none",
+      "status": "draft"
+    }
+  ],
+  "homepageContent": {
+    "minimumVisibleNonWhitespaceTextUnitsAfterPlayer": 4000,
+    "plannedCoverage": [
+      "Category constraints",
+      "Familiarity versus answer validity",
+      "Timer decisions",
+      "Mode differences",
+      "Failure recovery",
+      "Device limits"
+    ]
+  },
+  "games": {
+    "mainDataFile": "data/games/main-game.json",
+    "additionalDataFile": "data/games/games.json",
+    "detailPattern": "/games/[slug]",
+    "minimumPublishedAdditionalGames": 8,
+    "items": [
+      {
+        "game_id": "krillion",
+        "slug": "krillion",
+        "candidate_id": "krillion",
+        "coverage_status": "deferred"
+      },
+      {
+        "game_id": "fermi",
+        "slug": "fermi",
+        "candidate_id": "fermi",
+        "coverage_status": "deferred"
+      },
+      {
+        "game_id": "poople",
+        "slug": "poople",
+        "candidate_id": "poople",
+        "coverage_status": "deferred"
+      },
+      {
+        "game_id": "size-it-up",
+        "slug": "size-it-up",
+        "candidate_id": "size-it-up",
+        "coverage_status": "deferred"
+      },
+      {
+        "game_id": "color",
+        "slug": "color",
+        "candidate_id": "color",
+        "coverage_status": "deferred"
+      },
+      {
+        "game_id": "color-logo",
+        "slug": "color-logo",
+        "candidate_id": "color-logo",
+        "coverage_status": "deferred"
+      },
+      {
+        "game_id": "maptap",
+        "slug": "maptap",
+        "candidate_id": "maptap",
+        "coverage_status": "deferred"
+      },
+      {
+        "game_id": "word-hunt",
+        "slug": "word-hunt",
+        "candidate_id": "word-hunt",
+        "coverage_status": "deferred"
+      }
+    ]
+  },
+  "guides": {
+    "indexPath": "/guides",
+    "dataDirectory": "data/guides",
+    "items": [
+      {
+        "guide_id": "noillirk-answer-strategy",
+        "slug": "noillirk-answer-strategy",
+        "coverage_status": "planned",
+        "intent_cluster_id": "answer-selection"
+      },
+      {
+        "guide_id": "noillirk-scoring-and-endless",
+        "slug": "noillirk-scoring-and-endless",
+        "coverage_status": "planned",
+        "intent_cluster_id": "scoring"
+      }
+    ]
+  },
+  "excludedIdeas": [
+    "No additional main-game detail URL",
+    "No unsupported topic pages",
+    "No comments, rating widgets or advertisements"
+  ],
+  "developmentException": "User allows local development despite unresolved main-media permission. No publication/acceptance bypass."
+}

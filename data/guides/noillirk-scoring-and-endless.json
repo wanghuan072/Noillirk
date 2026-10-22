@@ -1,0 +1,323 @@
+{
+  "id": "noillirk-scoring-and-endless",
+  "slug": "noillirk-scoring-and-endless",
+  "status": "draft",
+  "title": "Read your Noillirk score and keep Endless going",
+  "summary": "Find out what each result changes: the points you earned, whether the prompt is over and how many Endless balloons remain. Use the tier table, two worked scorecards and a last-balloon example to plan the next round.",
+  "tags": [
+    "Scoring",
+    "Endless",
+    "Worked examples",
+    "Balloon recovery"
+  ],
+  "authorId": null,
+  "spoilerPolicy": "none",
+  "publishedAt": null,
+  "updatedAt": null,
+  "cover": {
+    "src": "/images/guides/noillirk-scoring-and-endless.webp",
+    "alt": "Accepted results earn points, while Endless misses remove a balloon and Sky High can restore one",
+    "width": 900,
+    "height": 660
+  },
+  "seo": {
+    "title": "Noillirk Scoring Guide: Tiers and Endless Balloons",
+    "description": "Understand Noillirk tiers, accepted answers and Endless balloon loss. Compare scoring outcomes and learn when survival matters more than chasing the top result."
+  },
+  "sections": [
+    {
+      "id": "read-result-in-order",
+      "title": "Read acceptance, then points, then balloons",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A small score can feel like a failed round, especially when you expected a familiar answer to climb farther. Before changing your strategy, read three separate things: whether the game accepted the entry, which tier it awarded, and, in Endless, whether a balloon changed. These signals answer different questions. Treating all of them as 'good' or 'bad' hides the decision you need to make next."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Is the prompt still accepting an answer?",
+              "body": "A refused entry can leave the field and clock active. If time remains, make another choice. An accepted result has finished this part of the prompt, even if its points are disappointing."
+            },
+            {
+              "title": "Which value did the result award?",
+              "body": "Read the tier and points together. They tell you what this response earned; they do not reveal how every alternative would have ranked."
+            },
+            {
+              "title": "What does your remaining balloon count show?",
+              "body": "In Endless, inspect survival separately from the score. A low accepted tier can leave the count unchanged. A miss and a Sky High result can change the count in opposite directions."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Version check",
+          "body": "These values cover the Daily balloon-climb game opened here. A same-name game with a different timer or score table is a different ruleset. Use the current result screen if its behavior changes."
+        }
+      ]
+    },
+    {
+      "id": "six-tiers",
+      "title": "Use the six-tier table to read the result",
+      "blocks": [
+        {
+          "type": "table",
+          "columns": [
+            "Tier",
+            "Points",
+            "How to read it"
+          ],
+          "rows": [
+            [
+              "Sky High",
+              "100",
+              "The board's leading answer."
+            ],
+            [
+              "Jet Stream",
+              "64",
+              "A response in positions two through four."
+            ],
+            [
+              "Cloud Nine",
+              "32",
+              "Positions five through nine; an unlisted answer cannot rise above this tier."
+            ],
+            [
+              "Kite",
+              "16",
+              "An accepted response below the leading board tiers."
+            ],
+            [
+              "Treetop",
+              "8",
+              "An accepted response with a smaller familiarity value."
+            ],
+            [
+              "Grounded",
+              "4",
+              "The lowest accepted tier, which still differs from a miss."
+            ],
+            [
+              "No Lift",
+              "0",
+              "A pass or a deadline reached with no accepted response."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The upper values are not evenly spaced. Improving a result from Cloud Nine to Jet Stream adds 32 points; improving Jet Stream to Sky High adds 36. The difference between Grounded and Treetop is only 4. This helps explain why a run with a few leading answers can look very different from one made entirely of small accepted results. It does not tell you which word will produce the improvement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Do not read a position as a live count of this website's visitors. A tier describes the game's judgment of an answer to that prompt. Nor should you carry a word's tier into an unrelated category: a familiar word may answer one question directly and miss the condition in another. The score is feedback on the completed response, not a permanent rating attached to a word."
+        }
+      ]
+    },
+    {
+      "id": "compare-scorecards",
+      "title": "Two 224-point climbs can need different practice",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Consider two invented seven-prompt scorecards. Run A earns Cloud Nine every time: seven lots of 32 make 224. Run B earns 100, 64, 32, 16, 8 and 4, then misses a prompt. Those values also add to 224. The totals match, but they tell different stories when you look at the individual rounds. These are arithmetic examples, not recorded sessions or today's results."
+        },
+        {
+          "type": "image",
+          "src": "/images/guides/noillirk-score-comparison.webp",
+          "alt": "Two invented seven-prompt runs both total 224 points: seven 32-point answers, or 100, 64, 32, 16, 8, 4 and a miss",
+          "width": 900,
+          "height": 660,
+          "caption": "Run A is consistent but never reaches an upper tier. Run B includes stronger results and a miss. The same total does not imply the same next practice task."
+        },
+        {
+          "type": "paragraph",
+          "text": "For Run A, the first question is how the player chose among fitting responses. Were the answers very narrow, or did another ordinary example come to mind too late? For Run B, start with the miss. Was it a timeout after too much comparison, a deliberate pass or a series of refused entries? The scorecard alone cannot answer that, so pair it with what you remember doing during the prompt."
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "label": "Choose one change for the next run",
+          "body": "If a single missed prompt came from indecision, practice committing while you can still type. If all seven entries were accepted but modest, practice comparing familiar fitting examples. Avoid changing everything because two players finished on the same total."
+        }
+      ]
+    },
+    {
+      "id": "classic-total",
+      "title": "Keep Classic totals separate from Endless survival",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Classic contains seven prompts, so seven 100-point results make 700. Seven Jet Stream results make 448, while seven Cloud Nine results make 224. Those calculations give you a way to read the scale of a finished run without inventing a target for every player. You cannot turn a completed 64-point result into 100 by entering another answer after acceptance."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Seven-prompt example",
+            "Total",
+            "What the total does not prove"
+          ],
+          "rows": [
+            [
+              "7 × Sky High",
+              "700",
+              "That a particular word is always the top answer."
+            ],
+            [
+              "7 × Jet Stream",
+              "448",
+              "That the player made a category mistake."
+            ],
+            [
+              "7 × Cloud Nine",
+              "224",
+              "That every round needed the same improvement."
+            ],
+            [
+              "100 + 64 + 32 + 16 + 8 + 4 + 0",
+              "224",
+              "That no prompt was missed simply because the total matches another run."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Use points for these comparisons rather than trying to infer a constant metres-per-point formula from the scenery. Read the game's displayed altitude as its own result. A change of background is also not a balloon count. In Endless, the immediate question is whether you can continue; a seven-prompt Classic total cannot answer it."
+        }
+      ]
+    },
+    {
+      "id": "protect-last-balloon",
+      "title": "With one balloon left, an accepted four points matters",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Endless starts with three balloons. A pass or a timeout without an accepted answer removes one; an accepted answer preserves the count, including the lowest tier. A Sky High result restores a missing balloon, with three as the maximum. The run ends after the last balloon is gone. These rules make a last-balloon prompt a survival decision as well as a scoring opportunity."
+        },
+        {
+          "type": "image",
+          "src": "/images/guides/noillirk-last-balloon.webp",
+          "alt": "With one Endless balloon, an accepted four-point answer preserves one, a miss ends the run, and Sky High restores the count to two",
+          "width": 900,
+          "height": 660,
+          "caption": "Start each branch with one balloon. Grounded preserves the run; a miss ends it; Sky High raises the count to two. These are rule examples, not a sequence of played prompts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Imagine you have one balloon and little time left. You can state a fitting response now, or keep comparing it with an idea you have not yet formed clearly. The first choice offers a chance to complete the prompt; the second risks ending with an empty field. No guide can promise the first response will be accepted, but you can avoid spending the last seconds searching without making a submission."
+        },
+        {
+          "type": "callout",
+          "tone": "warning",
+          "label": "Passing is not a free reroll",
+          "body": "In Endless, Pass costs a balloon. Use it knowing that consequence. With one balloon remaining it ends the run, so do not press it merely to look for an easier prompt while assuming your safety stays unchanged."
+        }
+      ]
+    },
+    {
+      "id": "recovery-example",
+      "title": "Track recovery as a change in state",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Here is a hypothetical sequence that starts with three balloons. First, an accepted Grounded result adds four points and leaves three balloons. Next, a timeout leaves two. A later accepted Kite adds sixteen and leaves two. Sky High then restores the missing balloon, taking the count back to three. Read each change in order; do not carry the disappointment from the low tier into the balloon calculation."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Starting balloons",
+            "Result",
+            "Balloons afterward"
+          ],
+          "rows": [
+            [
+              "3",
+              "Accepted Grounded: +4 points",
+              "3"
+            ],
+            [
+              "3",
+              "Timeout without acceptance",
+              "2"
+            ],
+            [
+              "2",
+              "Accepted Kite: +16 points",
+              "2"
+            ],
+            [
+              "2",
+              "Sky High: +100 points",
+              "3"
+            ],
+            [
+              "3",
+              "Another Sky High",
+              "3; no fourth balloon"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Recovery gives room for a later mistake, but expecting a top answer is not the same as having that protection now. After a miss, return to reading the current question. An anxious attempt to win back a balloon can make you ignore a qualifier or keep comparing until time ends again. The practical next goal is one fitting, timely submission; check for recovery only when the result actually appears."
+        }
+      ]
+    },
+    {
+      "id": "finished-or-stuck",
+      "title": "Separate a finished miss from a stuck player",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A normal missed prompt has a completed result state. Read it and use the game's next control. A blank frame, a loading notice that never finishes or an input field that cannot be focused is a different problem. Do not count that as a known zero-point result without seeing what the game recorded. The outer page's retry control restarts the frame; it does not promise to restore an interrupted run."
+        },
+        {
+          "type": "list",
+          "style": "unordered",
+          "items": [
+            "If a result and the next control are visible, advance inside the game rather than reloading the whole page.",
+            "If the clock and field are still active after a refusal, use the remaining opportunity for another fitting response.",
+            "If typing does nothing, select the answer field and check whether the game is still in an answer state.",
+            "If the frame never opens, use the visible loading failure or retry control. Keep a loading failure separate from a scored miss."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions-after-result",
+      "title": "Questions after an unexpected result",
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Can I improve an answer after it was accepted?",
+          "body": "Acceptance completes the response for that prompt. Review the result, then apply what you learned to the next one. The answer-choice guide works on the earlier decision, before submission."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Does a refused entry immediately pop a balloon?",
+          "body": "A refusal can leave time to try again. The Endless loss condition is a pass or the deadline ending without an accepted answer. Check the active clock instead of treating a temporary refusal as a completed miss."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Can Sky High store a spare balloon above three?",
+          "body": "No. Recovery replaces a missing balloon up to the three-balloon limit. When the count is already three, the 100 points still matter, but there is no fourth balloon to spend later."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Do these examples reveal today's answers?",
+          "body": "No. They use tier values and invented score sequences only. They explain how to interpret a result without revealing any prompt's leading answer."
+        }
+      ]
+    }
+  ],
+  "relatedGuideIds": [
+    "noillirk-answer-strategy"
+  ]
+}

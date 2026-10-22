@@ -1,0 +1,118 @@
+{
+  "features": {
+    "accounts": {
+      "enabled": false,
+      "implementation": "",
+      "notes": "No first-party implementation planned"
+    },
+    "contactForm": {
+      "enabled": false,
+      "implementation": "",
+      "notes": "No first-party implementation planned"
+    },
+    "commentsOrRatings": {
+      "enabled": false,
+      "implementation": "",
+      "notes": "No first-party implementation planned"
+    },
+    "analytics": {
+      "enabled": false,
+      "implementation": "",
+      "notes": "No first-party implementation planned"
+    },
+    "localStorage": {
+      "enabled": false,
+      "implementation": "",
+      "notes": "No first-party implementation planned"
+    },
+    "cookies": {
+      "enabled": false,
+      "implementation": "",
+      "notes": "No first-party implementation planned"
+    },
+    "gameIframes": {
+      "enabled": true,
+      "implementation": "components/GamePlayer.tsx; normal paths in development, noindex drafts",
+      "notes": "Created only after Play Now; third-party provider may offer its own storage/accounts/ads."
+    },
+    "youtubeIframes": {
+      "enabled": true,
+      "implementation": "components/ContentBlocks.tsx; one direct lazy youtube-nocookie iframe after the article on each of eight additional draft pages",
+      "notes": "Eight independently researched videos adopted in draft data. Production inclusion follows published inventory; lazy loading can make requests before play."
+    },
+    "payments": {
+      "enabled": false,
+      "implementation": "",
+      "notes": "No first-party implementation planned"
+    },
+    "uploads": {
+      "enabled": false,
+      "implementation": "",
+      "notes": "No first-party implementation planned"
+    },
+    "subscriptions": {
+      "enabled": false,
+      "implementation": "",
+      "notes": "No first-party implementation planned"
+    },
+    "advertising": {
+      "enabled": false,
+      "implementation": "",
+      "notes": "No first-party implementation planned"
+    },
+    "contactEmail": {
+      "enabled": true,
+      "implementation": "User-provided plain-text support@noillirk.cc on Legal pages; no onsite mail sending or form.",
+      "notes": "No message sent; mailbox delivery and ownership were not independently tested."
+    }
+  },
+  "identities": [],
+  "thirdPartyBoundary": {
+    "game": "Game providers operate separate framed documents after Play Now. Provider storage, sound and advertising are distinct from first-party capabilities.",
+    "youtube": "Eight draft videos use direct lazy privacy-enhanced embeds after article content, without autoplay or a click-to-create middle layer."
+  },
+  "thirdPartyResearchObservation": {
+    "date": "2026-10-21",
+    "scope": "Existing user-owned local development process, sandboxed candidate frames",
+    "observed": [
+      {
+        "gameId": "a-dark-room",
+        "capability": "Same-browser provider progress retained after frame reload; saved indicator observed"
+      },
+      {
+        "gameId": "sandspiel",
+        "capability": "Third-party Google display advertising and ad frames inside provider document; no ad clicked"
+      },
+      {
+        "gameIds": [
+          "hello-wordl",
+          "trust",
+          "polygons",
+          "0hn0",
+          "0hh1",
+          "crowds",
+          "a-dark-room",
+          "sandspiel"
+        ],
+        "capability": "No first-party account, payment, comment, upload or subscription implementation added"
+      }
+    ],
+    "unverified": [
+      "Exact provider cookie retention and storage partitioning",
+      "Production clean-context behavior",
+      "All device and browser versions"
+    ],
+    "firstPartyAdvertisingEnabled": false
+  },
+  "localResearchHarness": {
+    "route": "/media-check?id=<allowlisted-id>",
+    "environment": "development + loopback only; production denied",
+    "publicFeature": false,
+    "gameIframe": "One selected candidate iframe loads immediately in diagnostic only; public GamePlayer remains click-to-play",
+    "youtubeIframe": "Allowlisted candidate video per game; all eight selected embeds actually played, with sampled time/state observations recorded",
+    "accountsFormsPaymentsUploads": "none",
+    "thirdPartyStorage": "Not comprehensively audited; no first-party storage implementation added",
+    "adoptedPublicGameVideos": 0,
+    "adoptedDraftGameVideos": 8
+  }
+}

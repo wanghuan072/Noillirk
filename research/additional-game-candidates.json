@@ -1,0 +1,1212 @@
+{
+  "status": "researched-pending-runtime-and-media",
+  "eligibleCount": 0,
+  "observedAt": "2026-10-21",
+  "notes": [
+    "17 official pages opened and task/risk profiles recorded.",
+    "No candidate marked eligible. User allows main-media rights to remain open during development.",
+    "Candidate pool expanded to 20. No new Game record, route or CSP origin added; replacement candidates remain research only."
+  ],
+  "candidates": [
+    {
+      "id": "krillion",
+      "title": "Krillion Unlimited",
+      "proposedSlug": "krillion",
+      "discoveryEvidence": "official-directory",
+      "status": "replacement-required-before-release",
+      "eligibility": "not_eligible",
+      "discoveredAt": "2026-10-20",
+      "relation": "Same category retrieval as Noillirk, optimizing rarity instead of familiarity",
+      "finalIframeSrc": null,
+      "embedConclusion": "development-iframe-runs; final-production-unverified",
+      "inputTest": "effective-input-observed-development-only",
+      "mediaStatus": "restricted-without-separate-permission",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/krillion",
+      "provisionalIframeCandidate": "https://playdaily.org/krillion",
+      "playerTaskProfile": {
+        "input": "Typed category answer, 25-second deadline",
+        "task": "Find a valid uncommon example",
+        "feedback": "Rarity tier and depth",
+        "attempts": "Seven prompts; Endless has three air tanks",
+        "failure": "Rejected input costs time; Endless miss costs air",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Validity versus rarity",
+          "Specificity and category restrictions",
+          "Air recovery",
+          "Classic distance conversion"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Prompt and timer",
+          "Accepted rarity result",
+          "Air loss or recovery"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": [],
+      "nativeVideoResearch": {
+        "evidencePath": "research/youtube-native-results.json",
+        "status": "leads-found-not-qualified"
+      },
+      "currentEvidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "mediaPolicyEvidence": "research/daily-media-policy-review.json"
+    },
+    {
+      "id": "fermi",
+      "title": "Fermi",
+      "proposedSlug": "fermi",
+      "discoveryEvidence": "official-directory",
+      "status": "replacement-required-before-release",
+      "eligibility": "not_eligible",
+      "discoveredAt": "2026-10-20",
+      "relation": "Commit an everyday judgment before inspecting graded feedback",
+      "finalIframeSrc": null,
+      "embedConclusion": "development-iframe-runs; final-production-unverified",
+      "inputTest": "effective-input-observed-development-only",
+      "mediaStatus": "restricted-without-separate-permission",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/fermi",
+      "provisionalIframeCandidate": "https://playdaily.org/fermi",
+      "playerTaskProfile": {
+        "input": "Numeric estimate with calculator and scale abbreviations",
+        "task": "Estimate a quantity through smaller assumptions",
+        "feedback": "Multiplicative error and explanation",
+        "attempts": "Continuous streak",
+        "failure": "Estimate beyond a factor of ten ends streak",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Units",
+          "Multiplicative error",
+          "Bounds",
+          "Numeric input parsing",
+          "Worked result"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Question units",
+          "Entered estimate",
+          "Error ratio and explanation"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": [],
+      "nativeVideoResearch": {
+        "evidencePath": "research/youtube-native-results.json",
+        "status": "leads-found-not-qualified"
+      },
+      "currentEvidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "mediaPolicyEvidence": "research/daily-media-policy-review.json"
+    },
+    {
+      "id": "poople",
+      "title": "Poople",
+      "proposedSlug": "poople",
+      "discoveryEvidence": "official-directory",
+      "status": "replacement-required-before-release",
+      "eligibility": "not_eligible",
+      "discoveredAt": "2026-10-20",
+      "relation": "Vocabulary retrieval with additional sequential constraints",
+      "finalIframeSrc": null,
+      "embedConclusion": "development-iframe-runs; final-production-unverified",
+      "inputTest": "effective-input-observed-development-only",
+      "mediaStatus": "restricted-without-separate-permission",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/poople",
+      "provisionalIframeCandidate": "https://playdaily.org/poople",
+      "playerTaskProfile": {
+        "input": "A real four-letter word changing one letter",
+        "task": "Build a word ladder to POOP",
+        "feedback": "Accepted rungs, moves and clock",
+        "attempts": "Fresh words with precomputed par",
+        "failure": "Invalid changes do not progress; give-up reveals route",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Single-letter rule",
+          "Backward planning",
+          "Par",
+          "First-move timer",
+          "Give-up"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Start and par",
+          "Intermediate rung",
+          "Completed ladder"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": [],
+      "nativeVideoResearch": {
+        "evidencePath": "research/youtube-native-results.json",
+        "status": "leads-found-not-qualified"
+      },
+      "currentEvidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "mediaPolicyEvidence": "research/daily-media-policy-review.json"
+    },
+    {
+      "id": "size-it-up",
+      "title": "Size It Up",
+      "proposedSlug": "size-it-up",
+      "discoveryEvidence": "official-directory",
+      "status": "replacement-required-before-release",
+      "eligibility": "not_eligible",
+      "discoveredAt": "2026-10-20",
+      "relation": "Initial everyday judgment calibrated by a reveal",
+      "finalIframeSrc": null,
+      "embedConclusion": "development-iframe-runs; final-production-unverified",
+      "inputTest": "effective-input-observed-development-only",
+      "mediaStatus": "restricted-without-separate-permission",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/size-it-up",
+      "provisionalIframeCandidate": "https://playdaily.org/size-it-up",
+      "playerTaskProfile": {
+        "input": "Drag outline or ruler then lock",
+        "task": "Estimate relative dimensions against a measured reference",
+        "feedback": "True size, guessed outline and ratio score",
+        "attempts": "Five weighted rounds",
+        "failure": "Large ratio errors lose round points",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Reference scale",
+          "Length versus area",
+          "Reciprocal errors",
+          "Round weights"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Labelled reference",
+          "Adjusted guess",
+          "Dashed guess and real size"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": [],
+      "nativeVideoResearch": {
+        "evidencePath": "research/youtube-native-results.json",
+        "status": "leads-found-not-qualified"
+      },
+      "currentEvidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "mediaPolicyEvidence": "research/daily-media-policy-review.json"
+    },
+    {
+      "id": "color",
+      "title": "Color Game",
+      "proposedSlug": "color",
+      "discoveryEvidence": "official-directory",
+      "status": "replacement-required-before-release",
+      "eligibility": "not_eligible",
+      "discoveredAt": "2026-10-20",
+      "relation": "Distinguish remembered detail from a familiar category",
+      "finalIframeSrc": null,
+      "embedConclusion": "development-iframe-runs; final-production-unverified",
+      "inputTest": "effective-input-observed-development-only",
+      "mediaStatus": "restricted-without-separate-permission",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/color",
+      "provisionalIframeCandidate": "https://playdaily.org/color",
+      "playerTaskProfile": {
+        "input": "Brief observation followed by three sliders",
+        "task": "Rebuild a remembered color",
+        "feedback": "Side-by-side comparison and perceptual score",
+        "attempts": "Three colors; three difficulty modes",
+        "failure": "Poor match lowers score; no elimination confirmed",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Exposure duration",
+          "Hue",
+          "Saturation",
+          "Brightness",
+          "Mode records"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Target countdown",
+          "Reconstruction sliders",
+          "Result comparison"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": [],
+      "nativeVideoResearch": {
+        "evidencePath": "research/youtube-native-results.json",
+        "status": "no-current-game-candidate-established"
+      },
+      "currentEvidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "mediaPolicyEvidence": "research/daily-media-policy-review.json"
+    },
+    {
+      "id": "color-logo",
+      "title": "Logo Game",
+      "proposedSlug": "color-logo",
+      "discoveryEvidence": "official-directory",
+      "status": "replacement-required-before-release",
+      "eligibility": "not_eligible",
+      "discoveredAt": "2026-10-20",
+      "relation": "Everyday familiarity versus exact recall",
+      "finalIframeSrc": null,
+      "embedConclusion": "development-iframe-runs; final-production-unverified",
+      "inputTest": "effective-input-observed-development-only",
+      "mediaStatus": "restricted-without-separate-permission",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/color-logo",
+      "provisionalIframeCandidate": "https://playdaily.org/color-logo",
+      "playerTaskProfile": {
+        "input": "Restore outlined logo region with sliders",
+        "task": "Recall a familiar brand color",
+        "feedback": "Submitted and correct region; score",
+        "attempts": "Three logos per selected deck",
+        "failure": "Mismatch lowers points",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Deck selection",
+          "Marked region",
+          "Wrong hue clue",
+          "Screen colors",
+          "Deck records"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Outlined region",
+          "Color adjustment",
+          "Revealed region"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": [],
+      "nativeVideoResearch": {
+        "evidencePath": "research/youtube-native-results.json",
+        "status": "no-current-game-candidate-established"
+      },
+      "currentEvidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "mediaPolicyEvidence": "research/daily-media-policy-review.json"
+    },
+    {
+      "id": "maptap",
+      "title": "MapTap",
+      "proposedSlug": "maptap",
+      "discoveryEvidence": "official-directory",
+      "status": "replacement-required-before-release",
+      "eligibility": "not_eligible",
+      "discoveredAt": "2026-10-20",
+      "relation": "Fast world-knowledge recall with graded feedback",
+      "finalIframeSrc": null,
+      "embedConclusion": "development-iframe-runs; final-production-unverified",
+      "inputTest": "effective-input-observed-development-only",
+      "mediaStatus": "restricted-without-separate-permission",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/maptap",
+      "provisionalIframeCandidate": "https://playdaily.org/maptap",
+      "playerTaskProfile": {
+        "input": "Rotate globe and tap city position",
+        "task": "Locate named city in a stated country",
+        "feedback": "Distance-based score",
+        "attempts": "Five locations",
+        "failure": "Poor placement lowers score",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Country cue",
+          "Coastal anchors",
+          "Globe input",
+          "Distance tolerances",
+          "Run total"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "City prompt",
+          "Placement",
+          "Distance reveal"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": [],
+      "nativeVideoResearch": {
+        "evidencePath": "research/youtube-native-results.json",
+        "status": "leads-found-not-qualified"
+      },
+      "currentEvidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "mediaPolicyEvidence": "research/daily-media-policy-review.json"
+    },
+    {
+      "id": "songless",
+      "title": "Songless Unlimited",
+      "proposedSlug": "songless",
+      "discoveryEvidence": "official-directory",
+      "status": "needs-secondary-check",
+      "eligibility": "not_assessed",
+      "discoveredAt": "2026-10-20",
+      "relation": "Familiar-name retrieval with uncertainty versus points tradeoff",
+      "finalIframeSrc": null,
+      "embedConclusion": "unknown",
+      "inputTest": "not_run",
+      "mediaStatus": "unverified",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "uncertain",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Explicit lyrics and third-party recordings/artwork need separate review"
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/songless",
+      "provisionalIframeCandidate": "https://playdaily.org/songless",
+      "playerTaskProfile": {
+        "input": "Hear clip, extend scrubber, select track",
+        "task": "Recognize song with minimal audio",
+        "feedback": "Identity and remaining points",
+        "attempts": "Five-song run",
+        "failure": "Wrong guess and additional audio cost points",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Excerpt length",
+          "Search selection",
+          "Filters",
+          "Preview failures"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Short clip",
+          "Track selection",
+          "Result"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": []
+    },
+    {
+      "id": "bandle",
+      "title": "Bandle Unlimited",
+      "proposedSlug": "bandle",
+      "discoveryEvidence": "official-directory",
+      "status": "needs-secondary-check",
+      "eligibility": "not_assessed",
+      "discoveredAt": "2026-10-20",
+      "relation": "Retrieve a name from incomplete cues and decide whether to buy information",
+      "finalIframeSrc": null,
+      "embedConclusion": "unknown",
+      "inputTest": "not_run",
+      "mediaStatus": "unverified",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "uncertain",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Explicit music may be enabled; no audio/artwork reuse permission established"
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/bandle",
+      "provisionalIframeCandidate": "https://playdaily.org/bandle",
+      "playerTaskProfile": {
+        "input": "Hear drums, add instrument layers, select track",
+        "task": "Recognize song arrangement",
+        "feedback": "Score decreases with layers and wrong guesses",
+        "attempts": "Five songs",
+        "failure": "Wrong guesses reduce points",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Drums evidence",
+          "Bass layer",
+          "Layer cost",
+          "Explicit filter"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Drums only",
+          "Added layers",
+          "Track result"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": []
+    },
+    {
+      "id": "songspot",
+      "title": "Songspot",
+      "proposedSlug": "songspot",
+      "discoveryEvidence": "official-directory",
+      "status": "needs-secondary-check",
+      "eligibility": "not_assessed",
+      "discoveredAt": "2026-10-20",
+      "relation": "Recognition confidence tested against graded feedback",
+      "finalIframeSrc": null,
+      "embedConclusion": "unknown",
+      "inputTest": "not_run",
+      "mediaStatus": "unverified",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "uncertain",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Explicit media and recording rights require review"
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/songspot",
+      "provisionalIframeCandidate": "https://playdaily.org/songspot",
+      "playerTaskProfile": {
+        "input": "Unlock discrete clip lengths and select track",
+        "task": "Identify song from shortest useful clip",
+        "feedback": "Clip-size points and wrong-guess penalty",
+        "attempts": "Five songs",
+        "failure": "Wrong answer costs points",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Discrete clips",
+          "Artist search",
+          "Penalty",
+          "Multiplayer timing"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Small clip",
+          "Search",
+          "Result"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": []
+    },
+    {
+      "id": "village",
+      "title": "Silverbrook",
+      "proposedSlug": "village",
+      "discoveryEvidence": "official-directory",
+      "status": "excluded",
+      "eligibility": "not_assessed",
+      "discoveredAt": "2026-10-20",
+      "relation": "Weak: different player task and desktop-only input",
+      "finalIframeSrc": null,
+      "embedConclusion": "unknown",
+      "inputTest": "not_run",
+      "mediaStatus": "unverified",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Weak: different player task and desktop-only input",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/village",
+      "provisionalIframeCandidate": "https://playdaily.org/village",
+      "playerTaskProfile": {
+        "input": "Mouse look and WASD",
+        "task": "Rake leaves in a first-person village",
+        "feedback": "Yard clearance and upgrades",
+        "attempts": "Persistent progression",
+        "failure": "Not confirmed",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Clearance threshold",
+          "Tool progression",
+          "Local save"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Initial yard",
+          "Raking",
+          "Cleared yard"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": []
+    },
+    {
+      "id": "word-hunt",
+      "title": "Word Hunt",
+      "proposedSlug": "word-hunt",
+      "discoveryEvidence": "official-directory",
+      "status": "replacement-required-before-release",
+      "eligibility": "not_eligible",
+      "discoveredAt": "2026-10-20",
+      "relation": "Timed vocabulary retrieval overlaps Noillirk; adjacency is an extra task",
+      "finalIframeSrc": null,
+      "embedConclusion": "development-iframe-runs; final-production-unverified",
+      "inputTest": "effective-input-observed-development-only",
+      "mediaStatus": "restricted-without-separate-permission",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Runtime, sandbox, exact-version video and media use basis unresolved.",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/play/word-hunt",
+      "provisionalIframeCandidate": "https://playdaily.org/play/word-hunt",
+      "playerTaskProfile": {
+        "input": "Trace words on 4x4 grid; exact controls unverified",
+        "task": "Retrieve words under time pressure",
+        "feedback": "Acceptance and scoring unverified",
+        "attempts": "Three same-letter shuffles advertised",
+        "failure": "Timeout details unverified",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Adjacency",
+          "Shuffle effect",
+          "Word validity",
+          "Timer"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Grid",
+          "Traced word",
+          "Shuffle result"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": [],
+      "nativeVideoResearch": {
+        "evidencePath": "research/youtube-native-results.json",
+        "status": "no-current-game-candidate-established"
+      },
+      "currentEvidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "mediaPolicyEvidence": "research/daily-media-policy-review.json"
+    },
+    {
+      "id": "traffic-jam",
+      "title": "Traffic Jam",
+      "proposedSlug": "traffic-jam",
+      "discoveryEvidence": "official-directory",
+      "status": "excluded",
+      "eligibility": "not_assessed",
+      "discoveredAt": "2026-10-20",
+      "relation": "Weak: spatial planning rather than knowledge recall",
+      "finalIframeSrc": null,
+      "embedConclusion": "unknown",
+      "inputTest": "not_run",
+      "mediaStatus": "unverified",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Weak: spatial planning rather than knowledge recall",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/play/traffic-jam",
+      "provisionalIframeCandidate": "https://playdaily.org/play/traffic-jam",
+      "playerTaskProfile": {
+        "input": "Vehicle sliding controls unverified",
+        "task": "Free the target car",
+        "feedback": "Puzzle progress and timer",
+        "attempts": "Three timed puzzles",
+        "failure": "Timeout unverified",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Movement restrictions",
+          "Exit"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Blocked car",
+          "Cleared lane",
+          "Exit"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": []
+    },
+    {
+      "id": "tile-fit",
+      "title": "Tile Fit",
+      "proposedSlug": "tile-fit",
+      "discoveryEvidence": "official-directory",
+      "status": "excluded",
+      "eligibility": "not_assessed",
+      "discoveredAt": "2026-10-20",
+      "relation": "Weak: placement task instead of familiar-answer guessing",
+      "finalIframeSrc": null,
+      "embedConclusion": "unknown",
+      "inputTest": "not_run",
+      "mediaStatus": "unverified",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Weak: placement task instead of familiar-answer guessing",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/play/tile-fit",
+      "provisionalIframeCandidate": "https://playdaily.org/play/tile-fit",
+      "playerTaskProfile": {
+        "input": "Shape placement controls unverified",
+        "task": "Manage board space and clear cells",
+        "feedback": "Lines and boxes clear",
+        "attempts": "Unverified",
+        "failure": "No-space loss unverified",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Tray",
+          "Oversized pieces"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Board",
+          "Placement",
+          "Clear"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": []
+    },
+    {
+      "id": "coin-maze",
+      "title": "Coin Maze",
+      "proposedSlug": "coin-maze",
+      "discoveryEvidence": "official-directory",
+      "status": "excluded",
+      "eligibility": "not_assessed",
+      "discoveredAt": "2026-10-20",
+      "relation": "Weak: navigation and evasion",
+      "finalIframeSrc": null,
+      "embedConclusion": "unknown",
+      "inputTest": "not_run",
+      "mediaStatus": "unverified",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Weak: navigation and evasion",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/play/coin-maze",
+      "provisionalIframeCandidate": "https://playdaily.org/play/coin-maze",
+      "playerTaskProfile": {
+        "input": "Movement controls unverified",
+        "task": "Collect coins while escaping a chaser",
+        "feedback": "Collection and pursuit",
+        "attempts": "Unverified",
+        "failure": "Capture behavior unverified",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Coin goal",
+          "Chaser"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Maze",
+          "Collection",
+          "Pursuit"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": []
+    },
+    {
+      "id": "air-hockey",
+      "title": "Air Hockey",
+      "proposedSlug": "air-hockey",
+      "discoveryEvidence": "official-directory",
+      "status": "excluded",
+      "eligibility": "not_assessed",
+      "discoveredAt": "2026-10-20",
+      "relation": "Weak and identity conflict: description does not describe conventional hockey",
+      "finalIframeSrc": null,
+      "embedConclusion": "unknown",
+      "inputTest": "not_run",
+      "mediaStatus": "unverified",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Weak and identity conflict: description does not describe conventional hockey",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/play/air-hockey",
+      "provisionalIframeCandidate": "https://playdaily.org/play/air-hockey",
+      "playerTaskProfile": {
+        "input": "Sliding controls unverified",
+        "task": "Collect keys in order and reach exit",
+        "feedback": "Key sequence and unlock",
+        "attempts": "Unverified",
+        "failure": "Unverified",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Identity",
+          "Key ordering"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Keys",
+          "Sliding",
+          "Exit"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": []
+    },
+    {
+      "id": "money-tycoon",
+      "title": "Money Tycoon",
+      "proposedSlug": "money-tycoon",
+      "discoveryEvidence": "official-directory",
+      "status": "excluded",
+      "eligibility": "not_assessed",
+      "discoveredAt": "2026-10-20",
+      "relation": "Weak: economic optimization",
+      "finalIframeSrc": null,
+      "embedConclusion": "unknown",
+      "inputTest": "not_run",
+      "mediaStatus": "unverified",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed",
+        "gambling": "not_observed",
+        "violence": "not_observed",
+        "horror": "not_observed",
+        "minors": "uncertain",
+        "scope": "Public landing text only, not a runtime audit",
+        "notes": "Embedded social, advertising and account behavior require observation."
+      },
+      "reason": "Weak: economic optimization",
+      "observedAt": "2026-10-20",
+      "pageUrl": "https://playdaily.org/play/money-tycoon",
+      "provisionalIframeCandidate": "https://playdaily.org/play/money-tycoon",
+      "playerTaskProfile": {
+        "input": "Click upgrades",
+        "task": "Balance passive income and upgrades",
+        "feedback": "Income and days",
+        "attempts": "Thirty timed days advertised",
+        "failure": "Unverified",
+        "daily": "Do not infer a daily schedule from other implementations."
+      },
+      "contentDepth": {
+        "specificTopics": [
+          "Income loop",
+          "Timed days"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "mediaPlan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Income",
+          "Upgrade",
+          "Result"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "spoilerPolicy": "marked",
+      "relatedCandidateIds": []
+    },
+    {
+      "id": "2048",
+      "title": "2048",
+      "proposedSlug": "2048",
+      "pageUrl": "https://play2048.co/",
+      "relation": "Number planning and short puzzle sessions; weaker direct relation than category games",
+      "discoveryEvidence": "2048-upstream-license",
+      "provisionalIframeCandidate": "https://play2048.co/",
+      "embedConclusion": "not_embeddable",
+      "status": "excluded-current-host",
+      "reason": "HTTP frame-ancestors permits self and selected play2048/translation origins, not noillirk.me. No bypass or local mirror.",
+      "mediaStatus": "unverified-current-host-version",
+      "licenseScope": "Upstream MIT does not automatically cover present hosted artwork",
+      "videoQuery": "2048 Gabriele Cirulli gameplay corner strategy youtube",
+      "discoveredAt": "2026-10-21",
+      "observedAt": "2026-10-21",
+      "eligibility": "not_qualified",
+      "finalIframeSrc": null,
+      "inputTest": "not_run",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed_in_text",
+        "gambling": "not_observed_in_text",
+        "violence": "not_observed_in_text",
+        "horror": "not_observed_in_text",
+        "minors": "uncertain",
+        "scope": "Primary text/license/header precheck only; no runtime or ad audit"
+      }
+    },
+    {
+      "id": "hextris",
+      "title": "Hextris",
+      "proposedSlug": "hextris",
+      "pageUrl": "https://hextris.github.io/hextris/",
+      "relation": "Fast pattern recognition and spatial decisions; broader puzzle alternative",
+      "discoveryEvidence": "hextris-upstream-license",
+      "provisionalIframeCandidate": "https://hextris.github.io/hextris/",
+      "embedConclusion": "unknown",
+      "status": "replacement-research-only",
+      "reason": "HTTP precheck failed; GPL source and screenshot/press-kit scope require review. Different 1990 Hextris search result excluded.",
+      "mediaStatus": "unverified",
+      "licenseScope": "Current upstream GPLv3, not MIT; no game software or images adopted",
+      "videoQuery": "Hextris original gameplay rotate matching colors youtube",
+      "discoveredAt": "2026-10-21",
+      "observedAt": "2026-10-21",
+      "eligibility": "not_qualified",
+      "finalIframeSrc": null,
+      "inputTest": "not_run",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed_in_text",
+        "gambling": "not_observed_in_text",
+        "violence": "not_observed_in_text",
+        "horror": "not_observed_in_text",
+        "minors": "uncertain",
+        "scope": "Primary text/license/header precheck only; no runtime or ad audit"
+      }
+    },
+    {
+      "id": "0hh1",
+      "title": "0h h1",
+      "proposedSlug": "0hh1",
+      "pageUrl": "https://0hh1.com/",
+      "relation": "Rule-based elimination and concise decisions; untimed contrast to answer retrieval",
+      "discoveryEvidence": "0hh1-current-rules",
+      "provisionalIframeCandidate": "https://0hh1.com/",
+      "embedConclusion": "unknown",
+      "status": "replacement-research-only",
+      "reason": "HTTP 200 without denial headers is only a precheck; exact current runtime/source correspondence, media scope, video and sandbox need qualification.",
+      "mediaStatus": "unverified-current-version",
+      "licenseScope": "2014 Q42 MIT source found; current site includes additional features and has not been mapped to the licensed snapshot",
+      "videoQuery": "0h h1 Q42 gameplay three rules tutorial youtube",
+      "discoveredAt": "2026-10-21",
+      "observedAt": "2026-10-21",
+      "eligibility": "not_qualified",
+      "finalIframeSrc": null,
+      "inputTest": "not_run",
+      "videoCandidates": [],
+      "risk": {
+        "adult": "not_observed_in_text",
+        "gambling": "not_observed_in_text",
+        "violence": "not_observed_in_text",
+        "horror": "not_observed_in_text",
+        "minors": "uncertain",
+        "scope": "Primary text/license/header precheck only; no runtime or ad audit"
+      }
+    },
+    {
+      "id": "hello-wordl",
+      "title": "Hello Wordl",
+      "status": "selected-draft-media-integrated-final-runtime-pending",
+      "iframe": "https://hellowordl.net/",
+      "media": {
+        "cover": "hello-wordl-cover",
+        "captures": [
+          "hello-wordl-feedback",
+          "hello-wordl-duplicates",
+          "hello-wordl-long-word"
+        ],
+        "video": "VIavCrvnrDs"
+      },
+      "risk": "Text word puzzle; no accounts/payment/gambling observed in sampled game; final resource/security audit pending",
+      "replacementFor": "krillion"
+    }
+  ]
+}

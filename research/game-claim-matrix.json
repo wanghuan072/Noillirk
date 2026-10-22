@@ -1,0 +1,924 @@
+{
+  "status": "eight-additional-game-version-scoped-claims-reconciled-main-media-unresolved",
+  "claims": [
+    {
+      "id": "noillirk-identity",
+      "gameId": "noillirk",
+      "claim": "The configured page is the Daily original; same-name independent sites have incompatible implementations.",
+      "versionScope": "Daily browser version on 2026-10-20",
+      "support": [
+        "official-game"
+      ],
+      "conflicts": [],
+      "conclusion": "resolved-identity",
+      "confidence": "high",
+      "publicRestriction": "Do not call this independent website official or merge other implementations.",
+      "secondaryCheck": "Recheck gameplay against current visible UI."
+    },
+    {
+      "id": "noillirk-scoring",
+      "gameId": "noillirk",
+      "claim": "Official help lists six bands and a perfect 700-point climb at 14 km.",
+      "versionScope": "Daily only",
+      "support": [
+        "official-game"
+      ],
+      "conflicts": [
+        "Independent sites advertise other round lengths, scoring bands and altitude conversions."
+      ],
+      "conclusion": "restricted-to-official-version",
+      "confidence": "medium",
+      "publicRestriction": "Not independently verified with input or video; do not infer deterministic scoring for unlisted answers.",
+      "secondaryCheck": "Observe accepted, rejected and off-board answers; distinguish list matching from AI estimates."
+    },
+    {
+      "id": "noillirk-media-rights",
+      "gameId": "noillirk",
+      "claim": "Required local cover and three game captures lack a confirmed reuse basis.",
+      "versionScope": "Current terms and project noillirk.me",
+      "support": [
+        "daily-terms",
+        "daily-copyright"
+      ],
+      "conflicts": [
+        "ugc-campaign"
+      ],
+      "conclusion": "open",
+      "confidence": "high",
+      "publicRestriction": "No media adopted or downloaded; no inferred license from attribution or campaign listing.",
+      "secondaryCheck": "Review supplied project-specific permission or a license explicitly covering required website image use."
+    },
+    {
+      "id": "krillion-loop",
+      "gameId": "krillion",
+      "claim": "Find a valid uncommon example; Rarity tier and depth",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-krillion"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "fermi-loop",
+      "gameId": "fermi",
+      "claim": "Estimate a quantity through smaller assumptions; Multiplicative error and explanation",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-fermi"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "poople-loop",
+      "gameId": "poople",
+      "claim": "Build a word ladder to POOP; Accepted rungs, moves and clock",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-poople"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "size-it-up-loop",
+      "gameId": "size-it-up",
+      "claim": "Estimate relative dimensions against a measured reference; True size, guessed outline and ratio score",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-size-it-up"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "color-loop",
+      "gameId": "color",
+      "claim": "Rebuild a remembered color; Side-by-side comparison and perceptual score",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-color"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "color-logo-loop",
+      "gameId": "color-logo",
+      "claim": "Recall a familiar brand color; Submitted and correct region; score",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-color-logo"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "maptap-loop",
+      "gameId": "maptap",
+      "claim": "Locate named city in a stated country; Distance-based score",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-maptap"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "songless-loop",
+      "gameId": "songless",
+      "claim": "Recognize song with minimal audio; Identity and remaining points",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-songless"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "bandle-loop",
+      "gameId": "bandle",
+      "claim": "Recognize song arrangement; Score decreases with layers and wrong guesses",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-bandle"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "songspot-loop",
+      "gameId": "songspot",
+      "claim": "Identify song from shortest useful clip; Clip-size points and wrong-guess penalty",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-songspot"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "village-loop",
+      "gameId": "village",
+      "claim": "Rake leaves in a first-person village; Yard clearance and upgrades",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-village"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "word-hunt-loop",
+      "gameId": "word-hunt",
+      "claim": "Retrieve words under time pressure; Acceptance and scoring unverified",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-word-hunt"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "traffic-jam-loop",
+      "gameId": "traffic-jam",
+      "claim": "Free the target car; Puzzle progress and timer",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-traffic-jam"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "tile-fit-loop",
+      "gameId": "tile-fit",
+      "claim": "Manage board space and clear cells; Lines and boxes clear",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-tile-fit"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "coin-maze-loop",
+      "gameId": "coin-maze",
+      "claim": "Collect coins while escaping a chaser; Collection and pursuit",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-coin-maze"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "air-hockey-loop",
+      "gameId": "air-hockey",
+      "claim": "Collect keys in order and reach exit; Key sequence and unlock",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-air-hockey"
+      ],
+      "conflicts": [
+        "Title and described mechanics differ"
+      ],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "money-tycoon-loop",
+      "gameId": "money-tycoon",
+      "claim": "Balance passive income and upgrades; Income and days",
+      "versionScope": "Daily current landing page",
+      "support": [
+        "official-money-tycoon"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-description-not-input-verified",
+      "confidence": "medium",
+      "publicRestriction": "Do not conflate same-name implementations",
+      "secondaryCheck": "Frame identity, input, version-matching video, media rights"
+    },
+    {
+      "id": "fermi-safe-form-submit",
+      "gameId": "fermi",
+      "claim": {
+        "guess": 2,
+        "answer": 2.07,
+        "ratio": "1.03× too low",
+        "accuracy": "Bullseye",
+        "streak": 1
+      },
+      "versionScope": "Daily unlimited /fermi; NOT fermi.gg",
+      "support": [
+        "research/runtime-case-observations.json#fermi-safe-form-submit"
+      ],
+      "conflicts": [],
+      "conclusion": "observed-input-and-result; clean-context publication checks pending",
+      "confidence": "high-for-recorded-state-only",
+      "publicRestriction": "Do not put the actual prompt answer in cards, introduction, metadata or alt.",
+      "secondaryCheck": "Recheck exact final build, isolated context, network, media and per-game device behavior."
+    },
+    {
+      "id": "poople-validation-recovery",
+      "gameId": "poople",
+      "claim": {
+        "acceptedRungs": [
+          "HALO",
+          "HALT",
+          "HALE"
+        ],
+        "rejected": "HELP",
+        "clock": "Started after first valid rung; continued during refusal"
+      },
+      "versionScope": "Daily Poople Unlimited",
+      "support": [
+        "research/runtime-case-observations.json#poople-validation-recovery"
+      ],
+      "conflicts": [],
+      "conclusion": "observed-input-and-result; clean-context publication checks pending",
+      "confidence": "high-for-recorded-state-only",
+      "publicRestriction": "Body worked fragment must be marked before display; no full solution is revealed.",
+      "secondaryCheck": "Recheck exact final build, isolated context, network, media and per-game device behavior."
+    },
+    {
+      "id": "size-judgment-and-keyboard",
+      "gameId": "size-it-up",
+      "claim": {
+        "realSize": "2m",
+        "ratio": "3.2× too small",
+        "points": 7,
+        "sliderBefore": "0.08837623183413061",
+        "sliderAfter": "0.09014375647081323"
+      },
+      "versionScope": "Daily Size It Up unlimited",
+      "support": [
+        "research/runtime-case-observations.json#size-judgment-and-keyboard"
+      ],
+      "conflicts": [],
+      "conclusion": "observed-input-and-result; clean-context publication checks pending",
+      "confidence": "high-for-recorded-state-only",
+      "publicRestriction": "Object answer remains internal; body can discuss ratio without naming the object.",
+      "secondaryCheck": "Recheck exact final build, isolated context, network, media and per-game device behavior."
+    },
+    {
+      "id": "color-slider-reveal",
+      "gameId": "color",
+      "claim": {
+        "hueBefore": 266,
+        "hueAfter": 267,
+        "pick": "h267 s50 b50",
+        "target": "h350 s97 b65",
+        "score": 3.31,
+        "maximum": 10
+      },
+      "versionScope": "Daily Color Game",
+      "support": [
+        "research/runtime-case-observations.json#color-slider-reveal"
+      ],
+      "conflicts": [],
+      "conclusion": "observed-input-and-result; clean-context publication checks pending",
+      "confidence": "high-for-recorded-state-only",
+      "publicRestriction": "No specific upcoming target disclosed.",
+      "secondaryCheck": "Recheck exact final build, isolated context, network, media and per-game device behavior."
+    },
+    {
+      "id": "logo-slider-reveal",
+      "gameId": "color-logo",
+      "claim": {
+        "hueBefore": 322,
+        "hueAfter": 323,
+        "pick": "h323 s77 b73",
+        "brand": "h214 s100 b67",
+        "score": 3.26,
+        "maximum": 10
+      },
+      "versionScope": "Daily Logo Game",
+      "support": [
+        "research/runtime-case-observations.json#logo-slider-reveal"
+      ],
+      "conflicts": [],
+      "conclusion": "observed-input-and-result; clean-context publication checks pending",
+      "confidence": "high-for-recorded-state-only",
+      "publicRestriction": "Brand answer stays internal; public description should discuss marked-region selection.",
+      "secondaryCheck": "Recheck exact final build, isolated context, network, media and per-game device behavior."
+    },
+    {
+      "id": "fermi-video-version-conflict",
+      "gameId": "fermi",
+      "claim": "The observed UHWWW-7f0ag Fermi segment is fermi.gg, while the current Daily page explicitly distinguishes its own unlimited version.",
+      "versionScope": "Fermi.gg daily vs Daily unlimited",
+      "support": [
+        "research/video-analysis.json",
+        "reports/acceptance-evidence/draft-iframe-observations.json",
+        "research/runtime-case-observations.json"
+      ],
+      "conflicts": [
+        "A shared game title and ratio feedback are insufficient for version equivalence."
+      ],
+      "conclusion": "reject-video-for-current-fermi-page",
+      "confidence": "high",
+      "publicRestriction": "Do not embed or transfer the observed daily scoring to this page.",
+      "secondaryCheck": "Find a current Daily unlimited video or replace the candidate before publication."
+    },
+    {
+      "id": "krillion-current-rule-boundaries",
+      "gameId": "krillion",
+      "claim": "Classic rare valid answer, seven prompts, 25 seconds; accepted answer ends prompt. Endless survival differs from Classic.",
+      "support": [
+        "official-krillion-20261021"
+      ],
+      "conflicts": [
+        "Same page gives 108 and 138 Endless zone totals; total and ending excluded."
+      ],
+      "conclusion": "publisher-help-supported; effective site input pending",
+      "confidence": "medium",
+      "publicRestriction": "No specific answer-tier predictions or zone/ending spoilers.",
+      "versionScope": "Checked 2026-10-21",
+      "secondaryCheck": "Current-build clean-context runtime and media qualification remain pending."
+    },
+    {
+      "id": "logo-current-region-workflow",
+      "gameId": "color-logo",
+      "claim": "Choose deck, locate marked region, adjust HSB, compare per-region reveal; three logos per round.",
+      "support": [
+        "official-logo-20261021",
+        "logo-slider-reveal"
+      ],
+      "conflicts": [],
+      "conclusion": "help-and-earlier-shared-context-observation",
+      "confidence": "high-for-workflow-only",
+      "publicRestriction": "No target brand HSB answer in metadata or introductory content.",
+      "versionScope": "Checked 2026-10-21",
+      "secondaryCheck": "Current-build clean-context runtime and media qualification remain pending."
+    },
+    {
+      "id": "maptap-distance-boundaries",
+      "gameId": "maptap",
+      "claim": "Five places with country clues; stated 25km full marks and 150km hit radius.",
+      "support": [
+        "official-maptap-20261021"
+      ],
+      "conflicts": [],
+      "conclusion": "publisher-help-only; accepted site input pending",
+      "confidence": "medium",
+      "publicRestriction": "No exact continuous score formula or save/mobile guarantee.",
+      "versionScope": "Checked 2026-10-21",
+      "secondaryCheck": "Current-build clean-context runtime and media qualification remain pending."
+    },
+    {
+      "id": "word-hunt-external-path-and-duplicate",
+      "gameId": "word-hunt",
+      "claim": {
+        "firstWord": "SET",
+        "pointsAdded": 100,
+        "score": 100,
+        "duplicateMessage": "Already found!",
+        "duplicateScore": 100,
+        "rejectedSequence": "ET",
+        "rejectionMessage": "Not a word!",
+        "rejectionScore": 100
+      },
+      "support": [
+        "word-hunt-external-20261021",
+        "research/runtime-case-observations.json#word-hunt-external-path-and-duplicate"
+      ],
+      "conflicts": [],
+      "conclusion": "external-effective-input-only; not-site-runtime-qualification",
+      "confidence": "high-for-recorded-state",
+      "publicRestriction": "Randomized-board worked example confined to body; not placed in cards, intro, metadata or alt.",
+      "versionScope": "Checked 2026-10-21",
+      "secondaryCheck": "Current-build clean-context runtime and media qualification remain pending."
+    },
+    {
+      "id": "word-hunt-external-shuffle-and-diagonal",
+      "gameId": "word-hunt",
+      "claim": {
+        "shufflesBefore": 3,
+        "shufflesAfter": 2,
+        "before": "BTES/OLET/RUES/VNLP",
+        "after": "SLEV/BPOE/LUEN/STRT",
+        "sameLetterPool": true,
+        "retainedFound": [
+          "SET"
+        ],
+        "retainedScore": 100,
+        "clockContinues": true,
+        "diagonalWord": "TEE",
+        "pointsAdded": 100,
+        "finalScore": 200
+      },
+      "support": [
+        "word-hunt-external-20261021",
+        "research/runtime-case-observations.json#word-hunt-external-shuffle-and-diagonal"
+      ],
+      "conflicts": [],
+      "conclusion": "external-effective-input-only; not-site-runtime-qualification",
+      "confidence": "high-for-recorded-state",
+      "publicRestriction": "Do not generalize to untested dictionary, tile reuse or touch gestures.",
+      "versionScope": "Checked 2026-10-21",
+      "secondaryCheck": "Current-build clean-context runtime and media qualification remain pending."
+    },
+    {
+      "id": "noillirk-video-altitude-discrepancy",
+      "gameId": "noillirk",
+      "claim": "Sampled video shows altitude 3m at 00:25 and 12m at 00:35 during answer animations; current help describes 700 points/14km. Relationship between animation timing and final result not established.",
+      "support": [
+        "official-game",
+        "youtube:oMe1Mz3Maoo"
+      ],
+      "conflicts": [
+        "Same visual identity does not establish current scoring/version."
+      ],
+      "conclusion": "unresolved; not a verified version mismatch and not current-score evidence",
+      "confidence": "high-for-visible-labels-only",
+      "publicRestriction": "Do not replace current help rules or embed video as current scoring instruction.",
+      "versionScope": "Checked 2026-10-21",
+      "secondaryCheck": "Current-build clean-context runtime and media qualification remain pending."
+    },
+    {
+      "id": "maptap-external-distance-result",
+      "gameId": "maptap",
+      "claim": {
+        "distanceKm": 2204,
+        "label": "Wide",
+        "pointsAdded": 32,
+        "total": 32,
+        "runMaximum": 1000,
+        "roundLabels": [
+          "Easy",
+          "Easy",
+          "Med x2",
+          "Hard x3",
+          "Hard x3"
+        ]
+      },
+      "versionScope": "External publisher top-level page only; no local project service started",
+      "support": [
+        "maptap-external-20261021"
+      ],
+      "conflicts": [],
+      "conclusion": "external-result-only; no publication runtime pass",
+      "confidence": "high-for-observed-state",
+      "publicRestriction": "Worked example only in body; not in metadata or alt; do not infer exact score formula.",
+      "secondaryCheck": "Final site sandbox, next-prompt progression, complete run and clean context pending"
+    },
+    {
+      "id": "additional-dev-20261021-krillion",
+      "gameId": "krillion",
+      "claim": "An accepted answer can still earn a common tier. In a fried-food round, tempura earned eight points and moved the dive eighty metres. That result separates two decisions: the food fitted the prompt, but the game did not judge it especially unusual. A refusal would have left the answer task unfinished; this result instead ended the prompt with a modest contribution. Do not treat one verdict as a guaranteed tier for another wording or a future run.",
+      "versionScope": "Configured Daily implementation, development observations 2026-10-21",
+      "support": [
+        "additional-dev-20261021-krillion"
+      ],
+      "conflicts": [],
+      "conclusion": "scoped-observation-not-general-formula",
+      "confidence": "high-for-observed-result-only",
+      "publicRestriction": "No future answer tier, hidden scoring formula, touch support or production qualification inferred."
+    },
+    {
+      "id": "additional-dev-20261021-fermi",
+      "gameId": "fermi",
+      "claim": "A result more than thirty times too high ends a run even when the typed number is accepted by the form. The useful feedback is the direction and the factor: the estimate needs to shrink by a large ratio, not by a few units. Read the answer and explanation before starting another run. A completed wrong guess is different from a field that never submits, and repeatedly pressing Guess cannot revise a result that has already been judged.",
+      "versionScope": "Configured Daily implementation, development observations 2026-10-21",
+      "support": [
+        "additional-dev-20261021-fermi"
+      ],
+      "conflicts": [],
+      "conclusion": "scoped-observation-not-general-formula",
+      "confidence": "high-for-observed-result-only",
+      "publicRestriction": "No future answer tier, hidden scoring formula, touch support or production qualification inferred."
+    },
+    {
+      "id": "additional-dev-20261021-poople",
+      "gameId": "poople",
+      "claim": "HEAL to HEAP is a legal example of a small change: H, E and A stay in their positions while L becomes P. After submitting HEAP, a new empty row is ready for the next word. That extra row matters because four visible letters can also be an unsubmitted draft. Check that the rung joined the ladder before planning another move. This example demonstrates a valid step, not a complete route to POOP or a promise that it is the shortest route for your starting word.",
+      "versionScope": "Configured Daily implementation, development observations 2026-10-21",
+      "support": [
+        "additional-dev-20261021-poople"
+      ],
+      "conflicts": [],
+      "conclusion": "scoped-observation-not-general-formula",
+      "confidence": "high-for-observed-result-only",
+      "publicRestriction": "No future answer tier, hidden scoring formula, touch support or production qualification inferred."
+    },
+    {
+      "id": "additional-dev-20261021-size-it-up",
+      "gameId": "size-it-up",
+      "claim": "A reveal can show a reasonably close estimate without awarding a perfect result. One guess ten percent below the measured length returned ninety-four percent for that round. Read the dashed guess and the measured outline together: the direction of the mismatch tells you whether to enlarge or shrink your next mental estimate. That single result does not establish a universal points formula, and it does not remove the need to check which dimension the reference actually labels.",
+      "versionScope": "Configured Daily implementation, development observations 2026-10-21",
+      "support": [
+        "additional-dev-20261021-size-it-up"
+      ],
+      "conflicts": [],
+      "conclusion": "scoped-observation-not-general-formula",
+      "confidence": "high-for-observed-result-only",
+      "publicRestriction": "No future answer tier, hidden scoring formula, touch support or production qualification inferred."
+    },
+    {
+      "id": "additional-dev-20261021-color",
+      "gameId": "color",
+      "claim": "Changing a slider and locking it in leads to a comparison, not another memory exposure. A reconstruction at h80 s51 b50 against h334 s57 b71 earned 1.01 out of ten. The hue family was the major visible mismatch, with brightness also lower than the target; a small saturation adjustment could not repair it. Use a comparison like this to choose which property to attend to on the next color. The example explains a completed round rather than a target you should copy into another one.",
+      "versionScope": "Configured Daily implementation, development observations 2026-10-21",
+      "support": [
+        "additional-dev-20261021-color"
+      ],
+      "conflicts": [],
+      "conclusion": "scoped-observation-not-general-formula",
+      "confidence": "high-for-observed-result-only",
+      "publicRestriction": "No future answer tier, hidden scoring formula, touch support or production qualification inferred."
+    },
+    {
+      "id": "additional-dev-20261021-color-logo",
+      "gameId": "color-logo",
+      "claim": "A remembered logo color can be wrong at the hue-family level. A Famous-deck Discord reconstruction at h102 s57 b65 received 0.78 out of ten beside the brand blue at h235 s64 b95. The comparison makes the error clearer than the low score alone: tuning the green shade more carefully would still miss the blue family. On the next logo, decide the broad hue first and then refine strength and lightness. Brand familiarity gives you a starting idea, not a guarantee that the first slider setting is close.",
+      "versionScope": "Configured Daily implementation, development observations 2026-10-21",
+      "support": [
+        "additional-dev-20261021-color-logo"
+      ],
+      "conflicts": [],
+      "conclusion": "scoped-observation-not-general-formula",
+      "confidence": "high-for-observed-result-only",
+      "publicRestriction": "No future answer tier, hidden scoring formula, touch support or production qualification inferred."
+    },
+    {
+      "id": "additional-dev-20261021-maptap",
+      "gameId": "maptap",
+      "claim": "A point on the globe is a completed geographical guess once the distance panel appears. A Yangon round returned Off Target at 9,065 km with zero added points, then offered Next. That is a large placement error, not an unfinished loading state. Reconsider the country and continent before refining the city: a more precise point within the wrong broad region cannot repair a mistake of thousands of kilometres. Let the result settle before advancing, since the outgoing distance panel can briefly remain during the next location transition.",
+      "versionScope": "Configured Daily implementation, development observations 2026-10-21",
+      "support": [
+        "additional-dev-20261021-maptap"
+      ],
+      "conflicts": [],
+      "conclusion": "scoped-observation-not-general-formula",
+      "confidence": "high-for-observed-result-only",
+      "publicRestriction": "No future answer tier, hidden scoring formula, touch support or production qualification inferred."
+    },
+    {
+      "id": "additional-dev-20261021-word-hunt",
+      "gameId": "word-hunt",
+      "claim": "A short valid path can include a diagonal. On a board with S beside U and N diagonally above that U, pressing S, moving to U, then moving to N displayed SUN with a possible hundred points. Releasing the pointer committed the word: the total became 100 and SUN appeared in the found-word list. Keep the preview and the committed total separate. Seeing letters highlighted during a drag is not yet proof that the word has been banked.",
+      "versionScope": "Configured Daily implementation, development observations 2026-10-21",
+      "support": [
+        "additional-dev-20261021-word-hunt"
+      ],
+      "conflicts": [],
+      "conclusion": "scoped-observation-not-general-formula",
+      "confidence": "high-for-observed-result-only",
+      "publicRestriction": "No future answer tier, hidden scoring formula, touch support or production qualification inferred."
+    },
+    {
+      "id": "hello-wordl-current-controls-and-cases",
+      "gameId": "hello-wordl",
+      "claim": "Current author host has six-row 4–11 letter boards; accepted guesses lock per-tile feedback and disable length change until the puzzle ends",
+      "versionScope": "Author-hosted Hello Wordl, random puzzles observed 2026-10-21",
+      "support": [
+        "research/media-candidates/hello-wordl-recapture/feedback-full.png",
+        "research/media-candidates/hello-wordl-recapture/cover-full.png",
+        "research/media-candidates/hello-wordl-recapture/duplicates-full.jpg",
+        "research/media-candidates/hello-wordl-recapture/long-word-full.jpg",
+        "hello-wordl-all-lengths"
+      ],
+      "conflicts": [],
+      "conclusion": "observed-and-scoped",
+      "confidence": "high",
+      "publicRestriction": "No unseen target, current daily answer, guaranteed storage, universal dictionary or built-in speedrun timer claim",
+      "cases": [
+        "STARE absent, CHOIR O/I elsewhere",
+        "BLOOM M elsewhere then MUMMY three correct M positions",
+        "CATERPILLAR at eleven letters: E4/R5 correct, P/L elsewhere, extra L/R absent"
+      ],
+      "checkedAt": "2026-10-21T07:54:52.717Z"
+    },
+    {
+      "id": "trust-live-payoff-and-mode-scope",
+      "claim": "Live choices produced the stated payoff matrix and a mutual-cooperation result of 2/2 in opponent 1 of 5; human mode states 3–7 rounds, separate from tournament ten-round recording",
+      "versionScope": "Nicky Case author-hosted browser version, title July 2017, observed 2026-10-21",
+      "support": [
+        "research/media-candidates/trust/choice-full.jpg",
+        "research/media-candidates/trust/cooperate-result-full.jpg",
+        "research/media-candidates/trust/repeated-score-full.jpg",
+        "research/media-candidates/trust/video-review-observed.json"
+      ],
+      "conflicts": [
+        "Round count differs by mode; do not conflate human encounters and automated tournament"
+      ],
+      "conclusion": "resolved-with-mode-scope",
+      "confidence": "high",
+      "publicRestriction": "No universal real-world trust prediction or unmarked strategy winner",
+      "gameId": "trust",
+      "checkedAt": "2026-10-21T08:27:28.723Z"
+    },
+    {
+      "id": "polygons-live-rules",
+      "versionScope": "English ncase.me/polygons playable, observed 2026-10-21; early drag boards and first automatic simulation",
+      "claim": "Unhappy-only dragging, empty destinations, less-than-one-third initial boundary, automatic movement and chart feedback",
+      "support": [
+        "Author visible playable rules",
+        "Own accepted introductory drag and automatic run",
+        "Video exact-game early and adjustable-threshold boards"
+      ],
+      "conflicts": [
+        "Opening one-third rule must not be applied to every later slider experiment",
+        "One run percentage is not a universal outcome"
+      ],
+      "conclusion": "Use local board conditions and model-scoped explanations only",
+      "confidence": "high",
+      "publicRestriction": "Do not turn model outcomes into universal social claims",
+      "gameId": "polygons",
+      "checkedAt": "2026-10-21T09:01:52.036Z"
+    },
+    {
+      "id": "0hn0-live-rules",
+      "versionScope": "Current English 0hn0.com browser tutorial and generated 4x4; video 6x6 shares core rules",
+      "claim": "Other-dot orthogonal counts, red line blockers and blue/red state changes",
+      "support": [
+        "Visible author tutorial prompts and own actual color changes",
+        "Generated 4x4 forced one-clue case",
+        "FloxyCola 6x6 actual embedded playback"
+      ],
+      "conflicts": [
+        "Video starting puzzle differs; coordinates cannot be copied",
+        "Progress percentage is not a proof of every placement"
+      ],
+      "conclusion": "Explain count, force and block deductions without claiming unseen unique-solution internals",
+      "confidence": "high",
+      "publicRestriction": "No daily solution or full generated-grid solution in cards, lead or metadata",
+      "gameId": "0hn0",
+      "checkedAt": "2026-10-21T09:14:01.357Z"
+    },
+    {
+      "id": "0hh1-current-tile-rules",
+      "versionScope": "Current 0hh1.com yellow-blue tutorial and 4x4 browser board; author video older red-blue theme",
+      "claim": "No consecutive triples; equal completed row/column totals; distinct completed row/column patterns; first click yellow and second blue",
+      "support": [
+        "Own tutorial accepted inputs for adjacent/split/vertical constraints",
+        "Visible equal-count tutorial",
+        "MIT primary source and author demonstration"
+      ],
+      "conflicts": [
+        "Older video red differs from current yellow",
+        "Recorded daily interface differs from current menu"
+      ],
+      "conclusion": "Current screenshots and instructions lead; video limited to same core grid and pattern mechanics",
+      "confidence": "high",
+      "publicRestriction": "No claimed identical daily puzzle or copied coordinates",
+      "gameId": "0hh1",
+      "checkedAt": "2026-10-21T09:27:20.890Z"
+    },
+    {
+      "id": "crowds-network-rules",
+      "versionScope": "English ncase.me/crowds, introductory drawing/local percentages and nine-person threshold; video later50% behavior simulation",
+      "claim": "Draw to connect, scratch to disconnect, local friend fractions excluding self, whole-network vs local count and threshold-limited propagation",
+      "support": [
+        "Own accepted upper connection and lower-edge deletion; continue prompt",
+        "Own four-person visible indicators",
+        "Actual embedded video sampled127.501,353.984,408.293,740.601"
+      ],
+      "conflicts": [
+        "Initial observation model does not itself change behavior",
+        "Connected path alone does not ensure propagation"
+      ],
+      "conclusion": "Explain model operations and local counts without general real-world causality claims",
+      "confidence": "high",
+      "publicRestriction": "Mature topics: alcohol/harm; no all-ages claim. Later solutions/video marked for spoilers.",
+      "gameId": "crowds",
+      "checkedAt": "2026-10-21T09:51:48.718Z"
+    },
+    {
+      "id": "dark-room-opening-rules",
+      "versionScope": "English browser edition adarkroom.doublespeakgames.com; first fire, forest, early build controls; same-browser reload only",
+      "claim": "Initial light changes heading/control, gather changes stock and cooldown, events overlay routine, browser reload can retain provider state",
+      "support": [
+        "Own actual fire change",
+        "Own gather4to14 and button disabled",
+        "Own event dialogs and unlocked builds",
+        "Same-browser reload retained forest and stock",
+        "Fessel embedded browser video"
+      ],
+      "conflicts": [
+        "Amounts and event timing vary; video cart state differs from first collection",
+        "Older log entries are not current-state labels"
+      ],
+      "conclusion": "Cover the opening routine and interface recovery, preserve major story discoveries",
+      "confidence": "high",
+      "publicRestriction": "No ending/map/combat revelations in cards, lead, media alt or metadata",
+      "gameId": "a-dark-room",
+      "checkedAt": "2026-10-21T10:41:01.908Z"
+    },
+    {
+      "id": "sandspiel-live-materials",
+      "versionScope": "sandspiel.club current creator-credited browser canvas and Info; video older UI shares named material palette",
+      "claim": "Pointer painting, fixed Wall, falling Sand, spreading Water, Seed growth, Empty erasing and documented material interactions",
+      "support": [
+        "Own drawn wall/sand/water/seed/Empty scenes",
+        "Current Info material descriptions and creator links",
+        "RedT52 exact-game nocookie playback and sampled palette states"
+      ],
+      "conflicts": [
+        "Older video shows sharing controls absent from checked current palette",
+        "Planted evolving scene cannot isolate every water change to one wall edit"
+      ],
+      "conclusion": "Explain observed sandbox tasks and label documented versus sampled reaction scope",
+      "confidence": "high",
+      "publicRestriction": "No claimed full compatibility, saving guarantee, deterministic mixed-material reaction or current upload capability",
+      "gameId": "sandspiel",
+      "checkedAt": "2026-10-21T10:43:40.509Z"
+    },
+    {
+      "id": "0hh1-unique-lines-primary",
+      "gameId": "0hh1",
+      "claim": "Completed rows and columns must be unique; current yellow/blue theme differs from the older red/blue video.",
+      "versionScope": "Current 0hh1.com browser implementation observed 2026-10-21",
+      "support": [
+        "research/media-candidates/0hh1-recapture/licensed-tutorial.txt",
+        "research/media-candidates/0hh1-recapture/licensed-grid.txt",
+        "research/media-candidates/0hh1-recapture/licensed-core-style.css"
+      ],
+      "conclusion": "Primary tutorial and hint constants support line uniqueness; colors restricted by version.",
+      "confidence": "high",
+      "publicRestriction": "Do not imply the old recording uses the current color theme."
+    },
+    {
+      "id": "crowds-preinit-resize-20261022",
+      "gameId": "crowds",
+      "claim": "Author resize handler dereferences slideshow.simulations.sims before confirming initialization; a previous real browser exception is retained.",
+      "versionScope": "Current configured author iframe and source observed2026-10-22",
+      "support": [
+        "reports/acceptance-evidence/media-repair-20261021/browser-console-errors.json",
+        "research/provider-errors-20261022/crowds.txt"
+      ],
+      "conclusion": "runtime-issue-open",
+      "confidence": "high for source defect; historical Crowds exception not reproduced in current normal post-init checks",
+      "publicRestriction": "Internal runtime record only; no public report copy or invented fix claim."
+    },
+    {
+      "id": "sandspiel-zero-width-ad-slot-20261022",
+      "gameId": "sandspiel",
+      "claim": "Author layout.js sets adStyle=display:none for compressed landscape and portrait layouts, while index.js unconditionally calls adsbygoogle.push. A live normal-route retest again reported availableWidth=0; the inspected slots had zero geometry. The game render loop and native Wall drawing still worked.",
+      "versionScope": "Current configured author iframe and source observed2026-10-22",
+      "support": [
+        "reports/acceptance-evidence/media-repair-20261021/browser-console-errors.json",
+        "research/provider-errors-20261022/sandhtml.txt",
+        "research/provider-errors-20261022/sandspiel.txt",
+        "reports/acceptance-evidence/card-provider-fix-20261022/provider-console.json",
+        "reports/acceptance-evidence/card-provider-fix-20261022/sandspiel-dom.json"
+      ],
+      "conclusion": "runtime-issue-open",
+      "confidence": "high for source defect; historical Crowds exception not reproduced in current normal post-init checks",
+      "publicRestriction": "Internal runtime record only; no public report copy or invented fix claim."
+    },
+    {
+      "id": "daily-response-rules-20261022",
+      "gameId": "noillirk",
+      "claim": "Daily current rules describe one response, Enter/Climb submission, 15 seconds, refused entry can be replaced while active. Accepted result ends prompt.",
+      "versionScope": "Daily only, checked 2026-10-22",
+      "support": [
+        "daily-rules-20261022",
+        "daily-howto-20261022",
+        "daily-tips-20261022",
+        "daily-mode-20261022"
+      ],
+      "conflicts": [
+        "Independent same-name editions use different clocks and scoring."
+      ],
+      "conclusion": "primary-rule-backed, no new main-game playable assertion",
+      "confidence": "high",
+      "publicRestriction": "Invented practice examples are not live answers; do not guarantee acceptance or rank."
+    },
+    {
+      "id": "daily-scoring-and-balloons-20261022",
+      "gameId": "noillirk",
+      "claim": "Six values4,8,16,32,64,100; seven perfect results700; Endless accepts preserve, misses remove, SkyHigh restores up to3.",
+      "versionScope": "Daily only, checked 2026-10-22",
+      "support": [
+        "daily-rules-20261022",
+        "daily-howto-20261022",
+        "daily-tips-20261022",
+        "daily-mode-20261022"
+      ],
+      "conflicts": [
+        "Official article says ten metres per point while also saying700points14km. Older tips says52zones while landing says69. No constant altitude conversion or zone enumeration included."
+      ],
+      "conclusion": "tier/life rules agree; altitude formula omitted as unresolved",
+      "confidence": "high for tier/life rules; unresolved for altitude conversion",
+      "publicRestriction": "Do not claim scorecard examples or balloon branches are recorded sessions."
+    }
+  ],
+  "updatedAt": "2026-10-21T02:10:50.133Z",
+  "guideRevisionEvidence": [
+    {
+      "id": "daily-rules-20261022",
+      "url": "https://playdaily.org/noillirk",
+      "checkedAt": "2026-10-22",
+      "use": "15-second clock, six tiers, refusal, Endless balloons. Images not adopted."
+    },
+    {
+      "id": "daily-howto-20261022",
+      "url": "https://playdaily.org/resources/stories/how-to-play-noillirk",
+      "checkedAt": "2026-10-22",
+      "use": "Mode selection, Begin ascent, Enter/Climb, accepted round ends, retry while time remains, recovery cap. No copied prose or images."
+    },
+    {
+      "id": "daily-tips-20261022",
+      "url": "https://playdaily.org/resources/stories/how-to-get-better-at-noillirk",
+      "checkedAt": "2026-10-22",
+      "use": "Board boundaries and answer form. Omit historical zone counts, altitude conversion and absolute joke claims because texts conflict."
+    },
+    {
+      "id": "daily-mode-20261022",
+      "url": "https://playdaily.org/resources/stories/noillirk-daily-climb",
+      "checkedAt": "2026-10-22",
+      "use": "Daily one attempt versus Classic practice. No live Daily answers reproduced."
+    }
+  ]
+}

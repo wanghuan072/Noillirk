@@ -1,0 +1,327 @@
+{
+  "checkedAt": "2026-10-21T10:51:24.471Z",
+  "status": "eight-media-integrated-drafts-not-release-accepted",
+  "publishedReplacementCount": 0,
+  "candidates": [
+    {
+      "id": "hello-wordl",
+      "title": "Hello Wordl",
+      "source": "https://github.com/lynn/hello",
+      "gameSrc": "https://hellowordl.net/",
+      "rights": "MIT copyright 2022 Lynn; host association checked. Preserve notice before any adoption.",
+      "runtime": "Effective guesses accepted in author host and local development sandbox. No final clean-context/production network audit.",
+      "task": "Use fixed-position color clues and repeated-letter limits to solve an adjustable-length word in six guesses.",
+      "requiredQuestions": [
+        "When can length change?",
+        "How are repeated letters limited by feedback?",
+        "What changes between daily and random play?",
+        "Which keyboard and high-contrast options are visible?"
+      ],
+      "mediaTasks": [
+        "Four-letter identity cover with complete title/board",
+        "Five-letter feedback state",
+        "Repeated-letter comparison",
+        "Eleven-letter responsive board"
+      ],
+      "videoIds": [
+        "VIavCrvnrDs"
+      ],
+      "videoStatus": "Local nocookie playback reached end; interface match observed; review details in video-analysis.json",
+      "status": "needs-recapture-and-final-qualification",
+      "spoilerPolicy": "No revealed target, end-of-puzzle secret or daily answer in cover/cards/TDK; random guess examples only",
+      "integration": "Own cover + three own game captures + reviewed playable video + independent article integrated as draft"
+    },
+    {
+      "id": "0hh1",
+      "title": "0h h1",
+      "source": "https://github.com/florisluiten/0hh1",
+      "gameSrc": "https://0hh1.com/",
+      "rights": "Repository MIT Q42; compare current blue/yellow host build with licensed source before approving any image.",
+      "runtime": "Local iframe rendered title, blue/yellow tiles and countdown 5 but did not progress during observation. Direct navigation preceded browser channel timeout; no valid puzzle move claimed.",
+      "task": "Fill a binary tile board using row/column balance, adjacency and uniqueness constraints.",
+      "requiredQuestions": [
+        "Which rules are shown by current tutorial?",
+        "Can fixed tiles be changed?",
+        "How does cycling an editable tile work?",
+        "Which sizes and hint states exist?"
+      ],
+      "mediaTasks": [
+        "Actual populated puzzle cover",
+        "No-three-in-a-row example",
+        "Equal-count row example",
+        "Duplicate-row constraint"
+      ],
+      "videoIds": [
+        "oy1A73lKWtc"
+      ],
+      "videoStatus": "Author Martin Kool identified in local embed preview; not watched/qualified",
+      "status": "startup-and-current-version-review-pending",
+      "spoilerPolicy": "Use demonstrative partial boards, not an active daily solution",
+      "integration": "Own cover + three own game captures + reviewed playable video + independent article integrated as draft"
+    },
+    {
+      "id": "0hn0",
+      "title": "0h n0",
+      "source": "https://github.com/Techdojo/0hn0",
+      "gameSrc": "https://0hn0.com/",
+      "rights": "Repository MIT Q42; current host art/build comparison and notices pending.",
+      "runtime": "HTTP 200 without observed XFO/CSP header restriction; no browser input test yet.",
+      "task": "Complete blue/red sightline logic cells while respecting numbered visible-dot constraints.",
+      "requiredQuestions": [
+        "Does a clue count itself?",
+        "How do red dots stop sightlines?",
+        "What proves a forced blue or red cell?",
+        "What feedback reports a contradiction?"
+      ],
+      "mediaTasks": [
+        "Partial numbered board cover",
+        "Sightline blocked by red",
+        "Two-direction clue count",
+        "Contradiction and correction"
+      ],
+      "videoIds": [
+        "2K_thF0qg8Y"
+      ],
+      "videoStatus": "Independent 6×6 strategy search lead only; not watched/qualified",
+      "status": "browser-media-video-review-pending",
+      "spoilerPolicy": "Small rule cases; avoid complete live puzzle solution",
+      "integration": "Own cover + three own game captures + reviewed playable video + independent article integrated as draft"
+    },
+    {
+      "id": "hextris",
+      "title": "Hextris",
+      "source": "https://github.com/Hextris/hextris",
+      "gameSrc": "https://hextris.io/",
+      "rights": "Prior open-source lead; per-image scope and required notices not yet established for current host.",
+      "runtime": "Rejected: author host unavailable; official GitHub mirror produced expired-certificate/browser-blocking failure. No warning bypassed.",
+      "task": "Rotate the central hexagon to place falling colored blocks and clear matching runs.",
+      "requiredQuestions": [
+        "Which input rotates each direction?",
+        "How are runs connected across edges?",
+        "What reaches the loss boundary?",
+        "What does restart preserve?"
+      ],
+      "mediaTasks": [
+        "Actual active hexagon cover",
+        "Rotation and landing",
+        "Connected-color clear",
+        "Near-boundary failure state"
+      ],
+      "videoIds": [
+        "0KCKXLMhAyw"
+      ],
+      "videoStatus": "Search lead only; older same-name PC games excluded",
+      "status": "host-and-media-review-pending",
+      "spoilerPolicy": "No narrative spoilers; mechanics and failure states may be shown"
+    },
+    {
+      "id": "trust",
+      "title": "The Evolution of Trust",
+      "source": "https://github.com/ncase/trust",
+      "gameSrc": "https://ncase.me/trust/",
+      "rights": "CC0 main visual work explicitly stated. Audio includes separate CC0/CC Sampling+/CC BY-NC entries; no audio extraction/rehosting.",
+      "runtime": "HTTP 200 without observed frame restriction; no actual choices made yet.",
+      "task": "Choose cooperate/cheat, inspect repeated-match payoffs and compare strategy populations under changed rules.",
+      "requiredQuestions": [
+        "What payoff is shown for each choice pair?",
+        "Which strategy reacts to previous turns?",
+        "What changes with mistakes or repeated encounters?",
+        "Where do model assumptions limit conclusions?"
+      ],
+      "mediaTasks": [
+        "Early decision screen cover",
+        "Choice and payoff feedback",
+        "Strategy tournament state",
+        "Controlled-rule comparison"
+      ],
+      "videoIds": [
+        "utRF4ueoCdY"
+      ],
+      "videoStatus": "Playthrough lead only; not watched/qualified",
+      "status": "browser-media-video-review-pending",
+      "spoilerPolicy": "Warn before later strategy reveals; cards/intro explain task only; no universal social prediction claims",
+      "integration": "Own cover + three own game captures + reviewed playable video + independent article integrated as draft"
+    },
+    {
+      "id": "polygons",
+      "title": "Parable of the Polygons",
+      "source": "https://github.com/ncase/polygons",
+      "gameSrc": "https://ncase.me/polygons/",
+      "rights": "CC0 visual work; primary README explicitly permits pictures/adaptations. Authors Vi Hart and Nicky Case.",
+      "runtime": "Primary interactive article read; nested draggable simulations still require actual input verification.",
+      "task": "Move unhappy shapes into empty spaces and compare the resulting board under different neighbor thresholds.",
+      "requiredQuestions": [
+        "Which shapes may move?",
+        "How is neighbor satisfaction calculated?",
+        "How do vacancy and threshold change available moves?",
+        "How do manual and automated simulations differ?"
+      ],
+      "mediaTasks": [
+        "Partial live board cover",
+        "Unhappy shape before/after move",
+        "Threshold comparison",
+        "Final sandbox controls"
+      ],
+      "videoIds": [
+        "xAaHkZDXtLc"
+      ],
+      "videoStatus": "Games for Change playthrough lead only; not watched/qualified",
+      "status": "browser-media-video-review-pending",
+      "spoilerPolicy": "Teach board mechanics; signal later model outcomes; do not equate simulation outcomes with universal real-world claims",
+      "integration": "Own cover + three own game captures + reviewed playable video + independent article integrated as draft"
+    },
+    {
+      "id": "crowds",
+      "title": "The Wisdom and/or Madness of Crowds",
+      "source": "https://github.com/ncase/crowds",
+      "gameSrc": "https://ncase.me/crowds/",
+      "rights": "CC0 main visual work; separate audio licenses include noncommercial assets. Image review must exclude third-party/audio assumptions.",
+      "runtime": "Primary task text read; graph interaction and nested-frame behavior untested.",
+      "task": "Draw and remove graph links, run threshold simulations and compare local-majority perception with whole-network counts.",
+      "requiredQuestions": [
+        "Which links are editable or fixed?",
+        "When is drawing disabled?",
+        "How does the displayed threshold trigger spread?",
+        "How can a local majority misrepresent the full graph?"
+      ],
+      "mediaTasks": [
+        "Initial graph cover",
+        "Editable versus fixed link",
+        "Nine-person majority puzzle",
+        "Threshold spread before/after"
+      ],
+      "videoIds": [
+        "c4_N0k5pi4I"
+      ],
+      "videoStatus": "Independent gameplay query lead only; not watched/qualified",
+      "status": "content-risk-and-browser-review-pending",
+      "contentRisk": "Interactive text discusses binge drinking, suicide, mass shootings and financial markets. No all-ages claim; consider exclusion for audience suitability, no health/financial advice.",
+      "spoilerPolicy": "Warn before solved graph arrangements or later simulation outcomes",
+      "integration": "Own cover + three own game captures + reviewed playable video + independent article integrated as draft"
+    },
+    {
+      "id": "astray",
+      "title": "Astray",
+      "source": "https://github.com/wwwtyro/Astray",
+      "gameSrc": "https://wwwtyro.github.io/Astray/",
+      "rights": "Author repository Unlicense; ball/brick/concrete assets in repository. Exclude broken optional fork ribbon from media.",
+      "runtime": "Author maze loads and matching video lead SSpVdjnz1mw found; current child-frame keyboard attempts did not establish effective movement. Not adopted.",
+      "task": "Steer the rolling ball through maze turns while controlling momentum and locating the exit.",
+      "requiredQuestions": [
+        "Which directions control movement?",
+        "How does collision alter progress?",
+        "What counts as a completed level?",
+        "How does restart recover from a bad turn?"
+      ],
+      "mediaTasks": [
+        "Active maze identity cover",
+        "Junction before turning",
+        "Wall collision case",
+        "Verified level transition"
+      ],
+      "videoIds": [],
+      "videoStatus": "7v095uwDgeg watched and rejected as unrelated first-person maze; qualified matching video missing",
+      "status": "replace-unless-qualified-video-found",
+      "spoilerPolicy": "Partial route examples; do not reveal complete later maze paths in cards"
+    },
+    {
+      "id": "2048",
+      "title": "2048",
+      "source": "https://github.com/gabrielecirulli/2048",
+      "gameSrc": "https://play2048.co/",
+      "status": "excluded-current-official-frame-policy",
+      "reason": "Official host preflight denies embedding through frame-ancestors. Do not bypass or assume another mirror has same identity/rights.",
+      "videoIds": [
+        "qgFCjkHiXsQ"
+      ],
+      "videoStatus": "Unwatched search lead"
+    },
+    {
+      "id": "javascript-tetris",
+      "source": "https://github.com/jakesgordon/javascript-tetris",
+      "status": "excluded-official-host-frame-policy",
+      "reason": "Official game host returned X-Frame-Options DENY. No bypass or new self-hosted game implementation. MIT code does not automatically clear all separately credited sound assets."
+    },
+    {
+      "id": "javascript-pong",
+      "source": "https://github.com/jakesgordon/javascript-pong",
+      "status": "excluded-official-host-frame-policy",
+      "reason": "Official game host returned X-Frame-Options DENY. No bypass or new self-hosted game implementation. MIT code does not automatically clear all separately credited sound assets."
+    },
+    {
+      "id": "javascript-breakout",
+      "source": "https://github.com/jakesgordon/javascript-breakout",
+      "status": "excluded-official-host-frame-policy",
+      "reason": "Official game host returned X-Frame-Options DENY. No bypass or new self-hosted game implementation. MIT code does not automatically clear all separately credited sound assets."
+    },
+    {
+      "id": "javascript-snakes",
+      "source": "https://github.com/jakesgordon/javascript-snakes",
+      "status": "excluded-asset-rights",
+      "reason": "Primary README says purchased artwork/sound licenses apply to author's own project; do not reuse assets on MIT-code assumption."
+    },
+    {
+      "id": "nothing-to-hide",
+      "source": "https://github.com/ncase/nothing-to-hide",
+      "gameSrc": "https://demo.nothingtohide.cc/",
+      "status": "excluded-current-availability",
+      "reason": "Primary README identifies cancelled 2015 game; supplied demo HTTPS fetch failed. CC0 main work does not prove live embed or complete asset clearance."
+    },
+    {
+      "id": "a-dark-room",
+      "source": "https://github.com/doublespeakgames/adarkroom",
+      "gameSrc": "https://adarkroom.doublespeakgames.com/",
+      "status": "primary-license-reviewed-no-runtime-qualification",
+      "reason": "MPL-2.0 source found; verify screenshot asset scope, notices and third-party audio separately. No media adopted or input/video qualification. Avoid later narrative revelations in cards/TDK.",
+      "integration": "Own cover + three own game captures + reviewed playable video + independent article integrated as draft"
+    },
+    {
+      "id": "space-company",
+      "source": "https://github.com/sparticle999/SpaceCompany",
+      "gameSrc": "https://sparticle999.github.io/SpaceCompany/",
+      "status": "excluded-unresolved-license-condition-and-assets",
+      "reason": "Primary LICENCE.txt is MIT text with additional condition that sparticle999 is made aware of reuse. No external notification authorized/sent; third-party icons and runtime/video unverified."
+    }
+  ],
+  "primaryEvidenceFiles": [
+    "research/replacement-source-license-review.json",
+    "research/replacement-ncase-license-review.json",
+    "research/replacement-repository-discovery.json",
+    "research/replacement-incremental-license-review.json",
+    "research/replacement-round2-http.json",
+    "research/replacement-round3-http.json"
+  ],
+  "limits": "Prospective player tasks and media plans are not verified public claims. Search leads are not watched videos. HTTP headers alone do not prove iframe playability.",
+  "integratedDraftIds": [
+    "hello-wordl",
+    "trust",
+    "polygons",
+    "0hn0",
+    "0hh1",
+    "crowds",
+    "a-dark-room",
+    "sandspiel"
+  ],
+  "newCandidates": [
+    {
+      "id": "a-dark-room",
+      "primary": "https://github.com/doublespeakgames/adarkroom",
+      "license": "MPL-2.0",
+      "runtime": "Actual light-fire and gather4→14; provider reload retained progress",
+      "integration": "draft"
+    },
+    {
+      "id": "sandspiel",
+      "primary": "https://github.com/MaxBittker/sandspiel",
+      "license": "MIT2018MaxBittker",
+      "runtime": "Own wall/sand/water/seed/Empty interactions; provider ads observed",
+      "integration": "draft"
+    },
+    {
+      "id": "wbwwb",
+      "primary": "https://ncase.itch.io/wbwwb",
+      "license": "CC0 own art/code; audio separate",
+      "runtime": "Not adopted: platform redirected external hotlink to explicit anti-hotlink page. Official embed-hotlink returned platform notice. No protection removed or bypassed."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-21T04:17:50.441Z",
+  "method": "Read-only HTTP precheck; never iframe or gameplay acceptance",
+  "rows": [
+    {
+      "url": "https://jakesgordon.com/games/tetris/",
+      "finalUrl": "https://jakesgordon.com/games/tetris/",
+      "status": 200,
+      "xFrameOptions": "DENY",
+      "csp": null,
+      "type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://jakesgordon.com/games/breakout/",
+      "finalUrl": "https://jakesgordon.com/games/breakout/",
+      "status": 200,
+      "xFrameOptions": "DENY",
+      "csp": null,
+      "type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://jakesgordon.com/games/snakes/",
+      "finalUrl": "https://jakesgordon.com/games/snakes/",
+      "status": 200,
+      "xFrameOptions": "DENY",
+      "csp": null,
+      "type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://wwwtyro.github.io/Astray/",
+      "finalUrl": "https://wwwtyro.github.io/Astray/",
+      "status": 200,
+      "xFrameOptions": null,
+      "csp": null,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://hellowordl.net/",
+      "finalUrl": "https://hellowordl.net/",
+      "status": 200,
+      "xFrameOptions": null,
+      "csp": null,
+      "type": "text/html; charset=utf-8"
+    }
+  ]
+}

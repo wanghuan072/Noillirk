@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-21",
+  "scope": "Current Daily-hosted versions of the eight additional draft games; main-game authorization remains separately unresolved",
+  "documents": [
+    {
+      "url": "https://playdaily.org/legal/terms-of-service",
+      "displayedUpdatedAt": "2026-10-17",
+      "sections": ["6", "8"],
+      "finding": "The current terms restrict game-image extraction/recording and redistribution and do not grant this project a media-reuse license. They also distinguish personal play from redistribution of Daily content."
+    },
+    {
+      "url": "https://playdaily.org/legal/copyright",
+      "displayedUpdatedAt": "2026-09-29",
+      "sections": ["Trademarks and other games"],
+      "finding": "Daily identifies these implementations as its own designs/code/copy, distinct from similarly named originals. A creator video of the original does not establish Daily-version equivalence."
+    }
+  ],
+  "gameIds": ["krillion", "fermi", "poople", "size-it-up", "color", "color-logo", "maptap", "word-hunt"],
+  "rightsStatus": "restricted-unless-separate-permission-established",
+  "decision": "Do not adopt or publish Daily screenshots, downloaded covers or third-party artwork. Internal diagnostic evidence is not site media. Continue independent video and input research; evaluate replacements against their own primary rights evidence.",
+  "externalContact": "none; no permission request sent",
+  "limits": "This is a source-policy finding, not a general legal opinion or a claim that a YouTube embed license authorizes game-image republication."
+}

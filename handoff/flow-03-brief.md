@@ -1,0 +1,5 @@
+> Current media-repair amendment (2026-10-21): eight replacement Game media sets, own normal-route inputs and reviewed video playbacks are now recorded. Earlier candidate/status statements below are historical. Main media remains unresolved; production runtime/Lighthouse NOT_RUN; media/overall NOT_PASSED. See reports/verification-report.md.
+
+# Current handoff — 2026-10-21
+
+Stage acceptance remains incomplete. [Current research/development record](../reports/continuation-checkpoint.md) supersedes earlier checkpoint counts. Eight original additional games accepted effective input in the existing development site frame; rights and video screening prevents media adoption. Sixteen replacement profiles are researched, zero publication-qualified. Main iframe is original/provisional and media authorization pending. Current compiled draft z3Lzt8Oo2uUBxOlvLQG7d; compilation is not production acceptance. Browser viewing/recapture/input research is blocked by three tool-channel timeouts. No startup, deployment, Git commit or external contact. Keep all incomplete gates NOT_PASSED.

@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "guide_id": "noillirk-answer-strategy",
+      "slug": "noillirk-answer-strategy",
+      "primary_task": "Choose a familiar answer within the clock",
+      "coverage_status": "draft",
+      "unique_scope": "Decision process before submission, not full mode/scoring manual",
+      "required_sections": [
+        "Read restrictions",
+        "Generate candidates",
+        "Choose familiarity",
+        "Submit once",
+        "Handle rejection",
+        "Learn from reveal"
+      ],
+      "authorId": null,
+      "spoilerPolicy": "marked",
+      "freshness_risk": "Rules must match current Daily implementation",
+      "media_slots": [
+        {
+          "slot_id": "noillirk-answer-strategy-cover",
+          "purpose": "Choose a familiar answer within the clock",
+          "format": "original-explanatory-visual",
+          "gameArtwork": false
+        }
+      ]
+    },
+    {
+      "guide_id": "noillirk-scoring-and-endless",
+      "slug": "noillirk-scoring-and-endless",
+      "primary_task": "Read tier results and manage Endless balloons",
+      "coverage_status": "draft",
+      "unique_scope": "Interpret results and Endless survival, not basic answer selection",
+      "required_sections": [
+        "Validity versus tier",
+        "Six band values",
+        "Classic total",
+        "Endless balloons",
+        "Recovery and version limits"
+      ],
+      "authorId": null,
+      "spoilerPolicy": "marked",
+      "freshness_risk": "Rules must match current Daily implementation",
+      "media_slots": [
+        {
+          "slot_id": "noillirk-scoring-and-endless-cover",
+          "purpose": "Read tier results and manage Endless balloons",
+          "format": "original-explanatory-visual",
+          "gameArtwork": false
+        }
+      ]
+    }
+  ]
+}

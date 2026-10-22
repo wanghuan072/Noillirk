@@ -1,0 +1,377 @@
+{
+  "status": "observed-in-shared-context-not-release-qualification",
+  "method": "Live CUA UI actions and read-only frame DOM; structured transcription of observed values",
+  "observedDate": "2026-10-20",
+  "recordedAt": "2026-10-20T11:14:08.840Z",
+  "cases": [
+    {
+      "id": "fermi-safe-form-submit",
+      "gameId": "fermi",
+      "testedBuildId": "NzE2M_1b1N11_2CvSWvmp",
+      "state": "Question requests hours of a 60-watt bulb powered by food energy; numeric field initially empty",
+      "actions": [
+        "Type 2 into Your guess, in hours",
+        "Select Guess"
+      ],
+      "visibleResult": {
+        "guess": 2,
+        "answer": 2.07,
+        "ratio": "1.03× too low",
+        "accuracy": "Bullseye",
+        "streak": 1
+      },
+      "inputResult": "passed",
+      "recovery": "Before allow-forms, Guess remained without judged feedback; with allow-forms, same form path produced a result. Permissions stay provisional pending clean-context retest.",
+      "version": "Daily unlimited /fermi; NOT fermi.gg",
+      "spoiler": "Do not put the actual prompt answer in cards, introduction, metadata or alt."
+    },
+    {
+      "id": "poople-validation-recovery",
+      "gameId": "poople",
+      "testedBuildId": "ql1tD7me_R7KjrPhn4ue0",
+      "state": "HALO starting word; timer at zero",
+      "actions": [
+        "Enter HALT with visible keyboard and Enter",
+        "Enter HELP",
+        "Read Change exactly one letter.",
+        "Delete HELP, enter HALE and submit"
+      ],
+      "visibleResult": {
+        "acceptedRungs": [
+          "HALO",
+          "HALT",
+          "HALE"
+        ],
+        "rejected": "HELP",
+        "clock": "Started after first valid rung; continued during refusal"
+      },
+      "inputResult": "passed",
+      "version": "Daily Poople Unlimited",
+      "spoiler": "Body worked fragment must be marked before display; no full solution is revealed."
+    },
+    {
+      "id": "size-judgment-and-keyboard",
+      "gameId": "size-it-up",
+      "testedBuildId": "ql1tD7me_R7KjrPhn4ue0",
+      "state": "Five-round run; Adult Tricycle compared with a 61cm cat reference",
+      "actions": [
+        "Lock a 63cm guess",
+        "Read real size and ratio",
+        "Next round: press ArrowRight on Size of the Impact Driver"
+      ],
+      "visibleResult": {
+        "realSize": "2m",
+        "ratio": "3.2× too small",
+        "points": 7,
+        "sliderBefore": "0.08837623183413061",
+        "sliderAfter": "0.09014375647081323"
+      },
+      "inputResult": "passed",
+      "version": "Daily Size It Up unlimited",
+      "spoiler": "Object answer remains internal; body can discuss ratio without naming the object."
+    },
+    {
+      "id": "color-slider-reveal",
+      "gameId": "color",
+      "testedBuildId": "ql1tD7me_R7KjrPhn4ue0",
+      "state": "Easy selected; Ready then five-second target, followed by reconstruction",
+      "actions": [
+        "Start Play easy",
+        "Press ArrowRight on Hue",
+        "Lock in this color"
+      ],
+      "visibleResult": {
+        "hueBefore": 266,
+        "hueAfter": 267,
+        "pick": "h267 s50 b50",
+        "target": "h350 s97 b65",
+        "score": 3.31,
+        "maximum": 10
+      },
+      "inputResult": "passed",
+      "version": "Daily Color Game",
+      "spoiler": "No specific upcoming target disclosed."
+    },
+    {
+      "id": "logo-slider-reveal",
+      "gameId": "color-logo",
+      "testedBuildId": "ql1tD7me_R7KjrPhn4ue0",
+      "state": "Famous deck; outlined part of Panasonic logo",
+      "actions": [
+        "Start Play Famous",
+        "Press ArrowRight on Hue",
+        "Lock in this color"
+      ],
+      "visibleResult": {
+        "hueBefore": 322,
+        "hueAfter": 323,
+        "pick": "h323 s77 b73",
+        "brand": "h214 s100 b67",
+        "score": 3.26,
+        "maximum": 10
+      },
+      "inputResult": "passed",
+      "version": "Daily Logo Game",
+      "spoiler": "Brand answer stays internal; public description should discuss marked-region selection."
+    },
+    {
+      "id": "word-hunt-external-path-and-duplicate",
+      "gameId": "word-hunt",
+      "testedBuildId": null,
+      "scope": "External publisher page only; no local server or site iframe started",
+      "url": "https://playdaily.org/play/word-hunt",
+      "observedDate": "2026-10-21",
+      "state": "2:00 countdown; grid BTES/OLET/RUES/VNLP; score zero",
+      "actions": [
+        "Press Play",
+        "Drag S-E-T leftward across top row",
+        "Trace SET again",
+        "Trace E-T"
+      ],
+      "visibleResult": {
+        "firstWord": "SET",
+        "pointsAdded": 100,
+        "score": 100,
+        "duplicateMessage": "Already found!",
+        "duplicateScore": 100,
+        "rejectedSequence": "ET",
+        "rejectionMessage": "Not a word!",
+        "rejectionScore": 100
+      },
+      "inputResult": "passed-for-external-page-only",
+      "limitations": [
+        "No site sandbox or clean-context qualification",
+        "Does not establish all dictionary entries or longer-word score table",
+        "No minimum word length inferred from ET rejection"
+      ],
+      "spoiler": "Randomized-board worked example confined to body; not placed in cards, intro, metadata or alt."
+    },
+    {
+      "id": "word-hunt-external-shuffle-and-diagonal",
+      "gameId": "word-hunt",
+      "testedBuildId": null,
+      "scope": "External publisher page only; same shared browser context",
+      "url": "https://playdaily.org/play/word-hunt",
+      "observedDate": "2026-10-21",
+      "state": "Score 100, SET found, 3 shuffles",
+      "actions": [
+        "Press Shuffle once",
+        "Inspect settled board",
+        "Drag T-E-E diagonally from row4 col2 through row3 col3 to row2 col4"
+      ],
+      "visibleResult": {
+        "shufflesBefore": 3,
+        "shufflesAfter": 2,
+        "before": "BTES/OLET/RUES/VNLP",
+        "after": "SLEV/BPOE/LUEN/STRT",
+        "sameLetterPool": true,
+        "retainedFound": [
+          "SET"
+        ],
+        "retainedScore": 100,
+        "clockContinues": true,
+        "diagonalWord": "TEE",
+        "pointsAdded": 100,
+        "finalScore": 200
+      },
+      "inputResult": "passed-for-external-page-only",
+      "limitations": [
+        "No site iframe retest",
+        "No claim about tile reuse/backtracking, longer-word points or storage",
+        "Touch input not tested"
+      ],
+      "endState": {
+        "score": 200,
+        "controls": [
+          "Play again",
+          "Look at the board"
+        ],
+        "scope": "Observed after the countdown ended; no board-review or restart input tested"
+      }
+    },
+    {
+      "id": "maptap-external-distance-result",
+      "gameId": "maptap",
+      "testedBuildId": null,
+      "scope": "External publisher top-level page only; no local project service started",
+      "url": "https://playdaily.org/maptap",
+      "observedDate": "2026-10-21",
+      "state": "Round1 Easy; Sao Paulo Brazil; score0/1000; globe visible",
+      "actions": [
+        "Click globe at visible South America edge",
+        "Wait for geographic result animation to settle",
+        "Select Next; no subsequent prompt transition established"
+      ],
+      "visibleResult": {
+        "distanceKm": 2204,
+        "label": "Wide",
+        "pointsAdded": 32,
+        "total": 32,
+        "runMaximum": 1000,
+        "roundLabels": [
+          "Easy",
+          "Easy",
+          "Med x2",
+          "Hard x3",
+          "Hard x3"
+        ]
+      },
+      "inputResult": "passed-for-external-location-result-only",
+      "limitations": [
+        "Next-prompt progression not demonstrated",
+        "No exact distance-score formula inferred",
+        "No site iframe sandbox/input qualification",
+        "Not a clean context and no complete network audit"
+      ]
+    },
+    {
+      "id": "additional-dev-20261021-krillion",
+      "gameId": "krillion",
+      "scope": "Current local development site iframe; shared context, not final production acceptance",
+      "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "state": "Daily Krillion Unlimited, fried-food prompt",
+      "actions": [
+        "Add only allow-forms sandbox token",
+        "Reload existing development page",
+        "Begin descent",
+        "Type tempura",
+        "Dive"
+      ],
+      "result": "Accepted-answer animation followed by current result in observedText",
+      "inputResult": "effective-input-observed",
+      "limitations": [
+        "No complete startup/network or clean-context production qualification",
+        "Internal screenshots are not adopted public media"
+      ]
+    },
+    {
+      "id": "additional-dev-20261021-fermi",
+      "gameId": "fermi",
+      "scope": "Current local development site iframe; shared context, not final production acceptance",
+      "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "state": "Daily Fermi purple/lime Unlimited implementation",
+      "actions": [
+        "Type 300 films",
+        "Guess"
+      ],
+      "result": "You guessed 300; answer 9; 33x too high; Out; run ends",
+      "inputResult": "effective-input-observed",
+      "limitations": [
+        "No complete startup/network or clean-context production qualification",
+        "Internal screenshots are not adopted public media"
+      ]
+    },
+    {
+      "id": "additional-dev-20261021-poople",
+      "gameId": "poople",
+      "scope": "Current local development site iframe; shared context, not final production acceptance",
+      "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "state": "Daily Poople Unlimited four-letter ladder",
+      "actions": [
+        "Start word HEAL",
+        "On-screen H E A P",
+        "Enter"
+      ],
+      "result": "HEAP appended below HEAL and timer started",
+      "inputResult": "effective-input-observed",
+      "limitations": [
+        "No complete startup/network or clean-context production qualification",
+        "Internal screenshots are not adopted public media"
+      ]
+    },
+    {
+      "id": "additional-dev-20261021-size-it-up",
+      "gameId": "size-it-up",
+      "scope": "Current local development site iframe; shared context, not final production acceptance",
+      "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "state": "Daily Size It Up, five rounds, Mug/Burrito blueprint",
+      "actions": [
+        "Lock it in on displayed 18 cm estimate"
+      ],
+      "result": "Read current result panel in observedText",
+      "inputResult": "effective-input-observed",
+      "limitations": [
+        "No complete startup/network or clean-context production qualification",
+        "Internal screenshots are not adopted public media"
+      ]
+    },
+    {
+      "id": "additional-dev-20261021-color",
+      "gameId": "color",
+      "scope": "Current local development site iframe; shared context, not final production acceptance",
+      "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "state": "Daily Color Game easy mode, HSB sliders",
+      "actions": [
+        "Play easy",
+        "Hue ArrowRight 79 to 80",
+        "Saturation ArrowRight 50 to 51",
+        "Lock in this color"
+      ],
+      "result": "h80 s51 b50 versus original h334 s57 b71, 1.01/10",
+      "inputResult": "effective-input-observed",
+      "limitations": [
+        "No complete startup/network or clean-context production qualification",
+        "Internal screenshots are not adopted public media"
+      ]
+    },
+    {
+      "id": "additional-dev-20261021-color-logo",
+      "gameId": "color-logo",
+      "scope": "Current local development site iframe; shared context, not final production acceptance",
+      "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "state": "Daily Logo Game, Famous deck, Discord prompt",
+      "actions": [
+        "Play Famous",
+        "Hue 101 to 102",
+        "Brightness 66 to 65",
+        "Lock in this color"
+      ],
+      "result": "You h102 s57 b65 versus brand h235 s64 b95; 0.78/10",
+      "inputResult": "effective-input-observed",
+      "limitations": [
+        "No complete startup/network or clean-context production qualification",
+        "Internal screenshots are not adopted public media"
+      ]
+    },
+    {
+      "id": "additional-dev-20261021-maptap",
+      "gameId": "maptap",
+      "scope": "Current local development site iframe; shared context, not final production acceptance",
+      "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "state": "Daily MapTap Unlimited wireframe globe",
+      "actions": [
+        "Webpage Fullscreen",
+        "Browser-native mouse press/release at globe center 640,330"
+      ],
+      "result": "Yangon/Myanmar -> Off Target 9,065 km, +0 points, Next",
+      "inputResult": "effective-input-observed",
+      "limitations": [
+        "No complete startup/network or clean-context production qualification",
+        "Internal screenshots are not adopted public media"
+      ]
+    },
+    {
+      "id": "additional-dev-20261021-word-hunt",
+      "gameId": "word-hunt",
+      "scope": "Current local development site iframe; shared context, not final production acceptance",
+      "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+      "state": "Daily Word Hunt, board H I A L / B F N A / S U D U / E D E R",
+      "actions": [
+        "Play",
+        "Webpage Fullscreen",
+        "Attach browser-native input to current game frame",
+        "Press S(row2,col0)",
+        "Move to U(row2,col1)",
+        "Move diagonally to N(row1,col2)",
+        "Release"
+      ],
+      "result": "SUN +100, score 100, WORD FOUND (1): SUN",
+      "inputResult": "effective-input-observed",
+      "limitations": [
+        "No complete startup/network or clean-context production qualification",
+        "Internal screenshots are not adopted public media"
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-21T02:10:50.133Z"
+}

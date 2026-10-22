@@ -1,0 +1,269 @@
+{
+  "id": "noillirk-answer-strategy",
+  "slug": "noillirk-answer-strategy",
+  "status": "draft",
+  "title": "Choose a better Noillirk answer before time runs out",
+  "summary": "Know a valid answer but keep landing below the top tier? Build a quick way to read the prompt, compare familiar choices and commit. Work through practice situations, then learn what to change after a refusal or a low result.",
+  "tags": [
+    "Answer choices",
+    "Timed prompts",
+    "Practice",
+    "Recovery"
+  ],
+  "authorId": null,
+  "spoilerPolicy": "none",
+  "publishedAt": null,
+  "updatedAt": null,
+  "cover": {
+    "src": "/images/guides/noillirk-answer-strategy.webp",
+    "alt": "Three decisions in order: find the category, choose a familiar fit, submit before the clock",
+    "width": 900,
+    "height": 660
+  },
+  "seo": {
+    "title": "Noillirk Answer Strategy: Choose a Familiar Response",
+    "description": "Choose a fitting Noillirk answer before the clock ends. Learn to read restrictions, compare familiar ideas, submit clearly and recover when an entry is refused."
+  },
+  "sections": [
+    {
+      "id": "start-with-a-routine",
+      "title": "Give yourself a routine, not an answer hunt",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The awkward part of Noillirk is often having several plausible answers. You can picture an ordinary one, a more specific one and an unusual one, then spend the whole clock deciding which is best. The useful skill is narrowing that choice while you still have time to enter it. Start with a repeatable order: check what the question asks for, choose a familiar example of that kind, and submit one clear answer."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Before your next climb",
+          "body": "This guide covers the Daily balloon-climb edition opened by this website. Its standard answer window is 15 seconds. Practice in Classic if you want another seven-prompt attempt; keep today's Daily for when you are ready to use its single attempt."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Read the deciding words",
+              "body": "Name the category to yourself, including any condition such as who uses it, where it belongs or when it happens. Do this before comparing possible responses."
+            },
+            {
+              "title": "Choose among fitting ideas",
+              "body": "Bring two or three examples to mind. Remove anything that answers a neighboring question. Compare the remaining ideas for broad recognition rather than personal preference."
+            },
+            {
+              "title": "Enter one response",
+              "body": "Type the name you mean, then use Climb or Enter. Leave time for the input itself. A faster submission does not earn a separate speed bonus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "read-the-restriction",
+      "title": "Read the category before you chase familiarity",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Try this practice question: name something you take to the beach. A towel fits because it is an object you can pack. Sunny is related to a beach visit, but describes the weather rather than something you carry. Both ideas belong to the same scene; only one answers the kind of question being asked. This is a reasoning exercise, not a live prompt or a promise that the game accepts or ranks a particular word."
+        },
+        {
+          "type": "image",
+          "src": "/images/guides/noillirk-category-practice.webp",
+          "alt": "Practice category check: a towel is something to take to the beach; sunny describes the weather",
+          "width": 900,
+          "height": 660,
+          "caption": "Practice the category test before considering popularity: an object you carry and a description of the weather answer different questions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now change just one verb: name something you wear to the beach. The earlier candidate no longer has the same straightforward fit. A hat names something worn, whereas a book is something you might bring. You do not need to predict a ranking to notice this distinction. When a prompt changes, rebuild the candidate set instead of carrying the previous answer over because the setting looks familiar."
+        },
+        {
+          "type": "list",
+          "style": "unordered",
+          "items": [
+            "Find the requested kind: an object, person, place, activity or reason.",
+            "Find the restriction: a location, occasion, age group or other condition.",
+            "Check that your response answers both parts without a story explaining the connection."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare-familiar-choices",
+      "title": "Choose for recognition instead of showing expertise",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Imagine an off-clock practice prompt asking for something kept in a kitchen drawer. You might think of a spoon, an unusually specialized tool and an item that happens to live in your own drawer. All three thoughts can be honest, yet they rely on different amounts of shared experience. Ask whether another player needs to know your household or hobby to see the connection. That question helps you compare candidates without pretending to know the game's hidden order."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Your candidate",
+            "What to check before submitting"
+          ],
+          "rows": [
+            [
+              "A plain everyday name",
+              "Does it meet the exact condition, rather than merely being common?"
+            ],
+            [
+              "A brand or a specialized subtype",
+              "Is that extra detail required by the question, or have you narrowed an ordinary idea?"
+            ],
+            [
+              "Your own favorite example",
+              "Would someone outside your routine recognize it as an immediate fit?"
+            ],
+            [
+              "A clever association",
+              "Does it directly name the requested thing, or require a chain of explanation?"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the broad name only when it preserves the meaning the prompt needs. Removing a required qualifier can make an answer less accurate. If a question specifically asks for an animal that flies, the word animal is too broad to do the job. The aim is a plain, fitting example, not the shortest possible string. Shortening an answer is a writing choice; it does not guarantee a higher tier."
+        }
+      ]
+    },
+    {
+      "id": "use-the-clock",
+      "title": "Stop comparing while you can still type",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "As soon as you have a good fit, compare it with one alternative rather than starting a new list. If the alternative is only more elaborate, that is a reason to stop searching. If it meets a condition your first idea missed, change the choice. This gives a concrete purpose to the remaining seconds: resolve a real difference, rather than waiting for certainty that no player can have before the reveal."
+        },
+        {
+          "type": "callout",
+          "tone": "tip",
+          "label": "A useful commitment rule",
+          "body": "When two fitting ideas remain tied, choose the one you can state clearly now. Do not keep swapping the answer in your head until there is no time to finish typing it. This is a practice habit, not a fixed second-by-second game rule."
+        },
+        {
+          "type": "paragraph",
+          "text": "On a phone, account for opening the keyboard and finding the submit control. On a computer, select the answer field before typing if focus is elsewhere. These are input tasks, so leave room for them in your decision. Read any result that appears before entering more text; a submission may already have finished the prompt while you were preparing a replacement."
+        }
+      ]
+    },
+    {
+      "id": "submit-one-idea",
+      "title": "Submit the idea, not a list of alternatives",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Suppose you are choosing between a towel and a hat in the beach exercise. Entering both separated by 'or' avoids making the decision that the game asks you to make. Choose one. An explanation such as 'the thing I always forget to pack' is also harder to interpret than the name itself. Keep the answer field focused on the candidate, rather than the reasoning you used to reach it."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Daily judge allows some variation in wording, but that is not a reason to test its tolerance under a short deadline. If you notice a small typing error before submitting, correct it if there is time. If the game has already accepted the response, read the result instead of trying to perfect a finished entry. Never depend on an untested spelling or a long explanation to rescue an answer that does not fit the category."
+        }
+      ]
+    },
+    {
+      "id": "rejected-entry",
+      "title": "A refusal, a low tier and a timeout need different fixes",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/images/guides/noillirk-answer-recovery.webp",
+          "alt": "Three feedback paths: refused with time left means try a different fit, accepted means read the result, timeout means advance",
+          "width": 900,
+          "height": 660,
+          "caption": "Check whether the answer window is still active. A finished low-tier result cannot be improved by continuing to type into the old prompt."
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "If the entry is refused, read the reason",
+              "body": "While the clock and field remain active, check the category and wording. Choose another direct fit. Repeating the same text without addressing the feedback spends the remaining time without changing the problem."
+            },
+            {
+              "title": "If it is accepted, read what the tier tells you",
+              "body": "Acceptance means the category task has finished. A low tier is a familiarity result. Save the lesson for the next prompt instead of looking for a way to edit the completed score."
+            },
+            {
+              "title": "If time has ended, advance from the result",
+              "body": "A finished No Lift result calls for the next prompt. Do not confuse that with a player that never loaded or a frozen screen. Reloading the entire player is a loading-recovery action and may interrupt a run."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "warning",
+          "label": "Do not argue with a running clock",
+          "body": "A refusal is not proof that every possible synonym will fail. It also is not an invitation to submit an explanation. Use the remaining time for a different clear candidate; review the disputed wording after the run."
+        }
+      ]
+    },
+    {
+      "id": "review-one-decision",
+      "title": "Review the mistake you actually made",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "After a practice climb, pick one prompt that went badly and describe the decision in a sentence. 'I answered the setting instead of the object' identifies a category mistake. 'I had two fitting ideas but never committed' identifies a timing mistake. 'My accepted choice depended on a very specific hobby' identifies a familiarity choice to reconsider. Those descriptions lead to different exercises; calling them all bad answers does not."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "What happened",
+            "What to practice next"
+          ],
+          "rows": [
+            [
+              "You missed a qualifier",
+              "Read a practice prompt aloud and underline its deciding words before naming anything."
+            ],
+            [
+              "You ran out of time while comparing",
+              "Use an off-clock two-candidate exercise and commit once you can state a meaningful difference."
+            ],
+            [
+              "A fitting response earned a modest tier",
+              "Compare a broad, familiar example with the narrower one you chose; do not invent a guaranteed ranking."
+            ],
+            [
+              "You submitted two ideas together",
+              "Practice saying a single noun or name, then stop adding alternatives."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep practice separate from today's answer hunt. Make up a category, generate candidates and explain why each fits. You can improve this decision process without reading an answer list or spoiling a Daily. Change one habit for the next climb, then check whether that specific mistake happened less often. A single better result is encouraging, but it does not establish that a candidate always earns the same tier."
+        }
+      ]
+    },
+    {
+      "id": "questions-before-next-climb",
+      "title": "Questions before your next climb",
+      "blocks": [
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Should I always use my first thought?",
+          "body": "Use it when it fits the whole question and is a familiar example. Pause when a qualifier changes the category or a clearer alternative is obvious. First does not automatically mean valid or top-ranked."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Does a low score mean the answer was wrong?",
+          "body": "An accepted low-tier answer is different from a refusal. The scoring and Endless guide explains the tier values and why even a low accepted result can preserve a balloon."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "label": "Are these practice words today's answers?",
+          "body": "No. The beach and drawer exercises are invented to practice category fit and choice. They do not reproduce a live board, predict an accepted phrase or reveal today's Daily answers."
+        }
+      ]
+    }
+  ],
+  "relatedGuideIds": [
+    "noillirk-scoring-and-endless"
+  ]
+}

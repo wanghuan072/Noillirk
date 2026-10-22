@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-21T06:33:39.483Z",
+  "rows": [
+    {
+      "url": "https://0hh1.com/",
+      "finalUrl": "https://0hh1.com/",
+      "status": 200,
+      "xFrameOptions": null,
+      "csp": null
+    },
+    {
+      "url": "https://0hn0.com/",
+      "finalUrl": "https://0hn0.com/",
+      "status": 200,
+      "xFrameOptions": null,
+      "csp": null
+    },
+    {
+      "url": "https://hextris.io/",
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://ncase.me/trust/",
+      "finalUrl": "https://ncase.me/trust/",
+      "status": 200,
+      "xFrameOptions": null,
+      "csp": null
+    },
+    {
+      "url": "https://ncase.me/polygons/",
+      "finalUrl": "https://ncase.me/polygons/",
+      "status": 200,
+      "xFrameOptions": null,
+      "csp": null
+    },
+    {
+      "url": "https://ncase.me/crowds/",
+      "finalUrl": "https://ncase.me/crowds/",
+      "status": 200,
+      "xFrameOptions": null,
+      "csp": null
+    },
+    {
+      "url": "https://demo.nothingtohide.cc/",
+      "error": "fetch failed"
+    }
+  ]
+}

@@ -1,0 +1,1073 @@
+{
+  "status": "draft-body-work-not-content-acceptance",
+  "games": [
+    {
+      "game_id": "noillirk",
+      "version": "Daily, 2026-10-20",
+      "task": "Choose familiar valid answers through a balloon climb",
+      "evidence_ids": [
+        "official-game",
+        "noillirk-identity"
+      ],
+      "sections": [
+        "the-climb",
+        "start-a-run",
+        "read-and-enter",
+        "answer-feedback",
+        "score-tiers",
+        "endless-balloons",
+        "a-useful-first-climb",
+        "player-and-browser",
+        "player-questions"
+      ],
+      "cases": [
+        "Controlled Begin Ascent reached out-of-time/Next state; no accepted answer tested",
+        "Video samples confirm mode screen and typed restricted prompt"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "noillirk-media-1",
+          "fact": "Opening prompt",
+          "adopted": []
+        },
+        {
+          "slot_id": "noillirk-media-2",
+          "fact": "Submitted result",
+          "adopted": []
+        },
+        {
+          "slot_id": "noillirk-media-3",
+          "fact": "Endless balloon state",
+          "adopted": []
+        }
+      ],
+      "youtube_research": {
+        "decision": "pending-media-review",
+        "candidate_ids": [
+          "oMe1Mz3Maoo"
+        ],
+        "adopted_ids": [],
+        "reason": "Partial sampled observation; continuous segments and embedding not approved"
+      },
+      "unsupported_claims": [
+        "Exact outcomes for untested responses",
+        "Daily reset schedule",
+        "Cross-device save"
+      ],
+      "content_status": "draft-case-review-required"
+    },
+    {
+      "game_id": "krillion",
+      "version": "Daily implementation, landing pages checked 2026-10-20",
+      "task": "Find a valid uncommon example",
+      "hook": "Same category retrieval as Noillirk, optimizing rarity instead of familiarity",
+      "input": "Typed category answer, 25-second deadline",
+      "goals": "Rarity tier and depth",
+      "failure": "Rejected input costs time; Endless miss costs air",
+      "evidence_ids": [
+        "official-krillion",
+        "krillion-current-rule-boundaries"
+      ],
+      "sections": [
+        "opposite-choice",
+        "depth-and-air",
+        "begin-a-classic-dive",
+        "two-candidates",
+        "category-boundary",
+        "compare-a-dive",
+        "last-tank-decision",
+        "typing-and-view",
+        "player-questions"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "krillion-media-1",
+          "fact": "Prompt and timer",
+          "adopted": []
+        },
+        {
+          "slot_id": "krillion-media-2",
+          "fact": "Accepted rarity result",
+          "adopted": []
+        },
+        {
+          "slot_id": "krillion-media-3",
+          "fact": "Air loss or recovery",
+          "adopted": []
+        }
+      ],
+      "youtube_research": {
+        "decision": "pending-media-review",
+        "candidate_ids": [],
+        "adopted_ids": [],
+        "reason": "Exact-version native video search and observations incomplete"
+      },
+      "unsupported_claims": [
+        "Unobserved mobile support",
+        "Unobserved effective input or saved progress",
+        "Deterministic untested outcomes"
+      ],
+      "content_status": "expanded-independent-draft; media-video-and-site-runtime-pending",
+      "revisedAt": "2026-10-21",
+      "currentDevelopmentCase": {
+        "caseId": "additional-dev-20261021-krillion",
+        "sectionId": "category-boundary",
+        "inputResult": "effective-input-observed",
+        "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+        "mediaRights": "restricted-unless-separate-permission",
+        "finalQualification": "NOT_PASSED"
+      }
+    },
+    {
+      "game_id": "fermi",
+      "version": "Daily implementation, landing pages checked 2026-10-20",
+      "task": "Estimate a quantity through smaller assumptions",
+      "hook": "Commit an everyday judgment before inspecting graded feedback",
+      "input": "Numeric estimate with calculator and scale abbreviations",
+      "goals": "Multiplicative error and explanation",
+      "failure": "Estimate beyond a factor of ten ends streak",
+      "evidence_ids": [
+        "official-fermi"
+      ],
+      "sections": [
+        "units-first",
+        "ratio-not-gap",
+        "numeric-entry",
+        "define-the-number",
+        "build-an-estimate",
+        "read-ratio",
+        "learn-after-result",
+        "player-questions"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "fermi-media-1",
+          "fact": "Question units",
+          "adopted": []
+        },
+        {
+          "slot_id": "fermi-media-2",
+          "fact": "Entered estimate",
+          "adopted": []
+        },
+        {
+          "slot_id": "fermi-media-3",
+          "fact": "Error ratio and explanation",
+          "adopted": []
+        }
+      ],
+      "youtube_research": {
+        "decision": "pending-media-review",
+        "candidate_ids": [],
+        "adopted_ids": [],
+        "reason": "Exact-version native video search and observations incomplete"
+      },
+      "unsupported_claims": [
+        "Unobserved mobile support",
+        "Unobserved effective input or saved progress",
+        "Deterministic untested outcomes"
+      ],
+      "content_status": "partial-substantive-draft-below-publication-floor",
+      "currentDevelopmentCase": {
+        "caseId": "additional-dev-20261021-fermi",
+        "sectionId": "read-ratio",
+        "inputResult": "effective-input-observed",
+        "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+        "mediaRights": "restricted-unless-separate-permission",
+        "finalQualification": "NOT_PASSED"
+      }
+    },
+    {
+      "game_id": "poople",
+      "version": "Daily implementation, landing pages checked 2026-10-20",
+      "task": "Build a word ladder to POOP",
+      "hook": "Vocabulary retrieval with additional sequential constraints",
+      "input": "A real four-letter word changing one letter",
+      "goals": "Accepted rungs, moves and clock",
+      "failure": "Invalid changes do not progress; give-up reveals route",
+      "evidence_ids": [
+        "official-poople"
+      ],
+      "sections": [
+        "legal-rungs",
+        "par-and-time",
+        "give-up-and-review",
+        "one-position",
+        "plan-a-bridge",
+        "clock-and-par",
+        "recover-ladder",
+        "player-questions"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "poople-media-1",
+          "fact": "Start and par",
+          "adopted": []
+        },
+        {
+          "slot_id": "poople-media-2",
+          "fact": "Intermediate rung",
+          "adopted": []
+        },
+        {
+          "slot_id": "poople-media-3",
+          "fact": "Completed ladder",
+          "adopted": []
+        }
+      ],
+      "youtube_research": {
+        "decision": "pending-media-review",
+        "candidate_ids": [],
+        "adopted_ids": [],
+        "reason": "Exact-version native video search and observations incomplete"
+      },
+      "unsupported_claims": [
+        "Unobserved mobile support",
+        "Unobserved effective input or saved progress",
+        "Deterministic untested outcomes"
+      ],
+      "content_status": "partial-substantive-draft-below-publication-floor",
+      "currentDevelopmentCase": {
+        "caseId": "additional-dev-20261021-poople",
+        "sectionId": "one-position",
+        "inputResult": "effective-input-observed",
+        "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+        "mediaRights": "restricted-unless-separate-permission",
+        "finalQualification": "NOT_PASSED"
+      }
+    },
+    {
+      "game_id": "size-it-up",
+      "version": "Daily implementation, landing pages checked 2026-10-20",
+      "task": "Estimate relative dimensions against a measured reference",
+      "hook": "Initial everyday judgment calibrated by a reveal",
+      "input": "Drag outline or ruler then lock",
+      "goals": "True size, guessed outline and ratio score",
+      "failure": "Large ratio errors lose round points",
+      "evidence_ids": [
+        "official-size-it-up"
+      ],
+      "sections": [
+        "reference-dimension",
+        "commit-and-compare",
+        "weighted-run",
+        "read-the-yardstick",
+        "adjust-deliberately",
+        "interpret-the-reveal",
+        "five-round-decisions",
+        "player-questions"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "size-it-up-media-1",
+          "fact": "Labelled reference",
+          "adopted": []
+        },
+        {
+          "slot_id": "size-it-up-media-2",
+          "fact": "Adjusted guess",
+          "adopted": []
+        },
+        {
+          "slot_id": "size-it-up-media-3",
+          "fact": "Dashed guess and real size",
+          "adopted": []
+        }
+      ],
+      "youtube_research": {
+        "decision": "pending-media-review",
+        "candidate_ids": [],
+        "adopted_ids": [],
+        "reason": "Exact-version native video search and observations incomplete"
+      },
+      "unsupported_claims": [
+        "Unobserved mobile support",
+        "Unobserved effective input or saved progress",
+        "Deterministic untested outcomes"
+      ],
+      "content_status": "partial-substantive-draft-below-publication-floor",
+      "currentDevelopmentCase": {
+        "caseId": "additional-dev-20261021-size-it-up",
+        "sectionId": "interpret-the-reveal",
+        "inputResult": "effective-input-observed",
+        "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+        "mediaRights": "restricted-unless-separate-permission",
+        "finalQualification": "NOT_PASSED"
+      }
+    },
+    {
+      "game_id": "color",
+      "version": "Daily implementation, landing pages checked 2026-10-20",
+      "task": "Rebuild a remembered color",
+      "hook": "Distinguish remembered detail from a familiar category",
+      "input": "Brief observation followed by three sliders",
+      "goals": "Side-by-side comparison and perceptual score",
+      "failure": "Poor match lowers score; no elimination confirmed",
+      "evidence_ids": [
+        "official-color"
+      ],
+      "sections": [
+        "remember-three-qualities",
+        "slider-order",
+        "compare-the-reveal",
+        "remember-three-properties",
+        "difficulty-and-exposure",
+        "rebuild-with-controls",
+        "learn-from-comparison",
+        "player-questions"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "color-media-1",
+          "fact": "Target countdown",
+          "adopted": []
+        },
+        {
+          "slot_id": "color-media-2",
+          "fact": "Reconstruction sliders",
+          "adopted": []
+        },
+        {
+          "slot_id": "color-media-3",
+          "fact": "Result comparison",
+          "adopted": []
+        }
+      ],
+      "youtube_research": {
+        "decision": "pending-media-review",
+        "candidate_ids": [],
+        "adopted_ids": [],
+        "reason": "Exact-version native video search and observations incomplete"
+      },
+      "unsupported_claims": [
+        "Unobserved mobile support",
+        "Unobserved effective input or saved progress",
+        "Deterministic untested outcomes"
+      ],
+      "content_status": "partial-substantive-draft-below-publication-floor",
+      "currentDevelopmentCase": {
+        "caseId": "additional-dev-20261021-color",
+        "sectionId": "learn-from-comparison",
+        "inputResult": "effective-input-observed",
+        "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+        "mediaRights": "restricted-unless-separate-permission",
+        "finalQualification": "NOT_PASSED"
+      }
+    },
+    {
+      "game_id": "color-logo",
+      "version": "Daily implementation, landing pages checked 2026-10-20",
+      "task": "Recall a familiar brand color",
+      "hook": "Everyday familiarity versus exact recall",
+      "input": "Restore outlined logo region with sliders",
+      "goals": "Submitted and correct region; score",
+      "failure": "Mismatch lowers points",
+      "evidence_ids": [
+        "official-color-logo",
+        "logo-current-region-workflow"
+      ],
+      "sections": [
+        "find-the-region",
+        "wrong-color-clue",
+        "screen-color",
+        "start-a-logo-round",
+        "three-adjustments",
+        "panasonic-color-case",
+        "three-logo-review",
+        "memory-before-comparison",
+        "logo-control-problems",
+        "player-questions"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "color-logo-media-1",
+          "fact": "Outlined region",
+          "adopted": []
+        },
+        {
+          "slot_id": "color-logo-media-2",
+          "fact": "Color adjustment",
+          "adopted": []
+        },
+        {
+          "slot_id": "color-logo-media-3",
+          "fact": "Revealed region",
+          "adopted": []
+        }
+      ],
+      "youtube_research": {
+        "decision": "pending-media-review",
+        "candidate_ids": [],
+        "adopted_ids": [],
+        "reason": "Exact-version native video search and observations incomplete"
+      },
+      "unsupported_claims": [
+        "Unobserved mobile support",
+        "Unobserved effective input or saved progress",
+        "Deterministic untested outcomes"
+      ],
+      "content_status": "expanded-independent-draft; media-video-and-site-runtime-pending",
+      "revisedAt": "2026-10-21",
+      "currentDevelopmentCase": {
+        "caseId": "additional-dev-20261021-color-logo",
+        "sectionId": "memory-before-comparison",
+        "inputResult": "effective-input-observed",
+        "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+        "mediaRights": "restricted-unless-separate-permission",
+        "finalQualification": "NOT_PASSED"
+      }
+    },
+    {
+      "game_id": "maptap",
+      "version": "Daily implementation, landing pages checked 2026-10-20",
+      "task": "Locate named city in a stated country",
+      "hook": "Fast world-knowledge recall with graded feedback",
+      "input": "Rotate globe and tap city position",
+      "goals": "Distance-based score",
+      "failure": "Poor placement lowers score",
+      "evidence_ids": [
+        "official-maptap",
+        "maptap-distance-boundaries",
+        "maptap-external-distance-result"
+      ],
+      "sections": [
+        "country-before-city",
+        "rotate-then-tap",
+        "distance-feedback",
+        "start-five-places",
+        "globe-perspective",
+        "coast-inland-choice",
+        "distance-hypothesis",
+        "learn-one-relation",
+        "globe-input-and-loading",
+        "player-questions"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "maptap-media-1",
+          "fact": "City prompt",
+          "adopted": []
+        },
+        {
+          "slot_id": "maptap-media-2",
+          "fact": "Placement",
+          "adopted": []
+        },
+        {
+          "slot_id": "maptap-media-3",
+          "fact": "Distance reveal",
+          "adopted": []
+        }
+      ],
+      "youtube_research": {
+        "decision": "pending-media-review",
+        "candidate_ids": [],
+        "adopted_ids": [],
+        "reason": "Exact-version native video search and observations incomplete"
+      },
+      "unsupported_claims": [
+        "Exact scoring curve or multiplier arithmetic",
+        "Unobserved mobile/save behavior",
+        "Next-prompt progression",
+        "Clean-context site iframe effective input"
+      ],
+      "content_status": "expanded-independent-draft; media-video-and-site-runtime-pending",
+      "revisedAt": "2026-10-21",
+      "cases": [
+        "maptap-external-distance-result"
+      ],
+      "currentDevelopmentCase": {
+        "caseId": "additional-dev-20261021-maptap",
+        "sectionId": "distance-hypothesis",
+        "inputResult": "effective-input-observed",
+        "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+        "mediaRights": "restricted-unless-separate-permission",
+        "finalQualification": "NOT_PASSED"
+      }
+    },
+    {
+      "game_id": "word-hunt",
+      "version": "Daily implementation, landing pages checked 2026-10-20",
+      "task": "Retrieve words under time pressure",
+      "hook": "Timed vocabulary retrieval overlaps Noillirk; adjacency is an extra task",
+      "input": "Pointer drag-and-release; horizontal and diagonal three-letter words accepted on external current page",
+      "goals": "Collect distinct accepted words before two-minute countdown ends; observed three-letter awards 100",
+      "failure": "Duplicate and invalid spellings leave score unchanged while time runs",
+      "evidence_ids": [
+        "official-word-hunt",
+        "word-hunt-external-path-and-duplicate"
+      ],
+      "sections": [
+        "read-the-grid",
+        "shuffle-with-purpose",
+        "start-and-trace",
+        "observed-word-paths",
+        "read-rejection",
+        "scan-a-neighborhood",
+        "shuffle-observation",
+        "keep-input-visible",
+        "player-questions"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "word-hunt-media-1",
+          "fact": "Grid",
+          "adopted": []
+        },
+        {
+          "slot_id": "word-hunt-media-2",
+          "fact": "Traced word",
+          "adopted": []
+        },
+        {
+          "slot_id": "word-hunt-media-3",
+          "fact": "Shuffle result",
+          "adopted": []
+        }
+      ],
+      "youtube_research": {
+        "decision": "pending-media-review",
+        "candidate_ids": [],
+        "adopted_ids": [],
+        "reason": "Exact-version native video search and observations incomplete"
+      },
+      "unsupported_claims": [
+        "All longer-word scores",
+        "Full dictionary and minimum length rules",
+        "Tile reuse/backtracking",
+        "Touch and stored progress",
+        "Clean-context site iframe qualification"
+      ],
+      "content_status": "expanded-independent-draft; media-video-and-site-runtime-pending",
+      "revisedAt": "2026-10-21",
+      "cases": [
+        "word-hunt-external-path-and-duplicate",
+        "word-hunt-external-shuffle-and-diagonal"
+      ],
+      "currentDevelopmentCase": {
+        "caseId": "additional-dev-20261021-word-hunt",
+        "sectionId": "observed-word-paths",
+        "inputResult": "effective-input-observed",
+        "evidence": "reports/acceptance-evidence/additional-review-20261021/runtime-observations.json",
+        "mediaRights": "restricted-unless-separate-permission",
+        "finalQualification": "NOT_PASSED"
+      }
+    },
+    {
+      "game_id": "hello-wordl",
+      "version": "Author Hello Wordl 2026-10-21",
+      "task": "Resolve fixed and rejected letter positions in six guesses at a chosen word length",
+      "evidence_ids": [
+        "hello-wordl-current-controls-and-cases",
+        "hello-wordl-all-lengths"
+      ],
+      "sections": [
+        "one-word-six-rows",
+        "submit-a-word",
+        "positions-and-absence",
+        "repeated-letter-decisions",
+        "longer-word-boards",
+        "a-useful-next-guess",
+        "readable-controls",
+        "hello-wordl-questions"
+      ],
+      "cases": [
+        "STARE absent, CHOIR O/I elsewhere",
+        "BLOOM M elsewhere then MUMMY three correct M positions",
+        "CATERPILLAR at eleven letters: E4/R5 correct, P/L elsewhere, extra L/R absent"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "hello-wordl-feedback",
+          "fact": "feedback",
+          "adopted": [
+            "hello-wordl-feedback"
+          ]
+        },
+        {
+          "slot_id": "hello-wordl-duplicates",
+          "fact": "duplicates",
+          "adopted": [
+            "hello-wordl-duplicates"
+          ]
+        },
+        {
+          "slot_id": "hello-wordl-long-word",
+          "fact": "long-word",
+          "adopted": [
+            "hello-wordl-long-word"
+          ]
+        }
+      ],
+      "youtube_research": {
+        "decision": "adopted",
+        "queries": [
+          "hello wordl hellowordl.net gameplay"
+        ],
+        "adopted_ids": [
+          "VIavCrvnrDs"
+        ],
+        "rejected_ids": [],
+        "body_absorption": [
+          "a-useful-next-guess distinguishes creator stopwatch",
+          "longer-word-boards and positions-and-absence apply visible feedback semantics"
+        ]
+      },
+      "spoilerPolicy": "Random boards without revealed targets; no live daily solution",
+      "unverifiedPublicClaims": [
+        "Cross-device progress recovery",
+        "All physical keyboard layouts work in every browser",
+        "Exact current answer list"
+      ],
+      "checkedAt": "2026-10-21T07:54:52.717Z"
+    },
+    {
+      "game_id": "trust",
+      "version": "Nicky Case author-hosted browser version, title July 2017, observed 2026-10-21",
+      "task": "Choose cooperation or cheating, compare coin payoffs and see what repeated encounters change.",
+      "evidence_ids": [
+        "trust-live-payoff-and-mode-scope",
+        "trust-yosefat-reviewed"
+      ],
+      "sections": [
+        "two-choices",
+        "read-the-machine",
+        "a-costly-cooperation",
+        "more-than-one-round",
+        "compare-modes",
+        "first-run-plan",
+        "reading-and-controls",
+        "trust-questions"
+      ],
+      "cases": [
+        "Live introductory COOPERATE against stated cheat: -1/+3",
+        "Live first repeated cooperation: 2/2, total 2, opponent 1 of 5"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "trust-choice",
+          "fact": "Locate the player, machine and two actual choices",
+          "adopted": [
+            "trust-choice"
+          ]
+        },
+        {
+          "slot_id": "trust-cooperate-result",
+          "fact": "Explain the losing cooperative choice using the visible payoff pair",
+          "adopted": [
+            "trust-cooperate-result"
+          ]
+        },
+        {
+          "slot_id": "trust-repeated-score",
+          "fact": "Distinguish one repeated exchange from opponent and cumulative progress",
+          "adopted": [
+            "trust-repeated-score"
+          ]
+        }
+      ],
+      "youtube_research": {
+        "decision": "adopted",
+        "queries": [
+          "The Evolution of Trust ncase game gameplay"
+        ],
+        "adopted_ids": [
+          "utRF4ueoCdY"
+        ],
+        "body_absorption": [
+          "compare-modes separates ten-round tournament from human 3–7 encounters",
+          "two-choices and a-costly-cooperation explain actual coin arithmetic",
+          "compare-modes limits population conclusions"
+        ],
+        "rejected_ids": []
+      },
+      "spoilerPolicy": "marked"
+    },
+    {
+      "game_id": "polygons",
+      "version": "English ncase.me/polygons playable, observed 2026-10-21; early drag boards and first automatic simulation",
+      "task": "Move unhappy shapes into empty spaces and explore how local rules change a whole board.",
+      "evidence_ids": [
+        "polygons-live-rules",
+        "polygons-playthrough-observed"
+      ],
+      "sections": [
+        "shapes-and-spaces",
+        "make-a-move",
+        "count-neighbors",
+        "happy-shapes",
+        "automatic-boards",
+        "change-one-condition",
+        "control-and-recover",
+        "polygons-questions"
+      ],
+      "cases": [
+        "Occupied destination rejected; open right-left cell accepted and triangle happy",
+        "One of six vs two of six initial threshold examples",
+        "First automatic run 1% to 45%; not a target score"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "polygons-dragging",
+          "fact": "Show the held drag operation rather than an accepted result",
+          "adopted": [
+            "polygons-dragging"
+          ]
+        },
+        {
+          "slot_id": "polygons-accepted-move",
+          "fact": "Distinguish a valid drop and satisfaction feedback from a rejected occupied destination",
+          "adopted": [
+            "polygons-accepted-move"
+          ]
+        },
+        {
+          "slot_id": "polygons-automatic",
+          "fact": "Connect repeated moves with the board-wide graph without claiming a universal outcome",
+          "adopted": [
+            "polygons-automatic"
+          ]
+        }
+      ],
+      "youtube_research": {
+        "decision": "adopted",
+        "queries": [
+          "Parable of the Polygons gameplay unhappy shapes neighbors",
+          "Parable of the Polygons automatic simulation preference threshold"
+        ],
+        "adopted_ids": [
+          "xAaHkZDXtLc"
+        ],
+        "body_absorption": [
+          "Opening one-third equality versus strict inequality",
+          "Running graph is a model observation, not victory score",
+          "Later preference differs from opening rule"
+        ],
+        "rejected_ids": []
+      },
+      "spoilerPolicy": "marked"
+    },
+    {
+      "game_id": "0hn0",
+      "version": "Current English 0hn0.com browser tutorial and generated 4x4; video 6x6 shares core rules",
+      "task": "Use numbered blue dots and red blockers to solve a line-of-sight logic grid.",
+      "evidence_ids": [
+        "0hn0-live-rules",
+        "0hn0-six-grid-review"
+      ],
+      "sections": [
+        "dots-and-sight",
+        "count-four-directions",
+        "opening-two",
+        "close-the-path",
+        "one-clue-case",
+        "crossing-clues",
+        "correct-and-read",
+        "dot-questions"
+      ],
+      "cases": [
+        "Tutorial two has only rightward route; two blue then end red",
+        "Free-play bottom-left one forces right red and upper blue; 23% display"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "0hn0-line-clue",
+          "fact": "Explain a forced line direction from an edge and blocker",
+          "adopted": [
+            "0hn0-line-clue"
+          ]
+        },
+        {
+          "slot_id": "0hn0-red-block",
+          "fact": "Show a blocker satisfying one clue and constraining the next",
+          "adopted": [
+            "0hn0-red-block"
+          ]
+        },
+        {
+          "slot_id": "0hn0-one-clue",
+          "fact": "Demonstrate an independent free-play elimination case",
+          "adopted": [
+            "0hn0-one-clue"
+          ]
+        }
+      ],
+      "youtube_research": {
+        "decision": "adopted",
+        "queries": [
+          "0h n0 guided 6x6 beginner strategies",
+          "0h n0 numbered dots line of sight block completed clue"
+        ],
+        "adopted_ids": [
+          "2K_thF0qg8Y"
+        ],
+        "body_absorption": [
+          "Completed count requires blocking remaining open routes",
+          "Generated 4x4 and recorded6x6 differ in coordinates"
+        ],
+        "rejected_ids": []
+      },
+      "spoilerPolicy": "marked"
+    },
+    {
+      "game_id": "0hh1",
+      "version": "Current 0hh1.com yellow-blue tutorial and 4x4 browser board; author video older red-blue theme",
+      "task": "Fill a two-color grid without triples, unequal counts or duplicate completed lines.",
+      "evidence_ids": [
+        "0hh1-current-tile-rules",
+        "0hh1-author-demo"
+      ],
+      "sections": [
+        "two-color-grid",
+        "adjacent-pair",
+        "split-pair",
+        "row-and-column-counts",
+        "distinct-lines",
+        "first-board-plan",
+        "read-and-recover",
+        "tile-questions"
+      ],
+      "cases": [
+        "Two yellows force adjacent blue",
+        "Blue-gap-blue forces yellow",
+        "Two blue plus one yellow in4x4 row forces final yellow"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "0hh1-adjacent-pair",
+          "fact": "Show the adjacent-pair deduction",
+          "adopted": [
+            "0hh1-adjacent-pair"
+          ]
+        },
+        {
+          "slot_id": "0hh1-split-pair",
+          "fact": "Explain a one-gap deduction distinct from an adjacent pair",
+          "adopted": [
+            "0hh1-split-pair"
+          ]
+        },
+        {
+          "slot_id": "0hh1-balance",
+          "fact": "Explain quota reasoning after the vertical-rule moves",
+          "adopted": [
+            "0hh1-balance"
+          ]
+        }
+      ],
+      "youtube_research": {
+        "decision": "adopted",
+        "queries": [
+          "0h h1 Martin Kool author gameplay",
+          "0h h1 two color puzzle triples balance rows"
+        ],
+        "adopted_ids": [
+          "oy1A73lKWtc"
+        ],
+        "body_absorption": [
+          "Version/theme distinction",
+          "4x4 balanced first row example",
+          "Different generated arrangements require reasoning rather than copying"
+        ],
+        "rejected_ids": []
+      },
+      "spoilerPolicy": "marked"
+    },
+    {
+      "game_id": "crowds",
+      "version": "English ncase.me/crowds, introductory drawing/local percentages and nine-person threshold; video later50% behavior simulation",
+      "task": "Draw and cut connections, compare local views and test how behavior spreads through a network.",
+      "evidence_ids": [
+        "crowds-network-rules",
+        "crowds-playthrough-observed"
+      ],
+      "sections": [
+        "network-play",
+        "draw-connections",
+        "cut-connections",
+        "local-view",
+        "majority-puzzle",
+        "simulation-rules",
+        "clear-view",
+        "network-questions"
+      ],
+      "cases": [
+        "Added upper connection then scratched lower bridge; people preserved",
+        "Four-person local indicators none/50/100/100",
+        "Video nine-person task8of9 then completion screen",
+        "Video50% simulation stopped at33% next node"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "crowds-connection",
+          "fact": "Show accepted edge creation rather than a moving pencil",
+          "adopted": [
+            "crowds-connection"
+          ]
+        },
+        {
+          "slot_id": "crowds-cut",
+          "fact": "Distinguish removing an edge from adding one or removing a person",
+          "adopted": [
+            "crowds-cut"
+          ]
+        },
+        {
+          "slot_id": "crowds-local-view",
+          "fact": "Explain local denominators and an empty friend set",
+          "adopted": [
+            "crowds-local-view"
+          ]
+        }
+      ],
+      "youtube_research": {
+        "decision": "adopted",
+        "queries": [
+          "The Wisdom and/or Madness of Crowds gameplay Nicky Case",
+          "Crowds game draw connections local majority threshold simulation"
+        ],
+        "adopted_ids": [
+          "c4_N0k5pi4I"
+        ],
+        "body_absorption": [
+          "No-friends denominator differs from zero share",
+          "8of9 requires inspecting remaining person",
+          "33% can stop50% propagation"
+        ],
+        "rejected_ids": []
+      },
+      "spoilerPolicy": "marked"
+    },
+    {
+      "game_id": "a-dark-room",
+      "version": "English browser edition adarkroom.doublespeakgames.com; first fire, forest, early build controls; same-browser reload only",
+      "task": "Light a fire, read changing events and build an early resource routine in a text adventure.",
+      "evidence_ids": [
+        "dark-room-opening-rules",
+        "dark-room-browser-opening"
+      ],
+      "sections": [
+        "read-the-room",
+        "current-state-and-log",
+        "wood-and-cooldown",
+        "events-and-choices",
+        "build-options",
+        "return-and-display",
+        "room-questions"
+      ],
+      "cases": [
+        "Light fire → A Firelit Room/stoke fire",
+        "gather wood4→14 with disabled cooldown",
+        "Event panel prevented background action until dismissed",
+        "Same-context reload retained unlocked forest and wood"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "a-dark-room-firelit",
+          "fact": "Show the accepted initial fire action and log feedback",
+          "adopted": [
+            "a-dark-room-firelit"
+          ]
+        },
+        {
+          "slot_id": "a-dark-room-gather",
+          "fact": "Connect inventory change with action cooldown",
+          "adopted": [
+            "a-dark-room-gather"
+          ]
+        },
+        {
+          "slot_id": "a-dark-room-event",
+          "fact": "Explain modal blocking and available responses",
+          "adopted": [
+            "a-dark-room-event"
+          ]
+        }
+      ],
+      "youtube_research": {
+        "decision": "adopted",
+        "queries": [
+          "A Dark Room browser game part1",
+          "A Dark Room light fire gather wood cooldown early builds"
+        ],
+        "adopted_ids": [
+          "D8tX4h_-VY8"
+        ],
+        "body_absorption": [
+          "Cooldown differs from loading",
+          "Later cart invalidates universal early gather-amount assumption",
+          "Available controls and older log entries need separate reading"
+        ],
+        "rejected_ids": []
+      },
+      "spoilerPolicy": "marked"
+    },
+    {
+      "game_id": "sandspiel",
+      "version": "sandspiel.club current creator-credited browser canvas and Info; video older UI shares named material palette",
+      "task": "Paint materials into a live particle world, build containers and compare how sand, water and plants behave.",
+      "evidence_ids": [
+        "sandspiel-live-materials",
+        "sandspiel-material-experiments"
+      ],
+      "sections": [
+        "paint-and-observe",
+        "make-a-container",
+        "sand-settles",
+        "water-layer",
+        "seed-and-growth",
+        "edit-the-world",
+        "other-materials",
+        "canvas-controls",
+        "sandbox-questions"
+      ],
+      "cases": [
+        "Wall base and sides remain after release",
+        "Sand pile then water layer in same basin",
+        "Seeds grew stems/flowers",
+        "Empty opened lower right wall while rest remained"
+      ],
+      "screenshot_tasks": [
+        {
+          "slot_id": "sandspiel-sand",
+          "fact": "Explain granular settling against a fixed boundary",
+          "adopted": [
+            "sandspiel-sand"
+          ]
+        },
+        {
+          "slot_id": "sandspiel-water",
+          "fact": "Compare fluid spreading with the earlier sand pile",
+          "adopted": [
+            "sandspiel-water"
+          ]
+        },
+        {
+          "slot_id": "sandspiel-opening",
+          "fact": "Show local geometry editing without claiming every later water change has one cause",
+          "adopted": [
+            "sandspiel-opening"
+          ]
+        }
+      ],
+      "youtube_research": {
+        "decision": "adopted",
+        "queries": [
+          "Sandspiel gameplay sand water",
+          "Sandspiel sandbox game materials experiments"
+        ],
+        "adopted_ids": [
+          "klya7VDklag"
+        ],
+        "body_absorption": [
+          "Reactive materials can overwhelm a crowded scene",
+          "Cloner is a distinct named tool; do not equate all purple/reactive effects",
+          "Old sharing layout is not current capability claim"
+        ],
+        "rejected_ids": []
+      },
+      "spoilerPolicy": "none"
+    }
+  ],
+  "updatedAt": "2026-10-21T02:10:50.133Z"
+}

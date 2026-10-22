@@ -1,0 +1,963 @@
+{
+  "status": "provisional-draft-scope",
+  "items": [
+    {
+      "candidate_id": "krillion",
+      "game_id": "krillion",
+      "slug": "krillion",
+      "relationship": "Same category retrieval as Noillirk, optimizing rarity instead of familiarity",
+      "home_flags": {
+        "isFeaturedHome": true,
+        "isNewHome": false,
+        "isRecommendedHome": true
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Validity versus rarity",
+          "Specificity and category restrictions",
+          "Air recovery",
+          "Classic distance conversion"
+        ],
+        "canSupport4000": "substantive-authored-draft; quality-and-browser-review-pending",
+        "gaps": [
+          "Exact-version segmented videos and adoption",
+          "Current build clean-context site iframe input and network checks",
+          "Approved cover and three explanatory game captures"
+        ],
+        "actualVisibleCharacters": 1261,
+        "characterFloor": "conservative-development-lower-bound-met; final-media-layout-pending",
+        "staticExpectedArticleCharacters": 5097,
+        "staticCharacterFloor": "met-statically",
+        "previousBrowserMeasurement": {
+          "characters": 1261,
+          "scope": "Historical draft screenshot/build evidence; not current revised body"
+        },
+        "currentDevelopmentBody": {
+          "id": "krillion",
+          "route": "/games/krillion",
+          "staticExpectedArticleCharacters": 5097,
+          "measurements": [
+            {
+              "width": 1536,
+              "rawArticleInnerTextCharacters": 5466,
+              "conservativeLowerBound": 5097
+            },
+            {
+              "width": 1024,
+              "rawArticleInnerTextCharacters": 5097,
+              "conservativeLowerBound": 4728
+            },
+            {
+              "width": 768,
+              "rawArticleInnerTextCharacters": 5466,
+              "conservativeLowerBound": 5097
+            }
+          ],
+          "method": "DOM bridge innerText may include closed FAQ answers; subtracting every FAQ answer gives a conservative lower bound, not an exact rendered count.",
+          "evidence": "reports/acceptance-evidence/dev-normal-f06ece75c123/route-checks.json",
+          "contentAcceptance": "NOT_PASSED",
+          "mediaAcceptance": "NOT_PASSED"
+        }
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Prompt and timer",
+          "Accepted rarity result",
+          "Air loss or recovery"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": true,
+      "decision_reason": "Draft implementation does not imply publication eligibility.",
+      "runtime_qualification": "not_publication_qualified"
+    },
+    {
+      "candidate_id": "fermi",
+      "game_id": "fermi",
+      "slug": "fermi",
+      "relationship": "Commit an everyday judgment before inspecting graded feedback",
+      "home_flags": {
+        "isFeaturedHome": true,
+        "isNewHome": false,
+        "isRecommendedHome": true
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Units",
+          "Multiplicative error",
+          "Bounds",
+          "Numeric input parsing",
+          "Worked result"
+        ],
+        "canSupport4000": "substantive-authored-draft; quality-and-browser-review-pending",
+        "gaps": [
+          "Exact-version segmented videos and adoption",
+          "Current build clean-context site iframe input and network checks",
+          "Approved cover and three explanatory game captures"
+        ],
+        "actualVisibleCharacters": 5476,
+        "characterFloor": "conservative-development-lower-bound-met; final-media-layout-pending",
+        "staticExpectedArticleCharacters": 5476,
+        "staticCharacterFloor": "met-statically",
+        "previousBrowserMeasurement": {
+          "characters": 5476,
+          "scope": "Historical draft screenshot/build evidence; not current revised body"
+        },
+        "currentDevelopmentBody": {
+          "id": "fermi",
+          "route": "/games/fermi",
+          "staticExpectedArticleCharacters": 5476,
+          "measurements": [
+            {
+              "width": 1536,
+              "rawArticleInnerTextCharacters": 5476,
+              "conservativeLowerBound": 5099
+            },
+            {
+              "width": 1024,
+              "rawArticleInnerTextCharacters": 5476,
+              "conservativeLowerBound": 5099
+            },
+            {
+              "width": 768,
+              "rawArticleInnerTextCharacters": 5476,
+              "conservativeLowerBound": 5099
+            }
+          ],
+          "method": "DOM bridge innerText may include closed FAQ answers; subtracting every FAQ answer gives a conservative lower bound, not an exact rendered count.",
+          "evidence": "reports/acceptance-evidence/dev-normal-f06ece75c123/route-checks.json",
+          "contentAcceptance": "NOT_PASSED",
+          "mediaAcceptance": "NOT_PASSED"
+        }
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Question units",
+          "Entered estimate",
+          "Error ratio and explanation"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": true,
+      "decision_reason": "Draft implementation does not imply publication eligibility.",
+      "runtime_qualification": "not_publication_qualified"
+    },
+    {
+      "candidate_id": "poople",
+      "game_id": "poople",
+      "slug": "poople",
+      "relationship": "Vocabulary retrieval with additional sequential constraints",
+      "home_flags": {
+        "isFeaturedHome": true,
+        "isNewHome": true,
+        "isRecommendedHome": true
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Single-letter rule",
+          "Backward planning",
+          "Par",
+          "First-move timer",
+          "Give-up"
+        ],
+        "canSupport4000": "substantive-authored-draft; quality-and-browser-review-pending",
+        "gaps": [
+          "Exact-version segmented videos and adoption",
+          "Current build clean-context site iframe input and network checks",
+          "Approved cover and three explanatory game captures"
+        ],
+        "actualVisibleCharacters": 5387,
+        "characterFloor": "conservative-development-lower-bound-met; final-media-layout-pending",
+        "staticExpectedArticleCharacters": 5387,
+        "staticCharacterFloor": "met-statically",
+        "previousBrowserMeasurement": {
+          "characters": 5387,
+          "scope": "Historical draft screenshot/build evidence; not current revised body"
+        },
+        "currentDevelopmentBody": {
+          "id": "poople",
+          "route": "/games/poople",
+          "staticExpectedArticleCharacters": 5387,
+          "measurements": [
+            {
+              "width": 1536,
+              "rawArticleInnerTextCharacters": 5387,
+              "conservativeLowerBound": 5025
+            },
+            {
+              "width": 1024,
+              "rawArticleInnerTextCharacters": 5387,
+              "conservativeLowerBound": 5025
+            },
+            {
+              "width": 768,
+              "rawArticleInnerTextCharacters": 5387,
+              "conservativeLowerBound": 5025
+            }
+          ],
+          "method": "DOM bridge innerText may include closed FAQ answers; subtracting every FAQ answer gives a conservative lower bound, not an exact rendered count.",
+          "evidence": "reports/acceptance-evidence/dev-normal-f06ece75c123/route-checks.json",
+          "contentAcceptance": "NOT_PASSED",
+          "mediaAcceptance": "NOT_PASSED"
+        }
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Start and par",
+          "Intermediate rung",
+          "Completed ladder"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": true,
+      "decision_reason": "Draft implementation does not imply publication eligibility.",
+      "runtime_qualification": "not_publication_qualified"
+    },
+    {
+      "candidate_id": "size-it-up",
+      "game_id": "size-it-up",
+      "slug": "size-it-up",
+      "relationship": "Initial everyday judgment calibrated by a reveal",
+      "home_flags": {
+        "isFeaturedHome": true,
+        "isNewHome": true,
+        "isRecommendedHome": true
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Reference scale",
+          "Length versus area",
+          "Reciprocal errors",
+          "Round weights"
+        ],
+        "canSupport4000": "substantive-authored-draft; quality-and-browser-review-pending",
+        "gaps": [
+          "Exact-version segmented videos and adoption",
+          "Current build clean-context site iframe input and network checks",
+          "Approved cover and three explanatory game captures"
+        ],
+        "actualVisibleCharacters": 5340,
+        "characterFloor": "conservative-development-lower-bound-met; final-media-layout-pending",
+        "staticExpectedArticleCharacters": 5340,
+        "staticCharacterFloor": "met-statically",
+        "previousBrowserMeasurement": {
+          "characters": 5340,
+          "scope": "Historical draft screenshot/build evidence; not current revised body"
+        },
+        "currentDevelopmentBody": {
+          "id": "size-it-up",
+          "route": "/games/size-it-up",
+          "staticExpectedArticleCharacters": 5340,
+          "measurements": [
+            {
+              "width": 1536,
+              "rawArticleInnerTextCharacters": 5340,
+              "conservativeLowerBound": 4981
+            },
+            {
+              "width": 1024,
+              "rawArticleInnerTextCharacters": 5340,
+              "conservativeLowerBound": 4981
+            },
+            {
+              "width": 768,
+              "rawArticleInnerTextCharacters": 5699,
+              "conservativeLowerBound": 5340
+            }
+          ],
+          "method": "DOM bridge innerText may include closed FAQ answers; subtracting every FAQ answer gives a conservative lower bound, not an exact rendered count.",
+          "evidence": "reports/acceptance-evidence/dev-normal-f06ece75c123/route-checks.json",
+          "contentAcceptance": "NOT_PASSED",
+          "mediaAcceptance": "NOT_PASSED"
+        }
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Labelled reference",
+          "Adjusted guess",
+          "Dashed guess and real size"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": true,
+      "decision_reason": "Draft implementation does not imply publication eligibility.",
+      "runtime_qualification": "not_publication_qualified"
+    },
+    {
+      "candidate_id": "color",
+      "game_id": "color",
+      "slug": "color",
+      "relationship": "Distinguish remembered detail from a familiar category",
+      "home_flags": {
+        "isFeaturedHome": true,
+        "isNewHome": true,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Exposure duration",
+          "Hue",
+          "Saturation",
+          "Brightness",
+          "Mode records"
+        ],
+        "canSupport4000": "substantive-authored-draft; quality-and-browser-review-pending",
+        "gaps": [
+          "Exact-version segmented videos and adoption",
+          "Current build clean-context site iframe input and network checks",
+          "Approved cover and three explanatory game captures"
+        ],
+        "actualVisibleCharacters": 5321,
+        "characterFloor": "conservative-development-lower-bound-met; final-media-layout-pending",
+        "staticExpectedArticleCharacters": 5321,
+        "staticCharacterFloor": "met-statically",
+        "previousBrowserMeasurement": {
+          "characters": 5321,
+          "scope": "Historical draft screenshot/build evidence; not current revised body"
+        },
+        "currentDevelopmentBody": {
+          "id": "color",
+          "route": "/games/color",
+          "staticExpectedArticleCharacters": 5321,
+          "measurements": [
+            {
+              "width": 1536,
+              "rawArticleInnerTextCharacters": 5321,
+              "conservativeLowerBound": 5017
+            },
+            {
+              "width": 1024,
+              "rawArticleInnerTextCharacters": 5321,
+              "conservativeLowerBound": 5017
+            },
+            {
+              "width": 768,
+              "rawArticleInnerTextCharacters": 5321,
+              "conservativeLowerBound": 5017
+            }
+          ],
+          "method": "DOM bridge innerText may include closed FAQ answers; subtracting every FAQ answer gives a conservative lower bound, not an exact rendered count.",
+          "evidence": "reports/acceptance-evidence/dev-normal-f06ece75c123/route-checks.json",
+          "contentAcceptance": "NOT_PASSED",
+          "mediaAcceptance": "NOT_PASSED"
+        }
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Target countdown",
+          "Reconstruction sliders",
+          "Result comparison"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": true,
+      "decision_reason": "Draft implementation does not imply publication eligibility.",
+      "runtime_qualification": "not_publication_qualified"
+    },
+    {
+      "candidate_id": "color-logo",
+      "game_id": "color-logo",
+      "slug": "color-logo",
+      "relationship": "Everyday familiarity versus exact recall",
+      "home_flags": {
+        "isFeaturedHome": true,
+        "isNewHome": true,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Deck selection",
+          "Marked region",
+          "Wrong hue clue",
+          "Screen colors",
+          "Deck records"
+        ],
+        "canSupport4000": "substantive-authored-draft; quality-and-browser-review-pending",
+        "gaps": [
+          "Exact-version segmented videos and adoption",
+          "Current build clean-context site iframe input and network checks",
+          "Approved cover and three explanatory game captures"
+        ],
+        "actualVisibleCharacters": 1591,
+        "characterFloor": "conservative-development-lower-bound-met; final-media-layout-pending",
+        "staticExpectedArticleCharacters": 5536,
+        "staticCharacterFloor": "met-statically",
+        "previousBrowserMeasurement": {
+          "characters": 1591,
+          "scope": "Historical draft screenshot/build evidence; not current revised body"
+        },
+        "currentDevelopmentBody": {
+          "id": "color-logo",
+          "route": "/games/color-logo",
+          "staticExpectedArticleCharacters": 5536,
+          "measurements": [
+            {
+              "width": 1536,
+              "rawArticleInnerTextCharacters": 5536,
+              "conservativeLowerBound": 5197
+            },
+            {
+              "width": 1024,
+              "rawArticleInnerTextCharacters": 5536,
+              "conservativeLowerBound": 5197
+            },
+            {
+              "width": 768,
+              "rawArticleInnerTextCharacters": 5536,
+              "conservativeLowerBound": 5197
+            }
+          ],
+          "method": "DOM bridge innerText may include closed FAQ answers; subtracting every FAQ answer gives a conservative lower bound, not an exact rendered count.",
+          "evidence": "reports/acceptance-evidence/dev-normal-f06ece75c123/route-checks.json",
+          "contentAcceptance": "NOT_PASSED",
+          "mediaAcceptance": "NOT_PASSED"
+        }
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Outlined region",
+          "Color adjustment",
+          "Revealed region"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": true,
+      "decision_reason": "Draft implementation does not imply publication eligibility.",
+      "runtime_qualification": "not_publication_qualified"
+    },
+    {
+      "candidate_id": "maptap",
+      "game_id": "maptap",
+      "slug": "maptap",
+      "relationship": "Fast world-knowledge recall with graded feedback",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": true,
+        "isRecommendedHome": true
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Country cue",
+          "Coastal anchors",
+          "Globe input",
+          "Distance tolerances",
+          "Run total"
+        ],
+        "canSupport4000": "substantive-authored-draft; quality-and-browser-review-pending",
+        "gaps": [
+          "Exact-version segmented videos and adoption",
+          "Current build clean-context site iframe input and network checks",
+          "Approved cover and three explanatory game captures"
+        ],
+        "actualVisibleCharacters": 1554,
+        "characterFloor": "conservative-development-lower-bound-met; final-media-layout-pending",
+        "staticExpectedArticleCharacters": 5800,
+        "staticCharacterFloor": "met-statically",
+        "previousBrowserMeasurement": {
+          "characters": 1554,
+          "scope": "Historical draft screenshot/build evidence; not current revised body"
+        },
+        "currentDevelopmentBody": {
+          "id": "maptap",
+          "route": "/games/maptap",
+          "staticExpectedArticleCharacters": 5800,
+          "measurements": [
+            {
+              "width": 1536,
+              "rawArticleInnerTextCharacters": 6121,
+              "conservativeLowerBound": 5800
+            },
+            {
+              "width": 1024,
+              "rawArticleInnerTextCharacters": 5800,
+              "conservativeLowerBound": 5479
+            },
+            {
+              "width": 768,
+              "rawArticleInnerTextCharacters": 6121,
+              "conservativeLowerBound": 5800
+            }
+          ],
+          "method": "DOM bridge innerText may include closed FAQ answers; subtracting every FAQ answer gives a conservative lower bound, not an exact rendered count.",
+          "evidence": "reports/acceptance-evidence/dev-normal-f06ece75c123/route-checks.json",
+          "contentAcceptance": "NOT_PASSED",
+          "mediaAcceptance": "NOT_PASSED"
+        }
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "City prompt",
+          "Placement",
+          "Distance reveal"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": true,
+      "decision_reason": "Draft implementation does not imply publication eligibility.",
+      "runtime_qualification": "not_publication_qualified"
+    },
+    {
+      "candidate_id": "songless",
+      "game_id": null,
+      "slug": "songless",
+      "relationship": "Familiar-name retrieval with uncertainty versus points tradeoff",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": false,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Excerpt length",
+          "Search selection",
+          "Filters",
+          "Preview failures"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Short clip",
+          "Track selection",
+          "Result"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": false,
+      "decision_reason": "Draft implementation does not imply publication eligibility."
+    },
+    {
+      "candidate_id": "bandle",
+      "game_id": null,
+      "slug": "bandle",
+      "relationship": "Retrieve a name from incomplete cues and decide whether to buy information",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": false,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Drums evidence",
+          "Bass layer",
+          "Layer cost",
+          "Explicit filter"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Drums only",
+          "Added layers",
+          "Track result"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": false,
+      "decision_reason": "Draft implementation does not imply publication eligibility."
+    },
+    {
+      "candidate_id": "songspot",
+      "game_id": null,
+      "slug": "songspot",
+      "relationship": "Recognition confidence tested against graded feedback",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": false,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Discrete clips",
+          "Artist search",
+          "Penalty",
+          "Multiplayer timing"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Small clip",
+          "Search",
+          "Result"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": false,
+      "decision_reason": "Draft implementation does not imply publication eligibility."
+    },
+    {
+      "candidate_id": "village",
+      "game_id": null,
+      "slug": "village",
+      "relationship": "Weak: different player task and desktop-only input",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": false,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Clearance threshold",
+          "Tool progression",
+          "Local save"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Initial yard",
+          "Raking",
+          "Cleared yard"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "excluded",
+      "draftImplementation": false,
+      "decision_reason": "Draft implementation does not imply publication eligibility."
+    },
+    {
+      "candidate_id": "word-hunt",
+      "game_id": "word-hunt",
+      "slug": "word-hunt",
+      "relationship": "Timed vocabulary retrieval overlaps Noillirk; adjacency is an extra task",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": true,
+        "isRecommendedHome": true
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Adjacency",
+          "Shuffle effect",
+          "Word validity",
+          "Timer"
+        ],
+        "canSupport4000": "substantive-authored-draft; quality-and-browser-review-pending",
+        "gaps": [
+          "Exact-version segmented videos and adoption",
+          "Current build clean-context site iframe input and network checks",
+          "Approved cover and three explanatory game captures"
+        ],
+        "actualVisibleCharacters": 1147,
+        "characterFloor": "conservative-development-lower-bound-met; final-media-layout-pending",
+        "staticExpectedArticleCharacters": 5395,
+        "staticCharacterFloor": "met-statically",
+        "previousBrowserMeasurement": {
+          "characters": 1147,
+          "scope": "Historical draft screenshot/build evidence; not current revised body"
+        },
+        "currentDevelopmentBody": {
+          "id": "word-hunt",
+          "route": "/games/word-hunt",
+          "staticExpectedArticleCharacters": 5395,
+          "measurements": [
+            {
+              "width": 1536,
+              "rawArticleInnerTextCharacters": 5395,
+              "conservativeLowerBound": 5087
+            },
+            {
+              "width": 1024,
+              "rawArticleInnerTextCharacters": 5703,
+              "conservativeLowerBound": 5395
+            },
+            {
+              "width": 768,
+              "rawArticleInnerTextCharacters": 5395,
+              "conservativeLowerBound": 5087
+            }
+          ],
+          "method": "DOM bridge innerText may include closed FAQ answers; subtracting every FAQ answer gives a conservative lower bound, not an exact rendered count.",
+          "evidence": "reports/acceptance-evidence/dev-normal-f06ece75c123/route-checks.json",
+          "contentAcceptance": "NOT_PASSED",
+          "mediaAcceptance": "NOT_PASSED"
+        }
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Grid",
+          "Traced word",
+          "Shuffle result"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "deferred",
+      "draftImplementation": true,
+      "decision_reason": "Draft implementation does not imply publication eligibility.",
+      "runtime_qualification": "not_publication_qualified",
+      "viewportDecision": "planning/player-viewport-decisions.json"
+    },
+    {
+      "candidate_id": "traffic-jam",
+      "game_id": null,
+      "slug": "traffic-jam",
+      "relationship": "Weak: spatial planning rather than knowledge recall",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": false,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Movement restrictions",
+          "Exit"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Blocked car",
+          "Cleared lane",
+          "Exit"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "excluded",
+      "draftImplementation": false,
+      "decision_reason": "Draft implementation does not imply publication eligibility."
+    },
+    {
+      "candidate_id": "tile-fit",
+      "game_id": null,
+      "slug": "tile-fit",
+      "relationship": "Weak: placement task instead of familiar-answer guessing",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": false,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Tray",
+          "Oversized pieces"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Board",
+          "Placement",
+          "Clear"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "excluded",
+      "draftImplementation": false,
+      "decision_reason": "Draft implementation does not imply publication eligibility."
+    },
+    {
+      "candidate_id": "coin-maze",
+      "game_id": null,
+      "slug": "coin-maze",
+      "relationship": "Weak: navigation and evasion",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": false,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Coin goal",
+          "Chaser"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Maze",
+          "Collection",
+          "Pursuit"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "excluded",
+      "draftImplementation": false,
+      "decision_reason": "Draft implementation does not imply publication eligibility."
+    },
+    {
+      "candidate_id": "air-hockey",
+      "game_id": null,
+      "slug": "air-hockey",
+      "relationship": "Weak and identity conflict: description does not describe conventional hockey",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": false,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Identity",
+          "Key ordering"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Keys",
+          "Sliding",
+          "Exit"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "excluded",
+      "draftImplementation": false,
+      "decision_reason": "Draft implementation does not imply publication eligibility."
+    },
+    {
+      "candidate_id": "money-tycoon",
+      "game_id": null,
+      "slug": "money-tycoon",
+      "relationship": "Weak: economic optimization",
+      "home_flags": {
+        "isFeaturedHome": false,
+        "isNewHome": false,
+        "isRecommendedHome": false
+      },
+      "embed_status": "unknown",
+      "content_scope": {
+        "specificTopics": [
+          "Income loop",
+          "Timed days"
+        ],
+        "canSupport4000": "not_yet_established",
+        "gaps": [
+          "Actual input/result observations",
+          "Current-version videos",
+          "Device and storage behavior"
+        ]
+      },
+      "media_plan": {
+        "cover": "No adoption without established use basis",
+        "captures": [
+          "Income",
+          "Upgrade",
+          "Result"
+        ],
+        "permission": "unconfirmed",
+        "adopted": []
+      },
+      "risk_status": "open",
+      "coverage_status": "excluded",
+      "draftImplementation": false,
+      "decision_reason": "Draft implementation does not imply publication eligibility."
+    }
+  ],
+  "publicationReady": 0,
+  "required": 8,
+  "updatedAt": "2026-10-21T02:16:14.851Z"
+}

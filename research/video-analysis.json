@@ -1,0 +1,1147 @@
+{
+  "status": "eight-additional-game-videos-reviewed-and-adopted-main-video-unresolved",
+  "videos": [
+    {
+      "gameId": "noillirk",
+      "videoId": "oMe1Mz3Maoo",
+      "publisher": "Max Daily Games",
+      "duration": "PT2M2S",
+      "identity": "exact-game",
+      "adoption": "not_adopted",
+      "segments": [
+        {
+          "range": "Opening sample; exact time not captured",
+          "state": "Forest start screen with Classic selected and Daily/Endless controls",
+          "action": "Creator starts a Classic run",
+          "visibleResult": "Prompt interface appears",
+          "supports": [
+            "Original Daily identity",
+            "Mode controls"
+          ],
+          "doesNotSupport": [
+            "Daily reset time",
+            "Storage behavior",
+            "Embed eligibility"
+          ]
+        },
+        {
+          "range": "Early prompt sample; exact time not captured",
+          "state": "Prompt about something children can do for New Year",
+          "action": "Text appears in answer input",
+          "visibleResult": "Answer remains editable before submission in observed frame",
+          "supports": [
+            "Typed answer to constrained category"
+          ],
+          "doesNotSupport": [
+            "Exact accepted answer",
+            "Points or final tier"
+          ]
+        },
+        {
+          "range": "Around 00:54; seek position sampled",
+          "state": "Higher scene and next-prompt countdown",
+          "action": "Run has progressed beyond forest floor",
+          "visibleResult": "Backdrop and transition state differ",
+          "supports": [
+            "Visual ascent progression"
+          ],
+          "doesNotSupport": [
+            "Precise altitude formula",
+            "Cause of preceding answer result"
+          ]
+        },
+        {
+          "id": "noillirk-sample-1",
+          "range": "00:05",
+          "observationMethod": "Paused/playing frame reached with native YouTube controls; sampled, not continuous coverage",
+          "state": "Mode/start interface; Classic selected",
+          "action": "No creator action concluded from still frame",
+          "visibleResult": "Daily, Classic, Endless and start controls visible",
+          "supports": [
+            "Mode selection exists"
+          ],
+          "doesNotSupport": [
+            "Exact scoring or acceptance",
+            "Embed eligibility"
+          ],
+          "successOrFailureReason": "Not established from this sample",
+          "versionScope": "Daily forest/balloon interface visible in creator video"
+        },
+        {
+          "id": "noillirk-sample-2",
+          "range": "00:07",
+          "observationMethod": "Paused/playing frame reached with native YouTube controls; sampled, not continuous coverage",
+          "state": "Forest prompt with answer field",
+          "action": "A short answer is typed",
+          "visibleResult": "Text remains in editable field",
+          "supports": [
+            "Typed response interface"
+          ],
+          "doesNotSupport": [
+            "Submission or resulting tier",
+            "Embed eligibility"
+          ],
+          "successOrFailureReason": "Not established from this sample",
+          "versionScope": "Daily forest/balloon interface visible in creator video"
+        },
+        {
+          "id": "noillirk-sample-3",
+          "range": "00:20",
+          "observationMethod": "Paused/playing frame reached with native YouTube controls; sampled, not continuous coverage",
+          "state": "Forest prompt with countdown near deadline",
+          "action": "A longer answer is partially entered",
+          "visibleResult": "Clock and editable response remain visible",
+          "supports": [
+            "Time cost of entering a longer phrase is a useful task to investigate"
+          ],
+          "doesNotSupport": [
+            "Long answers are always rejected",
+            "Exact result of this phrase",
+            "Embed eligibility"
+          ],
+          "successOrFailureReason": "Not established from this sample",
+          "versionScope": "Daily forest/balloon interface visible in creator video"
+        },
+        {
+          "id": "noillirk-sample-4",
+          "range": "00:25",
+          "observationMethod": "Paused/playing frame reached with native YouTube controls; sampled, not continuous coverage",
+          "state": "Forest transition state",
+          "action": "Not observed in this sample",
+          "visibleResult": "Input panel absent in sampled transition",
+          "supports": [
+            "An intervening state exists"
+          ],
+          "doesNotSupport": [
+            "Which answer was accepted",
+            "Cause or tier of transition",
+            "Embed eligibility"
+          ],
+          "successOrFailureReason": "Not established from this sample",
+          "versionScope": "Daily forest/balloon interface visible in creator video"
+        },
+        {
+          "id": "noillirk-sample-5",
+          "range": "00:30",
+          "observationMethod": "Paused/playing frame reached with native YouTube controls; sampled, not continuous coverage",
+          "state": "Forest climb transition",
+          "action": "No new input in frame",
+          "visibleResult": "Next climb countdown visible",
+          "supports": [
+            "Run advances between prompt scenes"
+          ],
+          "doesNotSupport": [
+            "Specific altitude formula",
+            "Embed eligibility"
+          ],
+          "successOrFailureReason": "Not established from this sample",
+          "versionScope": "Daily forest/balloon interface visible in creator video"
+        },
+        {
+          "id": "noillirk-sample-6",
+          "range": "01:17",
+          "observationMethod": "Paused/playing frame reached with native YouTube controls; sampled, not continuous coverage",
+          "state": "Higher landscape with prompt and response field",
+          "action": "A response is partly typed",
+          "visibleResult": "Entry field still active",
+          "supports": [
+            "The same typed-answer task continues above forest scene"
+          ],
+          "doesNotSupport": [
+            "Prior result tier",
+            "Complete wording of cropped prompt",
+            "Embed eligibility"
+          ],
+          "successOrFailureReason": "Not established from this sample",
+          "versionScope": "Daily forest/balloon interface visible in creator video"
+        },
+        {
+          "id": "noillirk-20261021-25",
+          "range": "00:25 paused sample",
+          "state": "First prompt has transitioned to ascent; altitude 3m visible",
+          "action": "Answer label Blow party horns visible beside ascending character",
+          "visibleResult": "Ascent animation and answer label; final tier/score not captured",
+          "supports": [
+            "Accepted-answer animation in this recording"
+          ],
+          "doesNotSupport": [
+            "Current scoring formula",
+            "Exact final award",
+            "Continuous full-video review"
+          ],
+          "successOrFailureReason": "Label and ascent visible; accepted tier and category rank not established",
+          "versionScope": "Matching forest UI; numeric/version compatibility unresolved"
+        },
+        {
+          "id": "noillirk-20261021-35",
+          "range": "00:35 paused sample",
+          "state": "Second-prompt ascent; altitude 12m visible",
+          "action": "Fruit label visible after tree-related prompt",
+          "visibleResult": "Animation through forest understory; following sampled frame at 00:42 shows next prompt and 29m",
+          "supports": [
+            "Prompt constraints differ between rounds",
+            "Answer animation proceeds to another prompt"
+          ],
+          "doesNotSupport": [
+            "Precise current altitude conversion",
+            "Guaranteed fruit answer tier",
+            "Player action between sampled frames"
+          ],
+          "successOrFailureReason": "Sequence indicates progression, but final scoring panel was not observed",
+          "versionScope": "Recording may use different tuning or show intermediate animation; unresolved"
+        }
+      ],
+      "limitations": [
+        "Sampled frames only; continuous full-session analysis remains pending",
+        "No downloaded video or adopted screenshots",
+        "Third-party play is not our own input test",
+        "Altitude labels may be intermediate or differently tuned; do not infer a confirmed version mismatch.",
+        "Local embedded playback reached ended122.721s on2026-10-22; adoption still withheld because current numeric/version correspondence and complete causal content review not established. Direct top-level nocookie visit gave153 due absent embedding referrer, not proof of unavailability."
+      ],
+      "versionCompatibility": "unresolved",
+      "embedRetest20261022": {
+        "observedAt": "2026-10-22T03:46:19.431Z",
+        "videoId": "oMe1Mz3Maoo",
+        "origin": "http://localhost:3001",
+        "route": "/media-check?id=noillirk-video-review",
+        "duration": 122.721,
+        "ended": true,
+        "error": null,
+        "readyState": 4,
+        "time": 122.721,
+        "adoption": "not_adopted; current numeric/version compatibility not established",
+        "observationMethod": "Playing samples at approximately13,40,57,87seconds and ended state; not a frame-by-frame full coverage claim",
+        "samples": [
+          {
+            "seconds": 13,
+            "state": "First forest prompt asks for something children can do to celebrate New Year; answer field active",
+            "limitation": "Submission action not observed in this sample"
+          },
+          {
+            "seconds": 40,
+            "state": "Jet Stream result with Fruit label and Next button; altitude29m",
+            "limitation": "No inferred constant altitude conversion or guaranteed Fruit rank"
+          },
+          {
+            "seconds": 57,
+            "state": "Reason for low sleep prompt above valley; next prompt preview",
+            "limitation": "Acceptance not observed"
+          },
+          {
+            "seconds": 87,
+            "state": "Lifeguard carrying prompt preview above valley",
+            "limitation": "No result inferred"
+          }
+        ]
+      }
+    },
+    {
+      "gameId": "fermi",
+      "videoId": "UHWWW-7f0ag",
+      "publisher": "Rare K",
+      "duration": "PT6M24S",
+      "identity": "different-version",
+      "adoption": "rejected-version-mismatch",
+      "segments": [
+        {
+          "id": "fermi-towels-opening",
+          "range": "00:02 and 00:30",
+          "state": "Coral Fermi.gg question card asking for a count of beach towels over a beach area",
+          "action": "Creator discusses breaking the area estimate into dimensions; no final entry read in these samples",
+          "visibleResult": "Question remains awaiting an estimate",
+          "successOrFailureReason": "No judged result yet",
+          "supports": [
+            "Area divided by area-per-item is the relevant estimation task for this question"
+          ],
+          "doesNotSupport": [
+            "The exact response accepted",
+            "Current playdaily.org/fermi visual/version equivalence"
+          ],
+          "versionScope": "Fermi.gg daily card shown in this video"
+        },
+        {
+          "id": "fermi-factor-result",
+          "range": "02:10",
+          "state": "Blue result card and distribution chart",
+          "action": "Submission occurred before this sampled frame; its typed number was not captured",
+          "visibleResult": "14.2x and Too Low are visible",
+          "successOrFailureReason": "Guess is below target by a multiplicative factor; do not infer unseen numerical input",
+          "supports": [
+            "The visible version reports direction and a ratio error"
+          ],
+          "doesNotSupport": [
+            "An exact recommended answer",
+            "Our own accepted input",
+            "Current Daily iframe compatibility"
+          ],
+          "versionScope": "Fermi.gg version in creator video"
+        }
+      ],
+      "limitations": [
+        "Sampled observations only, not complete continuous ranges",
+        "No embedding/age restriction test",
+        "No downloaded video or adopted screenshots",
+        "Do not substitute creator input for local effective-input verification",
+        "Live Daily help explicitly distinguishes this unlimited implementation from fermi.gg shown in the video."
+      ]
+    },
+    {
+      "gameId": "krillion",
+      "videoId": "UHWWW-7f0ag",
+      "publisher": "Rare K",
+      "duration": "PT6M24S",
+      "identity": "different-version",
+      "versionCompatibility": "rejected",
+      "adoption": "rejected-version-mismatch",
+      "segments": [
+        {
+          "id": "krillion-author-host-comparison",
+          "range": "03:20–03:43 sampled",
+          "state": "Blue underwater prompt asking for mashed/pureed food",
+          "action": "Creator types a partial cauliflower answer; submission not established in the sampled frame",
+          "visibleResult": "Input and scene visible; expanded description identifies Krillion.io",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Original Krillion.io identity",
+            "Typed category response"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "Krillion.io daily video, not verified Daily Unlimited"
+        }
+      ],
+      "checkedAt": "2026-10-21T06:58:15.618Z",
+      "limitations": [
+        "Sampled visible frames and playback progress, not continuous annotation of every action.",
+        "No downloaded/rehosted video, transcript or adopted video frames.",
+        "An original same-name game's video cannot qualify a Daily Unlimited implementation."
+      ]
+    },
+    {
+      "gameId": "poople",
+      "videoId": "AZWEpN16Hg4",
+      "publisher": "Horus He",
+      "duration": "PT28.141S",
+      "identity": "different-version",
+      "versionCompatibility": "rejected",
+      "adoption": "rejected-version-mismatch",
+      "segments": [
+        {
+          "id": "poople-promo-rule",
+          "range": "00:00, 00:08.26, 00:26 samples during playback",
+          "state": "Illustrated WORD tiles and checkmark",
+          "action": "Promotional explanation animates letter tiles; no live accepted keyboard submission observed",
+          "visibleResult": "End card explicitly shows POOPLEGAME.COM",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Original publisher identity",
+            "Promotional word-change theme"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "Original Poople promotional clip"
+        }
+      ],
+      "checkedAt": "2026-10-21T06:58:15.618Z",
+      "limitations": [
+        "Sampled visible frames and playback progress, not continuous annotation of every action.",
+        "No downloaded/rehosted video, transcript or adopted video frames.",
+        "An original same-name game's video cannot qualify a Daily Unlimited implementation."
+      ]
+    },
+    {
+      "gameId": "size-it-up",
+      "videoId": "okfKMjy_ByY",
+      "publisher": "Azwell",
+      "duration": "PT18M52S",
+      "identity": "version-comparison-required",
+      "versionCompatibility": "unresolved",
+      "adoption": "not_adopted",
+      "segments": [
+        {
+          "id": "size-outline-opening",
+          "range": "Opening approximately 00:00–00:15; exact final time not captured",
+          "state": "Dark blue outline board with pufferfish reference and dynamite target",
+          "action": "Opening demonstration watched; exact adjustment and result not read",
+          "visibleResult": "Reference and zoom controls visible",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Outline comparison in the recorded version"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "Opening video sample; Daily Mug/Burrito HUD equivalence not established"
+        }
+      ],
+      "checkedAt": "2026-10-21T06:58:15.618Z",
+      "limitations": [
+        "Sampled visible frames and playback progress, not continuous annotation of every action.",
+        "No downloaded/rehosted video, transcript or adopted video frames.",
+        "An original same-name game's video cannot qualify a Daily Unlimited implementation."
+      ]
+    },
+    {
+      "gameId": "color",
+      "videoId": "YZOWgyiyNxw",
+      "publisher": "Brainy Quiz",
+      "identity": "different-game",
+      "versionCompatibility": "rejected",
+      "adoption": "rejected-identity",
+      "segments": [
+        {
+          "id": "color-quiz-mismatch",
+          "range": "Playing sample; exact time not captured",
+          "state": "Animal color quiz with BLACK/YELLOW/PINK/BLUE choices",
+          "action": "Quiz choices presented",
+          "visibleResult": "No HSB memory sliders or target reconstruction",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Different game identity"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "Quiz video, not Daily Color Game"
+        }
+      ],
+      "checkedAt": "2026-10-21T06:58:15.618Z",
+      "limitations": [
+        "Sampled visible frames and playback progress, not continuous annotation of every action.",
+        "No downloaded/rehosted video, transcript or adopted video frames.",
+        "An original same-name game's video cannot qualify a Daily Unlimited implementation."
+      ]
+    },
+    {
+      "gameId": "color-logo",
+      "videoId": "CC8tKb7AhQo",
+      "publisher": "ted-gamedev",
+      "identity": "different-game",
+      "versionCompatibility": "rejected",
+      "adoption": "rejected-preview-identity",
+      "segments": [
+        {
+          "id": "logo-ar-preview",
+          "range": "Preview only; no timed gameplay review",
+          "state": "AR logos over a floor with colored dots",
+          "action": "No live player action verified",
+          "visibleResult": "AR scene differs from HSB reconstruction UI",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Preview does not match target game"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "AR preview only"
+        }
+      ],
+      "checkedAt": "2026-10-21T06:58:15.618Z",
+      "limitations": [
+        "Sampled visible frames and playback progress, not continuous annotation of every action.",
+        "No downloaded/rehosted video, transcript or adopted video frames.",
+        "An original same-name game's video cannot qualify a Daily Unlimited implementation."
+      ]
+    },
+    {
+      "gameId": "maptap",
+      "videoId": "f4HK8BQr060",
+      "publisher": "GeoJou",
+      "duration": "PT14M12S",
+      "identity": "different-version",
+      "versionCompatibility": "unresolved",
+      "adoption": "not_adopted",
+      "segments": [
+        {
+          "id": "maptap-terrain-version",
+          "range": "Opening through 00:35.5; opening/paused samples",
+          "state": "Satellite/terrain globe, Panama City opening and Dalian/China later prompt",
+          "action": "Playback advances between visible prompt samples; exact map click not established",
+          "visibleResult": "Terrain globe differs from current Daily wireframe renderer",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Recorded geographic location task"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "GeoJou terrain MapTap recording; current Daily compatibility unverified"
+        }
+      ],
+      "checkedAt": "2026-10-21T06:58:15.618Z",
+      "limitations": [
+        "Sampled visible frames and playback progress, not continuous annotation of every action.",
+        "No downloaded/rehosted video, transcript or adopted video frames.",
+        "An original same-name game's video cannot qualify a Daily Unlimited implementation."
+      ]
+    },
+    {
+      "gameId": "word-hunt",
+      "videoId": "ve19OagWuB4",
+      "publisher": "Artie's Amazing World",
+      "duration": "PT4M29.761S",
+      "identity": "different-game",
+      "versionCompatibility": "rejected",
+      "adoption": "rejected-identity",
+      "segments": [
+        {
+          "id": "wordhunt-large-wordsearch",
+          "range": "00:00–00:49.237 playback; opening/final samples",
+          "state": "Large approximately 12×12 word-search board with BOXING prompt",
+          "action": "Video reveals a diagonal word and countdown",
+          "visibleResult": "Large quiz grid, not interactive 4×4 free word tracing",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Different word-search identity"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "Video quiz word search"
+        }
+      ],
+      "checkedAt": "2026-10-21T06:58:15.618Z",
+      "limitations": [
+        "Sampled visible frames and playback progress, not continuous annotation of every action.",
+        "No downloaded/rehosted video, transcript or adopted video frames.",
+        "An original same-name game's video cannot qualify a Daily Unlimited implementation."
+      ]
+    },
+    {
+      "gameId": "krillion",
+      "videoId": "YU2mpcddchs",
+      "publisher": "This Mom Games",
+      "duration": "PT3M35S",
+      "identity": "version-comparison-required",
+      "versionCompatibility": "unresolved",
+      "adoption": "not_adopted",
+      "segments": [
+        {
+          "id": "krillion-daily-dive-opening",
+          "range": "Opening sample only; exact time not captured",
+          "state": "THE DAILY DIVE, seven prompts, 25 seconds, ship and water",
+          "action": "Opening Begin Descent screen observed",
+          "visibleResult": "Daily-labelled mode; Unlimited equivalence not established",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Daily-labelled opening configuration"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "Opening clip only"
+        }
+      ],
+      "checkedAt": "2026-10-21T06:58:15.618Z",
+      "limitations": [
+        "Sampled visible frames and playback progress, not continuous annotation of every action.",
+        "No downloaded/rehosted video, transcript or adopted video frames.",
+        "An original same-name game's video cannot qualify a Daily Unlimited implementation."
+      ]
+    },
+    {
+      "gameId": "astray",
+      "videoId": "7v095uwDgeg",
+      "publisher": "SAM_ULSTER",
+      "duration": "PT1M55.081S",
+      "identity": "different-game",
+      "versionCompatibility": "rejected",
+      "adoption": "rejected-identity",
+      "segments": [
+        {
+          "id": "astray-fps-mismatch",
+          "range": "00:13.614 playing sample",
+          "state": "Bright red/blue first-person maze with Move/Jump/Dash",
+          "action": "First-person prototype gameplay shown",
+          "visibleResult": "Not author-hosted top-down rolling-ball Astray",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Different prototype identity"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "SAM_ULSTER first-person maze"
+        }
+      ],
+      "checkedAt": "2026-10-21T06:58:15.618Z",
+      "limitations": [
+        "Sampled visible frames and playback progress, not continuous annotation of every action.",
+        "No downloaded/rehosted video, transcript or adopted video frames.",
+        "An original same-name game's video cannot qualify a Daily Unlimited implementation."
+      ]
+    },
+    {
+      "gameId": "hello-wordl",
+      "videoId": "VIavCrvnrDs",
+      "publisher": "Ihavenoname248",
+      "duration": "PT1M34.801S",
+      "title": "Hello Wordl \"All Lengths\" in 1:28.93",
+      "identity": "exact-game",
+      "versionCompatibility": "verified",
+      "adoption": "adopted",
+      "embedStatus": "observed-playback-local-development",
+      "segments": [
+        {
+          "id": "hello-eight-letter-feedback",
+          "range": "00:35.549 in local nocookie embed",
+          "state": "Eight-letter rows CLOTHING, SUBFRAME and UPWARDLY with colored tiles and marked keyboard",
+          "action": "Creator has submitted guesses; individual preceding keystrokes not observed",
+          "visibleResult": "Mixed tile feedback and green LY ending visible",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Eight-letter board and color feedback",
+            "Same author-hosted word-game interface"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "Hello Wordl author host, adjustable 4–11 letters; theme differs"
+        },
+        {
+          "id": "hello-eleven-letter-feedback",
+          "range": "01:26.95 top-level sample",
+          "state": "Eleven-letter guesses including INSCRUTABLE, VIDEOGRAPHY, MALFUNCTION and FAMILIARITY",
+          "action": "Playback has progressed to longer boards",
+          "visibleResult": "Mixed color feedback; no all-green completion claimed",
+          "successOrFailureReason": "Only the explicitly described visible outcome is established; unseen input and scoring causes are not inferred.",
+          "supports": [
+            "Long-word board",
+            "Letter-position feedback"
+          ],
+          "doesNotSupport": [
+            "Unseen actions or a global scoring formula",
+            "Current Daily implementation equivalence"
+          ],
+          "versionScope": "Creator's Hello Wordl all-lengths recording"
+        }
+      ],
+      "embedObservation": {
+        "origin": "http://localhost:3001",
+        "src": "https://www.youtube-nocookie.com/embed/VIavCrvnrDs",
+        "observedTimes": [
+          14.947,
+          35.549,
+          94.801
+        ],
+        "ended": true,
+        "readyState": 4,
+        "evidencePath": "reports/acceptance-evidence/additional-review-20261021/hello-wordl-local-embed.png",
+        "restrictionScope": "No login/age/embed gate observed in this existing browser context; no global region or clean-context claim",
+        "overlay": "Cyan stopwatch is creator overlay, not built-in game timer"
+      },
+      "checkedAt": "2026-10-21T06:58:15.618Z",
+      "limitations": [
+        "Sampled visible frames and playback progress, not continuous annotation of every action.",
+        "No downloaded/rehosted video, transcript or adopted video frames.",
+        "An original same-name game's video cannot qualify a Daily Unlimited implementation."
+      ],
+      "id": "hello-wordl-all-lengths",
+      "pageSectionIds": [
+        "positions-and-absence",
+        "longer-word-boards",
+        "a-useful-next-guess"
+      ],
+      "pagePurpose": "Observe tile/keyboard clues across the same author's adjustable-length six-row game; do not infer a built-in clock, exact current word list or current daily target"
+    },
+    {
+      "id": "trust-yosefat-reviewed",
+      "videoId": "utRF4ueoCdY",
+      "publisher": "Yosefat Plays",
+      "identity": "exact-game",
+      "versionCompatibility": "verified",
+      "duration": "PT23M19.021S",
+      "title": "Compare the coin machine with repeated strategy contests",
+      "description": "Spoilers: this playthrough reveals strategy and tournament outcomes. Compare the payoff pairs, repeated pairings and population controls; round counts differ by mode.",
+      "queries": [
+        "The Evolution of Trust ncase game gameplay"
+      ],
+      "embedEvidence": "research/media-candidates/trust/video-review-observed.json",
+      "bodyAbsorption": [
+        "compare-modes separates ten-round tournament from human 3–7 encounters",
+        "two-choices and a-costly-cooperation explain actual coin arithmetic",
+        "compare-modes limits population conclusions"
+      ],
+      "segments": [
+        {
+          "id": "trust-video-sample-0",
+          "range": "00:01:00.328",
+          "state": "One-game payoff matrix, cooperate-versus-cheat loss -1/+3 and cheat/cheat 0/0; creator has advanced tutorial",
+          "action": "Creator has progressed to the displayed lesson/contest state; only visible transitions and controls are asserted, not unseen individual clicks",
+          "visibleResult": "One-game payoff matrix, cooperate-versus-cheat loss -1/+3 and cheat/cheat 0/0; creator has advanced tutorial",
+          "successOrFailureReason": "Payoffs follow the shown action pairing; population result remains conditional on shown setup",
+          "versionScope": "Author's 2017 Trust interface; sampled points only",
+          "supports": [
+            "One-game payoff matrix, cooperate-versus-cheat loss -1/+3 and cheat/cheat 0/0; creator has advanced tutorial"
+          ],
+          "doesNotSupport": [
+            "Intervening choice click not captured",
+            "A universal winner for all settings"
+          ]
+        },
+        {
+          "id": "trust-video-sample-1",
+          "range": "00:01:32.508",
+          "state": "Both-cooperate +2/+2 and cheat/cooperate +3/-1 matrix; more-than-once control available",
+          "action": "Creator has progressed to the displayed lesson/contest state; only visible transitions and controls are asserted, not unseen individual clicks",
+          "visibleResult": "Both-cooperate +2/+2 and cheat/cooperate +3/-1 matrix; more-than-once control available",
+          "successOrFailureReason": "Payoffs follow the shown action pairing; population result remains conditional on shown setup",
+          "versionScope": "Author's 2017 Trust interface; sampled points only",
+          "supports": [
+            "Both-cooperate +2/+2 and cheat/cooperate +3/-1 matrix; more-than-once control available"
+          ],
+          "doesNotSupport": [
+            "Do not infer live current-puzzle moves from recording",
+            "A universal winner for all settings"
+          ]
+        },
+        {
+          "id": "trust-video-sample-2",
+          "range": "00:05:49.455",
+          "state": "Tournament Match 5 Always Cheat versus Always Cooperate, ten round icons, +30 versus -10",
+          "action": "Creator has progressed to the displayed lesson/contest state; only visible transitions and controls are asserted, not unseen individual clicks",
+          "visibleResult": "Tournament Match 5 Always Cheat versus Always Cooperate, ten round icons, +30 versus -10",
+          "successOrFailureReason": "Payoffs follow the shown action pairing; population result remains conditional on shown setup",
+          "versionScope": "Author's 2017 Trust interface; sampled points only",
+          "supports": [
+            "Tournament Match 5 Always Cheat versus Always Cooperate, ten round icons, +30 versus -10"
+          ],
+          "doesNotSupport": [
+            "Tournament ten rounds differs from live human-opponent mode 3–7 rounds",
+            "A universal winner for all settings"
+          ]
+        },
+        {
+          "id": "trust-video-sample-3",
+          "range": "00:08:37.041",
+          "state": "Repeated Tournament controls play tournament, eliminate bottom 5, reproduce top 5",
+          "action": "Creator has progressed to the displayed lesson/contest state; only visible transitions and controls are asserted, not unseen individual clicks",
+          "visibleResult": "Repeated Tournament controls play tournament, eliminate bottom 5, reproduce top 5",
+          "successOrFailureReason": "Payoffs follow the shown action pairing; population result remains conditional on shown setup",
+          "versionScope": "Author's 2017 Trust interface; sampled points only",
+          "supports": [
+            "Repeated Tournament controls play tournament, eliminate bottom 5, reproduce top 5"
+          ],
+          "doesNotSupport": [
+            "No individual activation concluded from still frame",
+            "A universal winner for all settings"
+          ]
+        },
+        {
+          "id": "trust-video-sample-4",
+          "range": "00:09:21.083",
+          "state": "Evolution process running, composition changed to predominantly Copycat and a few Grudgers, Stop evolution control visible",
+          "action": "Creator has progressed to the displayed lesson/contest state; only visible transitions and controls are asserted, not unseen individual clicks",
+          "visibleResult": "Evolution process running, composition changed to predominantly Copycat and a few Grudgers, Stop evolution control visible",
+          "successOrFailureReason": "Payoffs follow the shown action pairing; population result remains conditional on shown setup",
+          "versionScope": "Author's 2017 Trust interface; sampled points only",
+          "supports": [
+            "Evolution process running, composition changed to predominantly Copycat and a few Grudgers, Stop evolution control visible"
+          ],
+          "doesNotSupport": [
+            "No universal strategy winner or real-world law inferred; sampled frames only",
+            "A universal winner for all settings"
+          ]
+        }
+      ],
+      "gameId": "trust",
+      "adoption": "adopted",
+      "checkedAt": "2026-10-21T08:27:28.723Z"
+    },
+    {
+      "id": "polygons-playthrough-observed",
+      "videoId": "xAaHkZDXtLc",
+      "publisher": "Rachel Wil Singh",
+      "identity": "exact-game",
+      "versionCompatibility": "verified",
+      "duration": 886.221,
+      "title": "Watch moving shapes and changing preferences",
+      "description": "Spoilers: this playthrough continues into later experiments. Compare the neighbor examples, automatic movement and changing preference controls.",
+      "queries": [
+        "Parable of the Polygons gameplay unhappy shapes neighbors",
+        "Parable of the Polygons automatic simulation preference threshold"
+      ],
+      "embedEvidence": "Actual youtube-nocookie playback readyState 4, paused false, duration 886.221; sampled 120.196,160.142,400.131,438.356 seconds. No age/login restriction observed.",
+      "bodyAbsorption": [
+        "Opening one-third equality versus strict inequality",
+        "Running graph is a model observation, not victory score",
+        "Later preference differs from opening rule"
+      ],
+      "segments": [
+        {
+          "id": "early-rules",
+          "range": "02:00–02:52 (sampled states)",
+          "state": "Title/intro board then three neighbor examples",
+          "action": "Presenter scrolls from opening board to neighbor examples; individual drag not continuously captured",
+          "visibleResult": "At 02:40 examples show one of six unhappy, two of six happy, all-same neutral",
+          "successOrFailureReason": "Displayed strict less-than-one-third boundary explains different faces",
+          "versionScope": "Same English polygon shapes and early rule",
+          "supports": [
+            "Neighbor-count boundary",
+            "Unhappy-only rule visible"
+          ],
+          "doesNotSupport": [
+            "Unseen exact drag sequence",
+            "All later boards use one third"
+          ]
+        },
+        {
+          "id": "automatic-and-threshold",
+          "range": "06:40–07:18 (sampled states)",
+          "state": "Running automatic board at 53% preference, 9% graph; later side-by-side 33% and 50% examples",
+          "action": "Automatic shapes move while STOP MOVIN control shown; presenter later scrolls to comparison",
+          "visibleResult": "Graph and arrangement visible; comparison squares have different faces",
+          "successOrFailureReason": "Local threshold changes eligibility; not a fixed outcome claim",
+          "versionScope": "Later adjustable-threshold board, distinct from first automatic run",
+          "supports": [
+            "Mode/threshold distinction",
+            "Controls and graph identity"
+          ],
+          "doesNotSupport": [
+            "Exact ending percentage",
+            "A causal claim from two unmatched starting boards",
+            "Universal real-world prediction"
+          ]
+        }
+      ],
+      "gameId": "polygons",
+      "adoption": "adopted",
+      "checkedAt": "2026-10-21T09:01:52.036Z"
+    },
+    {
+      "id": "0hn0-six-grid-review",
+      "videoId": "2K_thF0qg8Y",
+      "publisher": "FloxyCola",
+      "identity": "exact-game",
+      "versionCompatibility": "verified",
+      "duration": 184.501,
+      "title": "Watch a six-by-six sight-line puzzle",
+      "description": "Puzzle spoilers: this guided six-by-six solve shows specific placements. Compare counting and blocking methods rather than copying cells to a different board.",
+      "queries": [
+        "0h n0 guided 6x6 beginner strategies",
+        "0h n0 numbered dots line of sight block completed clue"
+      ],
+      "embedEvidence": "Actual nocookie video readyState4 paused false; duration184.501; sampled 60.351 and99.134 seconds. No login/age restriction shown.",
+      "bodyAbsorption": [
+        "Completed count requires blocking remaining open routes",
+        "Generated 4x4 and recorded6x6 differ in coordinates"
+      ],
+      "segments": [
+        {
+          "id": "completed-sight-line",
+          "range": "01:00–01:39 (sampled states)",
+          "state": "6x6 numbered blue/red circle board; top third-column two has two blues below and a red stop",
+          "action": "Recorded solve adds blockers and blue dots between samples; exact intervening click order not continuously observed",
+          "visibleResult": "At99.134 left column/third-row blockers added and later five-clue area still undecided",
+          "successOrFailureReason": "Completed sight counts constrain neighboring open routes; this is partial progress, not an observed final win",
+          "versionScope": "Same core blue/red orthogonal rules, larger generated puzzle",
+          "supports": [
+            "Block completed sight line",
+            "Apply reasoning rather than copy coordinates"
+          ],
+          "doesNotSupport": [
+            "Exact unobserved click sequence",
+            "Full-video completion",
+            "All puzzles share this arrangement"
+          ]
+        }
+      ],
+      "gameId": "0hn0",
+      "adoption": "adopted",
+      "checkedAt": "2026-10-21T09:14:01.357Z"
+    },
+    {
+      "id": "0hh1-author-demo",
+      "videoId": "oy1A73lKWtc",
+      "publisher": "Martin Kool",
+      "identity": "exact-game",
+      "versionCompatibility": "verified",
+      "duration": 42.001,
+      "title": "Watch the two-color grid in action",
+      "description": "Puzzle spoilers: the author’s short demonstration shows an older red-and-blue theme. The current browser tutorial uses yellow and blue for the same core constraints.",
+      "queries": [
+        "0h h1 Martin Kool author gameplay",
+        "0h h1 two color puzzle triples balance rows"
+      ],
+      "embedEvidence": "Actual nocookie playback ready4 paused false,42.001s duration; ended42.001. Sample9.907 size menu and19.973 four-grid observed. No age/login restriction.",
+      "bodyAbsorption": [
+        "Version/theme distinction",
+        "4x4 balanced first row example",
+        "Different generated arrangements require reasoning rather than copying"
+      ],
+      "segments": [
+        {
+          "id": "size-menu",
+          "range": "00:09.907 (sample)",
+          "state": "Wednesday size selection 4/6/8/10/12 in older theme",
+          "action": "Presenter navigated to size menu; exact preceding clicks not observed",
+          "visibleResult": "Five even board-size choices visible",
+          "successOrFailureReason": "Menu state is navigation evidence, not a solved puzzle",
+          "versionScope": "Older author recording; daily menu not current UI claim",
+          "supports": [
+            "Game identity and even-size family"
+          ],
+          "doesNotSupport": [
+            "Current daily availability or menu equivalence"
+          ]
+        },
+        {
+          "id": "four-grid",
+          "range": "00:19.973 (sample)",
+          "state": "4x4 red-blue partial grid, top row red-blue-blue-red,28% indicator",
+          "action": "Partial colored positions visible; individual prior clicks not continuously observed",
+          "visibleResult": "Top row balanced with no triple, other rows unfinished",
+          "successOrFailureReason": "Balanced row exemplifies count and consecutive-run checks; partial progress is not final win",
+          "versionScope": "Same core tile grid; old red maps to current yellow role",
+          "supports": [
+            "Balanced ordered pattern example",
+            "Two-color grid identity"
+          ],
+          "doesNotSupport": [
+            "Exact current theme",
+            "Full solution",
+            "Current generated starting positions"
+          ]
+        },
+        {
+          "id": "ending-title",
+          "range": "00:42.001 (ended)",
+          "state": "Oh hi title with creator credit",
+          "action": "Video reached actual end",
+          "visibleResult": "Ended true ready4",
+          "successOrFailureReason": "Playback successful; title is not gameplay completion evidence",
+          "versionScope": "Author demonstration only",
+          "supports": [
+            "Actual embed playback and identity"
+          ],
+          "doesNotSupport": [
+            "Unobserved puzzle victory"
+          ]
+        }
+      ],
+      "gameId": "0hh1",
+      "adoption": "adopted",
+      "checkedAt": "2026-10-21T09:27:20.890Z"
+    },
+    {
+      "id": "crowds-playthrough-observed",
+      "videoId": "c4_N0k5pi4I",
+      "publisher": "Psychopath Plays",
+      "identity": "exact-game",
+      "versionCompatibility": "verified",
+      "duration": 1954.461,
+      "title": "Watch connections, local views and threshold experiments",
+      "description": "Spoilers and mature examples: this playthrough includes later puzzle outcomes and alcohol-related network illustrations. Compare local counts and simulation conditions.",
+      "queries": [
+        "The Wisdom and/or Madness of Crowds gameplay Nicky Case",
+        "Crowds game draw connections local majority threshold simulation"
+      ],
+      "embedEvidence": "Actual nocookie playback ready4 paused false duration1954.461. Sampled127.501,353.984,408.293,740.601; no login/age restriction observed.",
+      "bodyAbsorption": [
+        "No-friends denominator differs from zero share",
+        "8of9 requires inspecting remaining person",
+        "33% can stop50% propagation"
+      ],
+      "segments": [
+        {
+          "id": "local-fractions",
+          "range": "02:07.501 (sample)",
+          "state": "Four people, one isolated; indicators empty/50/100/100",
+          "action": "Draw/erase prompt visible; intervening edits not continuously observed",
+          "visibleResult": "Different local shares despite same four-person population",
+          "successOrFailureReason": "Each person counts connected friends excluding self",
+          "versionScope": "Same English early example",
+          "supports": [
+            "Local denominator and self exclusion"
+          ],
+          "doesNotSupport": [
+            "Actual real-world prevalence"
+          ]
+        },
+        {
+          "id": "majority-progress",
+          "range": "05:53.984–06:48.293 (sampled states)",
+          "state": "Nine-person task8of9 with one empty friend set; later explanatory completion feedback",
+          "action": "Presenter edited between samples; exact last edge not captured",
+          "visibleResult": "Partial progress then next screen with completed network and confetti",
+          "successOrFailureReason": "All local thresholds needed, not merely a mostly full progress bar",
+          "versionScope": "Nine-person50% task with3marked6unmarked",
+          "supports": [
+            "Local/global distinction",
+            "Completion boundary"
+          ],
+          "doesNotSupport": [
+            "Exact unobserved edge order",
+            "Any dense graph wins"
+          ]
+        },
+        {
+          "id": "threshold-stops",
+          "range": "11:39.580–12:20.601 (sampled states)",
+          "state": "Start-simulation transition then postrun network with three marked top nodes and next33% gray node",
+          "action": "Simulation ran between samples; next control reset-and-redraw visible",
+          "visibleResult": "Lower branch stays gray despite a connected path",
+          "successOrFailureReason": "33% does not meet displayed50% response threshold",
+          "versionScope": "Later behavior experiment, not passive observation",
+          "supports": [
+            "Threshold-limited propagation"
+          ],
+          "doesNotSupport": [
+            "Unobserved alternate network outcomes",
+            "Universal crowd behavior"
+          ]
+        }
+      ],
+      "gameId": "crowds",
+      "adoption": "adopted",
+      "checkedAt": "2026-10-21T09:51:48.718Z"
+    },
+    {
+      "id": "dark-room-browser-opening",
+      "videoId": "D8tX4h_-VY8",
+      "publisher": "Fessel",
+      "identity": "exact-game",
+      "versionCompatibility": "verified",
+      "duration": 710.541,
+      "title": "Watch the opening resource routine",
+      "description": "Progression spoilers: this browser playthrough continues beyond lighting the fire into gathering and early building. Watch after exploring the opening yourself.",
+      "queries": [
+        "A Dark Room browser game part1",
+        "A Dark Room light fire gather wood cooldown early builds"
+      ],
+      "embedEvidence": "Actual nocookie ready4 paused false duration710.541; sampled53.387,200.049,279.769. Browser text interface exact, no age/login restriction shown.",
+      "bodyAbsorption": [
+        "Cooldown differs from loading",
+        "Later cart invalidates universal early gather-amount assumption",
+        "Available controls and older log entries need separate reading"
+      ],
+      "segments": [
+        {
+          "id": "early-forest",
+          "range": "00:53.387 (sample)",
+          "state": "A Firelit Room/forest tabs, shaded gather button,wood13",
+          "action": "Earlier collection already occurred; exact preceding click not observed",
+          "visibleResult": "Inventory and cooldown shown separately",
+          "successOrFailureReason": "Action timing rather than frame loading; no universal quantity inferred",
+          "versionScope": "Browser edition early forest",
+          "supports": [
+            "Core interface identity",
+            "Cooldown and stores"
+          ],
+          "doesNotSupport": [
+            "Every collection gives same amount",
+            "Mobile app equivalence"
+          ]
+        },
+        {
+          "id": "cart-and-builds",
+          "range": "03:20.049–04:39.769 (sampled states)",
+          "state": "First samplewood7/cart shaded/log says cart carries more; laterwood72/teeth1/hut visible",
+          "action": "Presenter continued gathering/building between samples; exact build order not continuously observed",
+          "visibleResult": "Expanded build choices and changed stores",
+          "successOrFailureReason": "Progression exposes different actions; final quantities are not attributable to one unseen click",
+          "versionScope": "Early browser progression, no ending claim",
+          "supports": [
+            "Read current build roles",
+            "Different stage from initial fire"
+          ],
+          "doesNotSupport": [
+            "Exact prices",
+            "Unobserved full build sequence",
+            "Completed adventure"
+          ]
+        }
+      ],
+      "gameId": "a-dark-room",
+      "adoption": "adopted",
+      "checkedAt": "2026-10-21T10:41:01.908Z"
+    },
+    {
+      "id": "sandspiel-material-experiments",
+      "videoId": "klya7VDklag",
+      "publisher": "RedT52",
+      "identity": "exact-game",
+      "versionCompatibility": "verified",
+      "duration": 194,
+      "title": "Watch materials change in a live particle world",
+      "description": "Compare the material palette and changing particle scenes in this sandbox experiment. The recording has an older layout with sharing controls.",
+      "queries": [
+        "Sandspiel gameplay sand water",
+        "Sandspiel sandbox game materials experiments"
+      ],
+      "embedEvidence": "Actual nocookie ready4 paused false duration194; sampled60.719,110.072 and ended193.999999; no age/login restriction observed.",
+      "bodyAbsorption": [
+        "Reactive materials can overwhelm a crowded scene",
+        "Cloner is a distinct named tool; do not equate all purple/reactive effects",
+        "Old sharing layout is not current capability claim"
+      ],
+      "segments": [
+        {
+          "id": "reactive-scene",
+          "range": "01:00.719 (sample)",
+          "state": "Dust selected, smoke and bright changing particles around purple patch",
+          "action": "Earlier ignition/contact not continuously observed",
+          "visibleResult": "Large reactive scene occupies much of canvas",
+          "successOrFailureReason": "Supports observing reaction scale, not assigning exact unseen cause",
+          "versionScope": "Same Sandspiel material palette, older sharing UI",
+          "supports": [
+            "Exact-game visual identity",
+            "Reactive materials can dominate a scene"
+          ],
+          "doesNotSupport": [
+            "Exact ignition order",
+            "Guaranteed reaction from any mixture"
+          ]
+        },
+        {
+          "id": "cloner-patches",
+          "range": "01:50.072 (sample)",
+          "state": "Cloner selected with purple patches along lower canvas",
+          "action": "Patches drawn before sampled state; first contact not observed",
+          "visibleResult": "Named Cloner tool and separate placed patches visible",
+          "successOrFailureReason": "Tool identity established; copying target not established by this sample",
+          "versionScope": "Older layout, same named material tool",
+          "supports": [
+            "Cloner distinct from Dust/Rocket",
+            "Version boundary for sharing controls"
+          ],
+          "doesNotSupport": [
+            "Exact cloned material",
+            "Current upload feature"
+          ]
+        },
+        {
+          "id": "actual-end",
+          "range": "03:14 (ended)",
+          "state": "Later dense particle mixture under ended overlay",
+          "action": "Playback reached actual end",
+          "visibleResult": "Ended true ready4 duration194",
+          "successOrFailureReason": "Successful embedded playback, no win condition claimed",
+          "versionScope": "Sandbox recording only",
+          "supports": [
+            "Actual playable video embed"
+          ],
+          "doesNotSupport": [
+            "Level completion or score goal"
+          ]
+        }
+      ],
+      "gameId": "sandspiel",
+      "adoption": "adopted",
+      "checkedAt": "2026-10-21T10:43:40.509Z"
+    }
+  ],
+  "updatedAt": "2026-10-21T06:58:15.618Z"
+}

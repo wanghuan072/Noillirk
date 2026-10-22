@@ -1,0 +1,96 @@
+{
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "status": "draft"
+    },
+    {
+      "id": "guides",
+      "path": "/guides",
+      "status": "draft"
+    },
+    {
+      "id": "games",
+      "path": "/games",
+      "status": "draft"
+    },
+    {
+      "id": "krillion",
+      "path": "/games/krillion",
+      "status": "draft"
+    },
+    {
+      "id": "fermi",
+      "path": "/games/fermi",
+      "status": "draft"
+    },
+    {
+      "id": "poople",
+      "path": "/games/poople",
+      "status": "draft"
+    },
+    {
+      "id": "size-it-up",
+      "path": "/games/size-it-up",
+      "status": "draft"
+    },
+    {
+      "id": "color",
+      "path": "/games/color",
+      "status": "draft"
+    },
+    {
+      "id": "color-logo",
+      "path": "/games/color-logo",
+      "status": "draft"
+    },
+    {
+      "id": "maptap",
+      "path": "/games/maptap",
+      "status": "draft"
+    },
+    {
+      "id": "word-hunt",
+      "path": "/games/word-hunt",
+      "status": "draft"
+    },
+    {
+      "id": "noillirk-answer-strategy",
+      "path": "/guides/noillirk-answer-strategy",
+      "status": "draft"
+    },
+    {
+      "id": "noillirk-scoring-and-endless",
+      "path": "/guides/noillirk-scoring-and-endless",
+      "status": "draft"
+    },
+    {
+      "id": "privacy",
+      "path": "/privacy",
+      "status": "draft"
+    },
+    {
+      "id": "terms",
+      "path": "/terms",
+      "status": "draft"
+    },
+    {
+      "id": "copyright",
+      "path": "/copyright",
+      "status": "draft"
+    },
+    {
+      "id": "about",
+      "path": "/about",
+      "status": "draft"
+    },
+    {
+      "id": "contact",
+      "path": "/contact",
+      "status": "draft"
+    }
+  ],
+  "previewPrefix": "/preview",
+  "publicRule": "Published records only; no main game detail alias"
+}

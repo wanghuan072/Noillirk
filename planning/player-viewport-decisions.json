@@ -1,0 +1,27 @@
+{
+  "field": "Game.player.minimumHeight",
+  "type": "optional integer CSS pixels",
+  "purpose": "A minimum usable iframe viewport for games whose own responsive controls collapse inside a short embed",
+  "implementation": [
+    "components/GamePlayer.tsx",
+    "app/site.css",
+    "lib/types.ts",
+    "scripts/validate.mjs"
+  ],
+  "source": "data/games/games.json only; no game-specific CSS selector",
+  "wordHunt": {
+    "minimumHeight": 640,
+    "observation": "640px viewport exposes the board. Effective S→U→N trace accepted as SUN +100 in the current development site frame; final production/security qualification remains pending.",
+    "aspectRatio": null
+  },
+  "coverRatio": "Unrelated to image aspect ratio or crop policy; no cover is synthesized or stretched",
+  "fullscreen": "Existing fullscreen selectors reset minimum screen height to zero so viewport height remains bounded",
+  "status": "layout repair; current-version media and final input qualification pending",
+  "krillion": {
+    "minimumHeight": 640,
+    "sandboxAddition": "allow-forms",
+    "reason": "Observed browser refusal of form submission without allow-forms; following scoped data change tempura accepted +8 points / 80m in development",
+    "evidence": "reports/acceptance-evidence/additional-review-20261021/krillion-before-fix.json",
+    "retest": "reports/acceptance-evidence/additional-review-20261021/krillion.png"
+  }
+}

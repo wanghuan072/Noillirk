@@ -1,0 +1,34 @@
+const fs=require('fs');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
+const date='2026-10-20';
+const facts=read('research/candidate-mechanics.json');
+const data=read('research/additional-game-candidates.json');
+const evidence=read('research/evidence.json');
+const matrix=read('research/game-claim-matrix.json');
+const map=read('research/keyword-video-map.json');
+for(const [i,c] of data.candidates.entries()){
+ const f=facts.find(f=>f.id===c.id);
+ c.observedAt=date;
+ c.pageUrl='https://playdaily.org/'+(i>=11?'play/':'')+c.id;
+ c.finalIframeSrc=null;
+ c.provisionalIframeCandidate=c.pageUrl;
+ c.relation=f.relation;
+ c.playerTaskProfile={input:f.input,task:f.task,feedback:f.feedback,attempts:f.attempts,failure:f.failure,daily:'Do not infer a daily schedule from other implementations.'};
+ c.contentDepth={specificTopics:f.topics,canSupport4000:'not_yet_established',gaps:['Actual input/result observations','Current-version videos','Device and storage behavior']};
+ c.mediaPlan={cover:'No adoption without established use basis',captures:f.shots,permission:'unconfirmed',adopted:[]};
+ c.risk={adult:f.sensitive?'uncertain':'not_observed',gambling:'not_observed',violence:'not_observed',horror:'not_observed',minors:'uncertain',scope:'Public landing text only, not a runtime audit',notes:f.sensitive||'Embedded social, advertising and account behavior require observation.'};
+ c.spoilerPolicy='marked';
+ c.status=f.exclude?'excluded':'needs-secondary-check';
+ c.reason=f.exclude?f.relation:'Runtime, sandbox, exact-version video and media use basis unresolved.';
+ c.relatedCandidateIds=[];
+ const eid='official-'+c.id;
+ if(!evidence.some(e=>e.id===eid))evidence.push({id:eid,kind:'official-web',location:c.pageUrl,title:c.title,accessedAt:date,claims:[f.task,f.feedback],confidence:'medium',versionScope:'Daily landing-page description; no runtime verification',conflictStatus:c.id==='air-hockey'?'open':'none'});
+ if(!matrix.claims.some(e=>e.id===c.id+'-loop'))matrix.claims.push({id:c.id+'-loop',gameId:c.id,claim:f.task+'; '+f.feedback,versionScope:'Daily current landing page',support:[eid],conflicts:c.id==='air-hockey'?['Title and described mechanics differ']:[],conclusion:'publisher-description-not-input-verified',confidence:'medium',publicRestriction:'Do not conflate same-name implementations',secondaryCheck:'Frame identity, input, version-matching video, media rights'});
+ if(!map.games.some(g=>g.gameId===c.id))map.games.push({gameId:c.id,title:c.title,language:'en',market:'international',queries:i===16?[]:[{query:'"'+c.title+'" "playdaily" '+(i<11?'youtube '+f.task.toLowerCase():'game'),task:f.task,entry:'web',resultScope:'Search performed for this task; no exact-version video opened or approved'}],candidates:[],status:'video-verification-pending'});
+}
+data.status='researched-pending-runtime-and-media';data.eligibleCount=0;data.notes=['17 official pages opened and task/risk profiles recorded.','No candidate marked eligible. User allows main-media rights to remain open during development.'];
+matrix.status='initial-research-open-runtime-and-media';map.status='partial-video-coverage';map.additionalGameCoverage='16 task-specific web searches; native playback verification pending';
+const first=map.games[0].candidates[0];Object.assign(first,{identity:'exact-game',publisher:'Max Daily Games',duration:'PT2M2S',versionScope:'Visible Daily forest/balloon interface',enterSegmentAnalysis:true,reason:'Actual opening and prompt-entry frames observed; not embed-approved'});
+write('research/additional-game-candidates.json',data);write('research/evidence.json',evidence);write('research/game-claim-matrix.json',matrix);write('research/keyword-video-map.json',map);
+console.log({profiles:data.candidates.length,eligible:data.eligibleCount,claims:matrix.claims.length,videoMapGames:map.games.length});
