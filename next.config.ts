@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 import main from "./data/games/main-game.json";
 import games from "./data/games/games.json";
+import deployment from "./config/deployment.json";
 import { frameOrigins } from "./lib/security";
 import fs from "node:fs";
 import path from "node:path";
@@ -21,6 +22,7 @@ const nextConfig: NextConfig = {
         : ".next",
   async headers() {
     const preview =
+      deployment.mode === "review" ||
       process.env.NODE_ENV === "development" ||
       process.env.LOCAL_DRAFT_BUILD === "1";
     const records = preview

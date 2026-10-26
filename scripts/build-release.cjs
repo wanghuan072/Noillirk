@@ -1,4 +1,10 @@
 const cp = require("child_process");
+if (require("../config/deployment.json").mode !== "release") {
+  console.error(
+    "Release deployment requires config/deployment.json mode=release and all release checks. Current mode is review.",
+  );
+  process.exit(1);
+}
 for (const name of [
   "routes",
   "release",

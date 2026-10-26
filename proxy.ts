@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import inventory from "./config/routes.json";
+import deployment from "./config/deployment.json";
 import mediaChecks from "./research/media-check-candidates.json";
 import mainGame from "./data/games/main-game.json";
 import gameDrafts from "./data/games/games.json";
@@ -9,7 +10,7 @@ export function proxy(request: NextRequest) {
   const p = request.nextUrl.pathname;
   const development = process.env.NODE_ENV === "development";
   const draftBuild = process.env.LOCAL_DRAFT_BUILD === "1";
-  const localDraft = development || draftBuild;
+  const localDraft = development || draftBuild || deployment.mode === "review";
   if (draftBuild && !isLocalMediaHost(request.headers.get("host")))
     return new NextResponse("Not found", { status: 404 });
   if (

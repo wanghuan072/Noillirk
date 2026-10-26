@@ -5,7 +5,8 @@
   "scripts": {
     "predev": "node scripts/prepare-routes.mjs",
     "dev": "next dev",
-    "build": "node scripts/build-release.cjs",
+    "build": "node scripts/build-deployment.cjs",
+    "build:release": "node scripts/build-release.cjs",
     "start": "next start",
     "prestart": "node scripts/check-release-artifact.cjs",
     "lint": "node scripts/run-command.cjs lint",

@@ -1,4 +1,5 @@
 import config from "@/config/site.json";
+import deployment from "@/config/deployment.json";
 export const site = {
   name: config.name,
   origin: config.origin,
@@ -16,6 +17,7 @@ export const legalNavigation = [
   { label: "Contact Us", path: "/contact" },
 ];
 export const isLocalPreview =
+  deployment.mode === "review" ||
   process.env.NODE_ENV === "development" ||
   process.env.LOCAL_DRAFT_BUILD === "1";
 export function pathFor(path: string, preview: boolean) {

@@ -53,7 +53,9 @@ module.exports = function packageBuild(directory, scope) {
     output: standalone.replaceAll("\\", "/"),
     runtimeAcceptance: "not_established_by_compilation",
     mediaAcceptance:
-      scope === "draft" ? "NOT_PASSED" : "requires_current_acceptance_manifest",
+      scope === "release"
+        ? "requires_current_acceptance_manifest"
+        : "NOT_PASSED",
   };
   if (fingerprint() !== inputFingerprint)
     throw Error("Source/assets changed while packaging; rebuild required.");

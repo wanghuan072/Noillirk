@@ -4,7 +4,8 @@ import { reconcile } from "../seo/fingerprints.mjs";
 import inputIdentity from "./input-identity.cjs";
 const read = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
 const config = read("config/site.json");
-const build = read(".next-preview/build-identity.json");
+const buildDirectory = process.argv[2] || ".next-preview";
+const build = read(`${buildDirectory}/build-identity.json`);
 const dates = read("seo/page-lastmod.json").pages;
 const inventory = read("config/routes.json").draftPaths;
 const results = [];
@@ -22,7 +23,7 @@ check(
 );
 for (const route of inventory) {
   const file =
-    ".next-preview/server/app/" +
+    `${buildDirectory}/server/app/` +
     (route === "/" ? "index" : route.slice(1)) +
     ".html";
   const html = fs.readFileSync(file, "utf8");
@@ -88,7 +89,7 @@ for (const route of inventory) {
   });
 }
 const xml = fs.readFileSync(
-  ".next-preview/server/app/sitemap.xml.body",
+  `${buildDirectory}/server/app/sitemap.xml.body`,
   "utf8",
 );
 check(
