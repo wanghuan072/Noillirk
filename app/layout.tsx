@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(site.origin),
   applicationName: site.name,
+  verification: {
+    other: { "msvalidate.01": "D8EF052A74B4BB3D3229205232205792" },
+  },
   robots: isLocalPreview ? { index: false, follow: false } : undefined,
   icons: {
     icon: [{ url: "/images/icon.png", type: "image/png", sizes: "512x512" }],
